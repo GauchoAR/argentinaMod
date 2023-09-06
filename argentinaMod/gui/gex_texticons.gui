@@ -1,0 +1,8 @@
+texticon = {
+	icon = Yerba_Mate
+	iconsize = {
+		texture = "gfx/interface/icons/arg.goods_icons/Yerba_Mate.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}

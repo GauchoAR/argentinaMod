@@ -1,0 +1,17 @@
+state_trait_pampas = {
+	icon = "gfx/interface/icons/state_trait_icons/unused/resources_grazing.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.10
+		building_livestock_ranch_throughput_add = 0.10
+	}
+}
+
+state_trait_yungas = {
+	icon = "gfx/interface/icons/state_trait_icons/unused/resources_exotic.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.10
+	}
+}
+

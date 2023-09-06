@@ -1,0 +1,13 @@
+goods_output_Yerba_Mate_add = {
+	good = yes
+	percent = no
+}
+
+goods_Yerba_Mate_plantation_output_add = {
+	good = yes
+	percent = yes
+}
+goods_vineyard_plantation_output_add = {
+	good = yes
+	percent = yes
+}

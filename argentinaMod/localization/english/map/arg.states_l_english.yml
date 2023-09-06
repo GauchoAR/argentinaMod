@@ -1,0 +1,17 @@
+﻿l_english:
+  # Argentina
+STATE_FORMOSA_ARGENTINA: "Formosa"
+STATE_TIERRA_DEL_FUEGO: "Tierra Del Fuego"
+STATE_ISLAS_MALVINAS: "Falkland/Malvinas Islands"
+STATE_ISLAS_GEORGIAS: "South Georgia Island"
+STATE_ENTRE_RIOS: "Entre Rios"
+STATE_MISIONES: "Misiones" 
+STATE_SALTA: "Salta"
+STATE_CATAMARCA: "Catamarca"
+STATE_LA_RIOJA: "La Rioja"
+
+
+# Uruguay
+
+STATE_PAYSANDU: "Paysandú"
+STATE_MONTEVIDEO: "Montevideo"

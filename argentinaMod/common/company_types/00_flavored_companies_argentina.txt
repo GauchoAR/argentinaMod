@@ -1,0 +1,56 @@
+﻿company_yerba_brava = {
+	texture = "gfx/interface/icons/arg_building_icons/Yerba_Mate_plantation.dds"
+	
+	
+	building_types = {  
+		building_Yerba_Mate_plantation
+	}
+	
+	potential = {
+		country_has_primary_culture = cu:Argentinian
+	}
+	
+	possible = { 
+		OR = {
+			owns_entire_state_region = STATE_CORRIENTES
+			owns_entire_state_region = STATE_MISIOENS
+			
+		}	
+	}
+	
+	prosperity_modifier = {
+			state_colony_growth_speed_mult = 0.10
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_yerba_de_la_buena = {
+	texture = "gfx/interface/icons/arg_building_icons/Yerba_Mate_plantation.dds"
+	
+	
+	building_types = {  
+		building_Yerba_Mate_plantation
+	}
+	
+	potential = {
+		country_has_primary_culture = cu:Paraguayan
+	}
+	
+	possible = { 
+		OR = {
+			owns_entire_state_region = STATE_BAJO_PARAGUAY
+			
+		}	
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_petty_bourgeoisie_approval_add = 2
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

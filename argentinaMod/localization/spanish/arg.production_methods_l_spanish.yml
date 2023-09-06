@@ -1,0 +1,13 @@
+﻿l_spanish:
+
+pmg_base_building_Yerba_Mate_plantation:1 "$pm_base$"
+
+pmg_train_automation_building_Yerba_Mate_plantation:1 "$pmg_train_automation$"
+
+default_building_Yerba_Mate_plantation:0 "$pm_default$"
+
+automatic_irrigation_building_Yerba_Mate_plantation:0 "$automatic_irrigation$"
+
+ pmg_ownership_land_building_Yerba_Mate_plantation:1 "$pmg_ownership$"
+ 
+ pmg_base_building_Yerba_Mate_plantation:1 "$pm_base$"

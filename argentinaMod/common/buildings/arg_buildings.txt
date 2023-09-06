@@ -1,0 +1,18 @@
+building_Yerba_Mate_plantation = {
+	building_group = bg_Yerba_Mate_plantation
+	texture = "gfx/interface/icons/arg_buildings_icons/Yerba_Mate_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+	
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_Yerba_Mate_plantation
+		pmg_train_automation_building_Yerba_Mate_plantation
+		pmg_ownership_land_building_Yerba_Mate_plantation
+	}
+}
