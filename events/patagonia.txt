@@ -46,10 +46,10 @@ patagonia.1 = {
 			}
 			random_scope_state = {
 				limit = {
-					state_region = s:TIERRA_DEL_FUEGO_STATE
+					state_region = s:STATE_TIERRA_DEL_FUEGO
 					
 				}
-				save_scope_as = tierra_del_fuego_state
+				save_scope_as = state_tierra_del_fuego
 			}
 		}
 	}
