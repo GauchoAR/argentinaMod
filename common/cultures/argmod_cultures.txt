@@ -372,7 +372,8 @@ Paraguayan={
 		Martina
 		Robustiana
 		Sara
-	}	Juana_Maria
+		Juana_Maria
+	}	
 	noble_last_names = {
 		
 		de_la_Plaza
@@ -384,13 +385,10 @@ Paraguayan={
 		Rivarola
 		Uriarte
 		Egusquiza
-		
-		
 	}
 	common_last_names={
 	    
 		Aguirre
-		
 		Balcarce
 		Bareiro
 		Berro

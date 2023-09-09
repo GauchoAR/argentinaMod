@@ -24,34 +24,6 @@ patagonia.1 = {
 	}
 
 	immediate = {
-		if = {
-			limit = {
-				owns_entire_state_region = STATE_ARAUCANIA
-		
-			}
-			random_scope_state = {
-				limit = {
-					state_region = s:STATE_ARAUCANIA
-				}
-				save_scope_as = patagonia_state
-			}
-		}
-		else = {
-			random_scope_state = {
-				limit = {
-					state_region = s:STATE_PATAGONIA
-					
-				}
-				save_scope_as = patagonia_state
-			}
-			random_scope_state = {
-				limit = {
-					state_region = s:STATE_TIERRA_DEL_FUEGO
-					
-				}
-				save_scope_as = state_tierra_del_fuego
-			}
-		}
 	}
 
 	option = {
@@ -61,31 +33,30 @@ patagonia.1 = {
 			limit = {
 				country_has_primary_culture = cu:Chilean
 			}
-			scope:patagonia_state = {
-				state_region = {
+			s:STATE_ARAUCANIA = {
 					add_homeland = Chilean
 				}
-			}
 		}
 		else_if = {
 			limit = {
-				country_has_primary_culture = cu:Argentinian
-			}
-			scope:patagonia_state = {
-				state_region = {
-					add_homeland = Argentinian
-				}
-			scope:tierra_del_fuego_state = {
-				state_region = {
-					add_homeland = Argentinian
+				AND = {
+					country_has_primary_culture = cu:Argentinian
+					owns_entire_state_region = STATE_PATAGONIA
+					owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
 				}
 			}
-		}
-		scope:patagonia_state = {
-			add_modifier = {
-				name = patagonian_settlement
-				months = long_modifier_time
+			s:STATE_PATAGONIA = {
+					add_homeland = Argentinian
+				}
+			s:STATE_PATAGONIA.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
 			}
+			}
+			s:STATE_TIERRA_DEL_FUEGO = {
+					add_homeland = Argentinian
+				}
 		}
 	}
 }
