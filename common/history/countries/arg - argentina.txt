@@ -20,7 +20,7 @@
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_cultural_exclusion
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_resettlement
@@ -31,7 +31,7 @@
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_no_migration_controls
 		activate_law = law_type:law_secret_police
-		activate_law = law_type:law_charity_hospitals
+		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_religious_schools
 		
 		add_taxed_goods = g:tobacco
