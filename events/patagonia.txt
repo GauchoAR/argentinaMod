@@ -75,7 +75,7 @@ patagonia.1 = {
 				state_region = {
 					add_homeland = Argentinian
 				}
-				scope:tierra_del_fuego_state = {
+			scope:tierra_del_fuego_state = {
 				state_region = {
 					add_homeland = Argentinian
 				}
