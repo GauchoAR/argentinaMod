@@ -11,7 +11,7 @@ je_vientres = {
             NOT = { 
                 has_law = law_type:law_slavery_banned 
                 OR = {
-                    	as_law = law_type:law_legacy_slavery
+                    	has_law = law_type:law_legacy_slavery
 			            has_law = law_type:law_slave_trade
                         has_law = law_type:law_debt_slavery
                     }
