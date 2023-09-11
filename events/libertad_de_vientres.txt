@@ -1,20 +1,8 @@
-vientres.1 = { #there's a plot to kill your ruler
+namespace = vientres
+
+vientres.1 = { 
 	type = country_event
 	hidden = yes
-
-	duration = -1
-
-	title = vientres.1.t
-	desc = vientres.1.d
-	flavor = vientres.1.f
-
-	event_image = {
-		video = "southamerica_public_figure_assassination"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
 	}
@@ -45,4 +33,29 @@ vientres.1 = { #there's a plot to kill your ruler
 		}	
     }
     }
+}
+vientres.2 = { #completition effect
+	type = country_event
+	placement = ROOT
+
+	title = vientres.2.t
+	desc = vientres.2.d
+	flavor = vientres.2.f
+
+	duration = 1
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	option = {
+		name = vientres.2.a
+		default_option = yes
+		remove_modifier = libertad_de_vientres
+		add_modifier = { name = slavery_abolished_modifier }
+	}
 }

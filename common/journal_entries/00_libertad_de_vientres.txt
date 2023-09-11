@@ -30,7 +30,7 @@ je_vientres = {
 	}
 
     on_complete = {
-		remove_modifier = libertad_de_vientres
+        trigger_event = { id = vientres.2 }
 	}
 
 	weight = 20
