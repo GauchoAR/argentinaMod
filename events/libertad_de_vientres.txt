@@ -1,0 +1,48 @@
+vientres.1 = { #there's a plot to kill your ruler
+	type = country_event
+	hidden = yes
+
+	duration = -1
+
+	title = vientres.1.t
+	desc = vientres.1.d
+	flavor = vientres.1.f
+
+	event_image = {
+		video = "southamerica_public_figure_assassination"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+	
+	immediate = {
+    every_scope_pop = {
+        if = {
+			limit = {
+				is_pop_type = slaves
+				}
+			change_pop_religion = { target = rel:slave value = 0.2 }
+		}
+    }
+    every_scope_pop = {
+        if = {
+			limit = {
+				has_pop_religion = slave
+				}
+			change_poptype = pop_type:laborers
+		}	
+    }
+    every_scope_pop = {
+        if = {
+			limit = {
+				has_pop_religion = slave
+				}
+            change_pop_religion = { target = rel:catholic value = 1.0 }
+		}	
+    }
+    }
+}

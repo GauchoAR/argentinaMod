@@ -1,0 +1,37 @@
+je_vientres = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_shown_when_inactive = {
+	}
+
+	possible = {
+        AND = {
+            country_is_in_south_america = yes
+            has_modifier = libertad_de_vientres
+            NOT = { 
+                has_law = law_type:law_slavery_banned 
+                OR = {
+                    	as_law = law_type:law_legacy_slavery
+			            has_law = law_type:law_slave_trade
+                        has_law = law_type:law_debt_slavery
+                    }
+                }
+        }
+	}
+
+    on_monthly_pulse = {
+        random_events = {
+            100 = vientres.1
+        }
+    }
+
+	complete = {
+		has_law = law_type:law_slavery_banned
+	}
+
+    on_complete = {
+		remove_modifier = libertad_de_vientres
+	}
+
+	weight = 20
+}

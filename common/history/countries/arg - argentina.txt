@@ -69,5 +69,10 @@
 			months = very_long_modifier_time
 			is_decaying = yes
 		}
+		add_modifier = {
+			name = libertad_de_vientres
+			months = -1
+		}
+		add_journal_entry = { type = je_vientres }
 	}
 }
