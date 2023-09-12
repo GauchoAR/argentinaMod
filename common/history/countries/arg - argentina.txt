@@ -55,7 +55,6 @@
 		}
 		ig:ig_landowners = {
 			remove_ideology = ideology_paternalistic
-			remove_ideology = ideology_pro_slavery
 			add_ideology = ideology_caudillismo
 			set_interest_group_name = ig_caudillos
 		}
