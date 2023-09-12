@@ -8,9 +8,16 @@ STATE_ENTRE_RIOS: "Entre Rios"
 STATE_MISIONES: "Misiones" 
 STATE_SALTA: "Salta"
 STATE_CATAMARCA: "Catamarca"
-STATE_LA_RIOJA: "La Rioja"
-
-
+STATE_LA_RIOJA: "Entre Rios"
+STATE_NEUQUEN: "Neuquen"
+STATE_MENDOZA: "Mendoza"
+STATE_LA_PAMPA: "La Pampa"
+STATE_SAN_LUIS: "San Luis"
+STATE_CORDOBA: "Cordoba"
+STATE_CHUBUT: "Chubut"
+STATE_SANTIAGO_DEL_ESTERO: "Santiago del Estero"
+STATE_SANTA_CRUZ_ARGENTINA: "Santa Cruz"
+STATE_TARIJA: "Tarija"
 # Uruguay
 
 STATE_PAYSANDU: "Paysandú"
