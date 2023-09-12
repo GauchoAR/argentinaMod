@@ -67,6 +67,7 @@
 		}
 		ig:ig_rural_folk = {
 			remove_ideology = ideology_isolationist
+			remove_ideology = ideology_isolationist_expansionism
 			add_ideology = ideology_pampas_expansionism
 			set_interest_group_name = ig_gauchos
 		}
