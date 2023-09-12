@@ -62,15 +62,6 @@
 		ig:ig_intelligentsia = {
 			set_interest_group_name = ig_generacion_37
 		}
-		ig:ig_industrialists {
-			set_interest_group_name = ig_empresarios
-		}
-		ig:ig_trade_unions {
-			set_interest_group_name = ig_sindicatos
-		}
-		ig:ig_petty_bourgeoisie {
-			set_interest_group_name = ig_pequena_burguesia
-		}
 		ig:ig_devout = { 
 			set_interest_group_name = ig_catholic_church
 		}
