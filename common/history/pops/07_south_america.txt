@@ -937,7 +937,69 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 76078
+				size = 25500
+			}
+			create_pop = {
+				culture = afro_Platinean
+				size = 250
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_Platinean
+				size = 80
+			}
+			create_pop = {
+				culture = quechua
+				size = 2600
+			}
+		}
+	}
+	s:STATE_CATAMARCA= {
+		region_state:ARG = {
+			create_pop = {
+				culture = Argentinian
+				size = 20000
+			}
+			create_pop = {
+				culture = afro_Platinean
+				size = 250
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_Platinean
+				size = 80
+			}
+			create_pop = {
+				culture = quechua
+				size = 2600
+			}
+		}
+	}s:STATE_LA_RIOJA = {
+		region_state:ARG = {
+			create_pop = {
+				culture = Argentinian
+				size = 18000
+			}
+			create_pop = {
+				culture = afro_Platinean
+				size = 250
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_Platinean
+				size = 80
+			}
+			create_pop = {
+				culture = quechua
+				size = 2600
+			}
+		}
+	}
+	s:STATE_SAN_JUAN = {
+		region_state:ARG = {
+			create_pop = {
+				culture = Argentinian
+				size = 17000
 			}
 			create_pop = {
 				culture = afro_Platinean

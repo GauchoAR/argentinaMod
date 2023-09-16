@@ -9,6 +9,7 @@ STATE_MISIONES: "Misiones"
 STATE_SALTA: "Salta"
 STATE_CATAMARCA: "Catamarca"
 STATE_LA_RIOJA: "La Rioja"
+STATE_SAN_JUAN: "San Juan"
 
 
 # Uruguay
