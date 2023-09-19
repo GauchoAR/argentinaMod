@@ -2,7 +2,7 @@
   "name" : "La Argentina test files",
   "id" : "",
   "version" : "5.0",
-  "supported_game_version" : "1.5.1",
+  "supported_game_version" : "1.5.0",
   "short_description" : "argentina rework",
   "picture": "thumbnail.png",
   "tags" : [],

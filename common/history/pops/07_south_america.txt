@@ -937,7 +937,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 25500
+				size = 45500
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -958,7 +958,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 20000
+				size = 15000
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -1020,17 +1020,23 @@ s:STATE_MONTEVIDEO = {
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 9000
+				size = 5000
 			}
 			create_pop = {
 				culture = quechua # Santiagueño Quechua
-				size = 400
+				size = 300
+			}
+			create_pop = {
+				culture = Argentinian
+				size = 500
 			}
 		}
+	}
+		s:STATE_SANTIAGO_DEL_ESTERO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 34804
+				size = 20804
 			}
 			create_pop = {
 				culture = guarani
@@ -1038,17 +1044,30 @@ s:STATE_MONTEVIDEO = {
 			}
 			create_pop = {
 				culture = quechua # Santiagueño Quechua
-				size = 1200
-			}
-			create_pop = {
-				culture = south_german
-				size = 2000
-			}
-			create_pop = {
-				culture = south_german
 				size = 1500
 			}
+			create_pop = {
+				culture = north_german
+				size = 500
+			}
+			create_pop = {
+				culture = south_german
+				size = 500
+			}
+			
 		}
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 4000
+			}
+			create_pop = {
+				culture = Argentinian
+				size = 700
+			}
+			
+			
+	    }
 	}
 	s:STATE_SANTIAGO = {
 		region_state:CHL = {
