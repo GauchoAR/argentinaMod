@@ -718,9 +718,14 @@
 		}
 	}
 	s:STATE_SALTA={
-		region_state:BOL={
-		}
+		
 		region_state:ARG={
+		
+		}
+	}
+	s:STATE_TARIJA={
+		
+		region_state:BOL={
 		
 		}
 	}

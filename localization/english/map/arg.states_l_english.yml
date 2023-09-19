@@ -17,3 +17,6 @@ STATE_SANTIAGO_DEL_ESTERO: "Santiago del Estero"
 
 STATE_PAYSANDU: "Paysandú"
 STATE_MONTEVIDEO: "Montevideo"
+
+#Bolivia 
+STATE_TARIJA: "Tarija"

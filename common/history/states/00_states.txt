@@ -980,6 +980,8 @@ STATES = {
 			owned_provinces = { x302DDA x490187 x4934E2 xA46ED2 xE69F06 x4E1442 x65E74D xE25670 x104529 x3D3A57 x7764E0 x3F05CB x754BF8 x3588C8 x49D0F9 xFEBAD0 x3EA75C }
 		}
 		add_homeland = Uruguayan
+		add_claim = c:ARG
+		add_claim = c:BRZ
 	}
 	s:STATE_PAYSANDU = {
 		create_state = {
@@ -987,6 +989,8 @@ STATES = {
 			owned_provinces = { xC2A28B x3AF263 xE2D434 xC53004 xC707C7 x061EE6 x7AADBF x44A7CD x08CCA6 xA282BC xABC305 x8136C4 x466506 xD5325F xCB8D8C x139DC8 xD8A185 x449F06 xD45E0C xD8A44F xA7EB2E xDD1206 x02C6DE xEE9484 x46C43D xE2BE85 x9C6453}
 		}
 		add_homeland = Uruguayan
+		add_claim = c:ARG
+		add_claim = c:BRZ
 	}
 	s:STATE_ECUADOR = {
 		create_state = {
@@ -2542,19 +2546,24 @@ s:STATE_JUJUY = {
 	}
 		s:STATE_SALTA = {
 		create_state = {
-			country = c:BOL
-			owned_provinces = { xF32BA0 xAB85CC x28C317 x15D9B2 x9319AA x1FD39C xD60DF3 x3B871C xDF00F0 xD719A6 }
-		}
-		create_state = {
 			country = c:ARG
 			owned_provinces = { xAB66CC x0D83A7 xD2B642 x45BE94 x5F3E39 xAB88AD x35DA48 x40F4EB x2080F0 x2F5C46 x5CCB77 xC0183E x702282 x829F7D xE6D25C x92E924 x204070 xC11533 xC3F7F6 x256EF2 xB01D65 xE6ADAE x3DEF82 x8C37BE xC9249D x8D1ED0 xEAB107 x369CE3 x402B62 x02AD51 x2D4E45 xDF80F0 x0643B5 }
 			#state_type = unincorporated
 		}
 		
 		add_homeland = Argentinian
-		add_claim = c:ARG
 		add_claim = c:BOL
 	}
+	s:STATE_TARIJA = {
+	create_state = {
+			country = c:BOL
+			owned_provinces = { xF32BA0 xAB85CC x28C317 x15D9B2 x9319AA x1FD39C xD60DF3 x3B871C xDF00F0 xD719A6 }
+			#state_type = unincorporated
+		}
+		add_homeland = Bolivian
+		add_claim = c:ARG
+	}
+	
 	s:STATE_SANTA_CRUZ = {
 		create_state = {
 			country = c:BOL
