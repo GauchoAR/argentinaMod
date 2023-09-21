@@ -10,11 +10,6 @@
 		add_technology_researched = psychiatry
 		add_technology_researched = pharmaceuticals
 		
-		
-		
-		
-		
-		
 		effect_starting_politics_conservative = yes
 		
 		activate_law = law_type:law_autocracy 
@@ -36,12 +31,13 @@
 		
 		add_taxed_goods = g:tobacco
 		
-		set_tax_level = medium
+		set_tax_level = high
 		
 		set_tariffs_import_priority = g:clippers
 		set_tariffs_import_priority = g:manowars
 		set_tariffs_import_priority = g:artillery
-		set_tariffs_import_priority = g:small_arms	
+		set_tariffs_import_priority = g:small_arms
+		set_tariffs_import_priority = g:paper	
 
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
@@ -49,26 +45,7 @@
 		}		
 
 		ig:ig_armed_forces = {
-			add_ideology = ideology_caudillismo
 			add_ruling_interest_group = yes
-			set_interest_group_name = ig_ejercito_argentino
-		}
-		ig:ig_landowners = {
-			remove_ideology = ideology_paternalistic
-			add_ideology = ideology_caudillismo
-			set_interest_group_name = ig_caudillos
-		}
-		ig:ig_intelligentsia = {
-			set_interest_group_name = ig_generacion_37
-		}
-		ig:ig_devout = { 
-			set_interest_group_name = ig_catholic_church
-		}
-		ig:ig_rural_folk = {
-			remove_ideology = ideology_isolationist
-			remove_ideology = ideology_isolationist_expansionism
-			add_ideology = ideology_pampas_expansionism
-			set_interest_group_name = ig_gauchos
 		}
 
 		add_modifier = {
@@ -81,5 +58,6 @@
 			months = -1
 		}
 		add_journal_entry = { type = je_vientres }
+		add_journal_entry = { type = je_patagonia }
 	}
 }
