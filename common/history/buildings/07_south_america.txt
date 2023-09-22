@@ -893,11 +893,7 @@
 		region_state:PAT={
 		}
 	}
-	s:STATE_PATAGONIA={
-		region_state:PAT={
-		}
-	}
-	s:STATE_RIO_NEGRO={
+	s:STATE_MENDOZA={
 		region_state:ARG={
 			create_building={
 				building="building_vineyard_plantation"
@@ -917,6 +913,20 @@
 				reserves=1
 				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}	
+		}
+	}
+	s:STATE_NEUQUEN={
+		region_state:PAT={
+		}
+	}
+	s:STATE_RIO_NEGRO={
+		region_state:PAT={
+		}
+	}
+	s:STATE_CHUBUT={
+		region_state:PAT={
+		}
+		region_state:THL={
 		}
 	}
 	s:STATE_ENTRE_RIOS={
@@ -941,7 +951,7 @@
 			}		
 		}
 	}
-	s:STATE_LA_PAMPA={
+	s:STATE_CORDOBA={
 		region_state:ARG={	
 			create_building={
 				building="building_government_administration"
@@ -1097,7 +1107,7 @@
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}				
 		}
 	}
@@ -1114,22 +1124,10 @@
 	}
 	s:STATE_LA_RIOJA={
 		region_state:ARG={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
 		}
 	}
 	s:STATE_SAN_JUAN={
 		region_state:ARG={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
 		}
 	}
 

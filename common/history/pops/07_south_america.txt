@@ -623,33 +623,25 @@ s:STATE_MONTEVIDEO = {
 		region_state:PRG = {
 			create_pop = {
 				culture = Paraguayan
-				size = 308396
+				size = 182578
 			}
 			create_pop = {
 				culture = guarani
-				size = 24000
+				size = 14000
 			}
 			create_pop = {
 				culture = guarani
 				religion = catholic
-				size = 282240
+				size = 102240
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_Platinean
-				size = 14560
+				size = 10560
 			}
 			create_pop = {
 				culture = afro_Platinean
-				size = 17996
-			}
-			create_pop = {
-				culture = south_german
-				size = 3000
-			}
-			create_pop = {
-				culture = north_german
-				size = 1000
+				size = 15996
 			}
 			create_pop = {
 				culture = spanish
@@ -736,7 +728,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 30000
+				size = 15432
 			}		
 		}
 	}
@@ -757,7 +749,7 @@ s:STATE_MONTEVIDEO = {
 			}
 			create_pop = {
 				culture = Argentinian
-				size = 38000
+				size = 43378
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -768,6 +760,7 @@ s:STATE_MONTEVIDEO = {
 				culture = afro_Platinean
 				size = 20
 			}
+		}
 	s:STATE_NEUQUEN = {
 		region_state:PAT = {
 			create_pop = {
@@ -780,13 +773,13 @@ s:STATE_MONTEVIDEO = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 5500
+				size = 3500
 			}
 		}
 			region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size = 6000
+				size = 2000
 			}
 					
 		}
@@ -795,7 +788,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size = 11100
+				size = 2100
 			}		
 		}
 	}
@@ -803,7 +796,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 14100
+				size = 10100
 			}
 		}
             region_state:ARG = {
@@ -870,8 +863,8 @@ s:STATE_MONTEVIDEO = {
 	s:STATE_SAN_LUIS = {
 		region_state:ARG = {
 			create_pop = {
-				culture = platinean
-				size = 28048
+				culture = Argentinian
+				size = 17048
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -884,7 +877,7 @@ s:STATE_MONTEVIDEO = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 4752
+				size = 2752
 			}
 		}
 	}
@@ -921,7 +914,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 45658
+				size = 35658
 			}
 			create_pop = {
 				pop_type = slaves
@@ -938,7 +931,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 40462
+				size = 38462
 			}
 			create_pop = {
 				culture = South_Brazilian
@@ -946,7 +939,7 @@ s:STATE_MONTEVIDEO = {
 			}
 			create_pop = {
 				culture = guarani
-				size = 10996
+				size = 7996
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -963,7 +956,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 30462
+				size = 5462
 			}
 			create_pop = {
 				culture = South_Brazilian
@@ -971,7 +964,7 @@ s:STATE_MONTEVIDEO = {
 			}
 			create_pop = {
 				culture = guarani
-				size = 22996
+				size = 2996
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -982,21 +975,13 @@ s:STATE_MONTEVIDEO = {
 				culture = afro_Platinean
 				size = 300
 			}
-			create_pop = {
-				culture = south_german
-				size = 2000
-			}
-			create_pop = {
-				culture = north_german
-				size = 1500
-			}
 		}
 	}
 	s:STATE_TUCUMAN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 47500
+				size = 44500
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -1017,7 +1002,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 28000
+				size = 27533
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -1206,13 +1191,13 @@ s:STATE_MONTEVIDEO = {
 		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size = 28200
+				size = 15200
 			}
 		}
 		region_state:SLK = {
 			create_pop = {
 				culture = patagonian
-				size = 6000
+				size = 500
 			}
 		}
 	}
@@ -1220,7 +1205,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:SLK = {
 			create_pop = {
 				culture = patagonian
-				size = 6000
+				size = 1500
 			}
 		}
 	}
@@ -1228,7 +1213,7 @@ s:STATE_MONTEVIDEO = {
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 20
+				size = 50
 			}
 			create_pop = {
 				culture = Argentinian
