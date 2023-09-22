@@ -859,6 +859,10 @@ metro_prestige = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_prestige_add = 25
 }
+chaco_settlement = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_migration_pull_mult = 1
+}
 
 patagonian_settlement = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds

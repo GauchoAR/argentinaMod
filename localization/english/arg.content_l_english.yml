@@ -7,3 +7,4 @@
   vientres.2.a: "For liberty!"
 	je_vientres:0 "Freedom of Wombs"
 	je_vientres_reason:0 "Partus sequitur ventrum, meaning that which is born follows the womb. We have parted ways with the old slavery regime declaring every newborn children free."
+  chaco_settlement:0 "Chaco Settlement"

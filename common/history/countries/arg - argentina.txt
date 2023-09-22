@@ -59,5 +59,6 @@
 		}
 		add_journal_entry = { type = je_vientres }
 		add_journal_entry = { type = je_patagonia }
+		add_journal_entry = { type = je_chaco }
 	}
 }
