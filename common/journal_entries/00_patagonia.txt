@@ -23,8 +23,10 @@
 		OR = {
 			owns_entire_state_region = STATE_ARAUCANIA
 			AND = {
-				owns_entire_state_region = STATE_PATAGONIA
+				owns_entire_state_region = STATE_NEUQUEN
 				owns_entire_state_region = STATE_RIO_NEGRO
+				owns_entire_state_region = STATE_CHUBUT
+				owns_entire_state_region = STATE_SANTA_CRUZ_ARG
 				owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
 			}
 		}

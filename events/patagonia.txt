@@ -41,18 +41,48 @@ patagonia.1 = {
 			limit = {
 				AND = {
 					country_has_primary_culture = cu:Argentinian
-					owns_entire_state_region = STATE_PATAGONIA
-					owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
+					owns_entire_state_region = STATE_NEUQUEN
+				    owns_entire_state_region = STATE_RIO_NEGRO
+				    owns_entire_state_region = STATE_CHUBUT
+				    owns_entire_state_region = STATE_SANTA_CRUZ_ARG
+				    owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
 				}
 			}
-			s:STATE_PATAGONIA = {
+			s:STATE_NEUQUEN = {
 					add_homeland = Argentinian
 				}
-			s:STATE_PATAGONIA.region_state:ARG = {
+			s:STATE_NEUQUEN.region_state:ARG = {
 				add_modifier = {
 					name = patagonian_settlement
 					months = long_modifier_time
+			    }
 			}
+			s:STATE_RIO_NEGRO = {
+					add_homeland = Argentinian
+				}
+			s:STATE_RIO_NEGRO.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_CHUBUT = {
+					add_homeland = Argentinian
+				}
+			s:STATE_CHUBUT.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_SANTA_CRUZ_ARG = {
+					add_homeland = Argentinian
+				}
+			s:STATE_SANTA_CRUZ_ARG.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
 			}
 			s:STATE_TIERRA_DEL_FUEGO = {
 					add_homeland = Argentinian
