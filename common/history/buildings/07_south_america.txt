@@ -717,24 +717,13 @@
 		}
 	}
 	s:STATE_SALTA={
+		
 		region_state:ARG={
-			create_building={
-				building="building_furniture_manufacturies"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
 			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}
@@ -829,12 +818,6 @@
 	s:STATE_BUENOS_AIRES={
 		region_state:ARG={
 			create_building={
-				building="building_textile_mills"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
-			}
-			create_building={
 				building="building_wheat_farm"
 				level=2
 				reserves=1
@@ -842,7 +825,7 @@
 			}
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}	
@@ -855,15 +838,21 @@
 			}				
 			create_building={
 				building="building_livestock_ranch"
-				level=3
+				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_vineyard_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_vineyard_plantation" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_naval_base"
@@ -893,11 +882,21 @@
 		region_state:PAT={
 		}
 	}
-	s:STATE_PATAGONIA={
+	s:STATE_CHUBUT={
 		region_state:PAT={
 		}
 	}
-	s:STATE_RIO_NEGRO={
+	s:STATE_SANTA_CRUZ_ARG={
+		region_state:THL={
+		}
+	}
+	s:STATE_NEUQUEN={
+		region_state:PAT={
+		}
+	}
+		
+
+	s:STATE_MENDOZA={
 		region_state:ARG={
 			create_building={
 				building="building_vineyard_plantation"
@@ -911,12 +910,7 @@
 				reserves=1
 				aactivate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
 			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}	
+				
 		}
 	}
 	s:STATE_ENTRE_RIOS={
@@ -931,7 +925,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_maize_farm"
@@ -941,7 +935,7 @@
 			}		
 		}
 	}
-	s:STATE_LA_PAMPA={
+	s:STATE_CORDOBA={
 		region_state:ARG={	
 			create_building={
 				building="building_government_administration"
@@ -965,7 +959,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -981,20 +975,57 @@
 			}
 		}
 	}
-	s:STATE_SANTA_FE={
+	s:STATE_SAN_LUIS={
 		region_state:ARG={	
+			
 			create_building={
-				building="building_logging_camp"
+				building="building_wheat_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
+			}
+				
+			create_building={
+				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" }
+			}
+			
+		}
+	}
+	s:STATE_SANTA_FE={
+		region_state:ARG={
+			create_building={
+				building="building_furniture_manufacturies"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_luxury_furniture" "pm_automation_disabled" "pm_merchant_guilds_building_furniture_manufacturies" }
+			}			
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}	
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_maize_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
+			}		
 		}
 	}
 	
@@ -1015,7 +1046,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -1043,7 +1074,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -1076,24 +1107,18 @@
 	s:STATE_TUCUMAN={
 		region_state:ARG={
 			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
 				building="building_gold_mine"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_gold_mine" }
 			}
-	        create_building={
+	create_building={
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}	
-            create_building={
+    create_building={
 				building="building_government_administration"
 				level=1
 				reserves=1
@@ -1101,7 +1126,7 @@
 			}				
 		}
 	}
-	s:STATE_CATAMARCA={
+		s:STATE_CATAMARCA={
 		region_state:ARG={
 			create_building={
 				building="building_gold_mine"
@@ -1118,7 +1143,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}
@@ -1128,7 +1153,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}
@@ -1140,16 +1165,10 @@
 	s:STATE_SANTIAGO_DEL_ESTERO={
 		region_state:ARG={
 			create_building={
-				building="building_tobacco_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}

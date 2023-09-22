@@ -740,25 +740,81 @@ s:STATE_MONTEVIDEO = {
 			}		
 		}
 	}
-	s:STATE_PATAGONIA = {
-		region_state:THL = {
-			create_pop = {
-				culture = patagonian
-				size = 25100
-			}
-		}
+
+	s:STATE_RIO_NEGRO = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 31100
+				size = 6200
+			}
+		}
+	}
+		s:STATE_MENDOZA = {
+		region_state:ARG = {
+			create_pop = {
+				culture = patagonian
+				size = 1880
 			}
 			create_pop = {
 				culture = Argentinian
-				size = 8000
-			}			
+				size = 38000
+			}
+			create_pop = {
+				culture = afro_Platinean
+				size = 100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_Platinean
+				size = 20
+			}
+	s:STATE_NEUQUEN = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 4100
+			}
 		}
 	}
-	s:STATE_RIO_NEGRO = {
+		s:STATE_CHUBUT = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 5500
+			}
+		}
+			region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 6000
+			}
+					
+		}
+	}
+		s:STATE_SANTA_CRUZ_ARG = {
+		region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 11100
+			}		
+		}
+	}
+		s:STATE_LA_PAMPA = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 14100
+			}
+		}
+            region_state:ARG = {
+			create_pop = {
+				culture = Argentinian
+				size = 700
+			    }	
+            }				
+		}
+	}
+	s:STATE_Mendoza = {
 		region_state:ARG = {
 			create_pop = {
 				culture = patagonian
@@ -778,22 +834,11 @@ s:STATE_MONTEVIDEO = {
 				size = 20
 			}
 		}
-		region_state:PAT = {
-			create_pop = {
-				culture = patagonian
-				size = 17000
-			}
-			create_pop = {
-				culture = Argentinian
-				size = 2900
-			}
-		}
-	}
-	s:STATE_LA_PAMPA = {
+	s:STATE_CORDOBA = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
-				size = 100740
+				size = 80740
 			}
 			create_pop = {
 				culture = afro_Platinean
@@ -806,7 +851,7 @@ s:STATE_MONTEVIDEO = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 15000
+				size = 10000
 			}
 			create_pop = {
 				culture = spanish
@@ -822,6 +867,29 @@ s:STATE_MONTEVIDEO = {
 			}
 		}
 	}
+	s:STATE_SAN_LUIS = {
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 28048
+			}
+			create_pop = {
+				culture = afro_Platinean
+				size = 110
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_Platinean
+				size = 240
+			}
+			create_pop = {
+				culture = patagonian
+				size = 4752
+			}
+		}
+	}
+	
+	
 	s:STATE_SANTA_FE = {
 		region_state:ARG = {
 			create_pop = {

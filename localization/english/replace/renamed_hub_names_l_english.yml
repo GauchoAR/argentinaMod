@@ -1,5 +1,6 @@
 ﻿ l_english:
  # Argentina
+ 
 HUB_NAME_STATE_CHACO_farm: "La Leona"
 HUB_NAME_STATE_CORRIENTES_city: "Corrientes"
 HUB_NAME_STATE_CORRIENTES_farm: "Mercedes"
@@ -7,6 +8,12 @@ HUB_NAME_STATE_JUJUY_farm: "Purma Marca"
 HUB_NAME_STATE_JUJUY_mine: "Tilcara"
 HUB_NAME_STATE_JUJUY_wood: "Humahuaca"
 HUB_NAME_STATE_JUJUY_city: "Jujuy"
+HUB_NAME_STATE_TUCUMAN_farm: "Famaillá"
+HUB_NAME_STATE_TUCUMAN_mine: "Tafi del Valle"
+HUB_NAME_STATE_TUCUMAN_wood: "El Cadillal"
+HUB_NAME_STATE_CHACO_wood: "Charata"
+HUB_NAME_STATE_CHACO_mine: "Castelli"
+
 
 #Uruguay
 HUB_NAME_STATE_MONTEVIDEO_farm: "Mercedes"

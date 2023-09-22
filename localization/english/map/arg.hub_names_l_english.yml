@@ -69,3 +69,22 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
    HUB_NAME_STATE_SALTA_farm: "Pichanal"
    HUB_NAME_STATE_SALTA_mine: "Cafayate"
    HUB_NAME_STATE_SALTA_wood: "General Güemes"
+   
+   #Santiago del Estero
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_city: "Santiago del Estero"
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_farm: "Termas de Rio Hondo"
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_wood: "Quimíli"
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_mine: "Monte Quemado"
+   
+   #Catamarca
+   HUB_NAME_STATE_CATAMARCA_city: "San Fernado del Valle de Catamarca"
+   HUB_NAME_STATE_CATAMARCA_farm: "Fiambalá"
+   HUB_NAME_STATE_CATAMARCA_mine: "Antofagasta de la Sierra"
+   HUB_NAME_STATE_CATAMARCA_wood: "Belén"
+   
+   #La Rioja
+   HUB_NAME_STATE_LA_RIOJA_city: "La Rioja"
+   HUB_NAME_STATE_LA_RIOJA_farm: "Patquia
+   HUB_NAME_STATE_LA_RIOJA_mine: "Famatina"
+   HUB_NAME_STATE_LA_RIOJA_wood: "Chamical"
+   
