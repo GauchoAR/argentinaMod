@@ -2392,6 +2392,7 @@ s:STATE_ALTO_PARAGUAY = {
 		create_state = {
 			country = c:ARG
 			owned_provinces = { x08B647 x2B18E0 x3F05E8 x443E92 x745CF8 xFDEBB0 }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:PAT
