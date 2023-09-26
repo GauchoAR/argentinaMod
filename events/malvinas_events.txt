@@ -1,0 +1,226 @@
+﻿namespace = malvinas
+
+# An Offer for malvinas
+malvinas.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = malvinas.1.t
+	desc = malvinas.1.d
+	flavor = malvinas.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		c:ARG = {
+			save_scope_as = arg_scope
+		}
+		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+			save_scope_as = malvinas_scopeMalvinas
+		}
+	}
+
+	option = {
+		name = malvinas.1.a
+		default_option = yes
+		add_modifier = {
+			name = malvinas_gbr_big_money
+			months = 12
+			is_decaying = no
+		}
+		c:ARG = {
+			trigger_event = { id = malvinas.2 days = 0 popup = yes }
+		}
+		show_as_tooltip = {
+			s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+				set_state_owner = c:ARG
+			}
+			s:STATE_ISLAS_GEORGIAS.region_state:ARG = {
+				set_state_owner = c:ARG
+			}
+			change_relations = {
+				country = c:ARG
+				value = 10
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = malvinas.1.b
+		c:ARG = {
+			trigger_event = { id = malvinas.3 days = 0 popup = yes }
+		}
+		show_as_tooltip = {
+			change_relations = {
+				country = c:ARG
+				value = -20
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+# The malvinas Purchase
+malvinas.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = malvinas.2.t
+	desc = malvinas.2.d
+	flavor = malvinas.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		c:ARG = {
+			save_scope_as = britain_scope
+		}
+		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+			save_scope_as = malvinas_scope
+		}
+	}
+
+	option = {
+		name = malvinas.2.a
+		default_option = yes
+		add_modifier = {
+			name = malvinas_arg_big_money
+			months = 12
+		}
+		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+			set_state_owner = c:ARG
+		}
+		s:STATE_ISLAS_GEORGIAS.region_state:ARG = {
+			set_state_owner = c:ARG
+		}
+		change_relations = {
+			country = c:ARG
+			value = 10
+		}
+	}
+}
+
+# Failed malvinas Purchase
+malvinas.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = malvinas.3.t
+	desc = malvinas.3.d
+	flavor = malvinas.3.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		c:ARG = {
+			save_scope_as = britain_scope
+		}
+		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+			save_scope_as = malvinas_scope
+		}
+	}
+
+	option = {
+		name = malvinas.3.a
+		default_option = yes
+		change_relations = {
+			country = c:ARG
+			value = -20
+		}
+        add_journal_entry = {
+			type = je_malvinas
+		}
+	}
+}
+
+# Making an Offer
+malvinas.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = malvinas.4.t
+	desc = malvinas.4.d
+	flavor = malvinas.4.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		c:ARG = {
+			save_scope_as = britain_scope
+		}
+		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+			save_scope_as = malvinas_scope
+		}
+	}
+
+	option = {
+		name = malvinas.4.a
+		ai_chance = {
+			base = 1
+		}
+		custom_tooltip = malvinas.4.tt1 # 3 million over a year
+		c:ARG = {
+			trigger_event = {
+				id = malvinas.1
+				days = 0
+				popup = yes
+			}
+		}
+	}
+	option = { # perhaps another time
+		name = malvinas.4.c
+		default_option = yes
+		ai_chance = {
+			base = 0
+		}
+		remove_variable = malvinas_purchase_var
+	}
+}

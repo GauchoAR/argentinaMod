@@ -1408,6 +1408,11 @@ conquest_of_alaska = {
 	country_prestige_add = 20
 }
 
+conquest_of_malvinas = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 10
+}
+
 luxurious_parties = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	state_rich_expected_sol = 3
@@ -1474,4 +1479,14 @@ shogun_ig_forced_to_open_market = {
 shogun_forced_to_open_market = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	character_popularity_add = -100
+}
+
+malvinas_arg_big_money = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 15000
+}
+
+malvinas_gbr_big_money = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_tax_income_add = 15000
 }
