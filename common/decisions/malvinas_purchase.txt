@@ -19,15 +19,13 @@
 		taking_loans = no
 		is_at_war = no
 		c:GBR = {
-			relations:root >= 20
+			relations:root >= 100
 			is_at_war = no
-			scaled_debt > 0
+			
 		}
-		can_take_on_scaled_debt = {
-			who = c:GBR
-			value = c:GBR.scaled_debt
+
 		}
-	}
+	
 
 	when_taken = {
 		set_variable = {
