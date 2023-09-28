@@ -26,8 +26,8 @@ malvinas.1 = {
 		c:ARG = {
 			save_scope_as = arg_scope
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
-			save_scope_as = malvinas_scopeMalvinas
+		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
+			save_scope_as = malvinas_scope
 		}
 	}
 
@@ -43,10 +43,10 @@ malvinas.1 = {
 			trigger_event = { id = malvinas.2 days = 0 popup = yes }
 		}
 		show_as_tooltip = {
-			s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+			s:STATE_ISLAS_MALVINAS.region_state:GBR = {
 				set_state_owner = c:ARG
 			}
-			s:STATE_ISLAS_GEORGIAS.region_state:ARG = {
+			s:STATE_ISLAS_GEORGIAS.region_state:GBR = {
 				set_state_owner = c:ARG
 			}
 			change_relations = {
@@ -98,10 +98,10 @@ malvinas.2 = {
 	}
 
 	immediate = {
-		c:ARG = {
+		c:GBR = {
 			save_scope_as = britain_scope
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
 			save_scope_as = malvinas_scope
 		}
 	}
@@ -113,10 +113,10 @@ malvinas.2 = {
 			name = malvinas_arg_big_money
 			months = 12
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
 			set_state_owner = c:ARG
 		}
-		s:STATE_ISLAS_GEORGIAS.region_state:ARG = {
+		s:STATE_ISLAS_GEORGIAS.region_state:GBR = {
 			set_state_owner = c:ARG
 		}
 		change_relations = {
@@ -149,10 +149,10 @@ malvinas.3 = {
 	}
 
 	immediate = {
-		c:ARG = {
+		c:GBR = {
 			save_scope_as = britain_scope
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
 			save_scope_as = malvinas_scope
 		}
 	}
@@ -161,8 +161,8 @@ malvinas.3 = {
 		name = malvinas.3.a
 		default_option = yes
 		change_relations = {
-			country = c:ARG
-			value = -20
+			country = c:GBR
+			value = -30
 		}
         add_journal_entry = {
 			type = je_malvinas
@@ -193,10 +193,10 @@ malvinas.4 = {
 	}
 
 	immediate = {
-		c:ARG = {
+		c:GBR = {
 			save_scope_as = britain_scope
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:ARG = {
+		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
 			save_scope_as = malvinas_scope
 		}
 	}
@@ -207,7 +207,7 @@ malvinas.4 = {
 			base = 1
 		}
 		custom_tooltip = malvinas.4.tt1 # 3 million over a year
-		c:ARG = {
+		c:GBR = {
 			trigger_event = {
 				id = malvinas.1
 				days = 0

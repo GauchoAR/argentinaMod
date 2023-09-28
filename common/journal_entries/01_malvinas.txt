@@ -3,7 +3,7 @@
 
 	complete = {
 		exists = c:ARG
-		c:USA = {
+		c:ARG = {
 			owns_entire_state_region = STATE_ISLAS_MALVINAS
 			owns_entire_state_region = STATE_ISLAS_GEORGIAS
 		}
