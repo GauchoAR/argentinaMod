@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
   # STATES
   
    # Formosa
@@ -15,11 +15,11 @@ HUB_NAME_STATE_TIERRA_DEL_FUEGO_mine: "Tolhuin"
 HUB_NAME_STATE_TIERRA_DEL_FUEGO_port: "Almirante Brown"
 
  # STATES Malvinas
- HUB_NAME_STATE_ISLAS_MALVINAS_city: "Stanley"
- HUB_NAME_STATE_ISLAS_MALVINAS_port: "Fox Bay"
- HUB_NAME_STATE_ISLAS_MALVINAS_farm: "North Arm"
- HUB_NAME_STATE_ISLAS_MALVINAS_mine: "Goose Green"
- HUB_NAME_STATE_ISLAS_MALVINAS_wood: "Port Howard"
+ HUB_NAME_STATE_ISLAS_MALVINAS_city: "Puerto Argentino"
+ HUB_NAME_STATE_ISLAS_MALVINAS_port: "Puerto Lucas"
+ HUB_NAME_STATE_ISLAS_MALVINAS_farm: "Establecimiento"
+ HUB_NAME_STATE_ISLAS_MALVINAS_mine: "Horquetas"
+ HUB_NAME_STATE_ISLAS_MALVINAS_wood: "Monte Maria"
  
   # STATES Islas Georgias
 HUB_NAME_STATE_ISLAS_GEORGIAS_city: "Leith Harbour"
@@ -35,6 +35,7 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
   HUB_NAME_STATE_ENTRE_RIOS_mine: "San José de Feliciano"
   HUB_NAME_STATE_ENTRE_RIOS_wood: "Concepción del Uruguay"
   HUB_NAME_STATE_ENTRE_RIOS_port: "Puerto Constanza"
+
   # Misiones
   
   HUB_NAME_STATE_MISIONES_city: "Posadas"
@@ -42,12 +43,19 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
   HUB_NAME_STATE_MISIONES_wood: "puerto Iguazú"
   HUB_NAME_STATE_MISIONES_mine: "Bernardo de Irigoyen
   
-   # Santa Fe
+  
+    # Santa Fe
    HUB_NAME_STATE_SANTA_FE_city: "Santa Fe"
    HUB_NAME_STATE_SANTA_FE_farm: "Rosario"
    HUB_NAME_STATE_SANTA_FE_wood: "Rafaela"
    HUB_NAME_STATE_SANTA_FE_mine: "San Cristóbal"
- 
+   
+   #Salta
+   HUB_NAME_STATE_SALTA_city: "Salta"
+   HUB_NAME_STATE_SALTA_farm: "Pichanal"
+   HUB_NAME_STATE_SALTA_mine: "Cafayate"
+   HUB_NAME_STATE_SALTA_wood: "General Güemes"
+   
    # Paysandú
    
   HUB_NAME_STATE_PAYSANDU_city: "Salto"
@@ -55,7 +63,6 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
   HUB_NAME_STATE_PAYSANDU_wood: "Melo"
   HUB_NAME_STATE_PAYSANDU_mine: "Tacuarembó"
   HUB_NAME_STATE_PAYSANDU_port: "Punta del Diablo"
-  
   #Montevideo
   HUB_NAME_STATE_MONTEVIDEO_city: "Montevideo"
   HUB_NAME_STATE_MONTEVIDEO_farm: "Mercedes"
@@ -63,13 +70,6 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
   HUB_NAME_STATE_MONTEVIDEO_wood: "Colonia del Sacramento"
   HUB_NAME_STATE_MONTEVIDEO_port: "Punta del Este"
   
-  
-   #Salta
-   HUB_NAME_STATE_SALTA_city: "Salta"
-   HUB_NAME_STATE_SALTA_farm: "Pichanal"
-   HUB_NAME_STATE_SALTA_mine: "Cafayate"
-   HUB_NAME_STATE_SALTA_wood: "General Güemes"
-   
    #Santiago del Estero
    HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_city: "Santiago del Estero"
    HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_farm: "Termas de Rio Hondo"
