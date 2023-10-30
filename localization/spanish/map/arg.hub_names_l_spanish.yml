@@ -138,9 +138,15 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
    HUB_NAME_STATE_CHUBUT_mine: "Los Altares"
    HUB_NAME_STATE_CHUBUT_port: "Comodoro Rivadavia"
    
-   # 
+   # Santa Cruz
    HUB_NAME_STATE_SANTA_CRUZ_ARG_city: "Rio Gallegos"
    HUB_NAME_STATE_SANTA_CRUZ_ARG_wood: "Puerto Deseasdo"
    HUB_NAME_STATE_SANTA_CRUZ_ARG_farm: "Tres Lagos"
    HUB_NAME_STATE_SANTA_CRUZ_ARG_mine: "El Calafate"
    HUB_NAME_STATE_SANTA_CRUZ_ARG_port: "Puerto Santa Cruz"
+   
+     #Tarija
+   HUB_NAME_STATE_TARIJA_city: "Tarija"
+   HUB_NAME_STATE_TARIJA_farm: "Villamontes"
+   HUB_NAME_STATE_TARIJA_mine: "El Palmar"
+   HUB_NAME_STATE_TARIJA_wood: "Bermejo"
