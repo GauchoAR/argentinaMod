@@ -241,13 +241,13 @@ POPS = {
 		}
 	}
 	s:STATE_PASTAZA = {
-		region_state:PEU = {
+		region_state:NPU = {
 			create_pop = {
 				culture = amazonian
 				size = 40000
 			}
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 11996
 			}
 			create_pop = {
@@ -261,7 +261,7 @@ POPS = {
 				size = 32000
 			}
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 1700
 			}
 			create_pop = {
@@ -271,9 +271,9 @@ POPS = {
 		}
 	}
 	s:STATE_TARAPACA = {
-		region_state:PEU = {
+		region_state:SPU = {
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 12000
 			}
 			create_pop = {
@@ -294,7 +294,7 @@ POPS = {
 	s:STATE_ANTOFAGASTA = {
 		region_state:BOL = {
 			create_pop = {
-				culture = Bolivian
+				culture = south_andean
 				size = 43996
 			}
 			create_pop = {
@@ -314,7 +314,7 @@ POPS = {
 	s:STATE_SANTA_CRUZ = {
 		region_state:BOL = {
 			create_pop = {
-				culture = Bolivian
+				culture = south_andean
 				size = 28200
 			}
 			create_pop = {
@@ -334,12 +334,12 @@ POPS = {
 	s:STATE_LA_PAZ = {
 		region_state:BOL = {
 			create_pop = {
-				culture = Bolivian
+				culture = south_andean
 				size = 220792
 			}
 			create_pop = {
 				culture = quechua
-				size = 321000
+				size = 318000
 			}
 			create_pop = {
 				culture = aimara
@@ -347,7 +347,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 48000
+				size = 47000
 			}
 			create_pop = {
 				culture = afro_caribeno	# Yungas Afro-Bolivians
@@ -358,7 +358,7 @@ POPS = {
 	s:STATE_POTOSI = {
 		region_state:BOL = {
 			create_pop = {
-				culture = Bolivian
+				culture = south_andean
 				size = 24000
 			}
 			create_pop = {
@@ -372,28 +372,19 @@ POPS = {
 		}
 	}
 	s:STATE_CAJAMARCA = {
-		region_state:PEU = {
+		region_state:NPU = {
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 91804
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 10000
+				size = 12000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
-				size = 3000
-			}
-			create_pop = {
-				culture = afro_Platinean
-				size = 2000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_Platinean
-				size = 1000
+				size = 4000
 			}
 			create_pop = {
 				culture = amazonian
@@ -406,9 +397,9 @@ POPS = {
 		}
 	}
 	s:STATE_LIMA = {
-		region_state:PEU = {
+		region_state:NPU = {
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 248000
 			}
 			create_pop = {
@@ -422,12 +413,7 @@ POPS = {
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
-				size = 5200
-			}
-				create_pop = {
-				pop_type = slaves
-				culture = afro_Platinean
-				size = 1200
+				size = 6200
 			}
 			create_pop = {
 				culture = amazonian
@@ -436,18 +422,14 @@ POPS = {
 		}
 	}
 	s:STATE_ICA = {
-		region_state:PEU = {
+		region_state:SPU = {
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 92904
 			}
 			create_pop = {
 				culture = afro_caribeno
 				size = 3350
-			}
-			create_pop = {
-				culture = afro_Platinean
-				size = 1000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -456,18 +438,24 @@ POPS = {
 			}
 			create_pop = {
 				culture = quechua
-				size = 302804
+				size = 242804
 			}
 			create_pop = {
 				culture = amazonian
 				size = 12000
 			}
 		}
+		region_state:IQU = {
+			create_pop = {
+				culture = quechua
+				size = 55000
+			}
+		}
 	}
 	s:STATE_AREQUIPA = {
-		region_state:PEU = {
+		region_state:SPU = {
 			create_pop = {
-				culture = Peruvian
+				culture = south_andean
 				size = 48000
 			}
 			create_pop = {
@@ -489,124 +477,54 @@ POPS = {
 			}
 		}
 	}
-s:STATE_MONTEVIDEO = {
+	s:STATE_URUGUAY = {
 		region_state:URU = {
 			create_pop = {
-				culture = Uruguayan
-				size = 65192
+				culture = platinean
+				size = 95192
 			}
 			create_pop = {
-				culture = afro_Platinean
-				size = 1996
+				culture = afro_caribeno
+				size = 19996
 			}
 			create_pop = {
-				culture = South_Brazilian
-				size = 4000
+				culture = brazilian
+				size = 16000
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
-				size = 3678
-			}
-			create_pop = {
-				culture = french
-				size = 2000
-			}
-			create_pop = {
-				culture = south_italian
-				size = 1000
-			}
-			create_pop = {
-				culture = south_german
-				size = 1000
-			}
-			create_pop = {
-				culture = north_italian
-				size = 1000
-			}
-		}
-	}
-	s:STATE_PAYSANDU = {
-		region_state:URU = {
-			create_pop = {
-				culture = Uruguayan
-				size = 20192
-			}
-			create_pop = {
-				culture = afro_Platinean
-				size = 5996
-			}
-			create_pop = {
-				culture = South_Brazilian
-				size = 5000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_Platinean
-				size = 2678
+				culture = afro_caribeno
+				size = 8678
 			}
 		}
 	}
 	s:STATE_JUJUY = {
 		region_state:BOL = {
 			create_pop = {
-				culture = Bolivian
-				size = 2679
+				culture = south_andean
+				size = 4000
 			}
 			create_pop = {
 				culture = quechua
-				size = 10231
+				size = 51000
 			}
 			create_pop = {
-				culture = Argentinian
-				size = 2061
+				culture = platinean
+				size = 4000
 			}
 		}
 		region_state:ARG = {
 			create_pop = {
-				culture = Argentinian
-				size = 13579
+				culture = platinean
+				size = 12304
 			}
 			create_pop = {
 				culture = quechua
-				size = 2891
+				size = 1100
 			}
 		}
+
 	}
-		s:STATE_SALTA = {
-		
-		 region_state:ARG = {
-			create_pop = {
-				culture = Argentinian
-				size = 49239
-			}
-			create_pop = {
-				culture = quechua
-				size = 11000
-			}
-		
-		}
-	}
-	s:STATE_TARIJA = {
-		region_state:BOL = {
-			create_pop = {
-				culture = Bolivian
-				size = 2000
-			}
-			create_pop = {
-				culture = quechua
-				size = 30000
-			}
-			create_pop = {
-				culture = Argentinian
-				size = 500
-			}
-		}
-			
-			
-		
-	}
-	
 	s:STATE_ALTO_PARAGUAY = {
 		region_state:GNI = {
 			create_pop = {
@@ -614,38 +532,44 @@ s:STATE_MONTEVIDEO = {
 				size = 11000
 			}
 			create_pop = {
-				culture = Paraguayan
+				culture = platinean
 				size = 1030
 			}
 		}
 	}
+	# Population estaimates comes from a mix of estimates by Rengger and Longcharaps and the Paraguayan census of 1839-40.
 	s:STATE_BAJO_PARAGUAY = {
 		region_state:PRG = {
-			create_pop = {
-				culture = Paraguayan
-				size = 182578
-			}
-			create_pop = {
-				culture = guarani
-				size = 14000
-			}
-			create_pop = {
-				culture = guarani
-				religion = catholic
-				size = 102240
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_Platinean
-				size = 10560
-			}
-			create_pop = {
-				culture = afro_Platinean
-				size = 15996
+			create_pop = { # Creoles + Mixed (~3/4)
+				culture = platinean
+				size = 125764
 			}
 			create_pop = {
 				culture = spanish
-				size = 4000
+				size = 807
+			}
+			create_pop = { # Creoles (~1/4)
+				culture = guarani
+				religion = catholic
+				size = 48588
+			}
+			create_pop = { # Indians
+				culture = guarani
+				religion = catholic
+				size = 22050
+			}
+			create_pop = { # Black (enslaved)
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 11814
+			}
+			create_pop = { # Black (free)
+				culture = afro_caribeno
+				size = 16851
+			}
+			create_pop = { # Indians (non census)
+				culture = guarani
+				size = 24012
 			}
 		}
 	}
@@ -656,22 +580,32 @@ s:STATE_MONTEVIDEO = {
 				size = 11000
 			}
 			create_pop = {
-				culture = Paraguayan
-				size = 1030
-			}
-			create_pop = {
-				culture = Argentinian
-				size = 400
+				culture = platinean
+				size = 1430
 			}
 		}
 	}
 	s:STATE_BUENOS_AIRES = {
 		region_state:ARG = {
 			create_pop = {
-				culture = Argentinian
-				size = 300451
+				culture = platinean
+				size = 206600
 			}
 			create_pop = {
+				culture = afro_caribeno
+				size = 20800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 13200
+			}
+			create_pop = {
+				culture = patagonian
+				size = 2000
+			}
+		
+		    create_pop = {
 				culture = afro_Platinean
 				size = 20800
 			}
@@ -728,12 +662,29 @@ s:STATE_MONTEVIDEO = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 15432
+				size = 30000
 			}		
 		}
 	}
-
-	s:STATE_RIO_NEGRO = {
+	s:STATE_PATAGONIA = {
+		region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 25100
+			}
+		}
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 31100
+			}
+			create_pop = {
+				culture = platinean
+				size = 8000
+			}			
+		}
+	}
+s:STATE_RIO_NEGRO = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
@@ -761,73 +712,19 @@ s:STATE_MONTEVIDEO = {
 				size = 20
 			}
 		}
-	s:STATE_NEUQUEN = {
+		
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 4100
+				size = 17000
+			}
+			create_pop = {
+				culture = platinean
+				size = 13900
 			}
 		}
 	}
-		s:STATE_CHUBUT = {
-		region_state:PAT = {
-			create_pop = {
-				culture = patagonian
-				size = 3500
-			}
-		}
-			region_state:THL = {
-			create_pop = {
-				culture = patagonian
-				size = 2000
-			}
-					
-		}
-	}
-		s:STATE_SANTA_CRUZ_ARG = {
-		region_state:THL = {
-			create_pop = {
-				culture = patagonian
-				size = 2100
-			}		
-		}
-	}
-		s:STATE_LA_PAMPA = {
-		region_state:PAT = {
-			create_pop = {
-				culture = patagonian
-				size = 10100
-			}
-		}
-            region_state:ARG = {
-			create_pop = {
-				culture = Argentinian
-				size = 700
-			    }	
-            }				
-		}
-	}
-	s:STATE_Mendoza = {
-		region_state:ARG = {
-			create_pop = {
-				culture = patagonian
-				size = 6880
-			}
-			create_pop = {
-				culture = Argentinian
-				size = 38000
-			}
-			create_pop = {
-				culture = afro_Platinean
-				size = 100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_Platinean
-				size = 20
-			}
-		}
-	s:STATE_CORDOBA = {
+		s:STATE_CORDOBA = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
@@ -882,6 +779,52 @@ s:STATE_MONTEVIDEO = {
 		}
 	}
 	
+	s:STATE_NEUQUEN = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 4100
+			}
+		}
+	}
+		s:STATE_CHUBUT = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 3500
+			}
+		}
+			region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 2000
+			}
+					
+		}
+	}
+		s:STATE_LA_PAMPA = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 10100
+			}
+		}
+            region_state:ARG = {
+			create_pop = {
+				culture = Argentinian
+				size = 700
+			    }	
+            }				
+		}
+	}
+		s:STATE_SANTA_CRUZ_ARG = {
+		region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 2100
+			}		
+		}
+	}
 	
 	s:STATE_SANTA_FE = {
 		region_state:ARG = {
@@ -927,7 +870,7 @@ s:STATE_MONTEVIDEO = {
 			}		
 		}
 	}
-	s:STATE_CORRIENTES = {
+s:STATE_CORRIENTES = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
@@ -977,7 +920,7 @@ s:STATE_MONTEVIDEO = {
 			}
 		}
 	}
-	s:STATE_TUCUMAN = {
+		s:STATE_TUCUMAN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
@@ -998,27 +941,7 @@ s:STATE_MONTEVIDEO = {
 			}
 		}
 	}
-	s:STATE_CATAMARCA= {
-		region_state:ARG = {
-			create_pop = {
-				culture = Argentinian
-				size = 27533
-			}
-			create_pop = {
-				culture = afro_Platinean
-				size = 250
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_Platinean
-				size = 80
-			}
-			create_pop = {
-				culture = quechua
-				size = 2600
-			}
-		}
-	}s:STATE_LA_RIOJA = {
+		}s:STATE_LA_RIOJA = {
 		region_state:ARG = {
 			create_pop = {
 				culture = Argentinian
@@ -1113,142 +1036,94 @@ s:STATE_MONTEVIDEO = {
 			
 	    }
 	}
+		s:STATE_TARIJA = {
+		region_state:BOL = {
+			create_pop = {
+				culture = Bolivian
+				size = 2000
+			}
+			create_pop = {
+				culture = quechua
+				size = 30000
+			}
+			create_pop = {
+				culture = Argentinian
+				size = 500
+			}
+		}
+			
+			
+		
+	}
+	
 	s:STATE_SANTIAGO = {
 		region_state:CHL = {
 			create_pop = {
-				culture = Chilean
+				culture = south_andean
 				size = 655608
 			}
 			create_pop = {
 				culture = afro_caribeno	# Afro Chileans
 				size = 1200
 			}
-			create_pop = {
-				culture = afro_Platinean # Afro Chileans
-				size = 1200
-			}
-			create_pop = {
-				culture = south_german
-				size = 2000
-			}
-			create_pop = {
-				culture = spanish
-				size = 5000
-			}
-			create_pop = {
-				culture = british
-				size = 4000
-			}
 		}
 	}
 	s:STATE_LOS_RIOS = {
 		region_state:CHL = {
 			create_pop = {
-				culture = Chilean
+				culture = south_andean
 				size = 204892
 			}
 			create_pop = {
 				culture = patagonian
 				size = 48000
 			}
-			create_pop = {
-				culture = south_german
-				size = 1000
-			}
-			create_pop = {
-				culture = british
-				size = 2000
-			}
-			create_pop = {
-				culture = spanish
-				size = 1000
-			}
 		}
 	}
 	s:STATE_ARAUCANIA = {
 		region_state:CHL = {
 			create_pop = {
-				culture = Chilean
+				culture = south_andean
 				size = 52004
 			}
 			create_pop = {
 				culture = patagonian
 				size = 3200
 			}
-			create_pop = {
-				culture = south_german
-				size = 500
-			}
-			create_pop = {
-				culture = spanish
-				size = 700
-			}
-			create_pop = {
-				culture = british
-				size = 600
-			}
 		}
 		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size = 15200
+				size = 28200
 			}
 		}
 		region_state:SLK = {
 			create_pop = {
 				culture = patagonian
-				size = 500
+				size = 12000
 			}
 		}
 	}
-	s:STATE_TIERRA_DEL_FUEGO = {
-		region_state:SLK = {
-			create_pop = {
-				culture = patagonian
-				size = 1500
-			}
-		}
-	}
-	s:STATE_ISLAS_MALVINAS = {
+	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 50
-			}
-			create_pop = {
-				culture = Argentinian
-				size = 10
-			}
-			create_pop = {
-				culture = scottish
-				size = 10
-			}
-		}
-	}
-	s:STATE_ISLAS_GEORGIAS = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 20
-			}
-			create_pop = {
-				culture = scottish
-				size = 10
+				size = 14540
 			}
 		}
 	}
 	s:STATE_ACRE={
-		region_state:BOL = {
+		region_state:BOL = { # sources indicate existence of small numbers of both peruvians and brazilians
 			create_pop = {
 				culture = amazonian
-				size = 15750
+				size = 16100
 			}
-			create_pop = {				# sources indicate existence of small numbers of both peruvians and brazilians
+			create_pop = {				
 				culture = south_andean
 				size = 160
 			}
 			create_pop = {
-				culture = brazilian
+				culture = amazonic
 				size = 90
 			}
 		}
@@ -1270,7 +1145,7 @@ s:STATE_MONTEVIDEO = {
 				size = 36800
 			}
 			create_pop = {
-				culture = brazilian
+				culture = amazonic
 				size = 14325 # 1840 Amazonas Census
 			}
 			create_pop = {
@@ -1286,24 +1161,29 @@ s:STATE_MONTEVIDEO = {
 		region_state:BOL = { # I have literally no idea what number to put here.
 			create_pop = {
 				culture = amazonian
-				size = 10000
+				size = 11000
 			}
-		}		
+		}				
 	}
 	s:STATE_MATO_GROSSO = {
 		region_state:PRG = {
 			create_pop = {
 				culture = guarani
-				size = 38000
+				size = 20000
 			}
 			create_pop = {
-				culture = Paraguayan
+				culture = guarani
+				religion = catholic
+				size = 6700
+			}
+			create_pop = {
+				culture = platinean
 				size = 4000
 			}
 		}
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = paulista
 				size = 4278 # 1828 census
 			}
 			create_pop = {
@@ -1324,12 +1204,30 @@ s:STATE_MONTEVIDEO = {
 				size = 44000
 			}
 		}
+		region_state:BOL = {
+			create_pop = {
+				culture = quechua
+				size = 2300
+			}
+			create_pop = {
+				culture = south_andean
+				size = 500
+			}
+			create_pop = {
+				culture = guarani
+				size = 2500
+			}
+			create_pop = {
+				culture = amazonian
+				size = 2560
+			}
+		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		region_state:PNI = {
 			create_pop = {
-				culture = brazilian
-				size = 16681
+				culture = sulista
+				size = 116681
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1344,25 +1242,17 @@ s:STATE_MONTEVIDEO = {
 				culture = guarani
 				size = 40000
 			}
-			create_pop = {
-				culture = South_Brazilian
-				size = 85000
-			}
-			create_pop = {
-				culture = Argentinian
-				size = 3681
-			}
-			create_pop = {
-				culture = Uruguayan
-				size = 10681
-			}
 		}
 	}
 	s:STATE_PARANA = { # Parana, 1830. 36566 total.
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
-				size = 3444
+				culture = paulista
+				size = 10222
+			}
+			create_pop = {
+				culture = sulista
+				size = 10222
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1373,17 +1263,13 @@ s:STATE_MONTEVIDEO = {
 				culture = afro_brazilian
 				size = 9997
 			}
-			create_pop = {
-				culture = South_Brazilian
-				size = 17000
-			}
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
-				size = 5582
+				culture = sulista
+				size = 35582
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1394,16 +1280,12 @@ s:STATE_MONTEVIDEO = {
 				culture = afro_brazilian
 				size = 13159
 			}
-			create_pop = {
-				culture = South_Brazilian
-				size = 30159
-			}
 		}
 	}
 	s:STATE_SAO_PAULO = {
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = paulista
 				size = 172879 # 1836 census
 			}
 			create_pop = {
@@ -1439,26 +1321,30 @@ s:STATE_MONTEVIDEO = {
 		}
 	}
 	s:STATE_RIO_DE_JANEIRO = {
+		# Rio de Janeiro not including city, 1840: 	401577
+		# City of Rio de Janeiro, 1799+1872 avg:	158669
+		# Espirito Santo, 1839: 					22562
+		# total:									582808
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 647988
+				size = 205392
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 238908
+				size = 265153
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 105653
+				size = 112263
 			}
 		}
 	}
 	s:STATE_BAHIA = {
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = nordestino
 				size = 335500
 			}
 			create_pop = {
@@ -1475,7 +1361,7 @@ s:STATE_MONTEVIDEO = {
 	s:STATE_RIO_GRANDE_DO_NORTE = { # Rio Grande do Norte, 1835 estimate. Total population of 87948.
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = nordestino
 				size = 29902
 			}
 			create_pop = {
@@ -1496,7 +1382,7 @@ s:STATE_MONTEVIDEO = {
 	s:STATE_CEARA = { # Ceara, 1835 estimate. Total population of 211451
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = nordestino
 				size = 69779
 			}
 			create_pop = {
@@ -1517,7 +1403,7 @@ s:STATE_MONTEVIDEO = {
 	s:STATE_PIAUI = { # Piaui, 1835 estimate. Total population of 94932.
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = nordestino
 				size = 31839
 			}
 			create_pop = {
@@ -1535,11 +1421,11 @@ s:STATE_MONTEVIDEO = {
 			}
 		}
 	}
-	s:STATE_PERNAMBUCO = { # Pernambuco proper (1829) + Alagoas (1849), Sergipe (1849), and Paraiba (estimate from average of 1811 and 1872 censii)
+	s:STATE_PERNAMBUCO = { # Pernambuco proper (1829) + Alagoas (1849), Sergipe (1849) (estimate from average of 1811 and 1872 censii)
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
-				size = 234140
+				culture = nordestino
+				size = 188932
 			}
 			create_pop = {
 				culture = tupinamba
@@ -1548,18 +1434,18 @@ s:STATE_MONTEVIDEO = {
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 182445
+				size = 164812
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 452391
+				size = 324105
 			}
 		}
 	}
 	s:STATE_PARAIBA = { # Paraiba, 1835 estimate. Total population of 135764.
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = nordestino
 				size = 45114
 			}
 			create_pop = {
@@ -1580,7 +1466,7 @@ s:STATE_MONTEVIDEO = {
 	s:STATE_MARANHAO = {
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = amazonic
 				size = 42595 
 			}
 			create_pop = {
@@ -1601,7 +1487,7 @@ s:STATE_MONTEVIDEO = {
 	s:STATE_GOIAS = { # total ballpark figure: 73918
 		region_state:BRZ = {
 			create_pop = {
-				culture = brazilian
+				culture = nordestino
 				size = 21921
 			}
 			create_pop = {
@@ -1619,11 +1505,11 @@ s:STATE_MONTEVIDEO = {
 			}
 		}
 	}
-	s:STATE_PARA = {
+	s:STATE_PARA = { # historical total sum is 143573
 
 		region_state:PRA = {
 			create_pop = {
-				culture = brazilian
+				culture = amazonic
 				size = 111297
 			}
 			create_pop = {

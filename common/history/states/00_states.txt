@@ -2676,7 +2676,19 @@ s:STATE_JUJUY = {
 		add_homeland = cu:south_andean
 		add_homeland = cu:patagonian
 	}
-
+	s:STATE_TIERRA_DEL_FUEGO = {
+		create_state = {
+			country = c:SLK
+			owned_provinces = { x78955F x977A70 x9806EE x350B0F x1205C7 xD88028 xAB76fA xCC30AA x62F8C0 x1BC85D xD2DD34 xB0E4AA }
+			
+		}
+		add_homeland = patagonian
+        add_homeland = Chilean
+		add_claim = c:ARG
+		add_claim = c:CHL
+		
+	
+	}
 	s:STATE_ISLAS_MALVINAS = {
 		create_state = {
 			country = c:GBR
