@@ -1,147 +1,70 @@
-﻿Argentinian={
-	color=rgb{ 146 182 240 }
+﻿
+argentine={
+	color=rgb{ 179 208 221 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-	obsessions = {
-wine meat Yerba_Mate
-}
-	male_common_first_names={
-		Agustin
-		Antonio
-		Atanasio
-		Baltasar
-		Bartolome
-		Bernardino
-		Bernardo
-		Carlos
-		Cecilio
-		Cirilo
-		Claudio
-		Clemente
-		Candido_2
-		Domingo
-		Emiliano
-		Esteban
-		Eugenio_2
-		Evaristo
-		Facundo
-		Faustino
-		Feliciano
-		Francisco
-		Fructuoso
-		Felix
-		Gabriel
-		Gaspar
-		Guillermo
-		Hipolito
+    obsessions = { wine meat Yerba_Mate}
+	male_common_first_names = {
+		Andres Agustin Alejo ArI_stides Alejandro Alberto Anselmo Alvaro
+		Bonifacio Bautista Benjamin_2 Bartolome
+		Carmelo Calizto Celedonio Carlos Cornelio Claudio Constantino
+		Domingo Deoclecio Dardo Dalmacio
+		Eduardo Ezequiel Ergasto Eliseo Emilio Enrique
+		Francisco Felix Fulvio Facundo Fernando Faustino
+		Gregorio Guillermo
+		Horatio HE_ctor Hilario
 		Ignacio
-		Jose
-		Juan_Jose
-		Juan_Manuel
-		Juan_Ramon
-		Julio
-		Justo
-		Lorenzo
-		Luis
-		Manuel
-		Marcial
-		Miguel
-		Maximo
-		Nicolas_2
-		Patricio
-		Pedro
-		Prudencio
-		Ramon
-		Roberto
-		Roque
-		Salvador
-		Santiago
-		Torcuato
-		Venancio
-		Tomás
-		Matiás
-		Exequiel
-		Eduardo
-		Sergio
+		Juan JosE_ Julio Jacinto Juan Justo Jorge Jose_Antonio
+		Luis Laureano Lorenzo Lucio
+		Manuel Mariano MelitO_n Marcos Maximo Marcelino
+		Norberto Narcisco Nicolas_2
+		Oseas
+		Pedro Pablo
+		Roberto Roque Rodrigo Rufino Ricardo Rudecindo Rodolfo Rafael
+		Sixto Santiago Salustiano
+		Tertuliano Tiburcio Toribio Tomas TristA_n
+		Vicente 
+		Wenceslao
 	}
 	female_common_first_names = {
-		Agustina
-		Catalina
-		Constancia
-		Encarnacion
-		Eva
-		Juana
-		Manuela
-		Maria
-		Martina
-		Sara
-		Camila
-		Cecilia
-		Florencia
-		Antonella
-		Claudia 
-	}	
-	noble_last_names = {
-		de_Alvear
-		de_Goyeneche
-		de_Lamadrid
-		de_Pueyrredon
-		de_Rosas
-		de_Urquiza
-		de_la_Plaza
-		Rivadavia
+		Antonia Adela Alcira Aurelia
+		Claudia
+		Emilia Elena
+		Felicia
+		Irene
+		Maria Manuela Micaela Mauricia Mercedes
+		NE_lida
+		PlA_cida Paula
+		Ramona
+		Vicenta
 	}
-	common_last_names={
-	    Argento
-		Aguirre
-		Avellaneda
-		Balcarce
-		Bareiro
-		Berro
-		Brown
-		Baez
-		Caballero
-		Cruz
-		Derqui
-		Diaz_2
-		Riquelme
-		Flores
-		Gonzalez
-		Jovellanos
-		Justo
-		Juarez
-		Latorre
-		Lopez
-		Machain
-		Maza
-		Meza
-		Mitre
-		Paz
-		Pedernera
-		Pellegrini
-		Pereira
-		Quintana
-		Rivarola
-		Rivera
-		Roca
-		Rodriguez_de_Francia
-		Rojas
-		Rondeau
-		Santos
-		Sarmiento
-		Saenz
-		Tajes
-		Uriburu
-		Viamonte
-		Wisner
-		Yrigoyen
-		Frau
-		
+	common_last_names = {
+		AramburU_ ArA_oz Aldao Almandoz Arroyo Alvarez Anzorena AchA_val Alsina Arias Alvear
+		Bustos Bombal Benegas Bermejo BA_ez Borzani Balarce Barros Bustillo Belgrano
+		Camet Casanovas Cabrera Correas de_la_Cuesta Civit Cano Cruz del_Campillo Cascallares Calvo CazO_n Castrp Casares Cardoso Chaves Cantilo CorvalA_n
+		Diaz de_Dios_Videla Derqui
+		EchagU_e
+		Fragueiro Ferreyra Funes
+		Gonzalez Gutierrez GuiN_azU_ Godoy Guzman Gorostiaga GalA_n
+		Isasmendi de_Irigoyen
+		Larraz Lopez Lencinas Llavallol
+		Merlo Moyano Maza Mallea Marenco Mosca Mitre Monteverde
+		Nazar
+		Ortiz Ortega Ozamis Orfila Olascoaga Obligado Olivera
+		Perez Paz de_la_PeN_a Paunero Planes Palacios
+		Rodriguez ReynafE_ Rojo Romero Rocha
+		Segura Saforcada Sarmiento Saavedra SaldI_as Sierra
+		TorromE_ Torrente Tejedor
+		Uriburu de_Urquiza Udaondo Ugarte
+		Villanueva de_Veyga Videla Victorica Viamonte VE_lez Vedoya
+		ZavalI_a
 	}
+
 	ethnicities = {
-		1 = south_american
+		2 = south_american
+		1 = caucasian
 	}
-	graphics = generic
+	graphics = european
 }
 
 
@@ -152,281 +75,137 @@ wine meat Yerba_Mate
 
 
 
-Uruguayan={
-	color=rgb{ 0 0 153 }
+uruguayan={
+	color=rgb{ 213 210 187 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-	obsessions = {
- meat Yerba_Mate
-}
-	male_common_first_names={
-		Agustin
-		Antonio
-		Atanasio
-		Baltasar
-		Bernardino
-		Bernardo
-		Carlos
-		Cecilio
-		Cirilo
-		Claudio
-		Clemente
-		Candido_2
-		Domingo
-		Emiliano
-		Esteban
-		Eugenio_2
-		Evaristo
-		Facundo
-		Faustino
-		Feliciano
-		Francisco
-		Fructuoso
-		Felix
-		Gabriel
-		Gaspar
-		Guillermo
-		Ignacio
-		Jose
-		Juan_Jose
-		Juan_Manuel
-		Juan_Ramon
-		Julio
-		Justo
+   obsessions = { meat Yerba_Mate}
+	male_common_first_names = {
+		Antonio Atanasio Alfredo Andres Agustin Angel
+		Bernardo Baltasar
+		Carlos Cesar Claudio Conrado
+		Duvimioso
+		Eduardo Eugenio Enrique Eustaquio
+		Fructuoso Francisco Feliciano Florentino Fermin Fernando
+		Gabriel Gervasio
+		Ismael
+		Joaquin Juan JosE_ Jose_Maria Julio Javier
 		Lorenzo
-		Luis
-		Manuel
-		Marcial
-		Miguel
-		Maximo
-		Nicolas_2
-		Patricio
-		Pedro
-		Prudencio
+		Miguel Manuel Maximo Mariano Mauricio Mateo
+		Orlando
+		Pedro Prudencio Pablo
 		Ramon
-		Roberto
-		Roque
-		Salvador
-		Santiago
-		Torcuato
-		Venancio
-		Tomás
-		Rubén
-		Eduardo
+		Salvador Santiago
+		Tomas Teodoro
+		Venancio Valentin
 	}
 	female_common_first_names = {
-		Agustina
-		Catalina
-		Constancia
-		Encarnacion
-		Eva
-		Juana
-		Manuela
-		Maria
-		Martina
-		Robustiana
-		Sara
-		Camila
-		Alaska
-	}	
-	noble_last_names = {
-		Oribe
-		Rivera
-		Lavalleja
-	de_la_Plaza
-		Artigas
-		Ordoñez
-		Batlle
-		de_Herrera
-		Anaya
+		Anastasia Amelia Amanda Adela
+		Carolina Clemencia
+		Dorotea
+		Francisca
+		Javiera Juana JoaquI_na Julia
+		Luisa
+		Matilde Maria Manuela
+		Petrona PrA_xedes Paulina
 	}
-	common_last_names={
-	    
-		Aguirre
-		Berro
-	    Baez
-		Cruz
-		Derqui
-		Diaz_2
-		Ellauri
-		Flores
-		Gonzalez
-		Jovellanos
-		Justo
-		Juarez
-		Latorre
-		Lopez
-		Machain
-		Maza
-		Meza
-		Mitre
-		Paz
-		Pedernera
-		Pellegrini
-		Pereira
-		Rivarola
-		Rivera
-		Rojas
-		Rondeau
-		Santos
-		Saenz
-		Tajes
-		Viamonte
-		Williman
-		Wisner
-		Aparicio
-		Varela
-		Gestido
-		Terra
-		Estanislao
-		Flores
-		Lamas
-		Varela
-		
+	common_last_names = {
+		Agell Aguirre AlbI_n Anaya Acevedo Aubriot
+		Berro Bustamante Borda BaN_os Battle Benzano
+		Cruz Cuestas Campisteguy Chucarro Castellanos Carve Cervantes Castro de_Castro Cortinas Cal
+		DurA_n
+		Ellauri Etchebarne EstradE_ Elzaurdi EstE_vez
+		Flores Fernandez
+		GirO_ Gomensoro Gonzalez Gorlero
+		Herrera
+		Idiarte
+		Lavalleja Lamas Latorre LarraN_aga LaviN_a Larrosa Lara
+		Morales Miranda Munoz
+		Navarro Nunez
+		Obes OrdO_N_ez
+		Pachedo Pereira PlA_ Piriz Pineiro PeN_alva Pedragosa Paiva
+		Rivera Rodriguez Requena Regules Rivas
+		Suarez Santos Soumastre Serrato Soca Sagastume Saez
+		Tajes Terra Torres
+		Urioste
+		Villalba Varela Villegas Vidal Viera Vidal_Silva
 	}
+
 	ethnicities = {
-		1 = south_american
+		2 = south_american
+		1 = caucasian
 	}
-	graphics = generic
+	graphics = european
 }
 
 
-
-
-
-
-
-
-
-Paraguayan={
-	color=rgb{ 110 27 20 }
+paraguayan={
+	color=rgb{ 140 192 63 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-	obsessions = {
- Yerba_Mate
-}
-	male_common_first_names={
-		Agustin
-		Antonio
-		Atanasio
-		Baltasar
-		Bernardo
-		Carlos
-		Cecilio
-		Cirilo
-		Claudio
-		Clemente
-		Candido_2
+	obsessions = { Yerba_Mate }
+
+	male_common_first_names = {
+		Antonio Adolfo Andres Alberto Abelardo
+		Bautista Bernardino Benigno Bonifacio
+		Carlos Cirilo Candido_2 Cecilio
 		Domingo
-		Emiliano
-		Esteban
-		Eugenio_2
-		Evaristo
-		Facundo
-		Faustino
-		Feliciano
-		Francisco
-		Fructuoso
-		Felix
-		Gabriel
-		Gaspar
-		Guillermo
-		Ignacio
-		Jose
-		Juan_Jose
-		Juan_Manuel
-		Juan_Ramon
-		Julio
-		Justo
-		Lorenzo
-		Luis
-		Manuel
-		Marcial
-		Miguel
-		Maximo
-		Nicolas_2
-		Patricio
-		Pedro
-		Prudencio
-		Ramon
-		Roberto
-		Roque
-		Salvador
-		Santiago
-		Torcuato
-		Venancio
-		Alonso
-		Machain
-		Aceval
-		Iturbe
+		Emilio Emiliano Eduardo Eusebio Eligio Eladio Euclides
+		Fulgencio Francisco Facundo Felix
+		Gaspar Gabriel Gualberto Gorgonio
+		Higinio HE_ctor Horacio
+		JosE_ Juan Jaun_Bautista Jorge
+		Liberato Luis
+		Manuel Mariano Marcos
+		Narcisco
+		Patricio Pablo Pedro Paulino
+		Roque Rafael
+		Salvador Silvano Santiago
+		Telmo
 	}
-	female_common_first_names = {
-		Agustina
-		Catalina
-		Constancia
-		Encarnacion
-		Eva
-		Juana
-		Manuela
-		Maria
-		Martina
-		Robustiana
-		Sara
-		Juana_Maria
-	}	
-	noble_last_names = {
-		
-		de_la_Plaza
-		de_Francia
-		de_la_Mora
-		Yegros
-		Roque
-		Machain
-		Rivarola
-		Uriarte
-		Egusquiza
+	female_common_first_names={
+		Anastasia Andrea Avelina Ana
+		Bernardina
+		Candelaria Concepcion Cecilia
+		Dolores Deolinda
+		Elvira Elisa EscolA_stica Emilia EstefanI_a Ercilia
+		Felipa
+		Graciela
+		Hilda Hortensia
+		Isabel
+		Josefa
+		Luisa
+		Manuela Melchora
+		Petrona
+		Rosaura
+		Susana
 	}
-	common_last_names={
-	    
-		Aguirre
-		Balcarce
-		Bareiro
-		Berro
-		Baez
-		Caballero
-		Cruz
-		Derqui
-		Diaz_2
-		Flores
-		Gonzalez
-		Jovellanos
-		Justo
-		Juarez
+	common_last_names = {
+		Alonso Aceval ArgU_ello Alfaro Aquino AlE_n Alvarenga
+		Bareiro BA_ez Bobadilla Burgos Barboza Barrios Bruguez
+		Caballero Carvallo Cervera Campos Chirife CenturiO_n
+		Dominguez DuplA_n Diez Decoud Domecq Diaz Duarte
+		Escobar Escurra Estigarribia Escalada
+		Ferreira Frutos Franco Fernandez 
+		Gill Gonzalez Gaona Gondra Garcia Godoy GimE_nez
+		Insaurralde IrrazA_bal
+		Jovellanos Jara
 		Lopez
-		Machain
-		Maza
-		Meza
-		Mitre
-		Paz
-		Pedernera
-		Pellegrini
-		Pereira
-		Quintana
-		Rivarola
-		Rojas
-		Rondeau
-		Santos
-		Solano
-		Saenz
-		Tajes
-        Viamonte
-	    Wisner
-		Iturbe
+		Montiel MachaI_n Miltos Mirando Morinigo Montero Mendoza Marquez Meza
+		Navero
+		Oviedo
+		PeN_a Paiva ParE_s
+		Rivarola Rojas Riart ResquI_n Robles Ramos
+		Sisa
+		Uriate
+		Velazquez Vera
 	}
+
 	ethnicities = {
+		1 = native_american
 		1 = south_american
 	}
-	graphics = generic
+	graphics = european
 }
 guarani={
 	color= rgb{ 194 109 46 }
@@ -527,574 +306,67 @@ guarani={
 	graphics = generic
 }
 
-Chilean={
-	color= rgb{ 235 64 52 }
-	religion = catholic
-	traits = { hispanophone european_heritage }
-	male_common_first_names={
-		Adolfo
-		Agustin
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Bartolome
-		Bernardo
-		David
-		Diego
-		Domingo
-		Eduardo
-		Emiliano
-		Emilio
-		Enrique
-		Esteban
-		Eusebio_2
-		Federico
-		Felipe
-		Francisco
-		German_2
-		Hernando
-		Hilarion
-		Ignacio
-		Isidoro
-		Ismael
-		Jorge
-		Jose
-		Jose_Miguel
-		Juan
-		Juan_Antonio
-		Juan_Francisco
-		Justo
-		Ladislao
-		Luis
-		Manuel
-		Mariano
-		Miguel
-		Narciso
-		Nicolas_2
-		Pablo
-		Patricio
-		Pedro
-		Ramon
-		Rufino
-		Ruperto
-		Santiago
-		Sebastian
-		Severino
-		Tomas
-		Bernardo
-	}
-	female_common_first_names = {
-		Ana
-		Carmen
-		Cecilia
-		Gabriela
-		Hipatia
-		Lorenza
-		Magdalena
-		Manuela
-		Mariana
-		Marieta
-		Mercedes
-		Modesta
-		Narcisa
-		Rita
-		Rosa
-		Sara
-		Teresa
-		Amanda
-	}	
-	noble_last_names = {
-	
-		de_Vidal
-		O´Higgins
-		Prieto
-		Freire
-		Irisarri
-		Mascayano
-		de_Erauso
-		del_Campo
-		
-	}
-	common_last_names={
-		Abaroa
-		Altamirano
-		Arteaga
-		Ballivian
-		Baquedano
-		Belzu
-		Blanche
-		Blanco
-		Bulnes
-		Cabrera
-		Calvo
-		Campero
-		Castilla
-		Corrico
-		Daza
-		Echenique
-		Errazuriz
-		Fernandez
-		Figueroa
-		Franco
-		Freire
-		Gamarra
-		Gorostiaga
-		Grau
-		Guilarte
-		La_Mar
-		Latorre
-		Lynch
-		Melgarejo
-		Monje
-		Montero
-		Montes
-		Montt
-		Orbegoso
-		Pezet
-		Rebolledo
-		Ruiz-Tagle
-		Salaverry
-		Santa_Maria
-		Siles
-		Sotomayor
-		Toro
-		Valencia
-		Zapata
-		Zanartu
-		Agreda
-		Vidal
-		Henriquez
-		Portales
-		Carrera
-		Rosales
-		Schneider
-		
-	}
-	ethnicities = {
-		1 = south_american
-	}
-	graphics = generic
-}
 
-South_Brazilian={
-	color= rgb{ 75 179 165}
+sulista = {
+	color= hsv{ 0.50 0.40 0.53 }
 	religion = catholic
 	traits = { lusophone european_heritage }
-	obsessions = {Yerba_Mate meat}
-	
-	
-	male_common_first_names={
-		Afonso
-		Antonio_3
-		Artur
-		Augusto
-		Aurelio_2
-		Benjamin
-		Carlos
-		Celso
-		Custodio
-		Candido
-		Delfim
-		Deodoro
-		Eduardo
-		Emilio_2
-		Epitacio
-		Ernesto
-		Federico
-		Fernando
-		Filipe
-		Floriano
-		Francisco_Xavier
-		Francisco_de_Paula
-		Fabio_2
-		Gaspar
-		Gastao
-		Getulio
-		Henrique
-		Hermes
-		Humberto
-		Isaias
-		Joaquim
-		Jose
-		Joao
-		Juscelino
-		Julio_2
-		Luis_2
-		Manuel
-		Marco_Antonio_2
-		Miguel
-		Mario_2
-		Nereu
-		Nilo
-		Paulo
-		Pedro
-		Prudente
-		Silviano
-		Tancredo
-		Urbano
-		Venceslau
-		Vital
+ obsessions = { meat Yerba_Mate }
+	male_common_first_names = {
+		ApolinA_rio AparI_cio Artur AntA_o Alceu Antonio_3 AdA_o
+		Claudio_2 Carlos Candido Cipriano
+		Deodoro DulcI_dio 
+		Eduardo Evaristo Ernesto ElesbA_o Eusebio 
+		FidE_ncio Francisco Firmino
+		GaudE_ncio Gumercindo Gaspar GervA_sio Gabriel GuataC_ara 
+		HilA_rio Herculano Henrique Hipolito 
+		Irineu Ildegonso Isidoro
+		JosE_ JoA_o Julio_2 JerO_nimo Joaquim
+		Lucas Libero
+		Manuel Matheus Marcos Martiniano 
+		Ramiro RogE_rio
+		Serafim Severino Salvador
+		Tomas TelE_maco
+		Uladislau
+		Vicente
+		Weceslau
 	}
 	female_common_first_names = {
-		Adelia
 		Amalia_2
-		Beatriz
-		Carmen
-		Cristina
-		Domitila
-		Emilia
-		Francisca
-		Isabel
-		Josefina
-		Julia
-		Maria
-		Mariana
-		Narcisa
+		Guilhermina
+		Honorina HermI_nia 
+		Idalina
+		Joaquina 
+		LuI_sa LI_sia LI_sia_Ricardina
+		Maria Mariana Maria_Joaquina Maria_Carolina
+		PropI_cia Paulina
+		Rosa Ricardina
 		Teresa
-		Veridiana
-		Violanta
-	}	
-	noble_last_names = {
-		Boaventura
-		de_Beaurepaire-Rohan
-		de_Braganca
-		de_Carvalho
-		de_Lima_e_Silva
-		da_Camara
-		da_Costa
-		da_Fonseca
-		de_Aguiar
-		de_Barros
-		de_Itapevi
-		de_Melo
-		de_Noronha
-		de_Oliveira
-		de_Orleans
-		de_Souza_Neto
-		de_Suruf
-		de_Castro
-		de_Alcantara
-		da_Silva_Prado
 	}
-	common_last_names={
-		Barreto
-		Bernardes
-		Bittencourt
-		Brandao
-		Bras
-		Cabral_da_Silva
-		Caldwell
-		Constant
-		Costa
-		Dutra
-		Fragoso
-		Frontin
-		Galvao
-		Jordao_2
-		Labatut
-		Lopes
-		Maciel
-		Mallet
-		Marques
-		Marques_de_Sousa
-		Maurity
-		Moreira
-		Osorio_2
-		Peixoto
-		Pena
-		Pessoa
-		Pinto
-		Rondon
-		Saldanha_da_Gama
-		Santos
-		Soares
-		Tavares
-		Vargas
-		Wandenkolk
+	common_last_names = {
+		de_Almeida dos_Anjos_France de_Araujo_Prates
+		Bampi BarE_a BenvegnU_ Bandeira Borna
+		Canabarro do_Carmo_Cheuiche Canellas do_Couto Clarque de_Castilhos de_Carvalho Carneiro
+		Damasceno Dourado
+		da_Fontoura
+		GonC_alves GuimarA_es GonC_alves_de_Faria
+		Jardim  
+		Laranjeira Loreto_de_Barcellos
+		de_Matos
+		Ortiz de_Oliveira_GuimarA_es
+		Pimenta Pedrosa Pereira Pereira_Fortes Pimental
+		Ribeiro Rodrigues Rossato da_Rosa Ribeiro
+		Saraiva da_Silveira de_Sa__Brito da_Silva_Coutinho da_Silva_Gomes de_Sousa dos_Santos
 	}
+
 	ethnicities = {
 		1 = south_american
+		1 = caucasian
 	}
-	graphics = generic
+	graphics = european
 }
 
-Peruvian={
-	color= rgb{	204 122 82}
-	religion = catholic
-	traits = { hispanophone european_heritage }
-	male_common_first_names={
-		Adolfo
-		Agustin
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Bartolome
-		Bernardo
-		David
-		Diego
-		Domingo
-		Eduardo
-		Emiliano
-		Emilio
-		Enrique
-		Esteban
-		Eusebio_2
-		Federico
-		Felipe
-		Francisco
-		German_2
-		Hernando
-		Hilarion
-		Ignacio
-		Isidoro
-		Ismael
-		Jorge
-		Jose
-		Jose_Miguel
-		Juan
-		Juan_Antonio
-		Juan_Francisco
-		Justo
-		Ladislao
-		Luis
-		Manuel
-		Mariano
-		Miguel
-		Narciso
-		Nicolas_2
-		Pablo
-		Patricio
-		Pedro
-		Ramon
-		Rufino
-		Ruperto
-		Santiago
-		Sebastian
-		Severino
-		Tomas
-	}
-	female_common_first_names = {
-		Ana
-		Carmen
-		Cecilia
-		Dolores
-		Gabriela
-		Hipatia
-		Hercilia
-		Lorenza
-		Magdalena
-		Manuela
-		Mariana
-		Marieta
-		Mercedes
-		Modesta
-		Narcisa
-		Rita
-		Rosa
-		Sara
-		Teresa
-		Zoila
-	}	
-	noble_last_names = {
-		de_la_Santa_Cruz
-		de_Santa_Cruz
-		de_Velasco
-		de_Vidal
-		de_la_Cruz
-	}
-	common_last_names={
-		Abaroa
-		Altamirano
-		Arteaga
-		Ballivian
-		Baquedano
-		Belzu
-		Blanche
-		Blanco
-		Bulnes
-		Cabrera
-		Calvo
-		Campero
-		Castilla
-		Corrico
-		Daza
-		Echenique
-		Errazuriz
-		Fernandez
-		Figueroa
-		Franco
-		Freire
-		Gamarra
-		Gorostiaga
-		Grau
-		Guilarte
-		La_Mar
-		Latorre
-		Lynch
-		Melgarejo
-		Monje
-		Montero
-		Montes
-		Montt
-		Orbegoso
-		Pezet
-		Rebolledo
-		Ruiz-Tagle
-		Salaverry
-		Santa_Maria
-		Siles
-		Sotomayor
-		Toro
-		Valencia
-		Zapata
-		Zanartu
-		Agreda
-	}
-	ethnicities = {
-		1 = south_american
-	}
-	graphics = generic
-}
-Bolivian={
-	color= rgb{204 184 82}
-	religion = catholic
-	traits = { hispanophone european_heritage }
-	male_common_first_names={
-		Adolfo
-		Agustin
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Bartolome
-		Bernardo
-		David
-		Diego
-		Domingo
-		Eduardo
-		Emiliano
-		Emilio
-		Enrique
-		Esteban
-		Eusebio_2
-		Federico
-		Felipe
-		Francisco
-		German_2
-		Hernando
-		Hilarion
-		Ignacio
-		Isidoro
-		Ismael
-		Jorge
-		Jose
-		Jose_Miguel
-		Juan
-		Juan_Antonio
-		Juan_Francisco
-		Justo
-		Ladislao
-		Luis
-		Manuel
-		Mariano
-		Miguel
-		Narciso
-		Nicolas_2
-		Pablo
-		Patricio
-		Pedro
-		Ramon
-		Rufino
-		Ruperto
-		Santiago
-		Sebastian
-		Severino
-		Tomas
-	}
-	female_common_first_names = {
-		Ana
-		Carmen
-		Cecilia
-		Dolores
-		Gabriela
-		Hipatia
-		Hercilia
-		Lorenza
-		Magdalena
-		Manuela
-		Mariana
-		Marieta
-		Mercedes
-		Modesta
-		Narcisa
-		Rita
-		Rosa
-		Sara
-		Teresa
-		Zoila
-	}	
-	noble_last_names = {
-		de_la_Santa_Cruz
-		de_Santa_Cruz
-		de_Velasco
-		de_Vidal
-		de_la_Cruz
-	}
-	common_last_names={
-		Abaroa
-		Altamirano
-		Arteaga
-		Ballivian
-		Baquedano
-		Belzu
-		Blanche
-		Blanco
-		Bulnes
-		Cabrera
-		Calvo
-		Campero
-		Castilla
-		Corrico
-		Daza
-		Echenique
-		Errazuriz
-		Fernandez
-		Figueroa
-		Franco
-		Freire
-		Gamarra
-		Gorostiaga
-		Grau
-		Guilarte
-		La_Mar
-		Latorre
-		Lynch
-		Melgarejo
-		Monje
-		Montero
-		Montes
-		Montt
-		Orbegoso
-		Pezet
-		Rebolledo
-		Ruiz-Tagle
-		Salaverry
-		Santa_Maria
-		Siles
-		Sotomayor
-		Toro
-		Valencia
-		Zapata
-		Zanartu
-		Agreda
-	}
-	ethnicities = {
-		1 = south_american
-	}
-	graphics = generic
-}
+
 afro_caribeno={
 	color= hsv{ 0.33 0.45 0.32 }
 	religion = catholic

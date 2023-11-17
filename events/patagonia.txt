@@ -31,16 +31,16 @@ patagonia.1 = {
 		default_option = yes
 		if = {
 			limit = {
-				country_has_primary_culture = cu:Chilean
+				country_has_primary_culture = cu:south_andean
 			}
 			s:STATE_ARAUCANIA = {
-					add_homeland = Chilean
+					add_homeland = cu:south_andean
 				}
 		}
 		else_if = {
 			limit = {
 				AND = {
-					country_has_primary_culture = cu:Argentinian
+					country_has_primary_culture = cu:platinean
 					owns_entire_state_region = STATE_LA_PAMPA
 					owns_entire_state_region = STATE_NEUQUEN
 				    owns_entire_state_region = STATE_RIO_NEGRO
@@ -50,7 +50,7 @@ patagonia.1 = {
 				}
 			}
 			s:STATE_LA_PAMPA = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_LA_PAMPA.region_state:ARG = {
 				add_modifier = {
@@ -59,7 +59,7 @@ patagonia.1 = {
 			    }
 			}
 			s:STATE_NEUQUEN = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_NEUQUEN.region_state:ARG = {
 				add_modifier = {
@@ -68,7 +68,7 @@ patagonia.1 = {
 			    }
 			}
 			s:STATE_RIO_NEGRO = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_RIO_NEGRO.region_state:ARG = {
 				add_modifier = {
@@ -77,7 +77,7 @@ patagonia.1 = {
 			    }
 			}
 			s:STATE_CHUBUT = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_CHUBUT.region_state:ARG = {
 				add_modifier = {
@@ -86,7 +86,7 @@ patagonia.1 = {
 			    }
 			}
 			s:STATE_SANTA_CRUZ_ARG = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_SANTA_CRUZ_ARG.region_state:ARG = {
 				add_modifier = {
@@ -95,7 +95,7 @@ patagonia.1 = {
 			    }
 			}
 			s:STATE_TIERRA_DEL_FUEGO = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 		}
 	}

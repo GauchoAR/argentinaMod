@@ -48,3 +48,21 @@ state_trait_andes = {
 
 
 
+  state_trait_chaco_impenetrable = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.15
+		building_group_bg_agriculture_throughput_add = -0.10
+		building_group_bg_ranching_throughput_add = -0.10 
+	}   
+}
+
+  state_trait_chaco_humedales = {
+	icon = "gfx/interface/icons/state_trait_icons/swamp.dds"
+	
+	modifier = {
+	building_cotton_plantation_throughput_add = 0.10
+	building_rice_farm_throughput_add = 0.10
+	}
+}

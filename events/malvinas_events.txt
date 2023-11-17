@@ -121,7 +121,7 @@ malvinas.2 = {
 		}
 		change_relations = {
 			country = c:ARG
-			value = 10
+			value = 20
 		}
 	}
 }
@@ -162,7 +162,7 @@ malvinas.3 = {
 		default_option = yes
 		change_relations = {
 			country = c:GBR
-			value = -30
+			value = -40
 		}
         add_journal_entry = {
 			type = je_malvinas

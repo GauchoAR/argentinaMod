@@ -31,33 +31,33 @@ chaco.1 = {
 		default_option = yes
 		if = {
 			limit = {
-				country_has_primary_culture = cu:Paraguayan
+				country_has_primary_culture = cu:cu:platinean
 			}
 			s:STATE_ALTO_PARAGUAY = {
-					add_homeland = Paraguayan
+					add_homeland = cu:platinean
 				}
 			s:STATE_FORMOSA_ARGENTINA = {
-					add_homeland = Paraguayan
+					add_homeland = cu:platinean
 				}
 		}
 		else_if = {
 			limit = {
-				country_has_primary_culture = cu:Bolivian
+				country_has_primary_culture = cu:south_andean
 			}
 			s:STATE_ALTO_PARAGUAY = {
-					add_homeland = Bolivian
+					add_homeland = south_andean
 				}
 		}
 		else_if = {
 			limit = {
 				AND = {
-					country_has_primary_culture = cu:Argentinian
+					country_has_primary_culture = cu:cu:platinean
 					owns_entire_state_region = STATE_CHACO
 				    owns_entire_state_region = STATE_FORMOSA_ARGENTINA
 				}
 			}
 			s:STATE_CHACO = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_CHACO.region_state:ARG = {
 				add_modifier = {
@@ -66,7 +66,7 @@ chaco.1 = {
 			    }
 			}
 			s:STATE_FORMOSA_ARGENTINA = {
-					add_homeland = Argentinian
+					add_homeland = cu:platinean
 				}
 			s:STATE_FORMOSA_ARGENTINA.region_state:ARG = {
 				add_modifier = {

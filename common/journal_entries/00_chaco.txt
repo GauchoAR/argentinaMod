@@ -7,9 +7,8 @@
 			owner = c:GNI
 		}
 		OR = {
-			country_has_primary_culture = cu:Paraguayan
-			country_has_primary_culture = cu:Argentinian
-			country_has_primary_culture = cu:Bolivian
+			country_has_primary_culture = cu:platinean
+			country_has_primary_culture = cu:south_andean
 		}
 	}
 
@@ -17,6 +16,7 @@
 		OR = {
 			has_law = law_type:law_colonial_exploitation
 			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_frontier_colonization
 		}
 	}
 

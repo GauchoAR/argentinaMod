@@ -7,8 +7,8 @@
 			owner = c:PAT
 		}
 		OR = {
-			country_has_primary_culture = cu:Chilean
-			country_has_primary_culture = cu:Argentinian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:platinean
 		}
 	}
 
@@ -16,6 +16,7 @@
 		OR = {
 			has_law = law_type:law_colonial_exploitation
 			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_frontier_colonization
 		}
 	}
 
