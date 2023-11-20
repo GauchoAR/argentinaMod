@@ -81,9 +81,10 @@
 		if = {
 			limit = {
 				OR = {
-					country_has_primary_culture = cu:Argentinian
-					country_has_primary_culture = cu:Uruguayan
-					country_has_primary_culture = cu:South_Brazilian
+					c:URU?= this
+					c:ARG ?= this
+					country_has_primary_culture = cu:sulista
+					
 				}
 			}
 			ig:ig_rural_folk = {
@@ -94,8 +95,9 @@
 		if = {
 			limit = {
 				OR = {
-					country_has_primary_culture = cu:Argentinian
-					country_has_primary_culture = cu:Chilean
+				c:ARG ?= this
+				c:CHL ?= this
+					
 				}
 			}
 			ig:ig_rural_folk = {

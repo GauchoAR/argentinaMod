@@ -111,7 +111,7 @@
 		# Caudillos Argentinos
 		else_if = {
 			limit = {
-				country_has_primary_culture = cu:Argentinian
+				c:ARG ?= this
 			}
 			ig:ig_landowners = {
 				set_interest_group_name = ig_caudillos

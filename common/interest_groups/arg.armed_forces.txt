@@ -8,6 +8,7 @@
 		ideology_jingoist
 		ideology_loyalist
 		ideology_patriotic
+		ideology_caudillismo
 	}
 
 	enable = {
@@ -70,16 +71,11 @@
 		if = {
 			limit = {
 				OR = {
-					country_has_primary_culture = cu:Argentinian
-					country_has_primary_culture = cu:Chilean
-					country_has_primary_culture = cu:Uruguayan
-					country_has_primary_culture = cu:Paraguayan
-					country_has_primary_culture = cu:Peruvian
-					country_has_primary_culture = cu:Bolivian
 					country_has_primary_culture = cu:south_andean
 					country_has_primary_culture = cu:north_andean
 					country_has_primary_culture = cu:central_american
 					country_has_primary_culture = cu:mexican
+					country_has_primary_culture = cu:platinean
 				}
 			}
 			ig:ig_armed_forces = {
@@ -89,7 +85,8 @@
 		#Ejército Argentino
 		if = {
 			limit = {
-				country_has_primary_culture = cu:Argentinian
+				
+				c:ARG ?= this
 			}
 			ig:ig_armed_forces = {
 				set_interest_group_name = ig_ejercito_argentino
