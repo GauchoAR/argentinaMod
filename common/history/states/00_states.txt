@@ -2633,6 +2633,7 @@ s:STATE_JUJUY = {
 		
 		add_homeland = Argentinian
 		add_claim = c:BOL
+		add_claim = c:ARG
 	}
 	s:STATE_TARIJA = {
 	create_state = {

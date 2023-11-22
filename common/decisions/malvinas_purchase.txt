@@ -19,7 +19,7 @@
 		taking_loans = no
 		is_at_war = no
 		c:GBR = {
-			relations:root >= 100
+			relations:root >= 80
 			is_at_war = no
 			
 		}

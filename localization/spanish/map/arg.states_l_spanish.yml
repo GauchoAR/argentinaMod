@@ -9,6 +9,17 @@ STATE_MISIONES: "Misiones"
 STATE_SALTA: "Salta"
 STATE_CATAMARCA: "Catamarca"
 STATE_La_Rioja: "La Rioja"
+STATE_SAN_JUAN: "San Juan"
+STATE_SANTIAGO_DEL_ESTERO: "Santiago del Estero"
+STATE_CHUBUT: "Chubut"
+STATE_SANTA_CRUZ_ARG: "Santa Cruz"
+STATE_CORDOBA: "Cordoba"
+STATE_SAN_LUIS: "San Luis"
+STATE_CORDOBA: "Córdoba"
+STATE_RIO_NEGRO: "Rio Negro"
+STATE_NEUQUEN: "Neuquen"
+STATE_LA_PAMPA: "La Pampa"
+STATE_MENDOZA: "Mendoza"
 
 
 # Uruguay
