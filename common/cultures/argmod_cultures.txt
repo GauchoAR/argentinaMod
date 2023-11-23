@@ -207,13 +207,13 @@ paraguayan={
 	}
 	graphics = european
 }
+
+
 guarani={
 	color= rgb{ 194 109 46 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
-	obsessions = {
- Yerba_Mate
-	}
+	obsessions = { Yerba_Mate}
 	male_common_first_names={
 		Aniceto
 		Antonio
@@ -230,7 +230,7 @@ guarani={
 		Gregorio
 		Jacinto
 		Jesus
-		Jose
+		JosE_
 		Juan
 		Julio
 		Luis
@@ -244,7 +244,7 @@ guarani={
 		Roque
 		Simon_2
 		Teodoro
-		Victor_2
+		VI_ctor
 	}
 	female_common_first_names = {
 		Adela
@@ -303,7 +303,7 @@ guarani={
 	ethnicities = {
 		1 = native_american
 	}
-	graphics = generic
+	graphics = decentralised_americas
 }
 
 
@@ -474,102 +474,56 @@ afro_Platinean={
 	color= rgb{ 25 71 37 }
 	religion = catholic
 	traits = { african_heritage hispanophone southern_african_culture_group }
-	male_common_first_names={
-		Antonio
-		Armando
-		Arsenio
-		Arturo
-		Bartolome
-		Carlos
-		Damaso
-		Enrique
-		Francisco
-		Generoso
-		Guillermo
-		Gumersindo
-		Ignacio
-		Israel
-		Jacinto
-		Jaime
-		Jose_Celso
-		Juan
-		Luciano
-		Mario
-		Maximo
-		Nelson
-		Nicolas_2
-		Orestes
-		Orlando
-		Pedro
-		Pio
-		Ramon
-		Ruben_2
-		Wifredo
+male_common_first_names = {
+		ApolinA_rio AparI_cio Artur AntA_o Alceu Antonio_3 AdA_o
+		Claudio_2 Carlos Candido Cipriano
+		Deodoro DulcI_dio 
+		Eduardo Evaristo Ernesto ElesbA_o Eusebio 
+		FidE_ncio Francisco Firmino
+		GaudE_ncio Gumercindo Gaspar GervA_sio Gabriel GuataC_ara 
+		HilA_rio Herculano Henrique Hipolito 
+		Irineu Ildegonso Isidoro
+		JosE_ JoA_o Julio_2 JerO_nimo Joaquim
+		Lucas Libero
+		Manuel Matheus Marcos Martiniano 
+		Ramiro RogE_rio
+		Serafim Severino Salvador
+		Tomas TelE_maco
+		Uladislau
+		Vicente
+		Weceslau
 	}
 	female_common_first_names = {
-		Ana
-		Angelamaria
-		Carlota
-		Isabel
-		Josefina
-		Luz
-		Maria
-		Mercedes
-		Milagros
-		Olivia
-		Palmira
-		Paula
-		Trinidad
-		Ulpiana
-		Victoria
-	}	
-	noble_last_names = {
-		Batista
-		Colon
-		de_Gordils
-		Maceo
-		Macias
-		de_Cespedes
-		de_Merino
-		de_Rojas
-		de_la_Rosa
-		de_Ortega
-		de_la_Torre
+		Amalia_2
+		Guilhermina
+		Honorina HermI_nia 
+		Idalina
+		Joaquina 
+		LuI_sa LI_sia LI_sia_Ricardina
+		Maria Mariana Maria_Joaquina Maria_Carolina
+		PropI_cia Paulina
+		Rosa Ricardina
+		Teresa
 	}
-	common_last_names={
-		Albizu
-		Barbosa
-		Barreto
-		Bauza
-		Diaz_2
-		Egues
-		Estupinan
-		Garay
-		Gonzalez
-		Guillen
-		Gutierrez
-		Hurtado
-		Jimenez
-		Jorrin
-		Lam
-		Leyva
-		Lopez
-		Maceo
-		Morel
-		More
-		Peraza
-		Pineiro
-		Pozo
-		Perez
-		Repilado
-		Rodriguez
-		Santamaria
-		Schomburg
-		Valdes
-		Villa
-	}
+	common_last_names = {
+		de_Almeida dos_Anjos_France de_Araujo_Prates
+		Bampi BarE_a BenvegnU_ Bandeira Borna
+		Canabarro do_Carmo_Cheuiche Canellas do_Couto Clarque de_Castilhos de_Carvalho Carneiro
+		Damasceno Dourado
+		da_Fontoura
+		GonC_alves GuimarA_es GonC_alves_de_Faria
+		Jardim  
+		Laranjeira Loreto_de_Barcellos
+		de_Matos
+		Ortiz de_Oliveira_GuimarA_es
+		Pimenta Pedrosa Pereira Pereira_Fortes Pimental
+		Ribeiro Rodrigues Rossato da_Rosa Ribeiro
+		Saraiva da_Silveira de_Sa__Brito da_Silva_Coutinho da_Silva_Gomes de_Sousa dos_Santos
 	ethnicities = {
 		1 = african
 	}
 	graphics = african
+
+
+    }
 }
