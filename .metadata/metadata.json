@@ -1,8 +1,8 @@
 {
   "name" : "La Argentina beta",
   "id" : "",
-  "version" : "5.3",
-  "supported_game_version" : "1.5.2",
+  "version" : "5.4",
+  "supported_game_version" : "1.5.10",
   "short_description" : "argentina rework",
   "picture": "thumbnail.png",
   "tags" : [],

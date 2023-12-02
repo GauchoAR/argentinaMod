@@ -8,7 +8,7 @@
 		ideology_jingoist
 		ideology_loyalist
 		ideology_patriotic
-		ideology_caudillismo
+		
 	}
 
 	enable = {
