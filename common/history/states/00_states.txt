@@ -2631,7 +2631,7 @@ s:STATE_JUJUY = {
 			owned_provinces = { x0D83A7 xD2B642  x45BE94 x35DA48 xAB88AD x40F4EB x2F5C46 x829F7D xC3F7F6 xB01D65 xE6ADAE x3DEF82 xC9249D x8D1ED0 x369CE3 x402B62 x02AD51 x2D4E45 xDF80F0 x0643B5}
 		}
 		
-		add_homeland = Argentinian
+		add_homeland = cu:platinean
 		add_claim = c:BOL
 		add_claim = c:ARG
 	}
@@ -2652,7 +2652,7 @@ s:STATE_JUJUY = {
 		}
 		add_homeland = cu:south_andean
 		add_homeland = cu:guarani
-		add_homeland = quechua
+		add_homeland = cu:quechua
 	}
 	s:STATE_LA_PAZ = {
 		# SPU - "x0A51AC" "x1A8BA1" "x20F378" "x2410B7" "x32FA5C" "x49B0BF" "x4C4D63" "x7B4D37" "xB5966F" "xF79A14"
@@ -2700,8 +2700,7 @@ s:STATE_JUJUY = {
 			
 		}
 		add_homeland = cu:patagonian
-        add_homeland = Chilean
-		add_claim = c:ARG
+        add_claim = c:ARG
 		add_claim = c:CHL
 		
 	
@@ -7378,7 +7377,8 @@ s:STATE_JUJUY = {
 		}
 		
 		add_homeland = cu:south_andean
-		add_homeland = cu:aimara		
+		add_homeland = cu:aimara
+        add_claim = c:CHL		
 	}
 	s:STATE_ANTOFAGASTA = {
 		create_state = {

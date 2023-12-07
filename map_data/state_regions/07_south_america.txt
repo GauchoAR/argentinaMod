@@ -302,7 +302,7 @@ STATE_ANTOFAGASTA = {
 STATE_SANTA_CRUZ = {
     id = 363
     subsistence_building = "building_subsistence_farms"
-    provinces = { x0661EB x09E90D x109FC9 x1193B7 x15042F x16B43C x250074 x2B9564 x2BBF68 x2D510D x2DAAD1 x2F94D3 x3773C8 x3778CC x39CC32 x3F6940 x3FE30B x415E16 x416E95 x432105 x496AE7 x4A7B7B x4C2019 x4D08EA x5356CA x54427F x55B384 x58FBC7 x5A913F x5B0D34 x5E03A7 x5FF188 x6000F0 x6080F0 x624F3D x64A540 x68E287 x691486 x6A5C0E x6CF6C6 x6E0801 x6E61DE x6FC251 x7015DC x714C4D x76E7BA x7CB313 x7FD195 x81F86A x844B67 x84B7A4 x85CF67 x89686F x8E3218 x965499 x98DAA7 x9FEE87 xA04706 xA71790 xA801A4 xA8591E xA85D14 xAD23DA xAF5843 xAFDC1F xB5A755 xB6774C xBD5D04 xC2D2CF xC82DAF xC855AA xC8F896 xC96050 xCDAB17 xDF8070 xDF80B0 xE1E5C8 xE52AD9 xE56E10 xE715DC xEAC53B xEC9913 xEE8908 xF0ACDA xF7F93C xFD351A xDF00F0 x3B871C x15D9B2 x1FD39C x9319AA x28C317 xD60DF3 xF32BA0 xAB85CC xD719A6 }
+    provinces = { x0661EB x09E90D x109FC9 x1193B7 x15042F x16B43C x250074 x2B9564 x2BBF68 x2D510D x2DAAD1 x2F94D3 x3773C8 x3778CC x39CC32 x3F6940 x3FE30B x415E16 x416E95 x432105 x496AE7 x4A7B7B x4C2019 x4D08EA x5356CA x54427F x55B384 x58FBC7 x5A913F x5B0D34 x5E03A7 x5FF188 x6000F0 x6080F0 x624F3D x64A540 x68E287 x691486 x6A5C0E x6CF6C6 x6E0801 x6E61DE x6FC251 x7015DC x714C4D x76E7BA x7CB313 x7FD195 x81F86A x844B67 x84B7A4 x85CF67 x89686F x8E3218 x965499 x98DAA7 x9FEE87 xA04706 xA71790 xA801A4 xA8591E xA85D14 xAD23DA xAF5843 xAFDC1F xB5A755 xB6774C xBD5D04 xC2D2CF xC82DAF xC855AA xC8F896 xC96050 xCDAB17 xDF8070 xDF80B0 xE1E5C8 xE52AD9 xE56E10 xE715DC xEAC53B xEC9913 xEE8908 xF0ACDA xF7F93C xFD351A }
     traits = { "state_trait_amazon_rainforest" }
     city = "x2BBF68"
     farm = "xC2D2CF"
@@ -715,8 +715,14 @@ STATE_SAN_LUIS = {
     arable_land = 350
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_logging = 36
+        bg_logging = 10
+        bg_iron_mining = 2
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
+
 }
 
 STATE_LA_PAMPA = {
@@ -758,7 +764,7 @@ STATE_NEUQUEN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 11
+        undiscovered_amount = 20
     }
 }
 STATE_RIO_NEGRO = {
@@ -781,7 +787,7 @@ STATE_RIO_NEGRO = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 8
+        undiscovered_amount = 12
     }
 
     naval_exit_id = 3066
@@ -808,7 +814,7 @@ STATE_CHUBUT = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 27
+        undiscovered_amount = 10
     }
     naval_exit_id = 3066
 }
@@ -832,7 +838,7 @@ STATE_SANTA_CRUZ_ARG = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        undiscovered_amount = 8
     }
 
     naval_exit_id = 3066
@@ -851,7 +857,7 @@ STATE_SANTA_FE = {
     arable_land = 200
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_dye_plantations" }
     capped_resources = {
-        bg_logging = 11
+        bg_logging = 8
 
     }
     resource = {
@@ -863,7 +869,8 @@ STATE_SANTA_FE = {
 STATE_TIERRA_DEL_FUEGO = {
     id = 851
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x78955F" "x977A70" "x9806EE" "x350B0F" "x1205C7" "xD88028" "xAB76fA" "xCC30AA" "x62F8C0" "x1BC85D" "xD2DD34" "xB0E4AA" }
+    provinces = { "x78955F" "xCC30AA" "x977A70" "x9806EE" "x350B0F" "xAB76FA" "x1205C7" "x62F8C0" "x1BC85D" "xD2DD34" "xB0E4AA" "xD88028" }
+    traits = { "state_trait_canales_patagonicos" }
     city = "x78955F"
     port = "x977A70"
     farm = "x9806EE"
@@ -878,7 +885,7 @@ STATE_TIERRA_DEL_FUEGO = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 4
     }
     naval_exit_id = 3151
 }
@@ -1120,7 +1127,7 @@ STATE_LOS_RIOS = {
 STATE_ARAUCANIA = {
     id = 384
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x029AC8" "x06CB06" "x08DC28" "x0D35DB" "x10C0D0" "x1205C7" "x144683" "x15DC6A" "x1BC85D" "x1C63CA" "x1C93E4" "x1ECBB0" "x2238F2" "x234A11" "x239726" "x26952C" "x2D500A" "x2EED5C" "x30E010" "x32A3EF" "x350B0F" "x3618F8" "x3677CF" "x373F8E" "x38CA10" "x397FCF" "x3B77C3" "x3C48C5" "x3E636E" "x3F684C" "x41362A" "x45155F" "x4A805F" "x4CF080" "x521B0A" "x553B3F" "x5550B3" "x572ADE" "x57B39E" "x5888F2" "x592AB4" "x5A2781" "x5A7430" "x5BA7C2" "x5D6B95" "x5EE5BA" "x5F5474" "x62F8C0" "x635DF1" "x67124D" "x6A1AA0" "x6ACA62" "x6B4507" "x6C5ABF" "x6E53D4" "x6F282B" "x706090" "x76A4B1" "x774C99" "x78955F" "x7A0796" "x7A3051" "x7F712C" "x86C279" "x8A5623" "x8C10F7" "x8C193E" "x8D3309" "x8DFAB2" "x92226D" "x972B02" "x977A70" "x9806EE" "x9820A3" "x9A65E7" "x9C5DD8" "x9EF738" "xA2F65A" "xA44376" "xA5B2DA" "xA78819" "xA8029D" "xA86344" "xA9B0FB" "xAB76FA" "xAE5924" "xB0E010" "xB0E4AA" "xB180F2" "xB2743E" "xB3A09E" "xB451D6" "xB6AC81" "xB77DB2" "xB79F3F" "xB8B2B8" "xB938AE" "xBDED9A" "xBFA411" "xC3285E" "xC408A8" "xC42462" "xC544F3" "xC61D1A" "xC9CE36" "xCA8971" "xCC30AA" "xD2DD34" "xD2FCCD" "xD48CEB" "xD7C0DF" "xD88028" "xDE5B96" "xE08DF2" "xE0D7C4" "xE4E0A7" "xE4FCDC" "xEC5162" "xEEF132" "xEF695A" "xEFB409" "xF4A0DA" "xFA990A" "xFC375D" "xFD0582" "xFF3CFE" }
+    provinces = { "x029AC8" "x06CB06" "x08DC28" "x0D35DB" "x10C0D0" "x144683" "x15DC6A" "x1C63CA" "x1C93E4" "x1ECBB0" "x2238F2" "x234A11" "x239726" "x26952C" "x2D500A" "x2EED5C" "x30E010" "x32A3EF" "x3618F8" "x3677CF" "x373F8E" "x38CA10" "x397FCF" "x3B77C3" "x3C48C5" "x3E636E" "x3F684C" "x41362A" "x45155F" "x4A805F" "x4CF080" "x521B0A" "x553B3F" "x5550B3" "x572ADE" "x57B39E" "x5888F2" "x592AB4" "x5A2781" "x5A7430" "x5BA7C2" "x5D6B95" "x5EE5BA" "x5F5474" "x635DF1" "x67124D" "x6A1AA0" "x6ACA62" "x6B4507" "x6C5ABF" "x6E53D4" "x6F282B" "x706090" "x76A4B1" "x774C99" "x7A0796" "x7A3051" "x7F712C" "x86C279" "x8A5623" "x8C10F7" "x8C193E" "x8D3309" "x8DFAB2" "x92226D" "x972B02" "x9820A3" "x9A65E7" "x9C5DD8" "x9EF738" "xA2F65A" "xA44376" "xA5B2DA" "xA78819" "xA8029D" "xA86344" "xA9B0FB" "xAE5924" "xB0E010" "xB180F2" "xB2743E" "xB3A09E" "xB451D6" "xB6AC81" "xB77DB2" "xB79F3F" "xB8B2B8" "xB938AE" "xBDED9A" "xBFA411" "xC3285E" "xC408A8" "xC42462" "xC544F3" "xC61D1A" "xC9CE36" "xCA8971" "xD2FCCD" "xD48CEB" "xD7C0DF" "xDE5B96" "xE08DF2" "xE0D7C4" "xE4E0A7" "xE4FCDC" "xEC5162" "xEEF132" "xEF695A" "xEFB409" "xF4A0DA" "xFA990A" "xFC375D" "xFD0582" "xFF3CFE" }
     traits = { "state_trait_andes" "state_trait_canales_patagonicos" }
     city = "xD7C0DF"
     port = "x553B3F"

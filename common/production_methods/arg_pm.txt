@@ -19,7 +19,11 @@ default_building_Yerba_Mate_plantation = {
 automatic_irrigation_building_Yerba_Mate_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
 
-	pollution_generation = 3
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
 		
 	unlocking_technologies = {
 		pumpjacks

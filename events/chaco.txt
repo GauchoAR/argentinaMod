@@ -31,7 +31,7 @@ chaco.1 = {
 		default_option = yes
 		if = {
 			limit = {
-				country_has_primary_culture = cu:cu:platinean
+				country_has_primary_culture = cu:platinean
 			}
 			s:STATE_ALTO_PARAGUAY = {
 					add_homeland = cu:platinean

@@ -7,7 +7,7 @@
 	}
 	
 	potential = {
-		country_has_primary_culture = cu:Argentinian
+		c:ARG ?= this
 	}
 	
 	possible = { 
@@ -36,7 +36,7 @@ company_yerba_de_la_buena = {
 	}
 	
 	potential = {
-		country_has_primary_culture = cu:Paraguayan
+		c:PAR ?= this
 	}
 	
 	possible = { 

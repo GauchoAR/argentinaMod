@@ -521,7 +521,7 @@ POPS = {
 				size = 35192
 			}
 			create_pop = {
-				culture = afro_platinean
+				culture = afro_Platinean
 				size = 18996
 			}
 			create_pop = {
@@ -530,7 +530,7 @@ POPS = {
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platinean
+				culture = afro_Platinean
 				size = 2678
 			}
 			create_pop = {
@@ -987,7 +987,7 @@ s:STATE_NEUQUEN = {
 				size = 44658
 			}
 			create_pop = {
-				culture = afro_platinean
+				culture = afro_Platinean
 				size = 500
 			}
 			create_pop = {
@@ -1016,12 +1016,12 @@ s:STATE_NEUQUEN = {
 				size = 13996
 			}
 			create_pop = {
-				culture = afro_platinean
+				culture = afro_Platinean
 				size = 700
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platinean
+				culture = afro_Platinean
 				size = 330
 			}
 		}
