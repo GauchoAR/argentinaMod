@@ -747,7 +747,7 @@ s:STATE_ALTO_PARAGUAY = {
 			}		
 		}
 	}
-	s:STATE_FORMOSA_ARGENTINA = {
+	s:STATE_FORMOSA_ARG = {
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani

@@ -1,6 +1,8 @@
 ﻿company_yerba_brava = {
-	texture = "gfx/interface/icons/arg_building_icons/Yerba_Mate_plantation.dds"
+	icon = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
 	
+	flavored company = yes
 	
 	building_types = {  
 		building_Yerba_Mate_plantation
@@ -13,13 +15,14 @@
 	possible = { 
 		OR = {
 			owns_entire_state_region = STATE_CORRIENTES
-			owns_entire_state_region = STATE_MISIOENS
+			owns_entire_state_region = STATE_MISIONES
 			
 		}	
 	}
 	
 	prosperity_modifier = {
 			state_colony_growth_speed_mult = 0.10
+		   building_output_Yerba_Mate_mult = 0.10
 	}	
 	
 	ai_weight = {
@@ -28,15 +31,17 @@
 }
 
 company_yerba_de_la_buena = {
-	texture = "gfx/interface/icons/arg_building_icons/Yerba_Mate_plantation.dds"
+	icon = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
 	
+	flavored company = yes
 	
 	building_types = {  
-		building_Yerba_Mate_plantation
+		building_Yerba_Mate_plantation 
 	}
 	
 	potential = {
-		c:PAR ?= this
+		c:PRG ?= this
 	}
 	
 	possible = { 
@@ -48,9 +53,130 @@ company_yerba_de_la_buena = {
 	
 	prosperity_modifier = {
 		interest_group_ig_petty_bourgeoisie_approval_add = 2
+		 building_output_Yerba_Mate_mult = 0.10
 	}	
 	
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
 	}
 }
+
+
+company_textil_alpargatas = {
+	icon = "gfx/interface/icons/company_icons/basic_textiles.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	flavored company = yes
+	
+	building_types = {  
+		building_textile_mills
+	}
+	
+	potential = {
+		c:ARG ?= this
+	}
+	
+	possible = { 
+		OR = {
+			owns_entire_state_region = STATE_BUENOS_AIRES
+			
+			
+		}	
+	}
+	
+	prosperity_modifier = {
+			interest_group_ig_industrialists_approval_add = 2
+			building_textile_mills_throughput_add = 0.10
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+
+company_giesso = {
+	icon = "gfx/interface/icons/company_icons/basic_fabrics.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	flavored company = yes
+	
+	building_types = {  
+		building_textile_mills
+	}
+	
+	potential = {
+		c:ARG ?= this
+	}
+	possible {
+	any_scope_state = {
+	
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mills
+				level >= 10
+			}
+		}	
+	}
+	
+	prosperity_modifier = {
+		country_prestige_mult = 0.05
+	  building_throughput_luxury_clothes_mult = 0.15
+	}	
+	
+	ai_weight = {
+		value = 5 # Higher base value for flavored companies
+	}
+}
+
+company_azucarera_ledesma = {
+	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	
+	flavored company = yes
+	
+	building_types = {  
+		building_sugar_plantation
+	    building_wheat_farm
+	}
+	
+	potential = {
+		c:ARG ?= this
+	}
+	
+	any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				building_sugar_plantation
+				is_building_type = building_wheat_farm
+				level >= 5
+			}
+		}	
+	
+	
+	prosperity_modifier = {
+		interest_group_ig_rural_folk_approval_add = -5
+			interest_group_ig_trade_unions_approval_add = -5
+			building_sugar_plantation_throughput_add = 0.10
+			goods_output_fruit_mult = 0.10
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -43,12 +43,7 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
   HUB_NAME_STATE_MISIONES_wood: "puerto Iguazú"
   HUB_NAME_STATE_MISIONES_mine: "Bernardo de Irigoyen
   
-  
-    # Santa Fe
-   HUB_NAME_STATE_SANTA_FE_city: "Santa Fe"
-   HUB_NAME_STATE_SANTA_FE_farm: "Rosario"
-   HUB_NAME_STATE_SANTA_FE_wood: "Rafaela"
-   HUB_NAME_STATE_SANTA_FE_mine: "San Cristóbal"
+ 
    
    #Salta
    HUB_NAME_STATE_SALTA_city: "Salta"
@@ -112,11 +107,7 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
    HUB_NAME_STATE_MENDOZA_wood: "Malargüe"
    HUB_NAME_STATE_MENDOZA_mine: "Puente del Inca"
    
-   #La Pampa
-   HUB_NAME_STATE_LA_PAMPA_city: "Santa Rosa,la Pampa"
-   HUB_NAME_STATE_LA_PAMPA_wood: "Santa Isabel"
-   HUB_NAME_STATE_LA_PAMPA_farm: "La Reforma"
-   HUB_NAME_STATE_LA_PAMPA_mine: "Veinticinco de Mayo"
+
    
    #Neuquen
    HUB_NAME_STATE_NEUQUEN_city: "Neuquen"
@@ -124,12 +115,7 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
    HUB_NAME_STATE_NEUQUEN_wood: "Chos Malal"
    HUB_NAME_STATE_NEUQUEN_mine: "Rincón de los Sauces"
    
-   #Rio Negro
-   HUB_NAME_STATE_RIO_NEGRO_city: "Viedma"
-   HUB_NAME_STATE_RIO_NEGRO_farm: "Rio Colorado"
-   HUB_NAME_STATE_RIO_NEGRO_wood: "San Carlos de Bariloche"
-   HUB_NAME_STATE_RIO_NEGRO_mine: " General Roca
-   HUB_NAME_STATE_RIO_NEGRO_port: "Puerto San Antonio Oeste"
+ 
   
    #Chubut 
    HUB_NAME_STATE_CHUBUT_city: "Rawson"

@@ -824,7 +824,7 @@ s:STATE_BUENOS_AIRES={
 				building="building_barracks"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_line_infantry" }
+				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 			create_building={
 				building="building_university"
@@ -874,6 +874,16 @@ s:STATE_BUENOS_AIRES={
 		region_state:PAT={
 		}
 	}
+		s:STATE_SAN_LUIS={
+		region_state:ARG={
+		create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+				aactivate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
+			}
+		}
+	}
 	s:STATE_RIO_NEGRO={
 		region_state:PAT={
 		}
@@ -903,7 +913,14 @@ s:STATE_BUENOS_AIRES={
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
-			}		
+			}
+			 create_building={
+				building="building_barracks"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+			
 		}
 	}
 s:STATE_CORDOBA={
@@ -934,15 +951,21 @@ s:STATE_CORDOBA={
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=2
 				reserves=1
-				activate_production_methods={ "pm_line_infantry" }
+				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 			create_building={
 				building="building_university"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_religious_academia" }
+			}
+			create_building={
+				building="building_maize_farm"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 	}
@@ -959,7 +982,26 @@ s:STATE_CORDOBA={
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_sheep_farms" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}	
+			}
+            create_building={
+				building="building_maize_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+            create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+            create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}				
+			
 		}
 	}
 	
@@ -988,6 +1030,12 @@ s:STATE_CORDOBA={
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
 		}
 	}
 	s:STATE_MISIONES={
@@ -1050,10 +1098,16 @@ s:STATE_TUCUMAN={
 		region_state:ARG={
 			create_building={
 				building="building_gold_mine"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_gold_mine" }
 			}
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
 			
 		}
 	}
@@ -1061,7 +1115,7 @@ s:STATE_TUCUMAN={
 		region_state:ARG={
 		create_building={
 				building="building_gold_mine"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_gold_mine" }
 			}
@@ -1070,6 +1124,10 @@ s:STATE_TUCUMAN={
 	}
 	s:STATE_SAN_JUAN={
 		region_state:ARG={
+		}
+	}
+	s:STATE_FORMOSA_ARG={
+		region_state:GNI={
 		}
 	}
 

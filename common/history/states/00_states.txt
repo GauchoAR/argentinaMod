@@ -2324,7 +2324,7 @@ STATES = {
 		add_homeland = cu:nordestino
 		add_homeland = cu:afro_brazilian	
 	}
-	s:STATE_FORMOSA_ARGENTINA = {
+	s:STATE_FORMOSA_ARG = {
 		create_state = {
 			country = c:GNI
 			owned_provinces = { xEF7E14 xF610F7 x067D66 x2C6C50 x03443A xF30D3D x1148FC x727FD6 xBD3AF3 xAD31E7 x4A6B07 xA04170 x4D1F19 x907EFD x8A3F78 x4D49C2 x4D929D}

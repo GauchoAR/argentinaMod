@@ -1,6 +1,5 @@
 ﻿ l_english:
  # Argentina
- 
 HUB_NAME_STATE_CHACO_farm: "La Leona"
 HUB_NAME_STATE_CORRIENTES_city: "Corrientes"
 HUB_NAME_STATE_CORRIENTES_farm: "Mercedes"
@@ -22,8 +21,16 @@ HUB_NAME_STATE_RIO_NEGRO_farm: "Rio Colorado"
 HUB_NAME_STATE_RIO_NEGRO_wood: "San Carlos de Bariloche"
 HUB_NAME_STATE_RIO_NEGRO_mine: " General Roca
 HUB_NAME_STATE_RIO_NEGRO_port: "Puerto San Antonio Oeste"
-
-
+HUB_NAME_STATE_SANTA_FE_city: "Santa Fe"
+HUB_NAME_STATE_SANTA_FE_farm: "Rosario"
+HUB_NAME_STATE_SANTA_FE_wood: "Rafaela"
+HUB_NAME_STATE_SANTA_FE_mine: "San Cristóbal"
+HUB_NAME_STATE_LA_PAMPA_city: "Santa Rosa,la Pampa"
+HUB_NAME_STATE_LA_PAMPA_wood: "Santa Isabel"
+HUB_NAME_STATE_LA_PAMPA_farm: "La Reforma"
+HUB_NAME_STATE_LA_PAMPA_mine: "Veinticinco de Mayo"
+ 
+ 
 #Uruguay
 HUB_NAME_STATE_MONTEVIDEO_farm: "Mercedes"
 HUB_NAME_STATE_MONTEVIDEO_mine: "Minas"
