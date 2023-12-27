@@ -31,3 +31,13 @@ goods_output_luxury_clothes_mult = {
  good = yes
  percent = yes
  }
+ 
+ goods_output_meat_mult = {
+ good = yes
+ percent = yes
+ }
+ 
+ goods_output_licor_mult = {
+ good = yes
+ percent = yes
+ }

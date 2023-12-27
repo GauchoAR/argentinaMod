@@ -521,8 +521,8 @@ STATE_MONTEVIDEO = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
     capped_resources = {
         bg_logging = 8
-        bg_fishing = 8
-        bg_whaling = 4
+        bg_fishing = 12
+        bg_whaling = 5
         bg_coal_mining = 4
     }
     resource = {
@@ -545,8 +545,8 @@ STATE_PAYSANDU = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 12
-        bg_fishing = 4
-        bg_whaling = 2
+        bg_fishing = 8
+        bg_whaling = 5
         bg_iron_mining = 5
         bg_gold_mining = 2
     }
@@ -561,7 +561,7 @@ STATE_JUJUY = {
     id = 371
     subsistence_building = "building_subsistence_farms"
     provinces = { "x463063" "x15263F" "xA94375" "x90F196" "xDF0030" "x155297" "xCA4A31" "x239211" "x245987" "x4C03D0" "x2040F0" "x98DD14" "xA3EF4A" }
-    traits = { "state_trait_andes" "state_trait_gran_chaco" }
+    traits = { "state_trait_andes" "state_trait_yungas"  }
     mine = "x245987"
     arable_land = 50
     arable_resources = { "bg_maize_farms" "bg_coffee_plantations" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" }
@@ -664,7 +664,8 @@ STATE_BUENOS_AIRES = {
     capped_resources = {
         bg_iron_mining = 2
         bg_logging = 12
-        bg_fishing = 20
+        bg_fishing = 25
+		bg_whaliing = 8
     }
     naval_exit_id = 3065
 }
@@ -882,6 +883,7 @@ STATE_TIERRA_DEL_FUEGO = {
         bg_sulfur_mining = 6
         bg_logging = 5
         bg_fishing = 8
+		bg_whaliing = 8
     }
     resource = {
         type = "bg_oil_extraction"

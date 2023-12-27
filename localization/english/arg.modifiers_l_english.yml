@@ -4,4 +4,10 @@ modifier_building_throughput_luxury_clothes_mult: "luxury clothes Goods Output"
 modifier_building_throughput_luxury_clothes_mult_desc: "A bonus or penalty for the production of $luxury_clothes$."
 
 modifier_building_output_Yerba_Mate_mult_desc: "A bonus or penalty for the production of $Yerba_Mate$."
-modifier_building_output_Yerba_Mate_mult: "Yerba_Mate Goods Output"
+modifier_building_output_Yerba_Mate_mult: "$Yerba_Mate$ Goods Output"
+
+modifier_goods_output_meat_mult: "$meat$ Goods Output"
+modifier_goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
+
+modifier_goods_output_licor_mult: "$licor$ Goods Output"
+modifier_goods_output_licor_mult_desc: "A bonus or penalty for the production of $licor$."

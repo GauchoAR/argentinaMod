@@ -653,6 +653,13 @@ s:STATE_MONTEVIDEO={
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			
 		}
 	}
 	s:STATE_PAYSANDU={
@@ -766,6 +773,12 @@ s:STATE_MONTEVIDEO={
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
+			}
+			create_building={
+				building="building_food_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
 		}
 	}
@@ -886,6 +899,7 @@ s:STATE_BUENOS_AIRES={
 	}
 	s:STATE_RIO_NEGRO={
 		region_state:PAT={
+		
 		}
 	}
 	s:STATE_CHUBUT={
