@@ -25,7 +25,7 @@
 			owns_entire_state_region = STATE_ALTO_PARAGUAY
 			AND = {
 				owns_entire_state_region = STATE_CHACO
-				owns_entire_state_region = STATE_FORMOSA_ARGENTINA
+				owns_entire_state_region = STATE_FORMOSA_ARG
 			}
 		}
 	}

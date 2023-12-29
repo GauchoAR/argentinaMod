@@ -5,3 +5,9 @@ modifier_building_throughput_luxury_clothes_mult_desc: "Una bonificación o pena
 
 modifier_building_output_Yerba_Mate_mult_desc: "Una bonificación o penalización por la producción de $Yerba_Mate$."
 modifier_building_output_Yerba_Mate_mult: "Producción de bienes: Yerba Mate"
+
+modifier_goods_output_meat_mult:  "Producción de bienes: $carne$"
+modifier_goods_output_meat_mult_desc: "Una bonificación o penalización por la producción de $carne$."
+
+modifier_goods_output_licor_mult: "Producción de bienes: $licor$"
+modifier_goods_output_licor_mult_desc: "Una bonificación o penalización por la producción de $licor$"

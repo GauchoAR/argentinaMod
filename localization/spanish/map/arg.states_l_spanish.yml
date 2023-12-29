@@ -23,6 +23,8 @@ STATE_MENDOZA: "Mendoza"
 
 
 # Uruguay
-
 STATE_PAYSANDU: "Paysandú"
 STATE_MONTEVIDEO: "Montevideo"
+
+#Bolivia
+STATE_TARIJA: "Tarija"

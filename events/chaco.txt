@@ -36,7 +36,7 @@ chaco.1 = {
 			s:STATE_ALTO_PARAGUAY = {
 					add_homeland = cu:platinean
 				}
-			s:STATE_FORMOSA_ARGENTINA = {
+			s:STATE_FORMOSA_ARG = {
 					add_homeland = cu:platinean
 				}
 		}
@@ -53,7 +53,7 @@ chaco.1 = {
 				AND = {
 					country_has_primary_culture = cu:platinean
 					owns_entire_state_region = STATE_CHACO
-				    owns_entire_state_region = STATE_FORMOSA_ARGENTINA
+				    owns_entire_state_region = STATE_FORMOSA_ARG
 				}
 			}
 			s:STATE_CHACO = {
@@ -65,7 +65,7 @@ chaco.1 = {
 					months = long_modifier_time
 			    }
 			}
-			s:STATE_FORMOSA_ARGENTINA = {
+			s:STATE_FORMOSA_ARG = {
 					add_homeland = cu:platinean
 				}
 			s:STATE_FORMOSA_ARGENTINA.region_state:ARG = {
