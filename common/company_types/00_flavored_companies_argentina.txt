@@ -1,4 +1,4 @@
-﻿company_amanda= {
+﻿company_amanda = {
 	icon = "gfx/interface/icons/company_icons/basic_agriculture.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
 	
@@ -12,28 +12,23 @@
 	}
 possible = { 
 		any_scope_state = {
-		OR = {
-		state_region = s:MISIONES
-		State_region = s:CORRIENTES
+		
+		state_region = s:STATE_MISIONES
+		State_region = s:STATE_CORRIENTES
 			is_incorporated = yes
 			any_scope_building = {
 					Is_building_type = building_Yerba_Mate_plantation
 				    level >= 5
-			}
-		}
+			    }
+		    }
 	
-	}
+	     }
 	
 	prosperity_modifier = {
 		state_loyalists_from_sol_change_mult = 0.05
-	    building_Yerba_Mate_throughput_add = 0.15
-	}	
-	
-	ai_weight = {
-		value = 3 # Higher base value for flavored companies
-	}
-}
-}
+	   building_output_Yerba_Mate_mult = 0.15
+     	}	
+ }  
 
 company_industrial_paraguaya = {
 	icon = "gfx/interface/icons/company_icons/basic_agriculture.dds"
@@ -49,17 +44,17 @@ company_industrial_paraguaya = {
 	}
 possible = { 
 		any_scope_state = {
-		OR = {
-		state_region = s:BAJO_PARAGUAY
+		
+		state_region = s:STATE_BAJO_PARAGUAY
 			is_incorporated = yes
 			any_scope_building = {
 					Is_building_type = building_Yerba_Mate_plantation
 					is_building_type = building_logging_camp
 				    level >= 5
-			}
-		}
+			    }
+		    }
 	
-	}
+	    }
 	
 	prosperity_modifier = {
 		interest_group_ig_industrialists_approval_add = 5
@@ -73,7 +68,7 @@ possible = {
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
 	}
-}
+
 }
 
 company_textil_alpargatas = {
@@ -90,8 +85,9 @@ company_textil_alpargatas = {
 	}
 	possible = { 
 		any_scope_state = {
+		   is_incorporated = yes
 			any_scope_building = {
-				OR = {
+				
 					is_building_type = building_textile_mills
 					level >= 10
 				}
@@ -99,17 +95,17 @@ company_textil_alpargatas = {
 			count >= 3
 		}
 		
-	}
 	
-	prosperity_modifier = {
+	
+	      prosperity_modifier = {
 			interest_group_ig_industrialists_approval_add = 2
 			building_textile_mills_throughput_add = 0.10
-	}	
+	    }	
 	
-	ai_weight = {
+	    ai_weight = {
 		value = 3 # Higher base value for flavored companies
-	}
-}
+	    }
+    }
 
 
 company_giesso = {
@@ -127,8 +123,8 @@ company_giesso = {
 	}
 	possible {
 	any_scope_state = {
-	OR = {
-	state_region = s:BUENOS_AIRES
+	
+	state_region = s:STATE_BUENOS_AIRES
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_textile_mills
@@ -136,7 +132,7 @@ company_giesso = {
 			}
 		}	
 	}
-	
+
 	prosperity_modifier = {
 		country_prestige_mult = 0.05
 	  building_throughput_luxury_clothes_mult = 0.15
@@ -145,7 +141,7 @@ company_giesso = {
 	ai_weight = {
 		value = 5 # Higher base value for flavored companies
 	}
-}
+
 }
 
 company_azucarera_ledesma = {
@@ -162,31 +158,32 @@ company_azucarera_ledesma = {
 	potential = {
 		c:ARG ?= this
 	}
-	
+		possible {
 	any_scope_state = {
-	OR = {
-	       state_region = s:JUJUY
+	
+	       state_region = s:STATE_JUJUY
 			is_incorporated = yes
 			any_scope_building = {
-				building_sugar_plantation
 				is_building_type = building_wheat_farm
+				is_building_type = building_sugar_plantation
 				level >= 5
-			}
-		}	
+			
+		   }	
 	
-	
+	    }
+    }
 	prosperity_modifier = {
 		interest_group_ig_rural_folk_approval_add = -5
 			interest_group_ig_trade_unions_approval_add = -5
 			building_sugar_plantation_throughput_add = 0.10
 			goods_output_fruit_mult = 0.10
-	}	
+	    }	
 	
-	ai_weight = {
+	  ai_weight = {
 		value = 3 # Higher base value for flavored companies
-	}
-}
-}
+	    }
+
+    }
 
 company_las_higueritas = {
 	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations.dds"
@@ -202,15 +199,16 @@ company_las_higueritas = {
 	}
 	possible = { 
 		any_scope_state = {
+		 is_incorporated = yes
 			any_scope_building = {
-				OR = {
+				
 					is_building_type = building_livestock_ranch
 					level >= 5
 				}
 				
 			}
 		}
-	}
+	
 	
 	prosperity_modifier = {
 		
@@ -236,23 +234,25 @@ company_bagley = {
 	possible = { 
 	         
 		any_scope_state = {
-		OR = {
 		  state_region = s:STATE_BUENOS_AIRES
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_food_industry
+				is_building_type = building_sugar_plantation
 				level >= 10
-			}
-		}
-	}
+			        }
+		        
+	        }
+        }
 	
-	prosperity_modifier = {
-		state_radicals_from_sol_change_mult = -0.10
-		building_food_industry_throughput_add = 0.03
-		goods_output_licor_mult = 0.03
+	 prosperity_modifier = {
+		 state_radicals_from_sol_change_mult = -0.10
+		 building_food_industry_throughput_add = 0.03
+		 goods_output_licor_mult = 0.03
 	}
+
 }
-}
+
 company_quilmes = {
 	icon = "gfx/interface/icons/company_icons/basic_food.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
@@ -267,7 +267,7 @@ potential = {
 	possible = { 
 	         
 		any_scope_state = {
-		OR = {
+		
 		  state_region = s:STATE_BUENOS_AIRES
 			is_incorporated = yes
 			any_scope_building = {
@@ -277,13 +277,13 @@ potential = {
 		}
 		has_law = law_type:law_worker_protections
 	}
-	
+
 	prosperity_modifier = {
 		state_radicals_from_sol_change_mult = -0.10
 		goods_output_licor_mult = 0.15
 		interest_group_ig_trade_unions_approval_add = 2
 	}
-}
+  
 }
 
 
@@ -300,14 +300,13 @@ potential = {
 	possible = { 
 		any_scope_state = {
 			any_scope_building = {
-				OR = {
+				
 					is_building_type = building_shipyards
-					
+					level >= 10
 				}
-				level >= 10
+				
 			}
 		}
-	}
 	
 	prosperity_modifier = {
 		country_convoys_capacity_mult = 0.15
@@ -329,22 +328,22 @@ potential = {
 	}
 	possible = { 
 		any_scope_state = {
-		OR = {
-		state_region = s:SANTA_FE
+		
+		state_region = s:STATE_SANTA_FE
 			is_incorporated = yes
 			any_scope_building = {
 					is_building_type = building_motor_industry
 				    level >= 10
 			}
-		}
+		
 		has_technology_researched = mechanized_farming
 	}
-	
+	}
 	prosperity_modifier = {
 	building_group_bg_plantations_throughput_add = 0.20
     interest_group_ig_industrialists_pol_str_mult = 0.10
 	}
-}
+
 }
 
 company_cristaleria = {
@@ -354,31 +353,31 @@ company_cristaleria = {
 
 	building_types = {
 		building_glassworks
-		building_synthetics_plants
+		building_synthetics_plant
 	}
 potential = {
 		c:ARG ?= this
 	}
 	possible = { 
 		any_scope_state = {
-		OR = {
-		state_region = s:BUENOS_AIRES
+		
+		state_region = s:STATE_BUENOS_AIRES
 			is_incorporated = yes
 			any_scope_building = {
 					is_building_type = building_glassworks
-					Is_building_type = syntethics_plants
+					Is_building_type = building_synthetics_plant
 				    level >= 10
 			}
-		}
+		
 		has_technology_researched = chemical_bleaching
+	   }
 	}
-	
 	prosperity_modifier = {
 	building_glassworks_throughput_add = 0.20
     building_synthetics_plants_throughput_add = 0.10
 	state_migration_pull_mult = 0.10
 	}
-}
+
 }
 
 company_nacion = {
@@ -466,12 +465,12 @@ potential = {
 	possible = { 
 		any_scope_state = {
 			any_scope_building = {
-				OR = {
+				
 					is_building_type = building_iron_mine
 					is_building_type = building_steel_mills
 					is_building_type = building_logging_camps
-				}
-				level >= 5
+				
+				    level >= 5
 			}
 			count >= 4
 		}
@@ -502,14 +501,14 @@ potential = {
 	
 		any_scope_state = {
 		OR = {
-		region_state = s:MENDOZA
+		region_state = s:STATE_MENDOZA
 	    is_incorporated = yes
 			any_scope_building = {
-				OR = {
+			
 					is_building_type = building_power_plants
 					is_building_type = building_steel_mills
 					
-				}
+				
 				level >= 10
 			}
 
@@ -569,10 +568,10 @@ company_tandanor = {
 	possible = { 
 		any_scope_state = {
 			any_scope_building = {
-				OR = {
+				
 					is_building_type = building_shipyards
 					is_building_type = building_military_shipyards
-				}
+				
 				level >= 10
 			}
 		}

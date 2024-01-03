@@ -66,3 +66,11 @@ state_trait_andes = {
 	building_rice_farm_throughput_add = 0.10
 	}
 }
+
+ state_trait_vaca_muerta = {
+	icon = "gfx/interface/icons/state_trait_icons/poor_soils.dds"
+	
+	modifier = {
+	goods_output_oil_mult = 0.20
+	}
+}

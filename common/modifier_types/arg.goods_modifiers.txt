@@ -22,7 +22,7 @@ building_throughput_luxury_clothes_mult = {
 	}
 	
 	
-building_output_Yerba_Mate_mult= {
+building_output_Yerba_Mate_mult = {
 	good = yes
 	percent = yes
 	}
@@ -41,3 +41,9 @@ goods_output_luxury_clothes_mult = {
  good = yes
  percent = yes
  }
+
+goods_output_Yerba_Mate_mult= {
+	good = yes
+	percent = yes
+	}
+	
