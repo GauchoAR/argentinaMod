@@ -101,6 +101,7 @@ patagonia.1 = {
 	}
 }
 
+
 patagonia.2 = {
 	type = country_event
 	placement = ROOT
@@ -163,6 +164,7 @@ patagonia.2 = {
 				owner = {
 					save_scope_as = patagonia_country
 				}
+			
 			}
 		}
 		random_country = {

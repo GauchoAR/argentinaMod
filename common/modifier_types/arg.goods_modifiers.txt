@@ -1,4 +1,4 @@
-goods_output_Yerba_Mate_add = {
+﻿goods_output_Yerba_Mate_add = {
 	good = yes
 	percent = no
 }

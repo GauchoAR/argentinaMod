@@ -2493,7 +2493,7 @@ PAT = {
 	
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { mapuche }
 	capital = STATE_NEUQUEN
 }
 
@@ -2504,7 +2504,7 @@ THL = {
 	
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { tehuelche patagonian }
 	capital = STATE_CHUBUT
 }
 
@@ -2515,7 +2515,7 @@ SLK = {
 	
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { selknam patagonian}
 	capital = STATE_TIERRA_DEL_FUEGO
 }
 
@@ -3539,6 +3539,7 @@ GNI = {
 	cultures = { guarani }
 	capital = STATE_ALTO_PARAGUAY
 }
+
 
 KUR = {
 	color = { 192 245 71 }

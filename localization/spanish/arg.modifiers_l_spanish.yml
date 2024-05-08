@@ -3,6 +3,9 @@
 modifier_building_throughput_luxury_clothes_mult: "Producción de bienes: ropa de lujo"
 modifier_building_throughput_luxury_clothes_mult_desc: "Una bonificación o penalización por la producción de $luxury_clothes$."
 
+modifier_goods_output_luxury_clothes_mult_desc: "Una bonificación o penalización por la producción de $luxury_clothes$."
+goods_output_luxury_clothes_mult: "Producción de bienes: Ropa de lujo"
+
 modifier_building_output_Yerba_Mate_mult_desc: "Una bonificación o penalización por la producción de $Yerba_Mate$."
 modifier_building_output_Yerba_Mate_mult: "Producción de bienes: Yerba Mate"
 
@@ -11,3 +14,38 @@ modifier_goods_output_meat_mult_desc: "Una bonificación o penalización por la 
 
 modifier_goods_output_licor_mult: "Producción de bienes: $licor$"
 modifier_goods_output_licor_mult_desc: "Una bonificación o penalización por la producción de $licor$"
+
+
+slavery_abolished_modifier: "Slavery Abolished"
+
+ modifier_tarija_question_settled: "Cuestión de Tarija resuelta"
+ 
+ modifier_goods_output_Yerba_Mate_add: "Producción de bienes: Yerba Mate"
+ 
+ modifier_goods_output_Yerba_Mate_add_desc: "Una bonificación o penalización por la producción de $Yerba_Mate$."
+ 
+ modifier_goods_output_Yerba_Mate_mult: "Una bonificación o penalización por la producción de $Yerba_Mate$."
+ goods_output_Yerba_Mate_mult: "goods_output_Yerba_Mate_mult"
+ 
+ modifier_goods_vineyard_plantation_output_add: " Producción de bienes: vino "
+ modifier_goods_vineyard_plantation_output_add_desc: Una bonificación o penalización por la producción de $wine$.
+ 
+chaco_settlement: "Chaco asentamientos"
+
+formosa_settlement: "Formosa asentamientos"
+
+alto_paraguay_settlement: "Alto Paraguay asentamientos"
+
+
+tarija_question_settled: "La cuestion de Tarija"
+tarija_question_settled_desc: "Hemos triunfado contra la poderosa Bolivia, ahora el mundo sabe de nuestra fuerza"
+
+tarija_question_settled2: "The Tarija Question"
+tarija_question_settled2_desc: "We have beaten back the migthy Bolivia, now the world knows our strenght"
+
+settle_the_north: "Poblar el norte"
+settle_the_north_desc: "Hemos retomado el norte, ahora tenemos que poblarlo"
+
+malvinas_arg_big_money: "Gasto de la compra de Malvinas"
+
+malvinas_gbr_big_money: "Venta de las Islas Malvinas"

@@ -25,6 +25,7 @@
 		ig:ig_rural_folk = {
 			if = {
 				limit = {
+					has_dlc_feature = rp1_content
 					owner = { c:BRZ ?= this }
 				}
 				set_ig_trait = ig_trait:ig_trait_old_ways
@@ -48,40 +49,17 @@
 				set_ig_trait = ig_trait:ig_trait_fellahin
 				set_ig_trait = ig_trait:ig_trait_farmers_markets
 			}
-			else_if = {
-				limit = {
-					owner = { c:ARG ?= this }
-				}
-				set_ig_trait = ig_trait:ig_trait_old_ways
-				set_ig_trait = ig_trait:ig_trait_honest_work
-				set_ig_trait = ig_trait:ig_trait_nucleos_coloniais
-			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_old_ways
 				set_ig_trait = ig_trait:ig_trait_honest_work
 				set_ig_trait = ig_trait:ig_trait_farmers_markets
 			}
 		}
-	
-		# Frontier Expansion Ideology
+			# Gauchos
 		if = {
 			limit = {
 				OR = {
-					c:HBC ?= this
-					country_has_primary_culture = cu:yankee
-					country_has_primary_culture = cu:dixie
-				}
-			}
-			ig:ig_rural_folk = {
-				remove_ideology = ideology_isolationist
-				add_ideology = ideology_isolationist_expansionism
-			}
-		}
-		# Gauchos
-		if = {
-			limit = {
-				OR = {
-					c:URU?= this
+					c:URU ?= this
 					c:ARG ?= this
 					country_has_primary_culture = cu:sulista
 					
@@ -103,6 +81,21 @@
 			ig:ig_rural_folk = {
 				remove_ideology = ideology_isolationist
 				add_ideology = ideology_pampas_expansionism
+			}
+		}
+	
+		# Jeffersonian Ideology
+		if = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:yankee
+					country_has_primary_culture = cu:dixie
+				}
+			}
+			ig:ig_rural_folk = {
+				remove_ideology = ideology_agrarian
+				add_ideology = ideology_agrarian_jeffersonian
+				set_interest_group_name = ig_yeoman_farmers
 			}
 		}
 

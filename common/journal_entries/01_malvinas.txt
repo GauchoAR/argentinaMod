@@ -11,12 +11,35 @@ group = je_group_historical_content
 
 	on_complete = {
 		add_modifier = {
-			name = conquest_of_malvinas
-			months = normal_modifier_time
+				add_modifier = islas_malvinas
 		}
 	}
 
 	weight = 200
 
 	transferable = no
+}
+
+je_islas_malvinas = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:ARG
+		c:ARG = ROOT
+	}
+
+	possible = {
+		is_subject = no
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_ISLAS_MALVINAS
+		owns_entire_state_region = STATE_ISLAS_GEORGIAS
+	}
+
+	on_complete = {
+		trigger_event = { id = islas_malvinas.1 }
+	}
+
+	weight = 10
 }

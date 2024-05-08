@@ -1,4 +1,4 @@
-default_building_Yerba_Mate_plantation = {
+﻿default_building_Yerba_Mate_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
 
 	building_modifiers = {

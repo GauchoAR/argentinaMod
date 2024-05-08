@@ -1,6 +1,85 @@
 ﻿l_spanish:
-je_chaco:0 "La Conquista del Chaco"
-chaco.1.t:0 "La Conquista del Chaco"
-chaco.1.d:0 "Finalmente, luego de siglos de fallar, conquistamos y poblamos en el Chaco impenetrable"
-chaco.1.f:0 "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
-chaco.1.a:0 "Por fin podemos caminar libremente por estas interminables planicies y bosques"
+
+
+ the_tarija_question.1.t:0 "Un Asunto Resuelto"
+ the_tarija_question.1.d:0 "Tarija está ahora bajo incuestionable autoridad argentina"
+ the_tarija_question.1.f:0 "“La guerra es simplemente la continuación de la política por otros medios.” - Clausewitz"
+ the_tarija_question.1.a:0 "Es hora de aprovechar al máximo la región"
+ 
+ 
+ malvinas.1.t:0 "Una oferta pora las Malvinas"
+malvinas.1.d:0 "La [SCOPE.sCountry('arg_scope').GetName] n [SCOPE.sState('malvinas_scope').GetName]."
+malvinas.1.f:0 ""Argentina ofrece pagar en la tesoreria de Buenos Aires, a los agentes diplomaticos representando a [ROOT.GetCountry.GetRuler.GetHerHis] Majestad de [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] , por una considerable suma de Pesos Fuertes en oro para retornar las islas bajo mando argentino.""
+malvinas.1.a:0 "Las islas no valen nada, deja que los Argentinos las tengan."
+malvinas.1.b:0 "[SCOPE.sState('malvinas_scope').GetName] Es una posesion valiosa en el mar atlantico."
+malvinas.2.t:0 "La question de Malvinas resuelta"
+malvinas.2.d:0 "[SCOPE.sCountry('britain_scope').GetName] Ha aceptado nuestros términos. Las islas volveran bajo control Argentino."
+malvinas.2.f:0 "Desde 1833, Las Islas Malvinas y las Georgias estaban bajo control britanico, ahora podemos finalmente reclamar lo que nos pertence desde el virreinato,"
+malvinas.2.a:0 "El Gaucho Rivero puede descansar en paz"
+malvinas.3.t:0 "Negociaciones fallidas [SCOPE.sState('malvinas_scope').GetName] Venta"
+malvinas.3.d:0 "Negociaciones con [SCOPE.sCountry('britain_scope').GetName] sobre la venta de [SCOPE.sState('malvinas_scope').GetName] han fallado."
+malvinas.3.f:0 ""Ya vemos, es por eso que la Guerra no solo es un acto politico, pero tambien un instrumento politico, ademas de una continuacion de comercio politico, es una forma de recibir lo mismo de otras maneras.""
+malvinas.3.a:0 "Continuaremos la diplomacia de otras maneras."
+malvinas.4.t:1 "Una oferta por las Malvinas"
+malvinas.4.d:1 "[SCOPE.sCountry('britain_scope').GetName] Se encuentra en , and would likely entertain an offer for the purchase of [SCOPE.sState('malvinas_scope').GetName]."
+malvinas.4.f:0 ""Argentina offers to pay at the treasury in Buenos Aires, to the diplomatic representative or other agent of [ROOT.GetCountry.GetRuler.GetHerHis] Majesty the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] , A considerable sum of Pesos Fuertes in gold to get the islands back to the argentinian sovereignty.""
+malvinas.4.a:1 "Make the necessary arrangements."
+malvinas.4.c:1 "We cannot afford such an expense right now."
+malvinas.4.tt1:1 "We will offer the pay for the island over the course of 1 year."
+malvinas_usa_big_money:0 "Paying for Malvinas - Large Payments"
+malvinas_usa_medium_money:0 "Paying for Malvinas - Moderate Payments"
+malvinas_usa_small_money:0 "Paying for Malvinas - Meager Payments"
+malvinas_rus_big_money:0 "Sale of Malvinas - Large Payments"
+malvinas_rus_medium_money:0 "Sale of Malvinas - Moderate Payments"
+malvinas_rus_small_money:0 "Sale of Malvinas - Meager Payments"
+ 
+ libertad_de_vientres: "Libertad de Vientres"
+	libertad_de_vientres:0 "Libertad de Vientres"
+	slavery_abolished_modifier:0 "Esclavitud Abolida"
+ 	vientres.2.t: "Esclavitud Prohibida"
+	vientres.2.d: "Finalmente hemos terminado con el ultimo yugo opresor"
+	vientres.2.f: "Durante mucho tiempo hemos luchado por la libertad en esta tierra, finalmente podemos dar por resuelta esta lucha, nos enorgullece anunciar que el último vestigio de nuestro antiguo tirano ha desaparecido, cada hombre en esta tierra es y sera nacido libre e igual uno al otro."
+  vientres.2.a: "En Unión y Libertad!"
+	je_vientres: "Libertad de Vientres"
+	je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
+    
+    
+     the_tarija_question.1.t: "Un Asunto Resuelto"
+ the_tarija_question.1.d: "Tarija está ahora bajo incuestionable autoridad argentina"
+ the_tarija_question.1.f: "“La guerra es simplemente la continuación de la política por otros medios.” - Clausewitz"
+ the_tarija_question.1.a: "Es hora de aprovechar al máximo la región"
+  the_tarija_question.1.b: "La gente de la provincia de Tarija se sienten mas como bolivianos, devolveremos esta provincia a Bolivia."
+  
+  je_chaco: "La Conquista del Chaco"
+chaco.1.t: "La Conquista del Chaco"
+chaco.1.d: "Finalmente, luego de siglos de fallar, conquistamos y poblamos en el Chaco impenetrable"
+chaco.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+chaco.1.a: "Por fin podemos caminar libremente por estas interminables planicies y bosques"
+
+islas_malvinas.1.t: "Malvinas Argentinas"
+ islas_malvinas.1.d: "Con las islas nuevamente bajo nuestra posesion, empezaremos una nueva era"
+ islas_malvinas.1.f:  "Tras su manto de neblinas, no las hemos de olvidar, "Las Malvinas Argentinas", clama el viento y ruge el mar."
+ islas_malvinas.1.a: "Es hora de asertar nuestro control"
+ 
+ 
+ hacia_el_sur.1.t: "Hacia el Sur!"
+hacia_el_sur.1.d: "Finalmente logramos conquistar el Sur y el Oeste, por fin podremos empezar a poblar estas zonas."
+hacia_el_sur.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+hacia_el_sur.1.a: "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+
+hacia_el_norte.1.t: "Hacia el Norte!"
+hacia_el_norte.1.d: "Finalmente logramos conquistar el Gran Chaco y Alto Paraguay, por fin podremos empezar a poblar estas zonas"
+hacia_el_norte.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+hacia_el_norte.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+alto_paraguay.1.t: "Conquista del Alto Paraguay"
+alto_paraguay.1.d: "Finalmente logramos conquistar Alto Paraguay, por fin podremos empezar a poblar estas zona"
+alto_paraguay.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+alto_paraguay.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+
+welsh_colony.1.t: "A Welsh ship arrives"
+welsh_colony.1.d: "Welsh Migrants arrive to Chubut"
+welsh_colony.1.f: "in 1865, 153 welshmen arrived on the ship Mimosa, to the province of Chubut. They would go on to found the city of Y Wladfa"
+welsh_colony.1.a: "Welcome to Argentina"

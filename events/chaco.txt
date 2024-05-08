@@ -1,6 +1,7 @@
 ﻿namespace = chaco
 
 # Chaco JE completion
+
 chaco.1 = {
 	type = country_event
 	placement = ROOT
@@ -31,34 +32,17 @@ chaco.1 = {
 		default_option = yes
 		if = {
 			limit = {
-				country_has_primary_culture = cu:platinean
-			}
-			s:STATE_ALTO_PARAGUAY = {
-					add_homeland = cu:platinean
-				}
-			s:STATE_FORMOSA_ARG = {
-					add_homeland = cu:platinean
-				}
-		}
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:south_andean
-			}
-			s:STATE_ALTO_PARAGUAY = {
-					add_homeland = south_andean
-				}
-		}
-		else_if = {
-			limit = {
 				AND = {
-					country_has_primary_culture = cu:platinean
 					owns_entire_state_region = STATE_CHACO
 				    owns_entire_state_region = STATE_FORMOSA_ARG
-				}
-			}
+					
+				    }
+			     }
+			
 			s:STATE_CHACO = {
 					add_homeland = cu:platinean
 				}
+				
 			s:STATE_CHACO.region_state:ARG = {
 				add_modifier = {
 					name = chaco_settlement
@@ -68,13 +52,13 @@ chaco.1 = {
 			s:STATE_FORMOSA_ARG = {
 					add_homeland = cu:platinean
 				}
-			s:STATE_FORMOSA_ARGENTINA.region_state:ARG = {
+			s:STATE_FORMOSA_ARG.region_state:ARG = {
 				add_modifier = {
-					name = chaco_settlement
+					name = formosa_settlement
 					months = long_modifier_time
+			       }
 			    }
-			}
-
-		}
-	}
-}
+		 		
+		    }		
+	    }
+    }

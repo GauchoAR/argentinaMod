@@ -1,4 +1,4 @@
-building_Yerba_Mate_plantation = {
+﻿building_Yerba_Mate_plantation = {
 	building_group = bg_Yerba_Mate_plantation
 	texture = "gfx/interface/icons/arg_buildings_icons/Yerba_Mate_plantation.dds"
 	required_construction = construction_cost_low

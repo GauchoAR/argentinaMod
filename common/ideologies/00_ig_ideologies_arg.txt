@@ -1,10 +1,10 @@
-ideology_pampas_expansionism = {
+﻿ideology_pampas_expansionism = {
 	icon = "gfx/interface/icons/ideology_icons/frontier_expansionist.dds"
 	
 	lawgroup_colonization = {
 		law_no_colonial_affairs = strongly_disapprove
 		law_frontier_colonization = strongly_approve
-		law_colonial_resettlement = approve
+		law_colonial_resettlement = strongly_approve
 		law_colonial_exploitation = disapprove
 	}
 	

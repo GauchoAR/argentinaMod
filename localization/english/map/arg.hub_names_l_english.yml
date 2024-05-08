@@ -2,10 +2,10 @@
   # STATES
   
    # Formosa
-HUB_NAME_STATE_FORMOSA_ARGENTINA_city: "Formosa"
-HUB_NAME_STATE_FORMOSA_ARGENTINA_farm: "Palo Santo"
-HUB_NAME_STATE_FORMOSA_ARGENTINA_wood: "Las Lomitas"
-HUB_NAME_STATE_FORMOSA_ARGENTINA_mine: "Las Tres Marias"
+HUB_NAME_STATE_FORMOSA_ARG_city: "Formosa"
+HUB_NAME_STATE_FORMOSA_ARG_farm: "Palo Santo"
+HUB_NAME_STATE_FORMOSA_ARG_wood: "Las Lomitas"
+HUB_NAME_STATE_FORMOSA_ARG_mine: "Las Tres Marias"
 
  # Tierra Del Fuego
 HUB_NAME_STATE_TIERRA_DEL_FUEGO_city: "Ushuaia"

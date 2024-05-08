@@ -6,9 +6,8 @@
 		any_neighbouring_state = {
 			owner = c:GNI
 		}
-		OR = {
-			country_has_primary_culture = cu:platinean
-			country_has_primary_culture = cu:south_andean
+		AND = {
+			c:ARG ?= this
 		}
 	}
 
@@ -21,24 +20,16 @@
 	}
 
 	complete = {
-		OR = {
-			owns_entire_state_region = STATE_ALTO_PARAGUAY
-			AND = {
-				owns_entire_state_region = STATE_CHACO
-				owns_entire_state_region = STATE_FORMOSA_ARG
+		AND = {
+            owns_entire_state_region = STATE_CHACO
+			owns_entire_state_region = STATE_FORMOSA_ARG
 			}
+			
 		}
-	}
+	
 
 	on_complete = {
 		trigger_event = { id = chaco.1 }
-	}
-
-	on_monthly_pulse = {
-		random_events = {
-			100 = 0
-			10 = chaco.2
-		}
 	}
 
 	weight = 20

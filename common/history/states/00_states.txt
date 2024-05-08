@@ -1919,7 +1919,7 @@ STATES = {
 	s:STATE_GUAYANA = {
 		create_state = {
 			country = c:NET
-			owned_provinces = { xF17CCC xA08011 xDBF640 x50D012 x29D96A xE18467 xDB86CE xE8D6CB xE6BBD3 xA9777B xF6408F x063557 xA299AE x210190 x771D68 xD8362B xF1E3BF x4B427A x0753FE x19A3D9 xC2E46E x58ABBF x3EC2E7 xB6F7B4 x43E136 x102B13 xCD1A5A x822364 x27E268 }
+			owned_provinces = { x0cb556 xF17CCC xA08011 xDBF640 x50D012 x29D96A xE18467 xDB86CE xE8D6CB xE6BBD3 xA9777B xF6408F x063557 xA299AE x210190 x771D68 xD8362B xF1E3BF x4B427A x0753FE x19A3D9 xC2E46E x58ABBF x3EC2E7 xB6F7B4 x43E136 x102B13 xCD1A5A x822364 x27E268 }
 			state_type = unincorporated
 		}
 		create_state = {
@@ -1929,7 +1929,7 @@ STATES = {
 		}
 		create_state = {
 			country = c:GBR
-			owned_provinces = { xA22A4C xBB88B5 x218011 x1F5190 x6B802F xA52CE3 xE600F3 xA00111 x734F81 x8E31E8 x7B4B5E x63ABD4 x3A069F x24A66B x719492 x41552E x4AE8F7 x9A88B5 xB21306 xB1960A x805A8C x518580 xC0C0D0 xADE6C2 xE85635 x9FEDF7 xAA1153 x6816FF x350473 xFAE8C5 xB3512B xD0678B xD0BA2B xE7864B xA350D5 x6C6251 }
+			owned_provinces = {  xB5760C x0cb556 xA22A4C xBB88B5 x218011 x1F5190 x6B802F xA52CE3 xE600F3 xA00111 x734F81 x8E31E8 x7B4B5E x63ABD4 x3A069F x24A66B x719492 x41552E x4AE8F7 x9A88B5 xB21306 xB1960A x805A8C x518580 xC0C0D0 xADE6C2 xE85635 x9FEDF7 xAA1153 x6816FF x350473 xFAE8C5 xB3512B xD0678B xD0BA2B xE7864B xA350D5 x6C6251 }
 			state_type = unincorporated
 		}
 		
@@ -2331,6 +2331,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:guarani
+		add_homeland = cu:wichi
 		add_claim = c:ARG
 		add_claim = c:PRG
 	}
@@ -2409,6 +2410,8 @@ STATES = {
 		}
 
 		add_homeland = cu:patagonian
+		add_homeland = cu:ranquel
+		add_homeland = cu:mapuche
 		add_claim = c:ARG	
 	}
 s:STATE_RIO_NEGRO = { 	
@@ -2430,7 +2433,7 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
-		add_homeland = cu:patagonian		
+		add_homeland = cu:comechingon	
 	}
 	
 	
@@ -2441,6 +2444,8 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
+		
+		add_homeland = cu:huarpe
 		add_homeland = cu:patagonian	
 	}
 			s:STATE_ENTRE_RIOS = {
@@ -2499,6 +2504,8 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
+		add_homeland = cu:guarani
+		add_homeland = cu:toba
         add_homeland = cu:sulista		
 	}
 	s:STATE_CORRIENTES = {
@@ -2542,6 +2549,7 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
+		add_homeland = cu:diaguita
 	}
 		s:STATE_LA_RIOJA = {
 		create_state = {
@@ -2551,6 +2559,7 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
+		add_homeland = cu:diaguita
 		add_homeland = cu:patagonian		
 	}
 		s:STATE_CATAMARCA = {
@@ -2561,6 +2570,7 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
+		add_homeland = cu:diaguita
 		add_homeland = cu:patagonian		
 	}
 	s:STATE_SAN_JUAN = {
@@ -2571,7 +2581,8 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
-		add_homeland = cu:patagonian		
+		add_homeland = cu:huarpe
+        add_homeland = cu:quechua		
 	}
 		s:STATE_SAN_LUIS = {
 		create_state = {
@@ -2581,6 +2592,7 @@ s:STATE_CORDOBA = {
 		}
 		
 		add_homeland = cu:platinean
+		add_homeland = cu:comechingon
 		add_homeland = cu:patagonian		
 	}
 	s:STATE_CHACO = {
@@ -2590,7 +2602,8 @@ s:STATE_CORDOBA = {
 			   xFDFEA2 x677EEB x2A9B2C xB0C011 x60F33C x64D769 x52353A xEA944C xA080F0 x4E5F59 xBB6154 x3F7BB5 x9D1DC2 x1BAD65 x455239 x06C8A5 x9E3116 x840395 x4D4F5E  xC75C36
 			}
 		}
-		add_homeland = cu:guarani		
+		add_homeland = cu:guarani
+        add_homeland = cu:toba		
 	}
 		s:STATE_SANTIAGO_DEL_ESTERO = {
 		create_state = {
@@ -2606,32 +2619,38 @@ s:STATE_CORDOBA = {
 			}
 		}
         add_homeland = cu:platinean
+		add_homeland = cu:toba
 		add_homeland = cu:guarani
 	}
 s:STATE_JUJUY = {
 		create_state = {
 			country = c:BOL
-			owned_provinces = { "x15263F" "x155297" "x2040F0" "x239211" "x245987" "x463063" "x4C03D0" "x90F196" "x98DD14" "xA94375" "xAB88AD" "xCA4A31" "xD2B642" "xDF0030"  }
+			owned_provinces = { x15263F x155297 x2040F0 x239211 x245987 x463063 x4C03D0 x90F196 x98DD14 xA94375 xAB88AD xCA4A31 xDF0030  }
 		}
 		create_state = {
 			country = c:ARG
-			owned_provinces = { "xA3EF4A" }
+			owned_provinces = { xA3EF4A }
 		}
 		add_homeland = cu:platinean
+		add_homeland = cu:quechua
+		add_homeland = cu:kolla
+		add_homeland = cu:wichi
 		add_claim = c:ARG
 	}
 		s:STATE_SALTA = {
 		create_state = {
 			country = c:ARG
-			owned_provinces = { xAB66CC x5F3E39 x2080F0 x5CCB77 xC0183E x702282 xE6D25C x92E924 x204070 xC11533 x256EF2 x8C37BE xEAB107  }
+			owned_provinces = { xAB66CC x5F3E39 x2080F0 x5CCB77 xC0183E x702282 xE6D25C x92E924 x204070 xC11533 x256EF2 x8C37BE xEAB107 }
 			#state_type = unincorporated
 		}
 		create_state = {
 			country = c:BOL
-			owned_provinces = { x0D83A7 xD2B642  x45BE94 x35DA48 xAB88AD x40F4EB x2F5C46 x829F7D xC3F7F6 xB01D65 xE6ADAE x3DEF82 xC9249D x8D1ED0 x369CE3 x402B62 x02AD51 x2D4E45 xDF80F0 x0643B5}
+			owned_provinces = { xD2B642 x0D83A7 x45BE94 x35DA48  x40F4EB x2F5C46 x829F7D xC3F7F6 xB01D65 xE6ADAE x3DEF82 xC9249D x8D1ED0 x369CE3 x402B62 x02AD51 x2D4E45 xDF80F0 x0643B5}
 		}
 		
 		add_homeland = cu:platinean
+		add_homeland = cu:quechua
+		add_homeland = cu:wichi
 		add_claim = c:BOL
 		add_claim = c:ARG
 	}

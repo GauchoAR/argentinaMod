@@ -1,4 +1,5 @@
 ﻿l_english:
+
   # Argentina
 STATE_FORMOSA_ARG: "Formosa"
 STATE_TIERRA_DEL_FUEGO: "Tierra Del Fuego"
@@ -15,12 +16,10 @@ STATE_CHUBUT: "Chubut"
 STATE_SANTA_CRUZ_ARG: "Santa Cruz"
 STATE_CORDOBA: "Cordoba"
 STATE_SAN_LUIS: "San Luis"
-STATE_CORDOBA: "Córdoba"
-STATE_RIO_NEGRO: "Rio Negro"
 STATE_NEUQUEN: "Neuquen"
-STATE_LA_PAMPA: "La Pampa"
 STATE_MENDOZA: "Mendoza"
-
+STATE_RIO_NEGRO: "Rio Negro"
+STATE_LA_PAMPA: "La Pampa"
 # Uruguay
 STATE_PAYSANDU: "Paysandú"
 STATE_MONTEVIDEO: "Montevideo"

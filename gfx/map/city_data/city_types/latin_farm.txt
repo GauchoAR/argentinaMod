@@ -90,6 +90,6 @@
 		"latin_farm_plantation_01_mesh"
 	}
 	building_Yerba_Mate_plantation = {
-		"latin_rural_plantation_01_mesh"
+		"latin_farm_plantation_01_mesh"
 	}
 }

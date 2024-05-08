@@ -1,0 +1,94 @@
+﻿	namespace = malon
+
+malon.1 = { #Malones
+	type = country_event
+	placement = ROOT
+
+	title = malon.1.t
+	desc = malon.1.d
+	flavor = malon.1.f
+
+	duration = 1
+	cooldown = { months = medium_modifier_time }
+
+	event_image = {
+		video = "europenorthamerica_native_american"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		any_scope_state = {
+			is_incorporated = no
+			any_neighbouring_state = {
+				owner = {
+					is_country_type = decentralized
+					has_modifier = malon
+					}
+				}
+			}
+		}
+    
+	immediate = {
+		random_state = {
+			limit = {
+				owner = {
+			c:ARG ?= this
+		    }
+			any_neighbouring_state = {
+				owner = {
+				c:PAT ?= this
+				}
+			}
+			save_scope_as = arg_scope_state
+	        }
+	    }
+	}
+
+	option = { #No extra help
+		name = malon.1.a
+		default_option = yes
+		scope:arg_scope.state_region = {
+			add_devastation = 20
+		}
+		custom_tooltip = malon_variable.tt
+		hidden_effect = {
+			random_list = {
+				20 = {
+				
+					random_scope_state = {
+						limit = {
+							is_incorporated = no
+							any_neighbouring_state = { 
+							owner {
+							c:PAT?= this
+							}
+						}
+					}
+						set_variable = {
+							name = malon_variable
+							months = medium_modifier_time
+						}
+					}
+				}
+			
+				80 = {
+				}
+			}
+		}
+	}
+
+	option = { #Extra help
+		name = malon.1.b
+		add_modifier = {
+			name = malon_relief
+			multiplier = money_amount_multiplier_medium
+			months = short_modifier_time
+		}
+		scope:arg_scope_state.state_region = {
+			add_devastation = 10
+		  }
+	    }
+    } 

@@ -1,4 +1,4 @@
-namespace = vientres
+﻿namespace = vientres
 
 vientres.1 = { 
 	type = country_event
@@ -34,6 +34,7 @@ vientres.1 = {
     }
     }
 }
+
 vientres.2 = { #completition effect
 	type = country_event
 	placement = ROOT

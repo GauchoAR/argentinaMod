@@ -1,20 +1,33 @@
 ﻿l_english:
- journal_entry_goal_progress_integer:0 "[JournalEntry.GetGoalProgressValue|0] / [JournalEntry.GetGoalAddValue|0]"
- journal_entry_goal_progress_money:0 "@money![JournalEntry.GetGoalProgressValue|D] / @money![JournalEntry.GetGoalAddValue|D]"
 
- je_secret_police_research_identification:0 "Research $identification_documents$ for Secret Police"
- je_secret_police_research_identification_reason:0 "The secret police want $identification_documents$ to be researched."
- notification_je_secret_police_research_identification_complete_name:0 "$identification_documents$ for the Secret Police"
- notification_je_secret_police_research_identification_complete_desc:0 "You have successfully researched $identification_documents$ for the Secret Police."
- notification_je_secret_police_research_identification_complete_tooltip:0 "You have successfully researched $identification_documents$ for the Secret Police giving you the $modifier_secret_police_supported$ modifier."
- notification_je_secret_police_research_identification_fail_desc:0 "You have failed to research $identification_documents$."
- notification_je_secret_police_research_identification_fail_tooltip:0 "You have failed to research $identification_documents$ for the Secret Police."
+je_vientres: "Libertad de Vientres"
+je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
 
- je_make_schools_secular:0 "Change education law to secular"
- je_make_schools_secular_reason:0 "The $intelligentsia$ want education to be secular."
- notification_je_make_schools_secular_complete_name:0 "Secular Education"
- notification_je_make_schools_secular_complete_desc:0 "You have successfully changed your education law to secular."
- notification_je_make_schools_secular_complete_tooltip:0 "You have successfully changed your education law to secular giving you the $modifier_religious_schools_abolished_intelligentsia$ and $modifier_religious_schools_abolished_devout$ modifiers."
- notification_je_make_schools_secular_fail_name:0 "Failed to acquire Secular Education"
- notification_je_make_schools_secular_fail_desc:0 "You have failed to switch to a secular education law."
- notification_je_make_schools_secular_fail_tooltip:0 "You have failed to switch to a secular education law."
+
+
+je_chaco: "The Conquest of The Chaco"
+je_chaco_reason: "The Impenetrable Chaco will eventually fall, and we shall settle these lands that are ours by right."
+
+je_malvinas: "The conquest of the Malvinas"
+je_malvinas_status: "Own the entire state of Malvinas and the Georgias."
+je_malvinas_reason: "Negotiations over the back of Malvinas have broken down, and so we are forced to pursue diplomacy through other means."
+
+je_the_tarija_question: "The Tarija Question"
+je_the_tarija_question_reason: "Tarija is rightful argentine land, our will must be imposed in the region."
+
+
+je_alto_paraguay: "the Conquest of Alto Paraguay"
+je_alto_paraguay_reason: "We cannot let our neighbours claim the lands of Alto Paraguay"
+
+je_islas_malvinas: "Islas Malvinas"
+je_islas_malvinas_reason: "Either through diplomacy or war, the islands will be returned to us"
+
+
+je_hacia_el_sur: "Push South!"
+je_hacia_el_sur_reason: "We now own Alto paraguay, but we should take Formosa aswell"
+
+je_hacia_el_norte: "Push North!"
+je_hacia_el_norte_reason: "We now own Formosa, but we should take Alto Paraguay aswell"
+
+je_welsh_colony: "A Welsh Ship arrives"
+je_welsh_colony_reason: "We should welcome these settlers with open arms, the Chubut province is scarecely populated."

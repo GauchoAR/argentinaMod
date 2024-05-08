@@ -1,0 +1,41 @@
+﻿l_spanish:
+
+ je_vientres: "Libertad de Vientres"
+ je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
+
+je_chaco: "La Conquista del Chaco"
+
+
+je_malvinas: "The Reconquest of Malvinas"
+je_malvinas_status: "Own the entire state of Malvinas and the Georgias."
+je_malvinas_reason: "Negotiations over the back of Malvinas have broken down, and so we are forced to pursue diplomacy through other means."
+
+
+ je_the_tarija_question: "La Cuestión de Tarija"
+ je_the_tarija_question_reason: "Tarija es territorio argentino por derecho, nuestra voluntad debe ser impuesta en la región."
+ 
+ 
+je_alto_paraguay: "La Conquista del Alto Paraguay"
+je_alto_paraguay_reason: "No podemos dejar que nuestros vecinos conquisten las tierras del Alto Paraguay"
+
+je_islas_malvinas: "Islas Malvinas"
+je_islas_malvinas_reason: "Si es con diplomacia o con guerra, las islas volveran a ser nuestras"
+
+
+je_hacia_el_sur: "Hacia el Sur!"
+je_hacia_el_sur_reason: "Tenemos a Alto Paraguay, pero ahora deberiamos tomar a Formosa tambien"
+
+je_hacia_el_norte: "Hacia el Norte!"
+je_hacia_el_norte_reason: "Tenemos al Chaco y a Formosa, pero ahora deberiamos tomar Alto Paraguay tambien"
+
+je_group_historical_content: "Agenda nacional"
+ je_group_crises: "Situaciones importantes"
+ je_group_internal_affairs: "Asuntos nacionales"
+ je_group_foreign_affairs: "Asuntos extranjeros"
+ je_group_expeditions: "Expediciones"
+ je_group_technology: "Desarrollo"
+ je_group_tutorial: "Tutorial"
+ 
+ 
+ je_welsh_colony: "Se acerca un barco galés"
+je_welsh_colony_reason: "A estos colonos debemos recibirlos con los brazos abiertos, la provincia de Chubut está escasamente poblada."

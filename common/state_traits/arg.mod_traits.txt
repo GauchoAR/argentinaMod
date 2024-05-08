@@ -1,4 +1,4 @@
-state_trait_pampas = {
+﻿state_trait_pampas = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
 	
 	modifier = {
@@ -26,7 +26,7 @@ state_trait_buenos_aires_harbor = {
 	}
 }
 
-state_trait_monte_video_harbor = {
+state_trait_montevideo_harbor = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
@@ -45,8 +45,6 @@ state_trait_andes = {
 		building_vineyard_plantation_throughput_add = 0.10
 	}
 }
-
-
 
   state_trait_chaco_impenetrable = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
