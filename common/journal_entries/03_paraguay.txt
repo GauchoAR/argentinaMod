@@ -114,6 +114,7 @@ je_expanding_paraguay = {
         OR = {
             country_or_subject_owns_entire_state_region = STATE_MONTEVIDEO
 			country_or_subject_owns_entire_state_region = STATE_PAYSANDU
+			country_or_subject_owns_entire_state_region = STATE_BANDA_ORIENTAL
             country_or_subject_owns_entire_state_region = STATE_SANTA_FE
 			country_or_subject_owns_entire_state_region = STATE_CORRIENTES
 			country_or_subject_owns_entire_state_region = STATE_MISIONES

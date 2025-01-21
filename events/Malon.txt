@@ -1,6 +1,6 @@
-﻿	namespace = malon
+﻿
 
-malon.1 = { #Malones
+malon = {
 	type = country_event
 	placement = ROOT
 
@@ -8,8 +8,8 @@ malon.1 = { #Malones
 	desc = malon.1.d
 	flavor = malon.1.f
 
-	duration = 1
-	cooldown = { months = medium_modifier_time }
+	duration = 3
+	cooldown = { months = long_modifier_time }
 
 	event_image = {
 		video = "europenorthamerica_native_american"
@@ -17,7 +17,7 @@ malon.1 = { #Malones
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	trigger = {
 		any_scope_state = {
@@ -25,70 +25,77 @@ malon.1 = { #Malones
 			any_neighbouring_state = {
 				owner = {
 					is_country_type = decentralized
-					has_modifier = malon
+					IF= { 
+						has_modifier = patagonia_supplied_with_weapons 
 					}
 				}
 			}
 		}
-    
-	immediate = {
-		random_state = {
-			limit = {
-				owner = {
-			c:ARG ?= this
-		    }
-			any_neighbouring_state = {
-				owner = {
-				c:PAT ?= this
-				}
+		any_country = {
+			has_diplomatic_pact = {
+				who = ROOT
+				type = rivalry
 			}
-			save_scope_as = arg_scope_state
-	        }
-	    }
+		}
 	}
 
-	option = { #No extra help
-		name = malon.1.a
-		default_option = yes
-		scope:arg_scope.state_region = {
-			add_devastation = 20
-		}
-		custom_tooltip = malon_variable.tt
-		hidden_effect = {
-			random_list = {
-				20 = {
-				
-					random_scope_state = {
-						limit = {
-							is_incorporated = no
-							any_neighbouring_state = { 
-							owner {
-							c:PAT?= this
-							}
-						}
+	immediate = {
+		random_scope_state = {
+			limit = {
+				is_incorporated = no
+				any_neighbouring_state = {
+					owner = {
+						is_country_type = decentralized
 					}
-						set_variable = {
-							name = malon_variable
-							months = medium_modifier_time
-						}
+					IF = { 
+						has_modifier = patagonia_supplied_with_weapons 
 					}
+				}
+			}
+			save_scope_as = patagonia_malon_state
+			random_neighbouring_state = {
+				limit = {
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				owner = {
+					save_scope_as = patagonia_country
 				}
 			
-				80 = {
+			}
+		}
+		random_country = {
+			limit = {
+				has_diplomatic_pact = {
+					who = ROOT
+					type = rivalry
 				}
 			}
+			save_scope_as = rival_country
 		}
 	}
 
-	option = { #Extra help
-		name = malon.1.b
-		add_modifier = {
-			name = malon_relief
-			multiplier = money_amount_multiplier_medium
-			months = short_modifier_time
+	option = { # send aid
+		name = malon.1.a
+		default_option = yes
+		scope:patagonia_state = {
+			add_modifier = {
+				name = malon_relief
+				months = normal_modifier_time
+			}
 		}
-		scope:arg_scope_state.state_region = {
-			add_devastation = 10
-		  }
-	    }
-    } 
+		change_tension = {
+			country = scope:patagonia_country
+			value = -50
+		}		
+	}
+	option = { # we can´t afford it.
+		name = patagonia.1.b
+		
+		change_tension = {
+			country = scope:patagonia_country
+			value = -50
+		}
+	}
+}

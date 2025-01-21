@@ -230,7 +230,7 @@ popneed_luxury_drinks = {
 		min_supply_share = 0.0
 	}
 	entry = {
-		goods = Yerba_Mate
+		goods = yerba_mate
 		
 		weight = 1
 		max_supply_share = 0.75

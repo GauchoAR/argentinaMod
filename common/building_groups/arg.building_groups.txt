@@ -1,5 +1,5 @@
-﻿bg_Yerba_Mate_plantation = {
+﻿bg_yerba_mate_plantation = {
 	parent_group = bg_plantations
 	
-	default_building = building_Yerba_Mate_plantation
+	default_building = building_yerba_mate_plantation
 }

@@ -994,6 +994,7 @@ paraguay.11 = {
 							state_region = s:STATE_ENTRE_RIOS
 				            state_region = s:STATE_PAYSANDU
 							state_region = s:STATE_MONTEVIDEO
+							state_region = s:STATE_BANDA_ORIENTAL
 							state_region = s:STATE_MISIONES
 				            state_region = s:STATE_SANTA_FE
 				            state_region = s:STATE_PARANA

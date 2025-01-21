@@ -83,11 +83,13 @@ malon.1.t: "Malon"
  malon.1.d: "The Mapuche gather into warbands, and raid our territories. 
  malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malon!
 
-malon.1.a: "We can´t afford to send aid"
+
 malon.1.b: "We must send aid to the afflicted"
+malon.1.a: "Send troops to the frontier!"
 
 
-welsh_colony.1.t: "Llega un barco galés"
-welsh_colony.1.d: "Colonos galesas llegan a Chubut"
-welsh_colony.1.f: "En 1865, 153 galeses arribaron en el barco Mimosa, a la provincia de Chubut. Ellos continuarían fundando la ciudad de Y Wladfa."
-welsh_colony.1.a: "Bienvenidos a la Argentina"
+
+welsh_colony.1.t: "A Welsh ship arrives"
+welsh_colony.1.d: "Welsh Migrants arrive to Chubut"
+welsh_colony.1.f: "in 1865, 153 welshmen arrived on the ship Mimosa, to the province of Chubut. They would go on to found the city of Y Wladfa"
+welsh_colony.1.a: "Welcome to Argentina"

@@ -63,11 +63,27 @@ slavery_abolished_modifier = {
 malon_relief = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_expenses_add = 1
+	state_mortality_mult = 0.2
 }
+
 malon = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	unit_offense_mult = 1
-	unit_defense_mult = 1
-	colony_growth_speed_add = -0.5
+	unit_offense_mult = 2
+	unit_defense_mult = 2
+
+}
+
+campana_desierto = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_colony_growth_speed_mult = 0.25
+
+
+}
+
+patagonia_campaign  = { 
+       icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+
+	state_colony_growth_speed_mult = 1
+
 }
 

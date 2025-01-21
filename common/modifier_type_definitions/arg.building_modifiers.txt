@@ -1,0 +1,96 @@
+﻿goods_output_yerba_mate_add= {
+decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_yerba_mate_mult = {
+decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_vineyard_plantation_output_add = {
+decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+ goods_output_fruit_mult = {
+decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+building_throughput_luxury_clothes_mult = {
+	good = yes
+	percent = yes
+	}
+	
+	
+building_output_yerba_mate_mult = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+	
+goods_output_luxury_clothes_mult = {
+ 	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+ 
+goods_output_meat_mult = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+ 
+ goods_output_licor_mult = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_yerba_mate_add= {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_yerba_mate_mult= {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+building_yerba_mate_plantation_throughput_add= {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_meat_mult= {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

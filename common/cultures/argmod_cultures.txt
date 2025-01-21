@@ -3,7 +3,7 @@ argentine={
 	color=rgb{ 179 208 221 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-    obsessions = { wine meat Yerba_Mate}
+    obsessions = { wine meat yerba_mate}
 	male_common_first_names = {
 		Andres Agustin Alejo ArI_stides Alejandro Alberto Anselmo Alvaro
 		Bonifacio Bautista Benjamin_2 Bartolome
@@ -71,7 +71,7 @@ uruguayan={
 	color=rgb{ 213 210 187 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-   obsessions = { meat Yerba_Mate}
+   obsessions = { meat yerba_mate}
 	male_common_first_names = {
 		Antonio Atanasio Alfredo Andres Agustin Angel
 		Bernardo Baltasar
@@ -135,7 +135,7 @@ paraguayan={
 	color=rgb{ 140 192 63 }
 	religion = catholic
 	traits = { hispanophone european_heritage }
-	obsessions = { Yerba_Mate }
+	obsessions = { yerba_mate }
 
 	male_common_first_names = {
 		Antonio Adolfo Andres Alberto Abelardo
@@ -205,7 +205,7 @@ guarani={
 	color= rgb{ 194 109 46 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
-	obsessions = { Yerba_Mate}
+	obsessions = { yerba_mate}
 	male_common_first_names={
 		Aniceto
 		Antonio
@@ -303,7 +303,7 @@ sulista = {
 	color= hsv{ 0.50 0.40 0.53 }
 	religion = catholic
 	traits = { lusophone european_heritage }
- obsessions = { meat Yerba_Mate }
+ obsessions = { meat yerba_mate }
 	male_common_first_names = {
 		ApolinA_rio AparI_cio Artur AntA_o Alceu Antonio_3 AdA_o
 		Claudio_2 Carlos Candido Cipriano
@@ -519,7 +519,7 @@ male_common_first_names = {
 	graphics = african
  
 }
-mapuche = {
+mapuche= {
 	color=rgb{ 202 72 2 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }

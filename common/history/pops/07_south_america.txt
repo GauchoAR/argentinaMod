@@ -481,7 +481,7 @@ POPS = {
 		region_state:URU = {
 			create_pop = {
 				culture = platinean
-				size = 65192
+				size = 85192
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -518,15 +518,15 @@ POPS = {
 		region_state:URU = {
 			create_pop = {
 				culture = platinean
-				size = 35192
+				size = 45192
 			}
 			create_pop = {
 				culture = afro_Platinean
-				size = 18996
+				size = 8996
 			}
 			create_pop = {
 				culture = sulista
-				size = 8000
+				size = 4000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -535,15 +535,48 @@ POPS = {
 			}
 			create_pop = {
 				culture = french
-				size = 2000
+				size = 1000
 			}
 			create_pop = {
 				culture = south_italian
-				size = 2000
+				size = 1000
 			}
 			create_pop = {
 				culture = south_german
+				size = 500
+			}
+		}
+	}
+	s:STATE_BANDA_ORIENTAL = {
+		region_state:URU = {
+			create_pop = {
+				culture = platinean
+				size = 19192
+			}
+			create_pop = {
+				culture = afro_Platinean
+				size = 5996
+			}
+			create_pop = {
+				culture = sulista
+				size = 4000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_Platinean
+				size = 1690
+			}
+			create_pop = {
+				culture = french
 				size = 1000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 1000
+			}
+			create_pop = {
+				culture = south_german
+				size = 500
 			}
 		}
 	}
@@ -991,7 +1024,7 @@ s:STATE_NEUQUEN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 460000
+				size = 46000
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -1310,11 +1343,35 @@ s:STATE_NEUQUEN = {
 		region_state:CHL = {
 			create_pop = {
 				culture = south_andean
-				size = 655608
+				size = 650608
 			}
 			create_pop = {
 				culture = afro_caribeno	# Afro Chileans
 				size = 1200
+			}
+			create_pop = {
+				culture = patagonian
+				size = 5000
+			}
+			create_pop = {
+				culture = south_german
+				size = 6000
+			}
+			create_pop = {
+				culture = spanish
+				size = 3500
+			}
+			create_pop = {
+				culture = south_italian
+				size = 2000
+			}
+			create_pop = {
+				culture = north_german
+				size = 2000
+			}
+			create_pop = {
+				culture = british
+				size = 3000
 			}
 		}
 	}
@@ -1327,6 +1384,10 @@ s:STATE_NEUQUEN = {
 			create_pop = {
 				culture = mapuche
 				size = 48000
+			}
+			create_pop = {
+				culture = british
+				size = 1000
 			}
 		}
 	}
@@ -1342,7 +1403,7 @@ s:STATE_NEUQUEN = {
 			}				
 		}
 	}
-	s:STATE_ARAUCANIA = {
+	   s:STATE_ARAUCANIA = {
 		region_state:CHL = {
 			create_pop = {
 				culture = south_andean
@@ -1350,17 +1411,25 @@ s:STATE_NEUQUEN = {
 			}
 			create_pop = {
 				culture = mapuche
-				size = 3200
-			}
-		}
-		region_state:THL = {
-			create_pop = {
-				culture = tehuelche
-				size = 20000
+				size = 5200
 			}
 			create_pop = {
 				culture = patagonian
-				size = 8000
+				size = 3000
+			}
+		}
+		region_state:THL = {
+		create_pop = {
+				culture = mapuche
+				size = 6200
+			}
+			create_pop = {
+				culture = tehuelche
+				size = 25000
+			}
+			create_pop = {
+				culture = patagonian
+				size = 12000
 			}
 		}
 		region_state:SLK = {

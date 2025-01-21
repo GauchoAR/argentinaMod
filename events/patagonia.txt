@@ -24,6 +24,25 @@ patagonia.1 = {
 	}
 
 	immediate = {
+	if = {
+			limit = {
+				owns_entire_state_region = STATE_ARAUCANIA
+			}
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_ARAUCANIA
+				}
+				save_scope_as = patagonia_state
+			}
+		}
+		else = {
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_NEUQUEN
+				}
+				save_scope_as = patagonia_state
+			}
+		}
 	}
 
 	option = {
@@ -97,8 +116,81 @@ patagonia.1 = {
 			s:STATE_TIERRA_DEL_FUEGO = {
 					add_homeland = cu:platinean
 				}
+				s:STATE_TIERRA_DEL_FUEGO = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
 		}
 	}
+		if = {
+			limit = {
+				AND = {
+					country_has_primary_culture = cu:argentine
+					owns_entire_state_region = STATE_LA_PAMPA
+					owns_entire_state_region = STATE_NEUQUEN
+				    owns_entire_state_region = STATE_RIO_NEGRO
+				    owns_entire_state_region = STATE_CHUBUT
+				    owns_entire_state_region = STATE_SANTA_CRUZ_ARG
+				    owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
+				}
+			}
+			s:STATE_LA_PAMPA = {
+					add_homeland = cu:platinean
+				}
+			s:STATE_LA_PAMPA.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_NEUQUEN = {
+					add_homeland = cu:platinean
+				}
+			s:STATE_NEUQUEN.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_RIO_NEGRO = {
+					add_homeland = cu:platinean
+				}
+			s:STATE_RIO_NEGRO.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_CHUBUT = {
+					add_homeland = cu:platinean
+				}
+			s:STATE_CHUBUT.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_SANTA_CRUZ_ARG = {
+					add_homeland = cu:platinean
+				}
+			s:STATE_SANTA_CRUZ_ARG.region_state:ARG = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+			}
+			s:STATE_TIERRA_DEL_FUEGO = {
+					add_homeland = cu:platinean
+				}
+				s:STATE_TIERRA_DEL_FUEGO = {
+				add_modifier = {
+					name = patagonian_settlement
+					months = long_modifier_time
+			    }
+		    }
+	    }
+    }
 }
 
 
@@ -194,6 +286,10 @@ patagonia.2 = {
 	}
 	option = { # if they want a fight they'll get one
 		name = patagonia.2.b
+		add_modifier = {
+				name = campana_desierto
+				months = normal_modifier_time
+			}
 		change_relations = {
 			country = scope:rival_country
 			value = -20
@@ -202,5 +298,6 @@ patagonia.2 = {
 			country = scope:patagonia_country
 			value = 25
 		}
+		
 	}
 }

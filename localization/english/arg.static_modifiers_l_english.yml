@@ -1,11 +1,10 @@
-l_english:
-
+﻿l_english:
 
 modifier_building_throughput_luxury_clothes_mult: "luxury clothes Goods Output"
 modifier_building_throughput_luxury_clothes_mult_desc: "A bonus or penalty for the production of $luxury_clothes$."
 
-building_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
-building_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
+building_livestock_ranch_throughput_add _desc: "A bonus or penalty for the production of $yerba_mate$."
+building_livestock_ranch_throughput_add : "$yerba_mate$ Goods Output"
 
 modifier_goods_output_meat_mult: "$meat$ Goods Output"
 modifier_goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
@@ -29,27 +28,21 @@ goods_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $ye
  
 goods_output_luxury_clothes_mult: "$luxury_clothes$ Goods Output"
 goods_output_luxury_clothes_mult_desc: "A bonus or penalty for the production of "$luxury_clothes$"
+
+
+building_throughput_luxury_clothes_mult: "$luxury_clothes$ Goods multiplier"
+building_throughput_luxury_clothes_mult_desc: "$luxury_clothes$ Goods multiplier"
+
+building_throughput_meat_mult_mult: "$meat$ goods multiplier"
  
-chaco_settlement: "Chaco Settlement"
-chac_settlemet_desc: "The Impenetrable Chaco is ours to settle"
  
-formosa_settlement: "Formosa Settlement"
-formosa_settlement_desc: "The Impenetrable Chaco is ours to settle"
+ building_throughput_cloth_mult_mult: "$fabric$ goods multiplier
+ 
+goods_output_meat_mult: "$meat$ Goods Output"
 
-alto_paraguay_settlement: "Alto Paraguay Settlement"
-alto_paraguay_settlement_desc: "The Impenetrable Chaco is ours to settle"
+goods_output_yerba_mate_add: "$meat$ Goods Output"
 
-tarija_question_settled: "The Tarija Question"
-tarija_question_settled_desc: "We have beaten back the migthy Bolivia, now the world knows our strenght"
+building_yerba_mate_plantation_throughput_add: "$yerba_mate$ Goods Output"
+building_yerba_mate_plantation_throughput_add_desc:  "$yerba_mate$ Goods Output"
 
-tarija_question_settled2: "The Tarija Question"
-tarija_question_settled2_desc: "We have beaten back the migthy Bolivia, now the world knows our strenght"
-
-settle_the_north: "Settle the north"
-settle_the_north_desc: "We have taken back the north, now we must use it"
-
-islas_malvinas: "Islas Malvinas"
-
-malvinas_arg_big_money: "Cost of the Malvinas Islands"
-
-malvinas_gbr_big_money: "Falkland islands sale money"
+campana_desierto: "Desert skirmishes"

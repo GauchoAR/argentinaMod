@@ -6,11 +6,11 @@ je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos 
 
 
 je_chaco: "The Conquest of The Chaco"
-je_chaco_reason: "The Impenetrable Chaco will eventually fall, and we shall settle these lands that are ours by right."
+je_chaco_reason: ""The Impenetrable Chaco" will eventually fall, and we shall settle these lands that are ours by right."
 
 je_malvinas: "The conquest of the Malvinas"
 je_malvinas_status: "Own the entire state of Malvinas and the Georgias."
-je_malvinas_reason: "Negotiations over the back of Malvinas have broken down, and so we are forced to pursue diplomacy through other means."
+je_malvinas_reason: "Negotiations over the Malvinas have broken down, and so we are forced to pursue diplomacy through other means."
 
 je_the_tarija_question: "The Tarija Question"
 je_the_tarija_question_reason: "Tarija is rightful argentine land, our will must be imposed in the region."
@@ -29,5 +29,5 @@ je_hacia_el_sur_reason: "We now own Alto paraguay, but we should take Formosa as
 je_hacia_el_norte: "Push North!"
 je_hacia_el_norte_reason: "We now own Formosa, but we should take Alto Paraguay aswell"
 
-je_welsh_colony: "A Welsh Ship arrives"
+je_welsh_colony: "A Welsh ship arrives"
 je_welsh_colony_reason: "We should welcome these settlers with open arms, the Chubut province is scarecely populated."
