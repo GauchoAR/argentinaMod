@@ -7,8 +7,11 @@
 	building_types = {  
 		building_yerba_mate_plantation
 	}
+	OR = {
 	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 possible = { 
 		any_scope_state = {
@@ -41,8 +44,12 @@ company_industrial_paraguaya = {
 	building_types = {  
 		building_yerba_mate_plantation 
 	}
+	OR = {
 	potential = {
+		c:ARG ?= this
 		c:PRG ?= this
+		c:PLT ?= this
+		}
 	}
 possible = { 
 		any_scope_state = {
@@ -82,8 +89,12 @@ company_textil_alpargatas = {
 	building_types = {  
 		building_textile_mills
 	}
+OR = {
 	potential = {
 		c:ARG ?= this
+		c:PRG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -120,8 +131,11 @@ company_giesso = {
 		building_textile_mills
 	}
 	
+	OR = {
 	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = {
 	any_scope_state = {
@@ -157,8 +171,11 @@ company_azucarera_ledesma = {
 	    building_wheat_farm
 	}
 	
+	OR = {
 	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 		possible = {
 	any_scope_state = {
@@ -197,8 +214,11 @@ company_las_higueritas = {
 	
 		building_livestock_ranch
 	}
-     potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -233,8 +253,11 @@ flavored_company = yes
 		building_food_industry
 		building_sugar_plantation
 	}
-    potential = {
+    	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 	         
@@ -268,8 +291,11 @@ flavored_company = yes
 		building_food_industry
 		building_sugar_plantation
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 	         
@@ -303,8 +329,11 @@ company_astilleros_argentinos = {
 	building_types = {
 		building_shipyards
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -333,8 +362,11 @@ flavored_company = yes
 		building_motor_industry
 		
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -366,8 +398,11 @@ flavored_company = yes
 		building_glassworks
 		building_synthetics_plants
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -400,8 +435,11 @@ company_nacion = {
 	building_types = {
 		building_paper_mills
 	}
+	OR = {
 	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 
 	possible = { 
@@ -437,8 +475,11 @@ company_editorial = {
 	building_types = {
 		building_paper_mills
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -475,8 +516,11 @@ company_jaunet_hermanos = {
 		building_logging_camp
 		building_tooling_workshops
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -512,8 +556,11 @@ company_talleres_metal = {
 		building_steel_mills
 	
 	}
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 	
@@ -553,8 +600,11 @@ company_ypf = {
 		building_oil_rig
 	}
 	
-potential = {
+	OR = {
+	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 	possible = { 
 		any_scope_state = {
@@ -582,8 +632,11 @@ company_tandanor = {
 		building_shipyards
 		building_military_shipyards
 	}
+	OR = {
 	potential = {
 		c:ARG ?= this
+		c:PLT ?= this
+		}
 	}
 
 	possible = { 

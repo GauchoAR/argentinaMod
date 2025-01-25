@@ -4256,7 +4256,7 @@ RHN = {
 }
 
 PLT = {
-	color = { 130  135  240 }
+	color = { 255  255  255 }
 	
 	country_type = recognized
 
