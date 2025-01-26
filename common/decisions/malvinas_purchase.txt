@@ -1,9 +1,11 @@
 ﻿arg_purchase_malvinas = {
 	is_shown = {
-		exists = c:ARG
-		exists = c:GBR
-		c:ARG = ROOT
+		or = {
+			c:ARG ?= this
+			c:PLT ?= this
+		}
 		is_subject = no
+		exists = c:GBR
 		NOT = {
 			has_variable = malvinas_purchase_var
 		}
