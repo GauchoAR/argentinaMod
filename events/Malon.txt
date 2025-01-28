@@ -1,6 +1,8 @@
-﻿
+﻿namespace = malon
 
-malon = {
+#Malon event
+
+malon.1 = {
 	type = country_event
 	placement = ROOT
 
@@ -8,16 +10,15 @@ malon = {
 	desc = malon.1.d
 	flavor = malon.1.f
 
-	duration = 3
-	cooldown = { months = long_modifier_time }
-
 	event_image = {
 		video = "europenorthamerica_native_american"
 	}
 
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	duration = 3
 
 	trigger = {
 		any_scope_state = {
@@ -25,7 +26,7 @@ malon = {
 			any_neighbouring_state = {
 				owner = {
 					is_country_type = decentralized
-					IF= { 
+					IF = { 
 						has_modifier = patagonia_supplied_with_weapons 
 					}
 				}
@@ -38,6 +39,8 @@ malon = {
 			}
 		}
 	}
+
+	cooldown = { months = long_modifier_time }
 
 	immediate = {
 		random_scope_state = {
@@ -76,7 +79,7 @@ malon = {
 		}
 	}
 
-	option = { # send aid
+	option = {
 		name = malon.1.a
 		default_option = yes
 		scope:patagonia_state = {
@@ -88,10 +91,10 @@ malon = {
 		change_tension = {
 			country = scope:patagonia_country
 			value = -50
-		}		
+		}
 	}
 	option = { # we can´t afford it.
-		name = patagonia.1.b
+		name = malon.1.b
 		
 		change_tension = {
 			country = scope:patagonia_country

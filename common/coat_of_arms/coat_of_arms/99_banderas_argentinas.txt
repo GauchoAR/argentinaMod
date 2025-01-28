@@ -1,6 +1,6 @@
 
 # ARGENTINA
-ARG = {
+ARG_monarchy = {
 	
 	pattern = "pattern_solid.tga"
 	color1 = "blue4"
@@ -16,10 +16,21 @@ ARG_absolute_monarchy = {
 	color1 = "blue4"
 
 	textured_emblem = {
-	texture = "ARG_THEOCRATICA.dds"
+	texture = "ARG_MONARQUIA.dds"
 	}
 
 }
+
+ARG_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "ARG_THEOCRATICA.dds"
+	}
+}
+
 ARG_republic = {
 
 	pattern = "pattern_solid.tga"
@@ -28,7 +39,6 @@ ARG_republic = {
 	textured_emblem = {
 	texture = "ARGENTINA.dds"
 	}
-	
 }
 
 ARG_dictatorship = {
@@ -39,7 +49,6 @@ ARG_dictatorship = {
 	textured_emblem = {
 	texture = "ARG_DICTADURA.dds"
 	}
-	
 }
 
 ARG_fascist = {
@@ -50,22 +59,34 @@ ARG_fascist = {
 	textured_emblem = {
 	texture = "ARG_FACISTA.dds"
 	}
-	
 }
+
+
 ARG_communist = {
 
 	pattern = "pattern_solid.tga"
 	color1 = "blue4"
 
 	textured_emblem = {
-	texture = "ARG_COMUNISTA.dds"
+	texture = "ARG_ANARQUISTA.dds"
+	}
+	
+}
+
+ARG_anarchist = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "ARG_ANARQUISTA.dds"
 	}
 	
 }
 
 # PROVINCIAS_UNIDAS 
 
-PLT = {
+PLT_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue4"
 
@@ -73,3 +94,73 @@ PLT = {
 	texture = "PLT.dds"
 	}
 }
+
+PLT_absolute_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "PLT.dds"
+	}
+}
+
+PLT_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "PLT_DICTADURA.dds"
+	}
+}
+
+PLT_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "PLT_DICTADURA.dds"
+	}
+}
+
+PLT_communist = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "ARG_ANARQUISTA.dds"
+	}
+	
+}
+
+PLT_anarchist = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "ARG_ANARQUISTA.dds"
+	}
+	
+}
+PLT_fascist = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "ARG_FACISTA.dds"
+	}
+}
+
+PLT_theocracy = {
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue4"
+
+	textured_emblem = {
+	texture = "ARG_FACISTA.dds"
+	}
+}
+
+

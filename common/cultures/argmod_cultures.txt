@@ -543,7 +543,7 @@ mapuche= {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -555,7 +555,7 @@ mapuche= {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -636,7 +636,7 @@ kawesqar= {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -648,7 +648,7 @@ kawesqar= {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -730,7 +730,7 @@ picunches = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -742,7 +742,7 @@ picunches = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -823,7 +823,7 @@ huilliches = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -835,7 +835,7 @@ huilliches = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -916,7 +916,7 @@ yaganes = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -928,7 +928,7 @@ yaganes = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1009,7 +1009,7 @@ kawesqar= {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1021,7 +1021,7 @@ kawesqar= {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1102,7 +1102,7 @@ chonos = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1114,7 +1114,7 @@ chonos = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1196,7 +1196,7 @@ tehuelche = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1208,7 +1208,7 @@ tehuelche = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1290,7 +1290,7 @@ selknam = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1302,7 +1302,7 @@ selknam = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1383,7 +1383,7 @@ Ranquel = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1395,7 +1395,7 @@ Ranquel = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1477,7 +1477,7 @@ ranquel = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1489,7 +1489,7 @@ ranquel = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1570,7 +1570,7 @@ comechingon = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1582,7 +1582,7 @@ comechingon = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1666,7 +1666,7 @@ kolla = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1678,7 +1678,7 @@ kolla = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1760,7 +1760,7 @@ wichi = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1772,7 +1772,7 @@ wichi = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1855,7 +1855,7 @@ diaguita = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1867,7 +1867,7 @@ diaguita = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -1949,7 +1949,7 @@ huarpe = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -1961,7 +1961,7 @@ huarpe = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia
@@ -2043,7 +2043,7 @@ toba = {
 		Gregorio
 		Hugo
 		Ignacio
-		Jose
+		
 		Juan
 		Luis
 		Manuel
@@ -2055,7 +2055,7 @@ toba = {
 		Ramon
 		Raul_2
 		Santiago
-		Victor_2
+		"Victor"
 	}
 	female_common_first_names = {
 		Emilia

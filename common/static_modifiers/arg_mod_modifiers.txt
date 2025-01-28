@@ -86,4 +86,3 @@ patagonia_campaign  = {
 	state_colony_growth_speed_mult = 1
 
 }
-

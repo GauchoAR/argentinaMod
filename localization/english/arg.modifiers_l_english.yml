@@ -1,35 +1,7 @@
-l_english:
+﻿l_english:
 
 
-modifier_building_throughput_luxury_clothes_mult: "luxury clothes Goods Output"
-modifier_building_throughput_luxury_clothes_mult_desc: "A bonus or penalty for the production of $luxury_clothes$."
-
-building_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
-building_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
-
-modifier_goods_output_meat_mult: "$meat$ Goods Output"
-modifier_goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
-
-goods_output_licor_mult: "$licor$ Goods Output"
-goods_output_licor_mult_desc: "A bonus or penalty for the production of $licor$."
-
-tarija_question_settled: "Tarija question settled"
- 
-goods_output_yerba_mate_add: "$yerba_mate$ Goods Output"
- 
-goods_output_yerba_mate_add: "$yerba_mate$ Goods Output"
- 
-goods_output_yerba_mate_add_desc: "A bonus or penalty for the production of $yerba_mate$."
- 
- goods_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
-goods_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
- 
- goods_vineyard_plantation_output_add: "$wine$ Goods Output."
- goods_vineyard_plantation_output_add_desc: "A bonus or penalty for the production of $wine$"
- 
-goods_output_luxury_clothes_mult: "$luxury_clothes$ Goods Output"
-goods_output_luxury_clothes_mult_desc: "A bonus or penalty for the production of "$luxury_clothes$"
- 
+## expansionism
 chaco_settlement: "Chaco Settlement"
 chac_settlemet_desc: "The Impenetrable Chaco is ours to settle"
  

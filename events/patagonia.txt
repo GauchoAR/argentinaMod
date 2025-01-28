@@ -129,10 +129,10 @@ patagonia.1 = {
 					country_has_primary_culture = cu:argentine
 					owns_entire_state_region = STATE_LA_PAMPA
 					owns_entire_state_region = STATE_NEUQUEN
-				    owns_entire_state_region = STATE_RIO_NEGRO
-				    owns_entire_state_region = STATE_CHUBUT
-				    owns_entire_state_region = STATE_SANTA_CRUZ_ARG
-				    owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
+					owns_entire_state_region = STATE_RIO_NEGRO
+					owns_entire_state_region = STATE_CHUBUT
+					owns_entire_state_region = STATE_SANTA_CRUZ_ARG
+					owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
 				}
 			}
 			s:STATE_LA_PAMPA = {

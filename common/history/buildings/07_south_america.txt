@@ -1306,9 +1306,9 @@ s:STATE_MONTEVIDEO={
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:ARG"
+						country="c:URU"
 						levels=1
-						region="STATE_BUENOS_AIRES"
+						region="STATE_MONTEVIDEO"
 					}
 				}
 				subsidized=yes
@@ -1420,17 +1420,6 @@ s:STATE_MONTEVIDEO={
 		
 		region_state:ARG={
 			create_building={
-				building="building_gold_mine"
-				add_ownership={
-					country={
-						country="c:ARG"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
-			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
@@ -1488,17 +1477,16 @@ s:STATE_MONTEVIDEO={
 				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
 			}
 			create_building={
-				building="building_wheat_farm"
+				building="building_gold_mine"
 				add_ownership={
-					building={
-						type="building_manor_house"
+					country={
 						country="c:ARG"
-						levels=1
+						levels=2
 						region="STATE_SALTA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" }
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1669,6 +1657,28 @@ s:STATE_MONTEVIDEO={
 s:STATE_BUENOS_AIRES={
 		region_state:ARG={
 			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:BRZ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_secular_academia" }
+			}
+			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					building={
@@ -1677,11 +1687,10 @@ s:STATE_BUENOS_AIRES={
 						levels=1
 						region="STATE_BUENOS_AIRES"
 					}
-				level=1
+				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
-		}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -1820,7 +1829,6 @@ s:STATE_BUENOS_AIRES={
 						region="STATE_TARIJA"
 					}
 				}
-				level=1
 				reserves=1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts"  }
 			}
@@ -1969,6 +1977,17 @@ s:STATE_BUENOS_AIRES={
 	}
 s:STATE_CORDOBA={
 		region_state:ARG={	
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_secular_academia" }
+			}
 				create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2110,7 +2129,7 @@ s:STATE_CORDOBA={
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:PRG"
+						country="c:ARG"
 						levels=2
 						region="STATE_CORRIENTES"
 					}
@@ -2259,19 +2278,6 @@ s:STATE_TUCUMAN={
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
-			}
-            create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:ARG"
-						levels=1
-						region="STATE_TUCUMAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools"  }
 			}
 		}
 	}
