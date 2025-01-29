@@ -1,5 +1,4 @@
-﻿	
-namespace = alto_paraguay
+﻿namespace = alto_paraguay
 
 # alto_paraguay JE completion
 
@@ -40,17 +39,12 @@ option = {
 			s:STATE_ALTO_PARAGUAY = {
 					add_homeland = cu:platinean
 				}
-				
 				s:STATE_ALTO_PARAGUAY.region_state:PRG = {
 				add_modifier = {
 					name = alto_paraguay_settlement
 					months = long_modifier_time
-			        }
-			    }
-				
-			
-			
-		    }
-	    
-        }
+				}
+			}
+		}
 	}
+}

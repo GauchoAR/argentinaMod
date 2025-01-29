@@ -43,7 +43,7 @@ option = {
 				create_pop = {
 				    pop_type = laborers
                     culture = welsh
-                    size = 153    
+                    size = 1530    
                 }
 			}
 		}

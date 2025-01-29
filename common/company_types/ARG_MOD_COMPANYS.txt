@@ -67,9 +67,9 @@ possible = {
 		interest_group_ig_industrialists_approval_add = 5
 		interest_group_ig_trade_unions_approval_add = -5
 		interest_group_ig_rural_folk_approval_add = -5
-		 building_yerba_mate_throughput_mult = 0.3
-		 building_logging_camp_throughput_mult = 0.1
-		state_radicals_and_loyalists_from_sol_change_mult = 0.02
+		building_group_bg_logging_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.2
+		state_loyalists_from_political_movements_mult = 0.02
 	}
 	
 	ai_weight = {
@@ -190,7 +190,7 @@ company_azucarera_ledesma = {
 	prosperity_modifier = {
 		interest_group_ig_rural_folk_approval_add = -5
 			interest_group_ig_trade_unions_approval_add = -5
-			building_sugar_plantation_throughput_add = 0.10
+			building_group_bg_plantations_throughput_add = 0.10
 			goods_output_fruit_mult = 0.10
 	    }	
 	
@@ -270,7 +270,7 @@ flavored_company = yes
         }
 	
 	 prosperity_modifier = {
-		state_radicals_and_loyalists_from_sol_change_mult = -0.10
+		 state_loyalists_from_sol_change_mult = 0.10
 		 building_food_industry_throughput_add = 0.15
 		 goods_output_liquor_mult = 0.03
 	}
@@ -595,9 +595,8 @@ company_ypf = {
 	building_types = {
 		building_oil_rig
 	}
-	
-	OR = {
 	potential = {
+		OR = {
 		c:ARG ?= this
 		c:PLT ?= this
 		}
@@ -613,7 +612,7 @@ company_ypf = {
 	}
 	
 	prosperity_modifier = {
-		building_throughput_oil_mult = 0.2
+		building_group_bg_oil_extraction_throughput_add = 0.2
 		goods_output_oil_mult = 0.1
 	}
 }

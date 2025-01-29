@@ -34,11 +34,6 @@ malvinas.1 = {
 	option = {
 		name = malvinas.1.a
 		default_option = yes
-		add_modifier = {
-			name = malvinas_gbr_big_money
-			months = 12
-			is_decaying = no
-		}
 		c:ARG = {
 			trigger_event = { id = malvinas.2 days = 0 popup = yes }
 		}

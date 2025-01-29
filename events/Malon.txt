@@ -10,6 +10,8 @@ malon.1 = {
 	desc = malon.1.d
 	flavor = malon.1.f
 
+	duration = 3
+
 	event_image = {
 		video = "europenorthamerica_native_american"
 	}
@@ -18,20 +20,16 @@ malon.1 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	duration = 3
-
 	trigger = {
 		any_scope_state = {
 			is_incorporated = no
 			any_neighbouring_state = {
 				owner = {
 					is_country_type = decentralized
-					IF = { 
-						has_modifier = patagonia_supplied_with_weapons 
+					has_modifier = patagonia_supplied_with_weapons 
 					}
 				}
 			}
-		}
 		any_country = {
 			has_diplomatic_pact = {
 				who = ROOT
@@ -49,10 +47,8 @@ malon.1 = {
 				any_neighbouring_state = {
 					owner = {
 						is_country_type = decentralized
-					}
-					IF = { 
+					} 
 						has_modifier = patagonia_supplied_with_weapons 
-					}
 				}
 			}
 			save_scope_as = patagonia_malon_state

@@ -25,6 +25,7 @@ the_tarija_question.1 = {
 
     option = {
 		name = the_tarija_question.1.a
+		default_option = yes
 		add_modifier = tarija_question_settled
 		
 			s:STATE_SALTA.region_state:ARG = {

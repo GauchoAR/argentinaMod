@@ -35,9 +35,6 @@ group = je_group_historical_content
 	complete = {
 		owns_entire_state_region = STATE_ISLAS_MALVINAS
 		owns_entire_state_region = STATE_ISLAS_GEORGIAS
-		add_modifier = {
-				name = islas_malvinas
-		}
 	}
 
 	on_complete = {

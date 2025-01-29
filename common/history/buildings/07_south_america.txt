@@ -1482,7 +1482,6 @@ s:STATE_MONTEVIDEO={
 					country={
 						country="c:ARG"
 						levels=2
-						region="STATE_SALTA"
 					}
 				}
 				reserves=1

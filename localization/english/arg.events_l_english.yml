@@ -2,8 +2,6 @@
 
 
 
-
-
 malvinas.1.t:0 "An offer for the Falklands"
 malvinas.1.d:0 "The [SCOPE.sCountry('arg_scope').GetName] has made us an offer for the purchase of [SCOPE.sState('malvinas_scope').GetName]."
 malvinas.1.f:0 ""Argentina offers to pay at the treasury in Buenos Aires, to the diplomatic representative or other agent of [ROOT.GetCountry.GetRuler.GetHerHis] Majesty the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] , A considerable sum of Pesos Fuertes in gold to get the islands back to the argentinian sovereignty.""
@@ -35,7 +33,7 @@ malvinas_rus_small_money:0 "Sale of Malvinas - Meager Payments"
 
 libertad_de_vientres: "Freedom of Wombs"
 slavery_abolished_modifier: "Slavery Abolished"
-ientres.2.t: "Slavery Abolished"
+vientres.2.t: "Slavery Abolished"
 vientres.2.d: "We have finally ended with centuries of slavery and tiranny"
 vientres.2.f: "For a long time we had fought over for a free country, now we have finally ended that chapter, with pride we announce that each man in this land is born free and equal to each other"
 vientres.2.a: "For liberty!"
@@ -82,8 +80,8 @@ chaco.1.a: "Finally we can walk freely at last through these endless plains and 
 malon.1.t: "Malon"
 malon.1.d: "The Mapuche gather into warbands, and raid our territories."
 malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malon!"
-malon.1.b: "We must send aid to the afflicted"
 malon.1.a: "Send troops to the frontier!"
+malon.1.b: "We must send aid to the afflicted"
 
 
 

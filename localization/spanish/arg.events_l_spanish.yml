@@ -16,6 +16,7 @@ malvinas.3.a:0 "Continuaremos la diplomacia de otras maneras."
 malvinas.4.t:1 "Una oferta por las Malvinas"
 malvinas.4.d:1 "[SCOPE.sCountry('britain_scope').GetName] Se encuentra en una mala situacion economica, y probablemente consideraría una oferta para la compra de [SCOPE.sState('malvinas_scope').GetName]."
 malvinas.4.f:0 "Argentina ofrece pagar en la tesorería de Buenos Aires, al representante diplomático u otro agente de[ROOT.GetCountry.GetRuler.GetHerHis] Majestad de [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] , Una considerable suma de Pesos Fuertes en oro para devolver las islas a la soberanía argentina."
+malvinas.4.a:1 "Hagamos los arreglos necesarios."
 malvinas.4.c:1 "No podemos afrontar ese gasto en este momento."
 malvinas.4.tt1:1 "Ofreceremos el pago de la isla en el transcurso de 1 año."
 malvinas_usa_big_money:0 "Paying for Malvinas - Large Payments"
@@ -63,6 +64,15 @@ alto_paraguay.1.t: "Conquista del Alto Paraguay"
 alto_paraguay.1.d: "Finalmente logramos conquistar Alto Paraguay, por fin podremos empezar a poblar estas zona"
 alto_paraguay.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
 alto_paraguay.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+
+malon.1.t: "Malon"
+malon.1.d: "Los mapuches se agrupan en bandas de guerra y atacan nuestros territorios."
+malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malon!"
+malon.1.a: "¡Manden ya las tropas a nuestra frontera!"
+malon.1.b: "Debemos enviar ayuda a los afiligidos"
+
+
 
 
 welsh_colony.1.t: "Llega un barco galés"
