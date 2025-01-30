@@ -6,13 +6,6 @@
     }
 }
 
-state_afro_platinean_standard_of_living_add={
-    decimals=1
-    color=good
-    game_data={
-        ai_value=0
-    }
-}
 
 
 state_mapuche_standard_of_living_add={
@@ -23,6 +16,13 @@ state_mapuche_standard_of_living_add={
     }
 }
 
+state_afro_platinean_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
 
 state_kawesqar_standard_of_living_add={
     decimals=1
@@ -143,14 +143,4 @@ state_toba_standard_of_living_add={
     game_data={
         ai_value=0
     }
-}
-
-## libertad_de_vientres
-
-state_loyalists_from_sol_change_mult = {
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
 }

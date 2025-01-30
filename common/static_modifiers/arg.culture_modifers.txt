@@ -8,26 +8,6 @@ slave_standard_of_living_modifier_negative = {
 	state_slave_standard_of_living_add = 1
 }
 
-afro_platinean_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_afro_Platinean_standard_of_living_add = 1
-}
-
-afro_platinean_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_afro_Platinean_standard_of_living_add = 1
-}
-
-afro_Platinean_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_afro_Platinean_standard_of_living_add = 1
-}
-
-afro_Platinean_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_afro_Platinean_standard_of_living_add = 1
-}
-
 mapuche_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_mapuche_standard_of_living_add = 1
@@ -38,6 +18,15 @@ mapuche_standard_of_living_modifier_negative = {
 	state_mapuche_standard_of_living_add = 1
 }
 
+afro_Platinean_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_afro_platinean_standard_of_living_add = 1
+}
+
+afro_Platinean_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_afro_platinean_standard_of_living_add = 1
+}
 
 kawesqar_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"

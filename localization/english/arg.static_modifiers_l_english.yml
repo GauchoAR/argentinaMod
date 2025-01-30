@@ -2,14 +2,14 @@
 
 ##meat
 goods_output_meat_mult: "$meat$ Goods Output"
-modifier_goods_output_meat_mult: "$meat$ Goods Output"
-modifier_goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
+goods_output_meat_mult: "$meat$ Goods Output"
+goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
 building_throughput_meat_mult_mult: "$meat$ goods multiplier"
 
 
 ##alcohol
-goods_vineyard_plantation_output_add: "$wine$ Goods Output."
-goods_vineyard_plantation_output_add_desc: "A bonus or penalty for the production of $wine$"
+vineyard_plantation_output_add: "$wine$ Goods Output."
+vineyard_plantation_output_add_desc: "A bonus or penalty for the production of $wine$"
 goods_output_licor_mult: "$licor$ Goods Output"
 goods_output_licor_mult_desc: "A bonus or penalty for the production of $licor$."
  
@@ -20,8 +20,8 @@ building_throughput_luxury_clothes_mult_desc: "$luxury_clothes$ Goods multiplier
 building_throughput_cloth_mult_mult: "$fabric$ goods multiplier"
 goods_output_luxury_clothes_mult: "$luxury_clothes$ Goods Output"
 goods_output_luxury_clothes_mult_desc: "A bonus or penalty for the production of "$luxury_clothes$"
-modifier_building_throughput_luxury_clothes_mult: "luxury clothes Goods Output"
-modifier_building_throughput_luxury_clothes_mult_desc: "A bonus or penalty for the production of $luxury_clothes$."
+building_throughput_luxury_clothes_mult: "luxury clothes Goods Output"
+building_throughput_luxury_clothes_mult_desc: "A bonus or penalty for the production of $luxury_clothes$."
 
 
 ##Yerba Mate

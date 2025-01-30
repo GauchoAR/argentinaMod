@@ -517,8 +517,8 @@ male_common_first_names = {
 		1 = african
 	}
 	graphics = african
- 
 }
+
 mapuche= {
 	color=rgb{ 202 72 2 }
 	religion = animist

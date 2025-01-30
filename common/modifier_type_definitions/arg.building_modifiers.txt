@@ -6,31 +6,35 @@
 	}
 }
 goods_output_yerba_mate_mult = {
-	decimals=1
+	decimals=0
 	color=good
+	percent=yes
 	game_data={
 		ai_value=0
 	}
 }
 
 goods_output_fruit_mult = {
-	decimals=1
+	decimals=0
 	color=good
+	percent=yes
 	game_data={
 		ai_value=0
 	}
 }
 
 goods_output_luxury_clothes_mult = {
- 	decimals=1
+ 	decimals=0
 	color=good
+	percent=yes
 	game_data={
 		ai_value=0
 	}
 }
 goods_output_meat_mult = {
-	decimals=1
+	decimals=0
 	color=good
+	percent=yes
 	game_data={
 		ai_value=0
 	}
@@ -44,14 +48,16 @@ goods_output_yerba_mate_add = {
 	}
 }
 goods_output_yerba_mate_mult = {
-	decimals=1
+	decimals=0
 	color=good
+	percent=yes
 	game_data={
 		ai_value=0
 	}
 }
 building_yerba_mate_plantation_throughput_add = {
-	decimals=1
+	decimals=0
+	percent=yes
 	color=good
 	game_data={
 		ai_value=0
@@ -59,7 +65,8 @@ building_yerba_mate_plantation_throughput_add = {
 }
 
 goods_output_meat_mult = {
-	decimals=1
+	decimals=0
+	percent=yes
 	color=good
 	game_data={
 		ai_value=0

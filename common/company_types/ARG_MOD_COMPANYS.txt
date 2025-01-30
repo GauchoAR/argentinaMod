@@ -28,7 +28,7 @@
 	     }
 	
 	prosperity_modifier = {
-		state_loyalists_from_sol_change_mult = 0.05
+		state_loyalists_from_political_movements_mult = 0.05
 	    building_yerba_mate_plantation_throughput_add  = 0.15
 	
      	}	
@@ -45,7 +45,7 @@ company_industrial_paraguaya = {
 	}
 	potential = {
 	OR = {
-		c:ARG ?= this
+		c:PRG ?= this
 		c:PLT ?= this
 		}
 	}
@@ -146,8 +146,8 @@ company_giesso = {
 	}
 
 	prosperity_modifier = {
-		country_prestige_mult = 0.1
-	  goods_output_luxury_clothes_mult = 0.10
+	country_prestige_mult = 0.1
+	  goods_output_luxury_clothes_mult = 1
 	}	
 	
 	ai_weight = {
@@ -270,7 +270,7 @@ flavored_company = yes
         }
 	
 	 prosperity_modifier = {
-		 state_loyalists_from_sol_change_mult = 0.10
+		 state_loyalists_from_political_movements_mult = 0.10
 		 building_food_industry_throughput_add = 0.15
 		 goods_output_liquor_mult = 0.03
 	}
