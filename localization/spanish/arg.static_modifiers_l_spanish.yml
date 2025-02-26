@@ -1,4 +1,4 @@
-l_spanish:
+﻿l_spanish:
 
 building_throughput_luxury_clothes_mult: "Producción de bienes: ropa de lujo"
 modifier_building_throughput_luxury_clothes_mult_desc: "Una bonificación o penalización por la producción de $luxury_clothes$."
@@ -18,7 +18,6 @@ goods_output_licor_mult_desc: "Una bonificación o penalización por la producci
 goods_output_yerba_mate_add: "Producción de bienes: Yerba Mate"
 goods_output_yerba_mate_add_desc: "Una bonificación o penalización por la producción de $yerba_mate$."
 goods_output_yerba_mate_mult: "Una bonificación o penalización por la producción de $yerba_mate$."
-goods_output_yerba_mate_mult: "goods_output_yerba_mate_mult"
 
 goods_vineyard_plantation_output_add: " Producción de bienes: vino "
 goods_vineyard_plantation_output_add_desc: "Una bonificación o penalización por la producción de $wine$."

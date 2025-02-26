@@ -1,8 +1,6 @@
 ﻿l_english:
 
 ##meat
-goods_output_meat_mult: "$meat$ Goods Output"
-goods_output_meat_mult: "$meat$ Goods Output"
 goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
 building_throughput_meat_mult_mult: "$meat$ goods multiplier"
 
@@ -15,13 +13,9 @@ goods_output_licor_mult_desc: "A bonus or penalty for the production of $licor$.
  
 
 ##clothes
-building_throughput_luxury_clothes_mult: "$luxury_clothes$ Goods multiplier"
-building_throughput_luxury_clothes_mult_desc: "$luxury_clothes$ Goods multiplier"
 building_throughput_cloth_mult_mult: "$fabric$ goods multiplier"
 goods_output_luxury_clothes_mult: "$luxury_clothes$ Goods Output"
 goods_output_luxury_clothes_mult_desc: "A bonus or penalty for the production of "$luxury_clothes$"
-building_throughput_luxury_clothes_mult: "luxury clothes Goods Output"
-building_throughput_luxury_clothes_mult_desc: "A bonus or penalty for the production of $luxury_clothes$."
 
 
 ##Yerba Mate

@@ -2896,15 +2896,6 @@ s:STATE_JUJUY = {
 		add_homeland = cu:platinean
 		add_claim = c:ARG
 	}
-		s:STATE_SOUTH_ATLANTIC_ISLANDS = {
-		create_state = {
-			country = c:GBR
-			owned_provinces = { x0CB556 xB5760C }
-			state_type = unincorporated
-		}
-		
-		add_homeland = cu:british
-	}
 	s:STATE_ICELAND = {
 		create_state = {
 			country = c:DEN

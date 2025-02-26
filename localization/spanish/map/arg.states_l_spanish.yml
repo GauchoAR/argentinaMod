@@ -16,7 +16,8 @@ STATE_SANTA_CRUZ_ARG: "Santa Cruz"
 STATE_SAN_LUIS: "San Luis"
 STATE_NEUQUEN: "Neuquen"
 STATE_MENDOZA: "Mendoza"
-
+STATE_CORDOBA: "Córdoba"
+STATE_LA_PAMPA: "La Pampa"
 
 # Uruguay
 STATE_PAYSANDU: "Paysandú"
