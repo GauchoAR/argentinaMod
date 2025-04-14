@@ -3,3 +3,6 @@
 
 arg_purchase_malvinas:0 "The Malvinas Question"
 arg_purchase_malvinas_desc:0 "We are in the position to make an offer to get back the Malvinas"
+
+plt_mon_name: "Austral Empire"
+plt_dem_name: "United Provinces"

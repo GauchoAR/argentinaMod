@@ -1,6 +1,5 @@
 ﻿l_spanish:
-
-  # Argentina
+  # STATES
 STATE_FORMOSA_ARG: "Formosa"
 STATE_TIERRA_DEL_FUEGO: "Tierra Del Fuego"
 STATE_ISLAS_MALVINAS: "Islas Malvinas"
@@ -19,7 +18,6 @@ STATE_NEUQUEN: "Neuquen"
 STATE_MENDOZA: "Mendoza"
 STATE_CORDOBA: "Córdoba"
 STATE_LA_PAMPA: "La Pampa"
-STATE_RIO_NEGRO: "Rio Negro"
 
 # Uruguay
 STATE_PAYSANDU: "Paysandú"

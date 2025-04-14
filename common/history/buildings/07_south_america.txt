@@ -1472,7 +1472,6 @@ s:STATE_MONTEVIDEO={
 						region="STATE_SALTA"
 					}
 				}
-				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
 			}
@@ -1659,12 +1658,29 @@ s:STATE_BUENOS_AIRES={
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:BRZ"
+						country="c:ARG"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="C:ARG"
+						levels=1
+						region="STATE_BUENOS_AIRES"
+					}
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_university"
@@ -1696,7 +1712,7 @@ s:STATE_BUENOS_AIRES={
 					building={
 						type="building_manor_house"
 						country="c:ARG"
-						levels=2
+						levels=4
 						region="STATE_BUENOS_AIRES"
 					}
 				}
@@ -1724,7 +1740,6 @@ s:STATE_BUENOS_AIRES={
 						region="STATE_BUENOS_AIRES"
 					}
 				}
-				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
 			}				
@@ -2247,7 +2262,7 @@ s:STATE_TUCUMAN={
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -2288,7 +2303,7 @@ s:STATE_TUCUMAN={
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -2310,7 +2325,7 @@ s:STATE_TUCUMAN={
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -2326,10 +2341,10 @@ s:STATE_TUCUMAN={
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=1
+						levels=3
 					}
 				}
-				reserves=1
+				reserves=2
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}

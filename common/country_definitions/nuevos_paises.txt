@@ -1,6 +1,6 @@
 ﻿
 PLT = {
-	color = { 255  255  255 }
+	color = { 45 154 173 }
 	
 	country_type = recognized
 
@@ -10,7 +10,7 @@ PLT = {
 	capital = STATE_BUENOS_AIRES
 }
 URU = {
-	color = { 131  101  85 }
+	color = { 131 101 85 }
 	
 	country_type = recognized
 	

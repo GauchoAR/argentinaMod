@@ -521,7 +521,7 @@ POPS = {
 				size = 45192
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 8996
 			}
 			create_pop = {
@@ -530,7 +530,7 @@ POPS = {
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 2678
 			}
 			create_pop = {
@@ -554,7 +554,7 @@ POPS = {
 				size = 19192
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 5996
 			}
 			create_pop = {
@@ -563,7 +563,7 @@ POPS = {
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 1690
 			}
 			create_pop = {
@@ -744,12 +744,12 @@ s:STATE_ALTO_PARAGUAY = {
 			}
 		
 		    create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 20800
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 13200
 			}
 
@@ -889,12 +889,12 @@ s:STATE_ALTO_PARAGUAY = {
 				size = 40378
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 100
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 20
 			}
 		}
@@ -969,12 +969,12 @@ s:STATE_NEUQUEN = {
 				size = 80740
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 200
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 60
 			}
 			create_pop = {
@@ -1002,12 +1002,12 @@ s:STATE_NEUQUEN = {
 				size = 16048
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 110
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 240
 			}
 			create_pop = {
@@ -1032,7 +1032,7 @@ s:STATE_NEUQUEN = {
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 250
 			}
 			create_pop = {
@@ -1062,7 +1062,7 @@ s:STATE_NEUQUEN = {
 				size = 44658
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 500
 			}
 			create_pop = {
@@ -1091,12 +1091,12 @@ s:STATE_NEUQUEN = {
 				size = 13996
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 700
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 330
 			}
 		}
@@ -1137,12 +1137,12 @@ s:STATE_NEUQUEN = {
 				size = 22996
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 2400
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 300
 			}
 			create_pop = {
@@ -1187,12 +1187,12 @@ s:STATE_NEUQUEN = {
 				size = 18000
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 80
 			}
 			create_pop = {
@@ -1212,12 +1212,12 @@ s:STATE_NEUQUEN = {
 				size = 20000
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 80
 			}
 			create_pop = {
@@ -1237,12 +1237,12 @@ s:STATE_NEUQUEN = {
 				size = 20000
 			}
 			create_pop = {
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_Platinean
+				culture = afro_caribeno
 				size = 80
 			}
 			create_pop = {

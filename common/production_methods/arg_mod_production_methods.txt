@@ -44,4 +44,5 @@ automatic_irrigation_building_yerba_mate_plantation = {
 			building_employment_clergymen_add = 120
 		}
 	}
+}
 

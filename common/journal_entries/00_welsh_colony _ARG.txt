@@ -1,4 +1,4 @@
-﻿je_welsh_colony = {
+﻿je_welsh_colony_ARG = {
 	icon = "gfx/interface/icons/event_icons/event_waving_flag.dds"
    group = je_group_historical_content
 	
