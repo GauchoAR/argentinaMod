@@ -47,26 +47,4 @@ option = {
 			}
 		}
 	}
-option = {
-		name = welsh_colony.1.b
-		default_option = yes
-		if = {
-			limit = {
-			AND = {
-					owns_entire_state_region = STATE_CHUBUT
-					
-				}
-			}
-		}
-			s:STATE_CHUBUT = {
-			add_homeland = cu:welsh
-			region_state:PLT = {
-				create_pop = {
-				    pop_type = laborers
-                    culture = welsh
-                    size = 1530    
-                }
-			}
-		}
-	}
 }

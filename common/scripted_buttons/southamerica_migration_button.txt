@@ -110,7 +110,7 @@ patagonia_button = {
 	visible = { always = yes }
 
 	possible = {
-		has_technology_researched = civilizing_mission
+		has_technology_researched = quinine
 		ig:ig_armed_forces = { 
 			is_marginal = no
 		}

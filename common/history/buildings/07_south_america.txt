@@ -1473,7 +1473,7 @@ s:STATE_MONTEVIDEO={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -1741,7 +1741,7 @@ s:STATE_BUENOS_AIRES={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}				
 			create_building={
 				building="building_livestock_ranch"
@@ -2007,7 +2007,7 @@ s:STATE_CORDOBA={
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -2285,7 +2285,7 @@ s:STATE_TUCUMAN={
 				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={  }
 			}
              create_building={
 				building="building_barracks"

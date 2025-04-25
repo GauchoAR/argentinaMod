@@ -29,6 +29,5 @@ je_hacia_el_norte: "Push North!"
 je_hacia_el_norte_reason: "We now own Formosa, but we should take Alto Paraguay aswell"
 
 ##Migration
-je_welsh_colony_ARG: "A Welsh ship arrives"
-je_welsh_colony_PLT: "A Welsh ship arrives"
+je_welsh_colony: "A Welsh ship arrives"
 je_welsh_colony_reason: "We should welcome these settlers with open arms, the Chubut province is scarecely populated."
