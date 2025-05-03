@@ -105,7 +105,7 @@ malvinas.2 = {
 		name = malvinas.2.a
 		default_option = yes
 		add_modifier = {
-			name = malvinas_ARG_big_money
+			name = malvinas_arg_big_money
 			months = 12
 		}
 		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
