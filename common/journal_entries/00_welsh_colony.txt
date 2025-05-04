@@ -8,16 +8,15 @@
 			c:ARG ?= this
 		}
 	}
+	
 	complete = {
 		AND = {
             owns_entire_state_region = STATE_CHUBUT
-			or = {
 			c:ARG ?= this
-			c:PLT ?= this
 		}
 			}
 			
-		}
+		
 	
 
 	on_complete = {

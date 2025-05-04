@@ -34,6 +34,7 @@ option = {
 					owns_entire_state_region = STATE_CHUBUT
 					
 				}
+				
 			}
 		}
 			s:STATE_CHUBUT = {

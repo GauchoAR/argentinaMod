@@ -462,7 +462,109 @@ afro_caribeno={
 	}
 	graphics = african
 }
-
+afro_platense={
+	color= hsv{ 0.31 0.50 0.35 }
+	religion = catholic
+	traits = { african_heritage hispanophone west_african_culture_group }
+	male_common_first_names={
+		Antonio
+		Armando
+		Arsenio
+		Arturo
+		Bartolome
+		Carlos
+		Damaso
+		Enrique
+		Francisco
+		Generoso
+		Guillermo
+		Gumersindo
+		Ignacio
+		Israel
+		Jacinto
+		Jaime
+		Jose_Celso
+		Juan
+		Luciano
+		Mario
+		Maximo
+		Nelson
+		Nicolas_2
+		Orestes
+		Orlando
+		Pedro
+		Pio
+		Ramon
+		Ruben_2
+		Wifredo
+	}
+	female_common_first_names = {
+		Ana
+		Angelamaria
+		Carlota
+		Isabel
+		Josefina
+		Luz
+		Maria
+		Mercedes
+		Milagros
+		Olivia
+		Palmira
+		Paula
+		Trinidad
+		Ulpiana
+		Victoria
+	}	
+	noble_last_names = {
+		Batista
+		Colon
+		de_Gordils
+		Maceo
+		Macias
+		de_Cespedes
+		de_Merino
+		de_Rojas
+		de_la_Rosa
+		de_Ortega
+		de_la_Torre
+	}
+	common_last_names={
+		Albizu
+		Barbosa
+		Barreto
+		Bauza
+		Diaz_2
+		Egues
+		Estupinan
+		Garay
+		Gonzalez
+		Guillen
+		Gutierrez
+		Hurtado
+		Jimenez
+		Jorrin
+		Lam
+		Leyva
+		Lopez
+		Maceo
+		Morel
+		More
+		Peraza
+		Pineiro
+		Pozo
+		Perez
+		Repilado
+		Rodriguez
+		Santamaria
+		Schomburg
+		Valdes
+		Villa
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
 
 
 mapuche= {
