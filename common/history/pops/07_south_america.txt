@@ -484,7 +484,7 @@ POPS = {
 				size = 85192
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 1996
 			}
 			create_pop = {
@@ -493,7 +493,7 @@ POPS = {
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 6678
 			}
 			create_pop = {
@@ -723,39 +723,30 @@ s:STATE_ALTO_PARAGUAY = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 206600
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 8000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 5000
+				size = 256600
 			}
 			create_pop = {
 				culture = mapuche
-				size = 1000
+				size = 15000
 			}
 				create_pop = {
 				culture = patagonian
-				size = 1000
+				size = 5000
 			}
 		
 		    create_pop = {
-				culture = afro_caribeno
-				size = 20800
+				culture = afro_platense
+				size = 30800
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 13200
 			}
 
 			create_pop = {
 				culture = south_german
-				size = 4000
+				size = 5000
 			}
 			create_pop = {
 				culture = north_german
@@ -763,39 +754,43 @@ s:STATE_ALTO_PARAGUAY = {
 			}
 			create_pop = {
 				culture = south_italian
-				size = 6000
+				size = 11000
 			}
 			create_pop = {
 				culture = north_italian
-				size = 3000
+				size = 4500
 			}
 			create_pop = {
 				culture = spanish
-				size = 3000
+				size = 9000
 			}
 			create_pop = {
 				culture = french
-				size = 3000
+				size = 7000
 			}
 			create_pop = {
 				culture = basque
-				size = 1000
+				size = 3000
 			}
 			create_pop = {
 				culture = galician
-				size = 800
+				size = 1800
 			}
 			create_pop = {
 				culture = british
-				size = 4000
+				size = 5000
 			}
 			create_pop = {
 				culture = irish
-				size = 6000
+				size = 6500
+			}
+			create_pop = {
+				culture = scottish
+				size = 5500
 			}
 			create_pop = {
 				culture = sulista
-				size = 4000
+				size = 5000
 			}
 		}
 		region_state:PAT = {
@@ -969,12 +964,12 @@ s:STATE_NEUQUEN = {
 				size = 80740
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 200
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 60
 			}
 			create_pop = {
@@ -1002,12 +997,12 @@ s:STATE_NEUQUEN = {
 				size = 16048
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_afro_platense
 				size = 110
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_afro_platense
 				size = 240
 			}
 			create_pop = {
@@ -1027,12 +1022,12 @@ s:STATE_NEUQUEN = {
 				size = 46000
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_afro_platense
 				size = 400
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 250
 			}
 			create_pop = {
@@ -1062,12 +1057,12 @@ s:STATE_NEUQUEN = {
 				size = 44658
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 500
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 250
 			}
 		    create_pop = {
@@ -1091,12 +1086,12 @@ s:STATE_NEUQUEN = {
 				size = 13996
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 700
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 330
 			}
 		}
@@ -1137,12 +1132,12 @@ s:STATE_NEUQUEN = {
 				size = 22996
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 2400
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_platense
 				size = 300
 			}
 			create_pop = {
