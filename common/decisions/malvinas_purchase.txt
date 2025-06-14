@@ -19,9 +19,8 @@
 	possible = {
 		in_default = no
 		taking_loans = no
-		is_at_war = no
 		c:GBR = {
-			relations:root >= 80
+			relations:root >= 75
 			is_at_war = no
 			
 		}
@@ -35,7 +34,7 @@
 			value = yes
 		}
 		trigger_event = {
-			id = malvinas.4
+			id = malvinas.1
 			days = 0
 			popup = yes
 		}

@@ -1,6 +1,6 @@
 ﻿namespace = malvinas
 
-# An Offer for malvinas
+# Making an Offer
 malvinas.1 = {
 	type = country_event
 	placement = ROOT
@@ -17,60 +17,44 @@ malvinas.1 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
 
 	trigger = {
+		OR = {
+			c:ARG ?= this
+			c:PLT ?= this
+		}
 	}
 
 	immediate = {
-		c:PLT = {
-			save_scope_as = PLT_scope
-		}
-		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-			save_scope_as = malvinas_scope
-		}
 	}
 
 	option = {
 		name = malvinas.1.a
-		default_option = yes
-		c:PLT = {
-			trigger_event = { id = malvinas.2 days = 0 popup = yes }
-		}
-		show_as_tooltip = {
-			s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-				set_state_owner = c:PLT
-			}
-			s:STATE_ISLAS_GEORGIAS.region_state:GBR = {
-				set_state_owner = c:PLT
-			}
-			change_relations = {
-				country = c:PLT
-				value = 20
-			}
-		}
 		ai_chance = {
 			base = 1
 		}
-	}
-	option = {
-		name = malvinas.1.b
-		c:PLT = {
-			trigger_event = { id = malvinas.3 days = 0 popup = yes }
-		}
-		show_as_tooltip = {
-			change_relations = {
-				country = c:PLT
-				value = -100
+		custom_tooltip = malvinas.1.tt1 # 3 million over a year
+		c:GBR = {
+			trigger_event = {
+				id = malvinas.2
+				days = 0
+				popup = yes
 			}
 		}
+	}
+	option = { # perhaps another time
+		name = malvinas.1.c
+		default_option = yes
 		ai_chance = {
 			base = 0
 		}
+		remove_variable = malvinas_purchase_var
 	}
 }
 
-# The malvinas Purchase
+
+# An Offer for malvinas
 malvinas.2 = {
 	type = country_event
 	placement = ROOT
@@ -87,41 +71,41 @@ malvinas.2 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
 	trigger = {
+	c:GBR ?= this
 	}
 
 	immediate = {
-		c:GBR = {
-			save_scope_as = britain_scope
-		}
-		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-			save_scope_as = malvinas_scope
-		}
 	}
 
 	option = {
 		name = malvinas.2.a
 		default_option = yes
-		add_modifier = {
-			name = malvinas_arg_big_money
-			months = 12
+		c:ARG ?= { trigger_event = { id = malvinas.3 days = 0 popup = yes }}
+		c:PLT ?= { trigger_event = { id = malvinas.3 days = 0 popup = yes }}
+		ai_chance = {
+			base = 1
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-			set_state_owner = c:PLT
+	}
+	option = {
+		name = malvinas.2.b
+		c:ARG ?= { trigger_event = { id = malvinas.4 days = 0 popup = yes }}
+		c:PLT ?= { trigger_event = { id = malvinas.4 days = 0 popup = yes }}
+		show_as_tooltip = {
+			change_relations = {
+				country = ROOT
+				value = -100
+			}
 		}
-		s:STATE_ISLAS_GEORGIAS.region_state:GBR = {
-			set_state_owner = c:PLT
-		}
-		change_relations = {
-			country = c:PLT
-			value = 20
+		ai_chance = {
+			base = 0
 		}
 	}
 }
 
-# Failed malvinas Purchase
+# The malvinas Purchase
 malvinas.3 = {
 	type = country_event
 	placement = ROOT
@@ -144,28 +128,29 @@ malvinas.3 = {
 	}
 
 	immediate = {
-		c:GBR = {
-			save_scope_as = britain_scope
-		}
-		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-			save_scope_as = malvinas_scope
-		}
 	}
 
 	option = {
 		name = malvinas.3.a
 		default_option = yes
-		change_relations = {
-			country = c:GBR
-			value = -40
+		add_modifier = {
+			name = malvinas_arg_big_money
+			months = 12
 		}
-        add_journal_entry = {
-			type = je_malvinas
+		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
+			set_state_owner = ROOT
+		}
+		s:STATE_ISLAS_GEORGIAS.region_state:GBR = {
+			set_state_owner = ROOT
+		}
+		change_relations = {
+			country = ROOT
+			value = 20
 		}
 	}
 }
 
-# Making an Offer
+# Failed malvinas Purchase
 malvinas.4 = {
 	type = country_event
 	placement = ROOT
@@ -182,43 +167,27 @@ malvinas.4 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
 	}
 
 	immediate = {
-		c:GBR = {
-			save_scope_as = britain_scope
-		}
-		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-			save_scope_as = malvinas_scope
-		}
 	}
 
 	option = {
 		name = malvinas.4.a
-		ai_chance = {
-			base = 1
-		}
-		custom_tooltip = malvinas.4.tt1 # 3 million over a year
-		c:GBR = {
-			trigger_event = {
-				id = malvinas.1
-				days = 0
-				popup = yes
-			}
-		}
-	}
-	option = { # perhaps another time
-		name = malvinas.4.c
 		default_option = yes
-		ai_chance = {
-			base = 0
+		change_relations = {
+			country = c:GBR
+			value = -40
 		}
-		remove_variable = malvinas_purchase_var
+        add_journal_entry = {
+			type = je_malvinas
+		}
 	}
 }
+
 
 # Malvinas conquest
 namespace = islas_malvinas
