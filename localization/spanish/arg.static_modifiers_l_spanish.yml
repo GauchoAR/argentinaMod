@@ -18,6 +18,8 @@ goods_output_licor_mult_desc: "Una bonificación o penalización por la producci
 goods_output_yerba_mate_add: "Producción de bienes: Yerba Mate"
 goods_output_yerba_mate_add_desc: "Una bonificación o penalización por la producción de $yerba_mate$."
 goods_output_yerba_mate_mult: "Una bonificación o penalización por la producción de $yerba_mate$."
+building_yerba_mate_plantation_throughput_add: "Producción de bienes: $yerba_mate$"
+building_yerba_mate_plantation_throughput_add_desc:  "Una bonificación o penalización por la producción de $yerba_mate$"
 
 goods_vineyard_plantation_output_add: " Producción de bienes: vino "
 goods_vineyard_plantation_output_add_desc: "Una bonificación o penalización por la producción de $wine$."

@@ -13,6 +13,19 @@
 				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:ECU"
+						levels=1
+						region="STATE_ECUADOR"
+					}
+				}
+				reserves=1
+			}				
+			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
@@ -132,6 +145,19 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_HOME_COUNTIES"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_port"
 				add_ownership={
 					country={
@@ -213,6 +239,19 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:VNZ"
+						levels=2
+						region="STATE_MIRANDA"
+					}
+				}
+				reserves=1
+			}	
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -331,6 +370,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:CLM"
+						levels=2
+						region="STATE_ANTIOQUIA"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -1666,6 +1718,19 @@ s:STATE_BUENOS_AIRES={
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:ARG"
+						levels=1
+						region="STATE_BUENOS_AIRES"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_paper_mills"
 				add_ownership={
 					building={
@@ -1728,7 +1793,7 @@ s:STATE_BUENOS_AIRES={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
+				activate_production_methods={ "pm_standardized_filing_system" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -2012,6 +2077,19 @@ s:STATE_CORDOBA={
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:ARG"
+						levels=1
+						region="STATE_CORDOBA"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_textile_mills"
@@ -2423,6 +2501,19 @@ s:STATE_TUCUMAN={
 				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:CHL"
+						levels=2
+						region="STATE_SANTIAGO"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
 					building={
@@ -2615,6 +2706,19 @@ s:STATE_TUCUMAN={
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_limited" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:PRA"
+						levels=1
+						region="STATE_PARA"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_rice_farm"
@@ -2930,6 +3034,19 @@ s:STATE_TUCUMAN={
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts"  }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:BRZ"
+						levels=1
+						region="STATE_SAO_PAULO"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_sugar_plantation"
 				add_ownership={
 					building={
@@ -3165,6 +3282,19 @@ s:STATE_TUCUMAN={
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:BRZ"
+						levels=5
+						region="STATE_RIO_DE_JANEIRO"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_university"
 				add_ownership={
 					country={
@@ -3308,6 +3438,19 @@ s:STATE_TUCUMAN={
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:BRZ"
+						levels=2
+						region="STATE_BAHIA"
+					}
+				}
+				reserves=1
 			}
 			create_building={
 				building="building_shipyards"
@@ -3644,6 +3787,19 @@ s:STATE_TUCUMAN={
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:BRZ"
+						levels=1
+						region="STATE_PERNAMBUCO"
+					}
+				}
+				reserves=2
 			}
 			create_building={
 				building="building_textile_mills"
