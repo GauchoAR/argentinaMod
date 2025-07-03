@@ -1116,10 +1116,7 @@ french_pretenders_pulse.11 = {
 		any_scope_character = {
 			has_ideology = ideology:ideology_orleanist
 		}
-		any_trade_route = {
-			is_trade_route_productive = yes
-			level >= 15
-		}
+		
 	}
 
 	immediate = {
