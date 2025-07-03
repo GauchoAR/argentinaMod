@@ -167,12 +167,12 @@ toba_standard_of_living_modifier_negative = {
 	state_toba_standard_of_living_add = 1
 }
 
-afroplatense_standard_of_living_modifier_positive = {
+afro_platense_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_toba_standard_of_living_add = 1
+	state_afro_platense_standard_of_living_add = 1
 }
 
-afroplatense_standard_of_living_modifier_negative = {
+afro_platense_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_toba_standard_of_living_add = 1
 }

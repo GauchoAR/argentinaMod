@@ -1784,7 +1784,7 @@ s:STATE_BUENOS_AIRES={
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" }
 			}
-				create_building={
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1793,7 +1793,7 @@ s:STATE_BUENOS_AIRES={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_standardized_filing_system" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -1992,7 +1992,7 @@ s:STATE_BUENOS_AIRES={
 			}
 		}
 	}
-	s:STATE_RIO_NEGRO={
+	s:STATE_RIO_NEGROs={
 		region_state:PAT={
 		
 		}

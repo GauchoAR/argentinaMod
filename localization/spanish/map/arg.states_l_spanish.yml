@@ -18,8 +18,8 @@ STATE_SAN_LUIS: "San Luis"
 STATE_NEUQUEN: "Neuquen"
 STATE_MENDOZA: "Mendoza"
 STATE_CORDOBA: "Córdoba"
-STATE_LA_PAMPA: "La Pampa"
-STATE_RIO_NEGRO: "Rio Negro"
+STATE_LA_PAMPAs: "La Pampa"
+STATE_RIO_NEGROs: "Rio Negro"
 
 # Uruguay
 STATE_PAYSANDU: "Paysandú"

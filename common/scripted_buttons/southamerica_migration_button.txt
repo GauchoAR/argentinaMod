@@ -99,7 +99,7 @@
 	}
 
 	ai_chance = {
-		base = 1
+		value = 1
 	}
 }
 
@@ -117,12 +117,12 @@ patagonia_button = {
 		any_scope_state = {
 			OR = {
 				state_region = s:STATE_ARAUCANIA
-				state_region = s:STATE_RIO_NEGRO
+				state_region = s:STATE_RIO_NEGROs
 				state_region = s:STATE_CHUBUT
 				state_region = s:STATE_SANTA_CRUZ_ARG
 				state_region = s:STATE_NEUQUEN
 				state_region = s:STATE_TIERRA_DEL_FUEGO
-				state_region = s:STATE_LA_PAMPA
+				state_region = s:STATE_LA_PAMPAs
 			}
 			is_under_colonization = yes
 		}
@@ -137,6 +137,6 @@ patagonia_button = {
 	}
 
 	ai_chance = {
-		base = 10
+		value = 10
 	}
 }

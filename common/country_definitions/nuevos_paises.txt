@@ -28,7 +28,7 @@ PAT = {
 	tier = principality
 	
 	cultures = { mapuche }
-	capital = STATE_RIO_NEGRO
+	capital = STATE_RIO_NEGROs
 }
 THL = {
 	color = { 57 124 138 }

@@ -3,10 +3,10 @@
   # Argentina
 STATE_FORMOSA_ARG: "Formosa"
 STATE_TIERRA_DEL_FUEGO: "Tierra Del Fuego"
-STATE_ISLAS_MALVINAS: "Falkland/Malvinas Islands"
-STATE_ISLAS_GEORGIAS: "South Georgia Island"
+STATE_ISLAS_MALVINAS: "Islas Malvinas"
+STATE_ISLAS_GEORGIAS: "Islas Georgias"
 STATE_ENTRE_RIOS: "Entre Rios"
-STATE_MISIONES: "Misiones" 
+STATE_MISIONES: "Misiones"
 STATE_SALTA: "Salta"
 STATE_CATAMARCA: "Catamarca"
 STATE_LA_RIOJA: "La Rioja"
@@ -14,18 +14,17 @@ STATE_SAN_JUAN: "San Juan"
 STATE_SANTIAGO_DEL_ESTERO: "Santiago del Estero"
 STATE_CHUBUT: "Chubut"
 STATE_SANTA_CRUZ_ARG: "Santa Cruz"
-STATE_LA_PAMPA: "La Pampa"
 STATE_SAN_LUIS: "San Luis"
 STATE_NEUQUEN: "Neuquen"
 STATE_MENDOZA: "Mendoza"
 STATE_CORDOBA: "Córdoba"
-STATE_LA_PAMPA: "La Pampa"
-STATE_RIO_NEGRO: "Rio Negro"
+STATE_LA_PAMPAs: "La Pampa"
+STATE_RIO_NEGROs: "Rio Negro"
 
 # Uruguay
 STATE_PAYSANDU: "Paysandú"
 STATE_MONTEVIDEO: "Montevideo"
 STATE_BANDA_ORIENTAL: "Banda Oriental"
 
-#Bolivia 
+#Bolivia
 STATE_TARIJA: "Tarija"

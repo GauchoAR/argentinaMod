@@ -1,5 +1,4 @@
-﻿
-
+﻿##MOD##
 
 #Paraguay
 company_industrial_paraguaya = {
@@ -10,6 +9,9 @@ company_industrial_paraguaya = {
 	
 	building_types = {  
 		building_yerba_mate_plantation 
+	}
+	extension_building_types = {
+		building_logging_camp
 	}
 	potential = {
 	OR = {
@@ -22,17 +24,16 @@ company_industrial_paraguaya = {
 	}
 possible = { 
 		any_scope_state = {
-		
 		state_region = s:STATE_BAJO_PARAGUAY
 			is_incorporated = yes
 			any_scope_building = {
-					Is_building_type = building_yerba_mate_plantation
-					is_building_type = building_logging_camp
+					is_building_type = building_yerba_mate_plantation
 				    level >= 3
 			    }
 		    }
 	
 	    }
+	
 	
 	prosperity_modifier = {
 		interest_group_ig_industrialists_approval_add = 5
@@ -75,19 +76,20 @@ company_amanda = {
 	possible_prestige_goods = {
 		prestige_good_yerba_lujo
 	}
-	possible = {
+	 
+possible = {
 		any_scope_state = {
-		state_region = s:STATE_MISIONES
-		State_region = s:STATE_CORRIENTES
-		
+			OR = {
+				state_region = s:STATE_MISIONES
+			    state_region = s:STATE_CORRIENTES
+			}
 			is_incorporated = yes
 			any_scope_building = {
-					Is_building_type = building_yerba_mate_plantation
-				    level >= 3
-			    }
-		    }
-	
-	     }
+				is_building_type = building_yerba_mate_plantation
+				level >= 3 
+			}
+		}
+	}
 	
 	prosperity_modifier = {
 		state_loyalists_from_political_movements_mult = 0.05
@@ -233,6 +235,9 @@ company_las_higueritas = {
 	
 		building_livestock_ranch
 	}
+	possible_prestige_goods = {
+		prestige_good_river_plate_beef
+	}
 	potential = {
 		OR = {
 			c:ARG ?= this
@@ -279,7 +284,7 @@ flavored_company = yes
 		}
 	}
 	possible_prestige_goods = {
-		prestige_good_generic_grocieries
+		prestige_good_generic_groceries
 	}
 	possible = { 
 	         

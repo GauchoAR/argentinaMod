@@ -1025,6 +1025,7 @@ STATES = {
 			owned_provinces = { x302DDA x490187 x4934E2 xA46ED2 xE69F06 x4E1442 xE25670 x3D3A57 x3F05CB x754BF8 x3588C8 x49D0F9 xFEBAD0 x3EA75C }
 		}
 		add_homeland = cu:platinean
+		add_homeland = cu:afro_platense
 		add_claim = c:ARG
 		add_claim = c:BRZ
 	}
@@ -2502,6 +2503,7 @@ STATES = {
 		
 		add_homeland = cu:platinean
 		add_homeland = cu:patagonian
+		add_homeland = cu:afro_platense
 		add_claim = c:ARG
 	}
 	
@@ -2541,7 +2543,7 @@ STATES = {
 		add_claim = c:ARG
 		add_claim = c:CHL
 	}
-	s:STATE_LA_PAMPA = {
+	s:STATE_LA_PAMPAs = {
 		create_state = {
 			country = c:ARG
 			owned_provinces = { x08B647 x2B18E0 x3F05E8 x443E92 x745CF8 xFDEBB0 }
@@ -2557,7 +2559,7 @@ STATES = {
 		add_homeland = cu:mapuche
 		add_claim = c:ARG	
 	}
-s:STATE_RIO_NEGRO = { 	
+s:STATE_RIO_NEGROs = { 	
 		create_state = {
 			country = c:PAT
 			owned_provinces = {
@@ -5811,15 +5813,15 @@ s:STATE_JUJUY = {
 		}
 		create_state = {
 			country = c:OMA
-			owned_provinces = { xAAA21C x876E91 x0170A0 x350DED x75B0BE x36F270 x42FC41 x2F832B }
+			owned_provinces = { xAAA21C x876E91 x0170A0 x350DED x75B0BE x36F270 x42FC41 x2F832B x8070A0 }
+			state_type = unincorporated
 		}
 
 		create_state = {
-			country = c:ABU
-			owned_provinces = { x8070A0 xB80596 }
-			state_type = unincorporated
+			country = c:BHN
+			owned_provinces = { xB80596 }
 		}
-		
+
 		add_homeland = cu:persian
 		add_homeland = cu:bedouin
 	}

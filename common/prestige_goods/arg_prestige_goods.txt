@@ -1,4 +1,4 @@
-
+﻿
 
 prestige_good_quebracho = {
 	base_good = hardwood
@@ -9,23 +9,23 @@ prestige_good_quebracho = {
 prestige_good_yerba_lujo = {
 	base_good = yerba_mate
 	prestige_bonus = 0.1
-	texture = "gfx\interface\icons\arg.goods_icons\yerba_mate.dds"
+	texture = "gfx/interface/icons/arg.goods_icons/yerba_mate.dds"
 }
 
 prestige_good_yerba_terere = {
 	base_good = yerba_mate
 	prestige_bonus = 0.1
-	texture = "gfx\interface\icons\arg.goods_icons\yerba_mate.dds"
+	texture = "gfx/interface/icons/arg.goods_icons/yerba_mate.dds"
 }
 
 prestige_good_quilmes= {
 	base_good = yerba_mate
 	prestige_bonus = 0.1
-	texture = "gfx\interface\icons\goods_icons\liquor.dds"
+	texture = "gfx/interface/icons/goods_icons/liquor.dds"
 }
 
 prestige_good_tractores_bernardin = {
 	base_good = automobiles
 	prestige_bonus = 0.1
-	texture = "gfx\interface\icons\production_method_icons\tractors.dds"
+	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
 }
