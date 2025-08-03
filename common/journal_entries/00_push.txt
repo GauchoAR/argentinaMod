@@ -47,7 +47,10 @@ je_hacia_el_norte = {
 			owner = c:GNI
 		}
 		AND = {
-			c:ARG?= this
+			OR = {
+				c:ARG ?= this
+				c:PLT ?= this
+			}
 			owns_entire_state_region = STATE_FORMOSA_ARG
 		}
 	}

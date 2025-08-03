@@ -1,0 +1,52 @@
+﻿
+PLT = {
+	color = { 45 154 173 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { platinean }
+	capital = STATE_BUENOS_AIRES
+}
+URU = {
+	color = { 131 101 85 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { platinean }
+	capital = STATE_MONTEVIDEO
+	is_named_from_capital = yes
+}
+PAT = {
+	color = { 196 25 10 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { mapuche }
+	capital = STATE_RIO_NEGROs
+}
+THL = {
+	color = { 57 124 138 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tehuelche }
+	capital = STATE_CHUBUT
+}
+SLK = {
+	color = { 122 14 52 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { patagonian }
+	capital = STATE_MAGALLANES
+}

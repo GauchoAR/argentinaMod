@@ -8,6 +8,4 @@ default_building_yerba_mate_plantation:0 "$pm_default$"
 
 automatic_irrigation_building_yerba_mate_plantation:0 "$automatic_irrigation$"
 
- pmg_ownership_land_building_yerba_mate_plantation:1 "$pmg_ownership$"
- 
- pmg_base_building_yerba_mate_plantation:1 "$pm_base$"
+pmg_ownership_land_building_yerba_mate_plantation:1 "$pmg_ownership$"

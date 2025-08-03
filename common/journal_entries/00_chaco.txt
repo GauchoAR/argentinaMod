@@ -7,7 +7,10 @@
 			owner = c:GNI
 		}
 		AND = {
-			c:ARG ?= this
+			OR = {
+				c:ARG ?= this
+				c:PLT ?= this
+			}
 		}
 	}
 

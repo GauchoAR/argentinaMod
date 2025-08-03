@@ -22,11 +22,15 @@ group = je_group_historical_content
 
 	complete = {
 		OR = {
-			owns_entire_state_region = STATE_ARAUCANIA
 			AND = {
-				owns_entire_state_region = STATE_LA_PAMPA
+				owns_entire_state_region = STATE_MAGALLANES
+				owns_entire_state_region = STATE_AYSEN
+				owns_entire_state_region = STATE_LOS_LAGOS
+			}
+			AND = {
+				owns_entire_state_region = STATE_LA_PAMPAs
 				owns_entire_state_region = STATE_NEUQUEN
-				owns_entire_state_region = STATE_RIO_NEGRO
+				owns_entire_state_region = STATE_RIO_NEGROs
 				owns_entire_state_region = STATE_CHUBUT
 				owns_entire_state_region = STATE_SANTA_CRUZ_ARG
 				owns_entire_state_region = STATE_TIERRA_DEL_FUEGO

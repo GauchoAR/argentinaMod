@@ -34,31 +34,34 @@ chaco.1 = {
 			limit = {
 				AND = {
 					owns_entire_state_region = STATE_CHACO
-				    owns_entire_state_region = STATE_FORMOSA_ARG
-					
-				    }
-			     }
+					owns_entire_state_region = STATE_FORMOSA_ARG
+					}
+				}
 			
 			s:STATE_CHACO = {
-					add_homeland = cu:platinean
+				add_homeland = cu:platinean
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					add_modifier = {
+						name = chaco_settlement
+						months = long_modifier_time
+					}
 				}
-				
-			s:STATE_CHACO.region_state:ARG = {
-				add_modifier = {
-					name = chaco_settlement
-					months = long_modifier_time
-			    }
 			}
 			s:STATE_FORMOSA_ARG = {
-					add_homeland = cu:platinean
+				add_homeland = cu:platinean
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					add_modifier = {
+						name = formosa_settlement
+						months = long_modifier_time
+					}
 				}
-			s:STATE_FORMOSA_ARG.region_state:ARG = {
-				add_modifier = {
-					name = formosa_settlement
-					months = long_modifier_time
-			       }
-			    }
-		 		
-		    }		
-	    }
-    }
+			}
+		}
+	}
+}

@@ -8,7 +8,12 @@
 		ideology_jingoist
 		ideology_loyalist
 		ideology_patriotic
-		
+	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_orleanist
+		ideology_bonapartist
 	}
 
 	enable = {
@@ -61,6 +66,38 @@
 				set_ig_trait = ig_trait:ig_trait_veteran_consultation
 				set_ig_trait = ig_trait:ig_trait_el_buen_jefe
 			}
+			else_if = {
+				limit = {
+					owner = {
+						has_dlc_feature = rp1_content
+						c:BRZ ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_coronelismo
+				set_ig_trait = ig_trait:ig_trait_clube_militar
+				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
+			}
+			else_if = {
+				limit = {
+					owner = {
+						has_dlc_feature = ip2_content
+						c:BIC ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_divided_ranks
+				set_ig_trait = ig_trait:ig_trait_imperial_service
+				set_ig_trait = ig_trait:ig_trait_veerta
+			}
+			else_if = {
+				limit = {
+					owner = {
+						c:PAN ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_khalsa
+				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
+			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_materiel_waste
 				set_ig_trait = ig_trait:ig_trait_veteran_consultation
@@ -71,25 +108,15 @@
 		if = {
 			limit = {
 				OR = {
+					country_has_primary_culture = cu:platinean
 					country_has_primary_culture = cu:south_andean
 					country_has_primary_culture = cu:north_andean
 					country_has_primary_culture = cu:central_american
 					country_has_primary_culture = cu:mexican
-					country_has_primary_culture = cu:platinean
 				}
 			}
 			ig:ig_armed_forces = {
 				add_ideology = ideology_caudillismo
-			}
-		}
-		#Ejército Argentino
-		if = {
-			limit = {
-				
-				c:ARG ?= this
-			}
-			ig:ig_armed_forces = {
-				set_interest_group_name = ig_ejercito_argentino
 			}
 		}
 		# Samurai
@@ -103,16 +130,61 @@
 				set_interest_group_name = ig_samurai
 			}
 		}
+		#Ejército Argentino
+		if = {
+			limit = {
+				
+				c:ARG ?= this
+			}
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_ejercito_argentino
+			}
+		}
+		# India
+		else_if = {
+			limit = {
+				c:BIC ?= this
+			}
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_presidency_armies
+			}
+		}
+		# Sikh Empire
+		else_if = {
+			limit = {
+				c:PAN ?= this
+			}
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_khalsaji
+				remove_ideology = ideology_jingoist
+				add_ideology = ideology_sikh_militancy
+			}
+		}
 	}
 	on_disable = {}
-	on_character_ig_membership = {}
 
+	priority_cultures = { #Country scope
+		rule = {
+			trigger = {
+				c:BIC ?= this
+				any_primary_culture = { 
+					cu:british = this
+				}
+			}
+			cultures = {
+				british scottish irish
+			}
+		}
+	}
+
+	on_character_ig_membership = {}
+	
 	pop_potential = {
 		OR = {
 			is_pop_type = soldiers
 			is_pop_type = officers
 			is_pop_type = aristocrats
-			pop_is_discriminated = no
+			pop_acceptance >= acceptance_status_4
 		}
 	}
 
@@ -123,7 +195,7 @@
 			desc = "POP_NOT_DISCRIMINATED"
 			if = {
 				limit = {
-					pop_is_discriminated = no
+					pop_acceptance >= acceptance_status_4
 				}
 				value = 25
 				if = { # Militarisation of colonial settlers
@@ -135,7 +207,7 @@
 							is_incorporated = no
 						}
 					}
-					add = 25
+					add = 50
 				}
 				if = { # Separation of the military and people
 					limit = {
@@ -181,7 +253,7 @@
 							military_wage_level = low
 						}
 					}
-					multiply = 85
+					multiply = 0.85
 				}
 				if = {
 					limit = {
@@ -216,7 +288,15 @@
 				limit = {
 					is_pop_type = aristocrats
 				}
-				value = 50
+				value = 10
+				if = {
+					limit = {
+						owner = {
+							has_modifier = age_of_caudillos_modifier
+						}
+					}
+					add = 25
+				}
 				if = {
 					limit = {
 						owner = {
@@ -227,6 +307,17 @@
 				}
 			}
 		}
+		
+		add = {
+			desc = "SIKH_MILITANCY"
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+					religion = rel:sikh
+				}
+				add = 100
+			}
+		}
 
 		add = {
 			desc = "POP_OFFICERS"
@@ -235,6 +326,46 @@
 					is_pop_type = officers
 				}
 				value = 250
+			}
+		}
+
+		add = { # There's one firearm for every twelve people on the planet. The question is, how do we arm the other eleven?
+			desc = "MILITARY_INDUSTRIES"
+			if = {
+				limit = {
+					OR = {
+						pop_employment_building_group = bg_munition_plants
+						pop_employment_building_group = bg_arms_industries
+						pop_employment_building_group = bg_artillery_foundaries
+						pop_employment_building_group = bg_military_shipyards
+					}
+				}
+				if = {
+					limit = {
+						strata = middle
+					}
+					value = 75
+				}
+				if = {
+					limit = {
+						strata = upper
+					}
+					value = 150
+				}
+			}
+		}
+		
+		add = {
+			desc = "POP_MILITARY_BUREAUCRACY"
+			if = {
+				limit = {
+					is_pop_type = bureaucrats
+					owner = {
+						c:ALK ?= this
+						has_government_type = gov_chartered_company
+					}
+				}
+				value = 100
 			}
 		}
 
@@ -432,15 +563,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.75
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

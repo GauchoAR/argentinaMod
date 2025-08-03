@@ -1,9 +1,11 @@
 ﻿arg_purchase_malvinas = {
 	is_shown = {
-		exists = c:ARG
-		exists = c:GBR
-		c:ARG = ROOT
+		or = {
+			c:ARG ?= this
+			c:PLT ?= this
+		}
 		is_subject = no
+		exists = c:GBR
 		NOT = {
 			has_variable = malvinas_purchase_var
 		}
@@ -17,9 +19,8 @@
 	possible = {
 		in_default = no
 		taking_loans = no
-		is_at_war = no
 		c:GBR = {
-			relations:root >= 80
+			relations:root >= 75
 			is_at_war = no
 			
 		}
@@ -33,31 +34,13 @@
 			value = yes
 		}
 		trigger_event = {
-			id = malvinas.4
+			id = malvinas.1
 			days = 0
 			popup = yes
 		}
 	}
 
 	ai_chance = {
-		base = 0	
-		modifier = {
-			trigger = { gold_reserves > 1000000 }
-			add = 10
-		}		
-		modifier = {
-			trigger = { 
-				gold_reserves > 0
-				weekly_net_fixed_income > 50000
-			}
-			add = 10
-		}
-		modifier = {
-			OR = {
-				is_diplomatic_play_committed_participant = yes
-				is_at_war = yes
-			}
-			add = -1000
-		}
+		value = 0	
 	}
 }
