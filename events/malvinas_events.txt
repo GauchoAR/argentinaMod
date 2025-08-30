@@ -21,6 +21,7 @@ malvinas.1 = {
 
 	trigger = {
 		OR = {
+			c:Great_ARG ?= this
 			c:ARG ?= this
 			c:PLT ?= this
 		}
@@ -83,7 +84,11 @@ malvinas.2 = {
 	option = {
 		name = malvinas.2.a
 		default_option = yes
+		
 		c:ARG ?= { trigger_event = { id = malvinas.3 days = 0 popup = yes }}
+		
+		c:Great_ARG ?= { trigger_event = { id = malvinas.3 days = 0 popup = yes }}
+		
 		c:PLT ?= { trigger_event = { id = malvinas.3 days = 0 popup = yes }}
 		ai_chance = {
 			base = 1
@@ -91,7 +96,11 @@ malvinas.2 = {
 	}
 	option = {
 		name = malvinas.2.b
+		
 		c:ARG ?= { trigger_event = { id = malvinas.4 days = 0 popup = yes }}
+		
+		c:Great_ARG ?= { trigger_event = { id = malvinas.4 days = 0 popup = yes }}
+		
 		c:PLT ?= { trigger_event = { id = malvinas.4 days = 0 popup = yes }}
 		show_as_tooltip = {
 			change_relations = {

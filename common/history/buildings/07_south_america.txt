@@ -1803,7 +1803,7 @@ s:STATE_BUENOS_AIRES={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -1843,19 +1843,6 @@ s:STATE_BUENOS_AIRES={
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_vineyard_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:ARG"
-						levels=1
-						region="STATE_BUENOS_AIRES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_naval_base"
@@ -1938,19 +1925,6 @@ s:STATE_BUENOS_AIRES={
 				}
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation"  }
-			}
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:ARG"
-						levels=1
-						region="STATE_MENDOZA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2086,7 +2060,7 @@ s:STATE_CORDOBA={
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_trade_center"
@@ -2448,20 +2422,6 @@ s:STATE_TUCUMAN={
 	}
 	s:STATE_SANTIAGO_DEL_ESTERO={
 		region_state:ARG={
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:ARG"
-						levels=1
-						region="STATE_SANTIAGO_DEL_ESTERO"
-					}
-				}
-				
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
-			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={

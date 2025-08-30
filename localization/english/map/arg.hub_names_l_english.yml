@@ -3,17 +3,17 @@
 
 
   #La Pampa
-HUB_NAME_STATE_LA_PAMPAs_city: "a"
-HUB_NAME_STATE_LA_PAMPAs_farm: "b"
-HUB_NAME_STATE_LA_PAMPAs_wood: "c"
-HUB_NAME_STATE_LA_PAMPAs_mine: "d"
+HUB_NAME_STATE_LA_PAMPAs_city: "Santa Rosa"
+HUB_NAME_STATE_LA_PAMPAs_farm: "Chacharramendi"
+HUB_NAME_STATE_LA_PAMPAs_wood: "Santa Isabel"
+HUB_NAME_STATE_LA_PAMPAs_mine: "Catriel"
 
  #Rio Negro
-HUB_NAME_STATE_RIO_NEGROs_city: "w"
-HUB_NAME_STATE_RIO_NEGROs_farm: "e"
-HUB_NAME_STATE_RIO_NEGROs_wood: "f"
-HUB_NAME_STATE_RIO_NEGROs_mine: "r"
-HUB_NAME_STATE_RIO_NEGROs_port: "l"
+HUB_NAME_STATE_RIO_NEGROs_city: "Viedma"
+HUB_NAME_STATE_RIO_NEGROs_farm: "Río Colorado"
+HUB_NAME_STATE_RIO_NEGROs_wood: "San Carlos de Bariloche"
+HUB_NAME_STATE_RIO_NEGROs_mine: "General Roca"
+HUB_NAME_STATE_RIO_NEGROs_port: "Las Grutas"
 
    # Formosa
 HUB_NAME_STATE_FORMOSA_ARG_city: "Formosa"

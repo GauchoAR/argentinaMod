@@ -21,6 +21,7 @@ welsh_colony.1 = {
 	trigger = {
 		OR = {
 			c:ARG ?= this
+			c:Great_ARG ?= this
 			c:PLT ?= this
 		}
 	}

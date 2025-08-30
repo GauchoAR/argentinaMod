@@ -2854,6 +2854,7 @@ s:STATE_JUJUY = {
 		add_homeland = cu:mapuche
 		add_homeland = cu:tehuelche
 		add_claim = c:CHL
+		add_claim = c:ARG
 	}
 	s:STATE_AYSEN = {
 		create_state = {
@@ -2862,6 +2863,7 @@ s:STATE_JUJUY = {
 		}
 		add_homeland = cu:tehuelche
 		add_claim = c:CHL
+		add_claim = c:ARG
 	}
 	s:STATE_MAGALLANES = {
 		create_state = {
@@ -2879,6 +2881,7 @@ s:STATE_JUJUY = {
 		add_homeland = cu:tehuelche
 		add_homeland = cu:selknam
 		add_claim = c:CHL
+		add_claim = c:ARG
 	}
 
 	s:STATE_TIERRA_DEL_FUEGO = {

@@ -23,53 +23,12 @@ patagonia.1 = {
   }
 
   immediate = {
-    if = {
-      limit = {
-        owns_entire_state_region = STATE_MAGALLANES
-		owns_entire_state_region = STATE_AYSEN
-		owns_entire_state_region = STATE_LOS_RIOS
-      }
-      random_scope_state = {
-        limit = {
-          state_region = s:STATE_ARAUCANIA
-        }
-        save_scope_as = patagonia_state
-      }
-    }
-    else = {
-      random_scope_state = {
-        limit = {
-          state_region = s:STATE_NEUQUEN
-        }
-        save_scope_as = patagonia_state
-      }
-    }
   }
 
   option = {
     name = patagonia.1.a
     default_option = yes
-
-    if = {
-      limit = {
-        country_has_primary_culture = cu:south_andean
-      }
-      s:STATE_ARAUCANIA = {
-        add_homeland = cu:south_andean
-        random_scope_state = {
-          limit = {
-            owner = ROOT
-          }
-          add_modifier = {
-            name = patagonian_settlement
-            months = long_modifier_time
-          }
-        }
-      }
-    }
-
-    else_if = {
-      limit = {
+    limit = {
         AND = {
           country_has_primary_culture = cu:platinean
           owns_entire_state_region = STATE_LA_PAMPAs
@@ -79,9 +38,9 @@ patagonia.1 = {
           owns_entire_state_region = STATE_SANTA_CRUZ_ARG
           owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
         }
-      }
+    }
 
-      s:STATE_LA_PAMPAs = {
+    s:STATE_LA_PAMPAs = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -92,9 +51,9 @@ patagonia.1 = {
             months = long_modifier_time
           }
         }
-      }
+    }
 
-      s:STATE_NEUQUEN = {
+    s:STATE_NEUQUEN = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -105,9 +64,9 @@ patagonia.1 = {
             months = long_modifier_time
           }
         }
-      }
+    }
 
-      s:STATE_RIO_NEGROs = {
+    s:STATE_RIO_NEGROs = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -118,9 +77,9 @@ patagonia.1 = {
             months = long_modifier_time
           }
         }
-      }
+    }
 
-      s:STATE_CHUBUT = {
+    s:STATE_CHUBUT = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -131,9 +90,9 @@ patagonia.1 = {
             months = long_modifier_time
           }
         }
-      }
+    }
 
-      s:STATE_SANTA_CRUZ_ARG = {
+    s:STATE_SANTA_CRUZ_ARG = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -144,9 +103,9 @@ patagonia.1 = {
             months = long_modifier_time
           }
         }
-      }
+    }
 
-      s:STATE_TIERRA_DEL_FUEGO = {
+    s:STATE_TIERRA_DEL_FUEGO = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -159,7 +118,6 @@ patagonia.1 = {
         }
       }
     }
-  }
 }
 
 

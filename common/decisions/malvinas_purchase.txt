@@ -2,6 +2,7 @@
 	is_shown = {
 		or = {
 			c:ARG ?= this
+			c:Great_ARG ?= this
 			c:PLT ?= this
 		}
 		is_subject = no
