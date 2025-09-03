@@ -1441,12 +1441,6 @@ s:STATE_MONTEVIDEO={
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
             create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -2031,7 +2025,12 @@ s:STATE_BUENOS_AIRES={
 			}
 			 create_building={
 				building="building_barracks"
-				level=2
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
 			}
@@ -2103,7 +2102,12 @@ s:STATE_CORDOBA={
 			}
 			create_building={
 				building="building_barracks"
-				level=1
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
 			}
@@ -2165,7 +2169,12 @@ s:STATE_CORDOBA={
            
             create_building={
 				building="building_barracks"
-				level=2
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
 			}
@@ -2351,7 +2360,12 @@ s:STATE_TUCUMAN={
 			}
              create_building={
 				building="building_barracks"
-				level=1
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
 			}
