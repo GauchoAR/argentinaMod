@@ -84,7 +84,7 @@
 	effect = {
 		set_variable = {
 			name = sa_migration_cooldown
-			months = normal_modifier_time
+			months = short_modifier_time
 		}
 		custom_tooltip = {
 			text = mass_migration_button_tt
@@ -93,7 +93,7 @@
 		show_as_tooltip = {
 			add_modifier = {
 				name = sa_migration_cost
-				months = normal_modifier_time
+				months = short_modifier_time
 			}
 		}
 	}
@@ -132,7 +132,7 @@ patagonia_button = {
 	effect = {
 		add_modifier = {
 			name = patagonia_campaign
-			months = long_modifier_time
+			months = short_modifier_time
 		}
 	}
 

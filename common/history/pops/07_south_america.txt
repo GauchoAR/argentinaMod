@@ -1398,7 +1398,7 @@ s:STATE_NEUQUEN = {
 			}				
 		}
 	}
-	   s:STATE_ARAUCANIA = {
+	s:STATE_LOS_LAGOS = {
 		region_state:CHL = {
 			create_pop = {
 				culture = south_andean
@@ -1416,21 +1416,59 @@ s:STATE_NEUQUEN = {
 		region_state:THL = {
 		create_pop = {
 				culture = mapuche
-				size = 6200
+				size = 2200
 			}
 			create_pop = {
 				culture = tehuelche
-				size = 25000
+				size = 15000
 			}
 			create_pop = {
 				culture = patagonian
-				size = 12000
+				size = 10000
+			}
+		}
+	}
+	s:STATE_AYSEN = {
+		region_state:THL = {
+			create_pop = {
+				culture = mapuche
+				size = 100
+			}
+			create_pop = {
+				culture = tehuelche
+				size = 2000
+			}
+			create_pop = {
+				culture = patagonian
+				size = 1200
+			}
+		}
+	}
+	s:STATE_MAGALLANES = {
+		region_state:THL = {
+		create_pop = {
+				culture = mapuche
+				size = 100
+			}
+			create_pop = {
+				culture = tehuelche
+				size = 2000
+			}
+			create_pop = {
+				culture = patagonian
+				size = 280
+			}
+		}
+		region_state:CHL = {
+		create_pop = {
+				culture = south_andean
+				size = 30
 			}
 		}
 		region_state:SLK = {
 			create_pop = {
 				culture = selknam
-				size = 12000
+				size = 1000
 			}
 		}
 	}

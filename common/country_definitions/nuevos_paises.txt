@@ -1,4 +1,13 @@
-﻿
+﻿Great_ARG = {
+	color = { 45 154 173 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { argentine platinean }
+	capital = STATE_BUENOS_AIRES
+}
 PLT = {
 	color = { 45 154 173 }
 	
@@ -39,4 +48,14 @@ THL = {
 	
 	cultures = { tehuelche }
 	capital = STATE_CHUBUT
+}
+SLK = {
+	color = { 122 14 52 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { patagonian }
+	capital = STATE_MAGALLANES
 }

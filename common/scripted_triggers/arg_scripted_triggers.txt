@@ -28,7 +28,9 @@ owned_gran_colombia_region_states = {
 
 owned_la_plata_region_states = {
 	owns_entire_state_region = STATE_SANTIAGO
-	owns_entire_state_region = STATE_ARAUCANIA
+    owns_entire_state_region = STATE_MAGALLANES
+	owns_entire_state_region = STATE_AYSEN
+	owns_entire_state_region = STATE_LOS_RIOS
 	owns_entire_state_region = STATE_LOS_RIOS
 	owns_entire_state_region = STATE_ISLAS_MALVINAS
 	owns_entire_state_region = STATE_ISLAS_GEORGIAS

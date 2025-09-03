@@ -48,10 +48,12 @@ je_hacia_el_norte = {
 		}
 		AND = {
 			OR = {
+				c:Great_ARG ?= this
 				c:ARG ?= this
 				c:PLT ?= this
 			}
-			owns_entire_state_region = STATE_FORMOSA_ARG
+		owns_entire_state_region = STATE_FORMOSA_ARG
+
 		}
 	}
 

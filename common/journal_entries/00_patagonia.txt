@@ -22,7 +22,11 @@ group = je_group_historical_content
 
 	complete = {
 		OR = {
-			owns_entire_state_region = STATE_ARAUCANIA
+			AND = {
+				owns_entire_state_region = STATE_MAGALLANES
+				owns_entire_state_region = STATE_AYSEN
+				owns_entire_state_region = STATE_LOS_LAGOS
+			}
 			AND = {
 				owns_entire_state_region = STATE_LA_PAMPAs
 				owns_entire_state_region = STATE_NEUQUEN

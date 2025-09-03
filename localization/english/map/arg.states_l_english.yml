@@ -28,3 +28,8 @@ STATE_BANDA_ORIENTAL: "Banda Oriental"
 
 #Bolivia
 STATE_TARIJA: "Tarija"
+
+#Chile
+STATE_LOS_LAGOS: "Los Lagos"
+STATE_AYSEN: "Aysen"
+STATE_MAGALLANES: "Magallanes"

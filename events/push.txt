@@ -71,11 +71,11 @@ hacia_el_norte.1 = {
     icon = "gfx/interface/icons/event_icons/event_military.dds"
 
     trigger = {
-		c:ARG ?= this
-		c:PLT ?= this
-		owns_entire_state_region = STATE_ALTO_PARAGUAY
+		# complete je_hacia_el_norte
     }
-
+	immediate = {
+	}
+	
 	option = {
 		name = hacia_el_norte.1.a
 		default_option = yes
