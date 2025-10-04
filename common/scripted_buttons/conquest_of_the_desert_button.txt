@@ -1,0 +1,37 @@
+﻿patagonia_button = {
+	name = patagonia_button
+	desc = patagonia_button_desc
+
+	visible = { always = yes }
+
+	possible = {
+		has_technology_researched = logistics
+		ig:ig_armed_forces = { 
+			is_marginal = no
+		}
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_ARAUCANIA
+				state_region = s:STATE_RIO_NEGRO
+				state_region = s:STATE_CHUBUT
+				state_region = s:STATE_SANTA_CRUZ_ARG
+				state_region = s:STATE_NEUQUEN
+				state_region = s:STATE_TIERRA_DEL_FUEGO
+				state_region = s:STATE_LA_PAMPA
+			}
+			is_under_colonization = yes
+		}
+		NOT = { has_modifier = patagonia_campaign }
+	}
+
+	effect = {
+		add_modifier = {
+			name = patagonia_campaign
+			months = short_modifier_time
+		}
+	}
+
+	ai_chance = {
+		value = 10
+	}
+}

@@ -6,8 +6,12 @@
 
 	ideologies = {
 		ideology_paternalistic
-		ideology_stratocratic
+		ideology_hierarchic
 		ideology_patriarchal
+	}
+	character_ideologies = {
+		ideology_moderate
+		ideology_traditionalist
 	}
 
 	enable = {
@@ -117,7 +121,7 @@
 				set_interest_group_name = ig_caudillos
 				remove_ideology = ideology_paternalistic
 				add_ideology = ideology_caudillismo
-				remove_ideology = ideology_stratocratic
+		        remove_ideology = ideology_hierarchic
 				add_ideology = ideology_autonomist
 			}
 		}

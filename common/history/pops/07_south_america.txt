@@ -859,7 +859,7 @@ s:STATE_ALTO_PARAGUAY = {
 	}
 	
 	
-	s:STATE_RIO_NEGROs = {
+	s:STATE_RIO_NEGRO = {
 		
 		region_state:PAT = {
 			create_pop = {
@@ -930,7 +930,7 @@ s:STATE_NEUQUEN = {
 					
 		}
 	}
-		s:STATE_LA_PAMPAs = {
+		s:STATE_LA_PAMPA = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
@@ -1288,6 +1288,7 @@ s:STATE_NEUQUEN = {
 				culture = toba #
 				size = 3400
 			}
+
 			create_pop = {
 				culture = north_german
 				size = 500
@@ -1346,7 +1347,11 @@ s:STATE_NEUQUEN = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 5000
+				size = 2000
+			}
+			create_pop = {
+				culture = picunches
+				size = 18000
 			}
 			create_pop = {
 				culture = south_german

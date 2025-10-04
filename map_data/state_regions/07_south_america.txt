@@ -153,6 +153,10 @@ STATE_ANTIOQUIA = {
         bg_logging = 13
         bg_fishing = 8
     }
+	resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 8
+    }
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 5
@@ -216,6 +220,10 @@ STATE_CAUCA = {
         bg_fishing = 6
         bg_whaling = 2
     }
+	 resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 6
+    }
     naval_exit_id = 3155
 }
 STATE_PASTAZA = {
@@ -228,7 +236,7 @@ STATE_PASTAZA = {
     mine = "x6675F2"
     wood = "xF479D2"
     arable_land = 30
-    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_sugar_plantations" }
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 25
@@ -240,7 +248,7 @@ STATE_PASTAZA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
 }
 STATE_TARAPACA = {
@@ -451,7 +459,11 @@ STATE_MONTEVIDEO = {
     mine = "x490187"
     wood = "x3EA75C"
     arable_land = 130
+<<<<<<< Updated upstream
     arable_resources = { "bg_wheat_farms" bg_rye_farms "bg_maize_farms" bg_millet_farms "bg_livestock_ranches"  }
+=======
+    arable_resources = { "bg_wheat_farms"  "bg_livestock_ranches"  "bg_vineyard_plantations"}
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 8
         bg_fishing = 12
@@ -474,11 +486,19 @@ STATE_PAYSANDU = {
     mine = "xDD1206"
     wood = "x46C43D"
     arable_land = 155
+<<<<<<< Updated upstream
     arable_resources = { "bg_rice_farms" "bg_wheat_farms" bg_rye_farms "bg_maize_farms" bg_millet_farms "bg_livestock_ranches"  }
     capped_resources = {
         bg_logging = 15
         bg_iron_mining = 5
         bg_gold_mining = 2
+=======
+    arable_resources = {  "bg_maize_farms"  "bg_dye_plantations" "bg_livestock_ranches"  }
+    capped_resources = {
+        bg_logging = 17
+        bg_iron_mining = 7
+        bg_gold_mining = 4
+>>>>>>> Stashed changes
     }
     resource = {
         type = "bg_oil_extraction"
@@ -496,12 +516,20 @@ STATE_BANDA_ORIENTAL = {
     mine = "x44A7CD"
     wood = "xD45E0C"
     arable_land = 125
+<<<<<<< Updated upstream
     arable_resources = { "bg_wheat_farms" bg_rye_farms "bg_maize_farms" bg_millet_farms "bg_livestock_ranches"  }
+=======
+    arable_resources = { "bg_wheat_farms"  "bg_livestock_ranches"  }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 8
         bg_fishing = 10
         bg_whaling = 5
+<<<<<<< Updated upstream
         bg_iron_mining = 3
+=======
+        bg_iron_mining = 4
+>>>>>>> Stashed changes
     }
     resource = {
         type = "bg_oil_extraction"
@@ -573,7 +601,11 @@ STATE_BUENOS_AIRES = {
     mine = "x31C090"
     wood = "x04DB73"
     arable_land = 1100
+<<<<<<< Updated upstream
     arable_resources = { "bg_wheat_farms" bg_rye_farms "bg_maize_farms" bg_millet_farms "bg_livestock_ranches"  }
+=======
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches"  }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_iron_mining = 2
         bg_logging = 8
@@ -592,13 +624,21 @@ STATE_CORDOBA = {
     mine = "x6F875E"
     wood = "xF08090"
     arable_land = 550
+<<<<<<< Updated upstream
     arable_resources = { "bg_wheat_farms" bg_rye_farms "bg_maize_farms" bg_millet_farms "bg_livestock_ranches"  }
+=======
+    arable_resources = {   "bg_maize_farms"  "bg_livestock_ranches"  }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 8
         bg_iron_mining = 19
     }
 }
+<<<<<<< Updated upstream
 STATE_LA_PAMPAs = {
+=======
+STATE_LA_PAMPA = {
+>>>>>>> Stashed changes
     id = 870
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x08B647" "x0F1339" "x105BA8" "x19A814" "x2B18E0" "x2D0CA4" "x3002FF" "x35839B" "x374BEF" "x3C651C" "x3F05E8" "x435071" "x443E92" "x471938" "x4A0914" "x5B5500" "x5D6A63" "x625917" "x627AEA" "x644D92" "x6CF948" "x6D25DC" "x708011" "x745CF8" "x788B48" "x8018A3" "x828DDF" "x8AA282" "x90FE7E" "x939F2A" "x97865C" "xA37A79" "xBFD046" "xCBC752" "xD2956F" "xD4ABBA" "xE7CCBD" "xF2801B" "xFDEBB0" }
@@ -608,7 +648,11 @@ STATE_LA_PAMPAs = {
     mine = "x6D25DC"
     wood = "x105BA8"
     arable_land = 650
+<<<<<<< Updated upstream
     arable_resources = {"bg_wheat_farms" bg_rye_farms "bg_maize_farms" bg_millet_farms "bg_livestock_ranches"  }
+=======
+    arable_resources = {"bg_wheat_farms"   "bg_livestock_ranches"  }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 5
         bg_coal_mining = 1
@@ -630,7 +674,11 @@ STATE_SANTA_FE = {
     mine = "x23965B"
     wood = "x257673"
     arable_land = 200
+<<<<<<< Updated upstream
     arable_resources = { "bg_rye_farms" "bg_millet_farms" "bg_wheat_farms" "bg_maize_farms" "bg_livestock_ranches" }
+=======
+    arable_resources = {  "bg_maize_farms" "bg_livestock_ranches" }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 8
 
@@ -651,7 +699,11 @@ STATE_ENTRE_RIOS = {
     mine = "xF04011"
     wood = "x4CF210"
     arable_land = 240
+<<<<<<< Updated upstream
     arable_resources = { "bg_wheat_farms" "bg_rye_farms" "bg_maize_farms" "bg_millet_farms" "bg_livestock_ranches" }
+=======
+    arable_resources = { "bg_wheat_farms"  "bg_livestock_ranches" }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 10
         bg_fishing = 8
@@ -693,7 +745,11 @@ STATE_SAN_LUIS = {
     farm = "x41303C"
     wood = "xF1A586"
     arable_land = 350
+<<<<<<< Updated upstream
     arable_resources = { bg_rye_farms "bg_wheat_farms" "bg_millet_farms" "bg_livestock_ranches"  "bg_vineyard_plantations" }
+=======
+    arable_resources = {  "bg_wheat_farms"  "bg_livestock_ranches"  "bg_vineyard_plantations" }
+>>>>>>> Stashed changes
     capped_resources = {
         bg_logging = 9
         bg_iron_mining = 2
@@ -760,7 +816,7 @@ STATE_NEUQUEN = {
         undiscovered_amount = 20
     }
 }
-STATE_RIO_NEGROs = {
+STATE_RIO_NEGRO = {
     id = 873
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x0423EC" "x0EE70B" "x1080D0" "x12934C" "x1782AF" "x1803D0" "x18C0CB" "x21B59A" "x22F6CA" "x272C16" "x29A196" "x2BBF2E" "x30800E" "x33807A" "x376932" "x39D7C8" "x4031B9" "x4078AC" "x455C7F" "x497957" "x50ADEE" "x528D86" "x569559" "x5EF03F" "x65C27F" "x6AC9DC" "x6C8C8C" "x6FA266" "x73CD08" "x7A4665" "x7C3A65" "x7F8525" "x878A7C" "x8830BD" "x8A9598" "x8E85EB" "x9068BD" "x911741" "x933AD2" "x939325" "x939F1B" "x94AA52" "x9B88F7" "x9D360A" "x9D4993" "xA56FA1" "xAA1982" "xADB202" "xB08090" "xBCEC41" "xC71E45" "xC7DD44" "xCCAD63" "xCD6C45" "xCF5848" "xD312AC" "xD493AE" "xDACD5C" "xDDE5A5" "xDE18A2" "xDE52B4" "xE7F68A" "xF00110" }
@@ -1324,7 +1380,7 @@ STATE_GOIAS = {
     mine = "x68CC1F"
     wood = "xF01E32"
     arable_land = 40
-    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_coffee_plantations"}
     capped_resources = {
         bg_logging = 16
         bg_fishing = 7
