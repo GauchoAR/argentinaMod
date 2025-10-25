@@ -56,7 +56,11 @@ Great_ARG = {
 		STATE_BAJO_PARAGUAY
 		STATE_ALTO_PARAGUAY
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		STATE_RIO_NEGROs
+=======
+		STATE_RIO_NEGRO
+>>>>>>> Stashed changes
 =======
 		STATE_RIO_NEGRO
 >>>>>>> Stashed changes
@@ -74,7 +78,11 @@ Great_ARG = {
 		STATE_SAN_LUIS
 		STATE_CHUBUT
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		STATE_LA_PAMPAs
+=======
+		STATE_LA_PAMPA
+>>>>>>> Stashed changes
 =======
 		STATE_LA_PAMPA
 >>>>>>> Stashed changes

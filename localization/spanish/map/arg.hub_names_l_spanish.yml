@@ -44,7 +44,10 @@ HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
   HUB_NAME_STATE_MISIONES_wood: "puerto Iguazú"
   HUB_NAME_STATE_MISIONES_mine: "Bernardo de Irigoyen
   
- 
+ HUB_NAME_STATE_LA_PAMPA_city: "Santa Rosa,la Pampa"
+ HUB_NAME_STATE_LA_PAMPA_wood: "Santa Isabel"
+ HUB_NAME_STATE_LA_PAMPA_farm: "La Reforma"
+ HUB_NAME_STATE_LA_PAMPA_mine: "Veinticinco de Mayo"
    
    #Salta
    HUB_NAME_STATE_SALTA_city: "Salta"

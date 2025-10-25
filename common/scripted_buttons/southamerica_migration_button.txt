@@ -103,6 +103,7 @@
 	}
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 patagonia_button = {
 	name = patagonia_button
@@ -141,5 +142,7 @@ patagonia_button = {
 		value = 10
 	}
 }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

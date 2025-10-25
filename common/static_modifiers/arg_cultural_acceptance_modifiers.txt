@@ -24,6 +24,26 @@ puelches_cultural_acceptance_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	country_puelches_cultural_acceptance_add = 1
 }
+<<<<<<< Updated upstream
+=======
+huarpes_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_huarpes_cultural_acceptance_add = 1
+}
+huarpes_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_huarpes_cultural_acceptance_add = 1
+}
+toba_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_toba_cultural_acceptance_add = 1
+}
+
+toba_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_toba_cultural_acceptance_add = 1
+}
+>>>>>>> Stashed changes
 
 kawesqar_cultural_acceptance_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
