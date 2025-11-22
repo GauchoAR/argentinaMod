@@ -31,15 +31,7 @@ patagonia.1 = {
 
 
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     s:STATE_LA_PAMPAs = {
-=======
-    s:STATE_LA_PAMPA = {
->>>>>>> Stashed changes
-=======
-    s:STATE_LA_PAMPA = {
->>>>>>> Stashed changes
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -65,15 +57,7 @@ patagonia.1 = {
         }
     }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     s:STATE_RIO_NEGROs = {
-=======
-    s:STATE_RIO_NEGRO = {
->>>>>>> Stashed changes
-=======
-    s:STATE_RIO_NEGRO = {
->>>>>>> Stashed changes
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {

@@ -106,7 +106,7 @@
 	c:CHL ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_south_andes
+			hq_region = sr:region_la_plata
 			name = Ejrcito_de_Chile
 
 			combat_unit = {
@@ -136,7 +136,7 @@
 
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_south_andes
+			hq_region = sr:region_la_plata
 			name = Armada_de_Chile
 
 			combat_unit = {

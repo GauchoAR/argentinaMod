@@ -1,18 +1,8 @@
 {
-  "name" : "la Argentina test files",
+  "name" : "la Argentina",
   "id" : "",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   "version" : "7.0 beta",
-  "supported_game_version" : "1.9.7",
-=======
-  "version" : "7.0a ",
-  "supported_game_version" : "1.9.8",
->>>>>>> Stashed changes
-=======
-  "version" : "7.0a ",
-  "supported_game_version" : "1.9.8",
->>>>>>> Stashed changes
+  "supported_game_version" : "1.11.1",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

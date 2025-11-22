@@ -1,16 +1,4 @@
-<<<<<<< Updated upstream
-﻿slave_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_slave_standard_of_living_add = 1
-}
-
-slave_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_slave_standard_of_living_add = 1
-}
-=======
 ﻿
->>>>>>> Stashed changes
 
 mapuche_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -40,13 +28,6 @@ picunches_standard_of_living_modifier_positive = {
 	state_picunches_standard_of_living_add = 1
 }
 
-<<<<<<< Updated upstream
-picunches_standard_of_living_modifier_negative
- = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_picunches_standard_of_living_add = 1
-}
-=======
 picunches_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_picunches_standard_of_living_add = 1
@@ -61,7 +42,6 @@ puelches_standard_of_living_modifier_negative
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_puelches_standard_of_living_add = 1
 }
->>>>>>> Stashed changes
 
 huilliches_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -109,20 +89,12 @@ selknam_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_selknam_standard_of_living_add = 1
 }
-<<<<<<< Updated upstream
-Ranquel_standard_of_living_modifier_positive = {
-=======
 ranquel_standard_of_living_modifier_positive = {
->>>>>>> Stashed changes
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_Ranquel_standard_of_living_add = 1
 }
 
-<<<<<<< Updated upstream
-Ranquel_standard_of_living_modifier_negative = {
-=======
 ranquel_standard_of_living_modifier_negative = {
->>>>>>> Stashed changes
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_Ranquel_standard_of_living_add = 1
 }

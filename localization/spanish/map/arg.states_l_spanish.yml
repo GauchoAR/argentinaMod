@@ -18,7 +18,8 @@ STATE_SAN_LUIS: "San Luis"
 STATE_NEUQUEN: "Neuquen"
 STATE_MENDOZA: "Mendoza"
 STATE_CORDOBA: "Córdoba"
-
+STATE_LA_PAMPA_ARG: "La Pampa"
+STATE_RIO_NEGRO_ARG: "Rio Negro"
 
 # Uruguay
 STATE_PAYSANDU: "Paysandú"
@@ -27,3 +28,8 @@ STATE_BANDA_ORIENTAL: "Banda Oriental"
 
 #Bolivia
 STATE_TARIJA: "Tarija"
+
+#Chile
+STATE_LOS_LAGOS: "Los Lagos"
+STATE_AYSEN: "Aysen"
+STATE_MAGALLANES: "Magallanes"

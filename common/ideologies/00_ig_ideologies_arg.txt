@@ -21,13 +21,8 @@
 		law_free_trade = disapprove
 	}
 }
-
 ideology_autonomist = {
-<<<<<<< Updated upstream
-	icon = "gfx\interface\icons\ideology_icons\sovereignist.dds"
-=======
-	icon = "gfx/interface/icons/ideology_icons/sovereignist.dds"
->>>>>>> Stashed changes
+	icon = "gfx/interface/icons/ideology_icons/stratocratic.dds"
 	
 	lawgroup_army_model = {
 		law_peasant_levies = disapprove

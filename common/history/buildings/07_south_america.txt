@@ -1970,7 +1970,7 @@ s:STATE_BUENOS_AIRES={
 			}
 		}
 	}
-	s:STATE_RIO_NEGROs={
+	s:STATE_RIO_NEGRO_ARG={
 		region_state:PAT={
 		
 		}
