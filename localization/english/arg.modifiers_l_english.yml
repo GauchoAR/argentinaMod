@@ -59,3 +59,10 @@ goods_output_yerba_mate_add: "$yerba_mate$ Goods Output"
 goods_output_yerba_mate_add_desc: "A bonus or penalty for the production of $yerba_mate$."
 goods_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
 goods_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
+
+
+mapuche_raid_devastation: "Devastated by Malones"
+  mapuche_raid_devastation_desc: "Recent Mapuche raids have left this frontier devastated, with burned ranches, ruined harvests, and terrified settlers."
+
+  frontier_raid_repulsed: "Frontier Raid Repulsed"
+  frontier_raid_repulsed_desc: "Experience in repelling recent Mapuche malones has hardened our militias and surveyors, improving our ability to push the frontier."

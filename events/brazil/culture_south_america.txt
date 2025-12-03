@@ -4,11 +4,11 @@
 culture_south_america.1 = {
 	type = country_event
 	placement = ROOT
-	
+
 	title = culture_south_america.1.t
 	desc = culture_south_america.1.d
 	flavor = culture_south_america.1.f
-	
+
 	event_image = {
 		video = "unspecific_ruler_speaking_to_people"
 	}
@@ -16,9 +16,9 @@ culture_south_america.1 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	
+
 	duration = 3
-	
+
 	trigger = {
 	}
 
@@ -164,10 +164,26 @@ culture_south_america.1 = {
 				add_homeland = cu:argentine
 				remove_homeland = cu:platinean
 			}
+			if = {
+				limit = {
+					cu:argentine ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:argentine
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
-				c:PEU ?= this
+				OR = {
+					c:PEU ?= this
+					c:NPU ?= this
+					c:SPU ?= this
+				}
 			}
 			add_primary_culture = cu:peruvian
 			remove_primary_culture = cu:south_andean
@@ -175,27 +191,17 @@ culture_south_america.1 = {
 				add_homeland = cu:peruvian
 				remove_homeland = cu:south_andean
 			}
-		}
-		if = {
-			limit = {
-				c:NPU ?= this
-			}
-			add_primary_culture = cu:peruvian
-			remove_primary_culture = cu:south_andean
-			capital.state_region = {
-				add_homeland = cu:peruvian
-				remove_homeland = cu:south_andean
-			}
-		}
-		if = {
-			limit = {
-				c:SPU ?= this
-			}
-			add_primary_culture = cu:peruvian
-			remove_primary_culture = cu:south_andean
-			capital.state_region = {
-				add_homeland = cu:peruvian
-				remove_homeland = cu:south_andean
+			if = {
+				limit = {
+					cu:peruvian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:peruvian
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		if = {
@@ -208,6 +214,18 @@ culture_south_america.1 = {
 				add_homeland = cu:bolivian
 				remove_homeland = cu:south_andean
 			}
+			if = {
+				limit = {
+					cu:bolivian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:bolivian
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -218,6 +236,18 @@ culture_south_america.1 = {
 			capital.state_region = {
 				add_homeland = cu:ecuadorian
 				remove_homeland = cu:north_andean
+			}
+			if = {
+				limit = {
+					cu:ecuadorian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:ecuadorian
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		if = {
@@ -230,6 +260,18 @@ culture_south_america.1 = {
 				add_homeland = cu:chilean
 				remove_homeland = cu:south_andean
 			}
+			if = {
+				limit = {
+					cu:chilean ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:chilean
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -240,6 +282,18 @@ culture_south_america.1 = {
 			capital.state_region = {
 				add_homeland = cu:venezuelan
 				remove_homeland = cu:north_andean
+			}
+			if = {
+				limit = {
+					cu:venezuelan ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:venezuelan
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		if = {
@@ -252,6 +306,18 @@ culture_south_america.1 = {
 				add_homeland = cu:uruguayan
 				remove_homeland = cu:platinean
 			}
+			if = {
+				limit = {
+					cu:uruguayan ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:uruguayan
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -263,6 +329,18 @@ culture_south_america.1 = {
 				add_homeland = cu:paraguayan
 				remove_homeland = cu:platinean
 			}
+			if = {
+				limit = {
+					cu:paraguayan ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:paraguayan
+					months = 120
+					state_region = capital.state_region
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -273,6 +351,18 @@ culture_south_america.1 = {
 			capital.state_region = {
 				add_homeland = cu:colombian
 				remove_homeland = cu:north_andean
+			}
+			if = {
+				limit = {
+					cu:colombian ?= {
+						culture_national_awakening_occurred = no
+					}
+				}
+				start_national_awakening = {
+					culture =  cu:colombian
+					months = 120
+					state_region = capital.state_region
+				}
 			}
 		}
 		add_journal_entry = {
@@ -293,8 +383,8 @@ culture_south_america.1 = {
 					culture = scope:old_south_american_culture
 				}
 				order_by = strata
-				change_pop_culture = { 
-					target = scope:new_national_culture 
+				change_pop_culture = {
+					target = scope:new_national_culture
 					value = 0.75
 				}
 			}
@@ -305,11 +395,11 @@ culture_south_america.1 = {
 culture_south_america.2 = {
 	type = country_event
 	placement = scope:south_american_culture_state
-	
+
 	title = culture_south_america.2.t
 	desc = culture_south_america.2.d
 	flavor = culture_south_america.2.f
-	
+
 	event_image = {
 		video = "unspecific_ruler_speaking_to_people"
 	}
@@ -317,9 +407,9 @@ culture_south_america.2 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	
+
 	duration = 3
-	
+
 	trigger = {
 	}
 
@@ -425,7 +515,7 @@ culture_south_america.2 = {
 									is_building_type = building_naval_base
 									is_building_type = building_barracks
 								}
-								level >= 5
+								level >= 6
 							}
 							any_scope_building = {
 								is_building_type = building_university
@@ -446,8 +536,8 @@ culture_south_america.2 = {
 							culture = scope:old_national_culture
 						}
 						order_by = strata
-						change_pop_culture = { 
-							target = scope:new_national_culture 
+						change_pop_culture = {
+							target = scope:new_national_culture
 							value = 0.75
 						}
 					}
@@ -535,19 +625,19 @@ culture_south_america.2 = {
 									is_building_type = building_naval_base
 									is_building_type = building_barracks
 								}
-								level >= 15
+								level >= 6
 							}
 							any_scope_building = {
 								is_building_type = building_university
-								level >= 5
+								level >= 3
 							}
 							any_scope_building = {
 								is_building_type = building_government_administration
-								level >= 5
+								level >= 2
 							}
 							any_scope_building = {
 								is_building_type = building_urban_center
-								level >= 5
+								level >= 3
 							}
 						}
 					}
@@ -556,8 +646,8 @@ culture_south_america.2 = {
 							culture = scope:old_national_culture
 						}
 						order_by = strata
-						change_pop_culture = { 
-							target = scope:new_national_culture 
+						change_pop_culture = {
+							target = scope:new_national_culture
 							value = 0.75
 						}
 					}
@@ -635,11 +725,11 @@ culture_south_america.2 = {
 culture_south_america.3 = {
 	type = country_event
 	placement = ROOT
-	
+
 	title = culture_south_america.3.t
 	desc = culture_south_america.3.d
 	flavor = culture_south_america.3.f
-	
+
 	event_image = {
 		video = "unspecific_ruler_speaking_to_people"
 	}
@@ -647,9 +737,9 @@ culture_south_america.3 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	
+
 	duration = 3
-	
+
 	trigger = {
 	}
 
@@ -678,11 +768,11 @@ culture_south_america.3 = {
 culture_south_america.4 = { # Startup for the new phase 1
 	type = country_event
 	placement = ROOT
-	
+
 	title = culture_south_america.4.t
 	desc = culture_south_america.4.d
 	flavor = culture_south_america.4.f
-	
+
 	event_image = {
 		video = "rp1_brazilian_city"
 	}
@@ -690,9 +780,9 @@ culture_south_america.4 = { # Startup for the new phase 1
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	
+
 	duration = 3
-	
+
 	trigger = {
 		# Triggered by JE
 	}

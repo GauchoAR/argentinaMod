@@ -31,3 +31,18 @@ je_hacia_el_norte_reason: "Tenemos al Chaco y a Formosa, pero ahora deberiamos t
 #migracion 
 je_welsh_colony: "Se acerca un barco galés"
 je_welsh_colony_reason: "A estos colonos debemos recibirlos con los brazos abiertos, la provincia de Chubut está escasamente poblada."
+
+
+l_spanish:
+  je_mapuche_malones: "Malon"
+  je_mapuche_malones_reason: "Mientras los mapuches permanezcan independientes en nuestra frontera, lanzarán malones contra nuestros asentamientos. Debemos someterlos a nuestra autoridad o acabar con su confederación una vez por todos."
+
+  je_mapuche_malones_tt_destroyed: "La Confederación Mapuche ya no existe como país independiente"
+  je_mapuche_malones_tt_subject: "Mapuche es súbdita de nuestro país"
+
+
+l_spanish:
+  mapuche_after.1.t: "Los mapuches ya no serán una amenaza"
+  mapuche_after.1.d: "La Confederación Mapuche, antes un pueblo orgulloso y desafiante en nuestra frontera austral, ha llegado a su fin. Sus tierras han sido sometidas, su resistencia quebrada y los malones que azotaban nuestros asentamientos han cesado."
+  mapuche_after.1.f: "“El viento que antes llevaba sus gritos de guerra ahora sólo arrastra el polvo sobre la pampas.”"
+  mapuche_after.1.a: "Comienza una nueva era."

@@ -1,8 +1,8 @@
 {
-  "name" : "la Argentina",
+  "name" : "la Argentina test files",
   "id" : "",
-  "version" : "7.0 beta",
-  "supported_game_version" : "1.9.7",
+  "version" : "7.0a ",
+  "supported_game_version" : "1.11.0",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

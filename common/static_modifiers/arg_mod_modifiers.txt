@@ -86,3 +86,16 @@ patagonia_campaign  = {
 	state_colony_growth_speed_mult = 1
 
 }
+mapuche_raid_devastation = {
+    icon = "gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds"
+    state_mortality_mult = 0.25
+    turmoil = 0.25
+}
+
+
+frontier_raid_repulsed = {
+    icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds"
+
+    state_colony_growth_speed_mult = 0.25
+    country_prestige_mult = 0.1
+}

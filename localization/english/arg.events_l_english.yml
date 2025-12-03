@@ -77,15 +77,27 @@ chaco.1.a: "Finally we can walk freely at last through these endless plains and 
 
 
 
-malon.1.t: "Malon"
-malon.1.d: "The Mapuche gather into warbands, and raid our territories."
-malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malon!"
-malon.1.a: "Send troops to the frontier!"
-malon.1.b: "We must send aid to the afflicted"
-
 
 
 welsh_colony.1.t: "A Welsh ship arrives"
 welsh_colony.1.d: "Welsh Migrants arrive to Chubut"
 welsh_colony.1.f: "in 1865, 153 welshmen arrived on the ship Mimosa, to the province of Chubut. They would go on to found the city of Y Wladfa"
 welsh_colony.1.a: "Welcome to Argentina"
+
+
+mapuche_malon.1.t: " Malón"
+mapuche_malon.1.d: "Reports arrive from the frontier: Mapuche warriors have assembled into a malón..."
+mapuche_malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malón!"
+
+mapuche_malon.1.a: "Send troops to the frontier!"
+mapuche_malon.1.b: "Fortify the border outposts."
+mapuche_malon.1.c: "Mobilize a full column and crush the malón."
+
+mapuche_malon_raid_success_tt: "The malón breaks through our defenses and devastates the frontier province."
+mapuche_malon_raid_failed_tt: "The malón is repelled, and our experience strengthens our colonization efforts."
+
+mapuche_raid_devastation: "Devastated by Malones"
+mapuche_raid_devastation_desc: "Recent Mapuche raids have left this frontier desolated..."
+
+frontier_raid_repulsed: "Frontier Raid Repulsed"
+frontier_raid_repulsed_desc: "Our militias and scouts have learned valuable lessons in repelling a Mapuche malón..."

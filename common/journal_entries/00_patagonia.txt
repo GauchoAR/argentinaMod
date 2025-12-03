@@ -28,9 +28,9 @@ group = je_group_historical_content
 				owns_entire_state_region = STATE_LOS_LAGOS
 			}
 			AND = {
-				owns_entire_state_region = STATE_LA_PAMPAs
+				owns_entire_state_region = STATE_LA_PAMPA_ARG
 				owns_entire_state_region = STATE_NEUQUEN
-				owns_entire_state_region = STATE_RIO_NEGROs
+				owns_entire_state_region = STATE_RIO_NEGRO_ARG
 				owns_entire_state_region = STATE_CHUBUT
 				owns_entire_state_region = STATE_SANTA_CRUZ_ARG
 				owns_entire_state_region = STATE_TIERRA_DEL_FUEGO

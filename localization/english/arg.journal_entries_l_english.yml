@@ -31,3 +31,17 @@ je_hacia_el_norte_reason: "We now own Formosa, but we should take Alto Paraguay 
 ##Migration
 je_welsh_colony: "A Welsh ship arrives"
 je_welsh_colony_reason: "We should welcome these settlers with open arms, the Chubut province is scarecely populated."
+
+
+je_mapuche_malones: "Malon"
+je_mapuche_malones_reason: "As long as the Mapuche remain independent on our frontier, they will raid our settlements with their Malones. We must either bring them under our rule or wipe out their confederation once and for all."
+
+je_mapuche_malones_tt_subject: "Mapuche is a Subject of [SCOPE.sCountry('argentina_scope').GetName]"
+je_mapuche_malones_tt_destroyed: "The Mapuche Confederation no longer exists"
+
+l_english:
+  mapuche_after.1.t: "The Mapuche are no longer a threat"
+  mapuche_after.1.d: "The Mapuche Confederation, once a proud and defiant people of the southern frontier, has come to an end. Their lands are subdued, their resistance broken, and the malones that plagued our border have ceased."
+  mapuche_after.1.f: "“The wind that carried their war cries now moves only dust across the pampas.”"
+  mapuche_after.1.a: "A new era begins."
+
