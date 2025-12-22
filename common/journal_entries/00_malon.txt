@@ -37,8 +37,8 @@ je_mapuche_malones = {
     on_monthly_pulse = {
          
             random_events = {
-                70 = 0
-                30 = mapuche_malon.1
+                90 = 0
+                10 = mapuche_malon.1
             }
         }
     

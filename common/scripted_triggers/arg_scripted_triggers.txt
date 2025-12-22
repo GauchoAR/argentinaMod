@@ -60,3 +60,10 @@ owned_la_plata_region_states = {
 	owns_entire_state_region = STATE_CORDOBA
 	
 }
+
+guerra_grande_faction_dominance = {
+    OR = {
+        var:guerra_grande_colorados_progress_var >= 100
+        var:guerra_grande_blancos_progress_var >= 100
+    }
+}

@@ -99,3 +99,36 @@ frontier_raid_repulsed = {
     state_colony_growth_speed_mult = 0.25
     country_prestige_mult = 0.1
 }
+
+
+
+
+guerra_grande_colorado_ig_boost = {
+    timed_modifier = yes
+    ig_approval = 2
+}
+
+guerra_grande_blanco_ig_boost = {
+    timed_modifier = yes
+    ig_approval = 2
+}
+
+guerra_grande_colorado_victory = {
+    timed_modifier = yes
+
+    country_legitimacy_mult = 0.10
+    country_innovation_mult = 0.10
+
+    ig_armed_forces_approval = 3
+    ig_intelligentsia_approval = 2
+}
+
+guerra_grande_blanco_victory = {
+    timed_modifier = yes
+
+    country_authority_mult = 0.10
+    country_tax_income_mult = 0.10
+
+    ig_landowners_approval = 3
+    ig_devout_approval = 2
+}

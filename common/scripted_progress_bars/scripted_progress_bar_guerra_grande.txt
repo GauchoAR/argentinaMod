@@ -1,0 +1,27 @@
+﻿### Progress bars for je_guerra_grande_uruguay
+### Pattern copied from je_divided_monarchists bars
+
+guerra_grande_colorados_progress_bar = {
+    name = "guerra_grande_colorados_progress_bar"
+    desc = "guerra_grande_colorados_progress_bar_desc"
+
+    # This is the "main" bar (like Bonapartists)
+    default = yes
+
+    # We let events drive the progress via add_progress
+    start_value = 0
+    min_value = 0
+    max_value = 100
+}
+
+guerra_grande_blancos_progress_bar = {
+    name = "guerra_grande_blancos_progress_bar"
+    desc = "guerra_grande_blancos_progress_bar_desc"
+
+    # This is the "opposed" bar (like Orleanists / Legitimists)
+    default_bad = yes
+
+    start_value = 0
+    min_value = 0
+    max_value = 100
+}

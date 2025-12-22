@@ -62,12 +62,12 @@ mapuche_malon.1 = {
                 custom_tooltip = mapuche_malon_raid_success_tt
 
                 scope:malon_state = {
-                    state_region = { add_devastation = 45 }
+                    state_region = { add_devastation = 20 }
 
                     add_modifier = {
                         name = mapuche_raid_devastation
-                        duration = 7 
-                        duration_unit = months
+						   months = 3 
+                     
                     }
                 }
             }
@@ -77,8 +77,7 @@ mapuche_malon.1 = {
                 scope:malon_state = {
                     add_modifier = {
                         name = frontier_raid_repulsed
-                        duration = 3         # 6 months buff
-                        duration_unit = months
+						 months = 3 
                     }
                 }
             }
@@ -96,12 +95,12 @@ mapuche_malon.1 = {
                 custom_tooltip = mapuche_malon_raid_success_tt
 
                 scope:malon_state = {
-                    state_region = { add_devastation = 25 }
+                    state_region = { add_devastation = 15 }
 
                     add_modifier = {
                         name = mapuche_raid_devastation
-                        duration = 6
-                        duration_unit = months
+						  months = 3 
+                      
                     }
                 }
             }
@@ -111,8 +110,8 @@ mapuche_malon.1 = {
                 scope:malon_state = {
                     add_modifier = {
                         name = frontier_raid_repulsed
-                        duration = 5
-                        duration_unit = months
+						 months = 3 
+                    
                     }
                 }
             }
@@ -134,8 +133,7 @@ mapuche_malon.1 = {
 
                     add_modifier = {
                         name = mapuche_raid_devastation
-                        duration = 3
-                        duration_unit = months
+						 months = 3 
                     }
                 }
             }
@@ -145,8 +143,7 @@ mapuche_malon.1 = {
                 scope:malon_state = {
                     add_modifier = {
                         name = frontier_raid_repulsed
-                        duration = 8
-                        duration_unit = months
+						 months = 3 
                     }
                 }
             }

@@ -79,3 +79,33 @@ welsh_colony.1.a: "Bienvenidos a la Argentina"
 
 
 campana_desierto: "escaramuzas en el desierto"
+
+ mapuche_after.1.t: "Los mapuches ya no serán una amenaza"
+  mapuche_after.1.d: "La Confederación Mapuche, antes un pueblo orgulloso y desafiante en nuestra frontera austral, ha llegado a su fin. Sus tierras han sido sometidas, su resistencia quebrada y los malones que azotaban nuestros asentamientos han cesado."
+  mapuche_after.1.f: "“El viento que antes llevaba sus gritos de guerra ahora sólo arrastra el polvo sobre la pampas.”"
+  mapuche_after.1.a: "Comienza una nueva era."
+
+guerra_grande.1.t: "La Cuestión del Poder"
+guerra_grande.1.d: "Las rivalidades entre Colorados y Blancos empiezan a dominar la política nacional. Uruguay entra en un período de profunda inestabilidad."
+guerra_grande.1.f: "«En cada casa, cada pulpería, cada estancia, la pregunta es la misma: ¿quién manda realmente?»"
+guerra_grande.1.a: "Veremos cómo se desarrolla esta lucha."
+
+guerra_grande.100.t: "Lucha por el Poder en Uruguay"
+guerra_grande.100.d: "La rivalidad entre Colorados y Blancos se intensifica. Los clubes políticos debaten con furia, los líderes rurales reúnen seguidores y los observadores extranjeros murmuran sobre un conflicto inminente."
+guerra_grande.100.f: "«En cada pulpería de Montevideo se libra una guerra de palabras, y en cada estancia una guerra de lealtades.»"
+
+guerra_grande.100.a: "Favorecer a los Colorados."
+guerra_grande.100.b: "Favorecer a los Blancos."
+
+guerra_grande_colorados_progress_up_15_tt: "Los Colorados ganan impulso en la lucha política."
+guerra_grande_blancos_progress_up_15_tt: "Los Blancos ganan impulso en la lucha política."
+
+guerra_grande.110.t: "Resultado de la Guerra Grande"
+guerra_grande.110.d: "Tras años de maniobras políticas, una facción ha emergido como la más fuerte en Uruguay. El futuro del país tomará su rumbo."
+guerra_grande.110.f: "«Algunos lo llaman paz; otros, una pausa entre tormentas.»"
+
+guerra_grande.110.a: "Han prevalecido los Colorados."
+guerra_grande.110.b: "Han prevalecido los Blancos."
+
+guerra_grande_colorado_victory_tt: "Los Colorados aseguran su dominio sobre la política nacional."
+guerra_grande_blanco_victory_tt: "Los Blancos aseguran su dominio sobre la política nacional."

@@ -101,3 +101,35 @@ mapuche_raid_devastation_desc: "Recent Mapuche raids have left this frontier des
 
 frontier_raid_repulsed: "Frontier Raid Repulsed"
 frontier_raid_repulsed_desc: "Our militias and scouts have learned valuable lessons in repelling a Mapuche malón..."
+
+  mapuche_after.1.t: "The Mapuche are no longer a threat"
+  mapuche_after.1.d: "The Mapuche Confederation, once a proud and defiant people of the southern frontier, has come to an end. Their lands are subdued, their resistance broken, and the malones that plagued our border have ceased."
+  mapuche_after.1.f: "“The wind that carried their war cries now moves only dust across the pampas.”"
+  mapuche_after.1.a: "A new era begins."
+
+#Uruguay
+
+guerra_grande.1.t: "The Question of Power"
+guerra_grande.1.d: "Rivalries between the Colorados and Blancos are beginning to dominate national politics. Uruguay faces a period of deep instability."
+guerra_grande.1.f: "“In every house, every tavern, every estancia, the question is the same: who truly rules?”"
+guerra_grande.1.a: "We will see how this struggle unfolds."
+
+guerra_grande.100.t: "Struggle for Power in Uruguay"
+guerra_grande.100.d: "The rivalry between Colorados and Blancos intensifies. Political clubs debate fiercely, rural leaders rally followers, and foreign observers whisper of coming conflict."
+guerra_grande.100.f: "“Every tavern in Montevideo has its own war of words, and every estancia its own war of loyalties.”"
+
+guerra_grande.100.a: "Favor the Colorados."
+guerra_grande.100.b: "Favor the Blancos."
+
+guerra_grande_colorados_progress_up_15_tt: "The Colorados gain momentum in the political struggle."
+guerra_grande_blancos_progress_up_15_tt: "The Blancos gain momentum in the political struggle."
+
+guerra_grande.110.t: "Outcome of the Guerra Grande"
+guerra_grande.110.d: "After years of political maneuvering, one faction has clearly emerged stronger in Uruguay. The nation’s future will follow their direction."
+guerra_grande.110.f: "“Some call it peace, others call it a pause between storms.”"
+
+guerra_grande.110.a: "The Colorados have prevailed."
+guerra_grande.110.b: "The Blancos have prevailed."
+
+guerra_grande_colorado_victory_tt: "The Colorados secure dominance over national politics."
+guerra_grande_blanco_victory_tt: "The Blancos secure dominance over national politics."

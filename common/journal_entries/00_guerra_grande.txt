@@ -1,0 +1,76 @@
+﻿je_guerra_grande_uruguay = {
+    icon = "gfx/interface/icons/event_icons/event_scales.dds"
+    group = je_group_historical_content
+
+    is_shown_when_inactive = {
+        c:URU ?= this
+        year >= 1836
+    }
+
+    possible = {
+        c:URU ?= this
+        is_subject = no
+        year >= 1836
+    }
+
+    immediate = {
+        # Initialize progress to 0 for both factions
+        set_variable = { name = guerra_grande_colorados_progress_var value = 0 }
+        set_variable = { name = guerra_grande_blancos_progress_var value = 0 }
+    }
+
+    # Two bars displayed in the JE UI (make sure these exist in common/scripted_progress_bars)
+    scripted_progress_bar = guerra_grande_colorados_progress_bar
+    scripted_progress_bar = guerra_grande_blancos_progress_bar
+
+    # ✅ Properly wrapped completion condition with a visible objective text
+    complete = {
+        custom_tooltip = {
+            text = je_guerra_grande_uruguay_completion_tt
+
+            guerra_grande_faction_dominance = yes
+        }
+    }
+
+    on_complete = {
+        trigger_event = { id = guerra_grande.110 }
+
+        # Clean up variables
+        if = { limit = { has_variable = guerra_grande_colorados_progress_var } remove_variable = guerra_grande_colorados_progress_var }
+        if = { limit = { has_variable = guerra_grande_blancos_progress_var } remove_variable = guerra_grande_blancos_progress_var }
+    }
+
+    status_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = guerra_grande_status_colorados_ahead_ury
+                trigger = {
+                    var:guerra_grande_colorados_progress_var >
+                    var:guerra_grande_blancos_progress_var
+                }
+            }
+            triggered_desc = {
+                desc = guerra_grande_status_blancos_ahead_ury
+                trigger = {
+                    var:guerra_grande_blancos_progress_var >
+                    var:guerra_grande_colorados_progress_var
+                }
+            }
+            triggered_desc = {
+                desc = guerra_grande_status_uruguay_divided_ury
+                trigger = { always = yes }
+            }
+        }
+    }
+
+    # ~10% monthly chance of the struggle event
+    on_monthly_pulse = {
+        random_events = {
+            90 = 0
+            10 = guerra_grande.100
+        }
+    }
+
+    weight = 100
+    should_be_pinned_by_default = yes
+}

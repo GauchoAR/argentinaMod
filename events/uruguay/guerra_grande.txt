@@ -1,0 +1,188 @@
+﻿namespace = guerra_grande
+
+###########################################
+### START EVENT – GIVES JE TO URUGUAY
+###########################################
+
+guerra_grande.1 = {
+    type = country_event
+    placement = ROOT
+
+    title  = guerra_grande.1.t
+    desc   = guerra_grande.1.d
+    flavor = guerra_grande.1.f
+
+    event_image = { video = "southamerica_landscape" }
+    icon = "gfx/interface/icons/event_icons/event_politics.dds"
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    trigger = {
+        c:URU ?= this
+        year >= 1836
+        year < 1845
+        NOT = { has_journal_entry = je_guerra_grande_uruguay }
+    }
+
+    option = {
+        name = guerra_grande.1.a
+        default_option = yes
+
+        add_journal_entry = { type = je_guerra_grande_uruguay }
+    }
+}
+
+
+###########################################
+### PULSE EVENT – STRUGGLE FOR POWER
+###########################################
+
+guerra_grande.100 = {
+    type = country_event
+    placement = ROOT
+
+    title  = guerra_grande.100.t
+    desc   = guerra_grande.100.d
+    flavor = guerra_grande.100.f
+
+    event_image = { video = "southamerica_war_civilians" }
+    icon = "gfx/interface/icons/event_icons/event_politics.dds"
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    duration = 3
+    cooldown = { months = 12 }
+
+    trigger = {
+        c:URU ?= this
+        has_journal_entry = je_guerra_grande_uruguay
+    }
+
+    ###########
+    # COLORADOS
+    ###########
+    option = {
+        name = guerra_grande.100.a
+        default_option = yes
+
+        add_treasury = -5000
+
+        custom_tooltip = guerra_grande_colorados_progress_up_15_tt
+
+        # Logic side: variables for who wins
+        change_variable = {
+            name = guerra_grande_colorados_progress_var
+            add = 15
+        }
+
+        # UI side: progress bar like Bonapartists
+        je:je_guerra_grande_uruguay = {
+            add_progress = { value = 15 name = guerra_grande_colorados_progress_bar }
+        }
+
+        ig:ig_armed_forces ?= {
+            add_modifier = {
+                name = guerra_grande_colorado_ig_boost
+                months = 6
+            }
+        }
+        ig:ig_intelligentsia ?= {
+            add_modifier = {
+                name = guerra_grande_colorado_ig_boost
+                months = 6
+            }
+        }
+    }
+
+    #########
+    # BLANCOS
+    #########
+    option = {
+        name = guerra_grande.100.b
+
+        add_treasury = -3000
+
+        custom_tooltip = guerra_grande_blancos_progress_up_15_tt
+
+        change_variable = {
+            name = guerra_grande_blancos_progress_var
+            add = 15
+        }
+
+        je:je_guerra_grande_uruguay = {
+            add_progress = { value = 15 name = guerra_grande_blancos_progress_bar }
+        }
+
+        ig:ig_landowners ?= {
+            add_modifier = {
+                name = guerra_grande_blanco_ig_boost
+                months = 6
+            }
+        }
+        ig:ig_devout ?= {
+            add_modifier = {
+                name = guerra_grande_blanco_ig_boost
+                months = 6
+            }
+        }
+    }
+}
+
+
+###########################################
+### OUTCOME EVENT – WHO PREVAILED?
+###########################################
+
+guerra_grande.110 = {
+    type = country_event
+    placement = ROOT
+
+    title  = guerra_grande.110.t
+    desc   = guerra_grande.110.d
+    flavor = guerra_grande.110.f
+
+    event_image = { video = "southamerica_landscape" }
+    icon = "gfx/interface/icons/event_icons/event_war.dds"
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    trigger = {
+        c:URU ?= this
+        has_journal_entry_completed = je_guerra_grande_uruguay
+    }
+
+    #############################
+    ### COLORADOS VICTORY
+    #############################
+    option = {
+        name = guerra_grande.110.a
+
+        trigger = {
+            var:guerra_grande_colorados_progress_var >=
+            var:guerra_grande_blancos_progress_var
+        }
+
+        custom_tooltip = guerra_grande_colorado_victory_tt
+
+        add_modifier = {
+            name = guerra_grande_colorado_victory
+            months = 120
+        }
+    }
+
+    #############################
+    ### BLANCOS VICTORY
+    #############################
+    option = {
+        name = guerra_grande.110.b
+
+        trigger = {
+            var:guerra_grande_blancos_progress_var >
+            var:guerra_grande_colorados_progress_var
+        }
+
+        custom_tooltip = guerra_grande_blanco_victory_tt
+
+        add_modifier = {
+            name = guerra_grande_blanco_victory
+            months = 120
+        }
+    }
+}
