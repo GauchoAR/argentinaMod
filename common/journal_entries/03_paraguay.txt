@@ -1,106 +1,4 @@
-﻿je_francocracia = {
-    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-
-	group = je_group_historical_content
-
-    immediate = {
-        ruler = {
-            save_scope_as = francia_character_scope
-            set_character_immortal = no
-        }
-    }
-
-    complete = {
-        custom_tooltip = {
-            text = je_francocracia_tt
-            NOT = {
-                ruler = {
-                    has_template = PRG_jose_gaspar_rodriguez_de_francia
-                }
-            }
-        }
-    }
-
-    on_complete = {
-        trigger_event = { id = paraguay.1 popup = yes }
-        remove_modifier = hairy_feet_modifier
-        set_variable = death_of_francia_var
-    }
-
-    weight = 1000
-    should_be_pinned_by_default = yes
-}
-
-je_modernizing_paraguay = {
-    icon = "gfx/interface/icons/event_icons/event_industry.dds"
-
-	group = je_group_historical_content
-
-    immediate = {
-        g:iron = {
-            save_scope_as = iron_scope
-        }
-        g:wood = {
-            save_scope_as = wood_scope
-        }
-    }
-
-    scripted_button = humanita_fortress_button
-    scripted_button = ybycui_iron_works_button
-    scripted_button = good_health_prg_button
-    scripted_button = army_git_good_button
-
-    complete = {
-        scope:journal_entry = {
-            is_goal_complete = yes
-        }
-        custom_tooltip = {
-            text = je_modernizing_paraguay.tt_1
-            has_global_variable = humanita_fortress_global_var
-        }
-        custom_tooltip = {
-            text = je_modernizing_paraguay.tt_2
-            has_global_variable = ybycui_iron_works_global_var
-        }
-        custom_tooltip = {
-            text = je_modernizing_paraguay.tt_3
-            has_global_variable = paraguay_army_reform_global_var
-        }
-        custom_tooltip = {
-            text = je_modernizing_paraguay.tt_4
-            has_global_variable = improve_living_conditions_global_var
-        }
-    }
-
-    on_monthly_pulse = {
-        random_events = {
-            100 = 0
-            10 = paraguay.2 # Napoleon of South America
-        }
-    }
-
-    current_value = {
-        value = root.gdp
-    }
-
-    goal_add_value = {
-        value = root.gdp
-    }
-
-    progressbar = yes
-
-    on_complete = {
-        trigger_event = { id = paraguay.12 popup = yes }
-        show_as_tooltip = {
-            add_journal_entry = { type = je_expanding_paraguay }
-        }
-    }
-
-    weight = 1000
-    should_be_pinned_by_default = yes
-}
-
-je_expanding_paraguay = {
+﻿REPLACE:je_expanding_paraguay = {
     icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_historical_content
@@ -229,12 +127,12 @@ je_expanding_paraguay = {
             if = {
                 limit = {
                     any_scope_character = {
-                        has_modifier = napoleon_of_the_americas_modifier
+                        has_trait = special_character_napoleon_of_the_americas
                     }
                 }
                 random_character = {
                     limit = {
-                        has_modifier = napoleon_of_the_americas_modifier
+                        has_trait = special_character_napoleon_of_the_americas
                     }
                     kill_character = yes
                 }
@@ -242,12 +140,12 @@ je_expanding_paraguay = {
             if = {
                 limit = {
                     any_scope_character = {
-                        has_modifier = el_excelentisimo_modifier
+                        has_trait = special_character_el_excelentisimo
                     }
                 }
                 random_character = {
                     limit = {
-                        has_modifier = el_excelentisimo_modifier
+                        has_trait = special_character_el_excelentisimo
                     }
                     kill_character = yes
                 }
@@ -256,8 +154,8 @@ je_expanding_paraguay = {
                 limit = {
                     ruler = {
                         NOR = {
-                            has_modifier = el_excelentisimo_modifier
-                            has_modifier = napoleon_of_the_americas_modifier
+                            has_trait = special_character_el_excelentisimo
+                            has_trait = special_character_napoleon_of_the_americas
                         }
                     }
                 }
@@ -298,7 +196,7 @@ je_expanding_paraguay = {
     should_be_pinned_by_default = yes
 }
 
-je_paraguayan_war = {
+REPLACE:je_paraguayan_war = {
     icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_historical_content
@@ -354,7 +252,8 @@ je_paraguayan_war = {
         c:PRG ?= {
             has_state_in_state_region = STATE_CORRIENTES
             OR = {
-			    country_or_subject_owns_entire_state_region = STATE_PAYSANDU
+				country_or_subject_owns_entire_state_region = STATE_PAYSANDU
+				country_or_subject_owns_entire_state_region = STATE_BANDA_ORIENTAL
                 country_or_subject_owns_entire_state_region = STATE_MONTEVIDEO
                 country_or_subject_owns_entire_state_region = STATE_SANTA_FE
                 country_or_subject_owns_entire_state_region = STATE_PARANA
@@ -384,7 +283,9 @@ je_paraguayan_war = {
                     any_scope_state = {
                         OR = {
                             state_region = s:STATE_CORRIENTES
-                            state_region = s:STATE_URUGUAY
+                            state_region = s:STATE_PAYSANDU
+							state_region = s:STATE_BANDA_ORIENTAL
+							state_region = s:STATE_MONTEVIDEO
                             state_region = s:STATE_SANTA_FE
                             state_region = s:STATE_PARANA
                             state_region = s:STATE_RIO_GRANDE_DO_SUL

@@ -34,11 +34,11 @@ kawesqar_fervor_target_modifier_negative = {
 	country_fervor_target_kawesqar_add = 1
 }
 
-picunche_fervor_target_modifier_positive = {
+picunches_fervor_target_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_fervor_target_picunches_add = 1
 }
-picunche_fervor_target_modifier_negative = {
+picunches_fervor_target_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	country_fervor_target_picunches_add = 1
 }

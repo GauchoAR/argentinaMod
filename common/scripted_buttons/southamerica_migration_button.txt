@@ -16,10 +16,7 @@
 		average_sol >= 10
 		any_country = {
 			country_rank <= rank_value:major_power
-			custom_tooltip = {
-				text = is_in_europe_tt
-				country_is_in_europe = yes
-			}
+			is_in_geographic_region = geographic_region_europe
 			custom_tooltip = {
 				text = same_state_religion
 				religion = root.religion
@@ -33,10 +30,7 @@
 			}
 			any_scope_state = {
 				is_incorporated = yes
-				custom_tooltip = {
-					text = is_in_europe_tt
-					state_is_in_europe = yes
-				}
+				is_in_geographic_region = geographic_region_europe
 				count >= 3
 			}
 		}
@@ -45,10 +39,7 @@
 				limit = {
 					owner = { has_journal_entry = je_south_america_migration }
 				}
-				custom_tooltip = {
-					text = is_in_sa_tt
-					state_is_in_south_america = yes
-				}
+				is_in_geographic_region = geographic_region_south_america
 			}
 			trigger_else_if = {
 				limit = {
@@ -100,43 +91,5 @@
 
 	ai_chance = {
 		value = 1
-	}
-}
-
-patagonia_button = {
-	name = patagonia_button
-	desc = patagonia_button_desc
-
-	visible = { always = yes }
-
-	possible = {
-		has_technology_researched = quinine
-		ig:ig_armed_forces = { 
-			is_marginal = no
-		}
-		any_scope_state = {
-			OR = {
-				state_region = s:STATE_ARAUCANIA
-				state_region = s:STATE_RIO_NEGROs
-				state_region = s:STATE_CHUBUT
-				state_region = s:STATE_SANTA_CRUZ_ARG
-				state_region = s:STATE_NEUQUEN
-				state_region = s:STATE_TIERRA_DEL_FUEGO
-				state_region = s:STATE_LA_PAMPAs
-			}
-			is_under_colonization = yes
-		}
-		NOT = { has_modifier = patagonia_campaign }
-	}
-
-	effect = {
-		add_modifier = {
-			name = patagonia_campaign
-			months = short_modifier_time
-		}
-	}
-
-	ai_chance = {
-		value = 10
 	}
 }

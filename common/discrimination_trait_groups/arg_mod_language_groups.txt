@@ -16,15 +16,10 @@ language_group_kawesqar = {
 language_group_comechingona = {
 	type = language
 }
-language_group_chonan = {
-	type = language
-}
 language_group_mataco_maka = {
 	type = language
 }
-language_group_kakan = {
-	type = language
-}
+
 language_group_millcayac = {
 	type = language
 }

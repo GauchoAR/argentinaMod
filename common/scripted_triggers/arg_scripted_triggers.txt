@@ -1,5 +1,5 @@
 ﻿
-owned_andes_region_states = {
+REPLACE:owned_andes_region_states = {
 	owns_entire_state_region = STATE_LA_PAZ
 	owns_entire_state_region = STATE_PASTAZA
 	owns_entire_state_region = STATE_JUJUY
@@ -15,7 +15,7 @@ owned_andes_region_states = {
 	owns_entire_state_region = STATE_ACRE
 }
 
-owned_gran_colombia_region_states = {
+REPLACE:owned_gran_colombia_region_states = {
 	owns_entire_state_region = STATE_BOLIVAR
 	owns_entire_state_region = STATE_CUNDINAMARCA
 	owns_entire_state_region = STATE_CAUCA
@@ -26,11 +26,11 @@ owned_gran_colombia_region_states = {
 	owns_entire_state_region = STATE_GUAYANA
 }
 
-owned_la_plata_region_states = {
+REPLACE:owned_la_plata_region_states = {
 	owns_entire_state_region = STATE_SANTIAGO
     owns_entire_state_region = STATE_MAGALLANES
 	owns_entire_state_region = STATE_AYSEN
-	owns_entire_state_region = STATE_LOS_RIOS
+	owns_entire_state_region = STATE_LOS_LAGOS
 	owns_entire_state_region = STATE_LOS_RIOS
 	owns_entire_state_region = STATE_ISLAS_MALVINAS
 	owns_entire_state_region = STATE_ISLAS_GEORGIAS
@@ -41,7 +41,7 @@ owned_la_plata_region_states = {
 	owns_entire_state_region = STATE_TUCUMAN
 	owns_entire_state_region = STATE_CORRIENTES
 	owns_entire_state_region = STATE_SANTA_FE
-	owns_entire_state_region = STATE_RIO_NEGRO_ARG
+	owns_entire_state_region = STATE_RIO_NEGRO
 	owns_entire_state_region = STATE_CHUBUT
 	owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
 	owns_entire_state_region = STATE_FORMOSA_ARG
@@ -50,7 +50,7 @@ owned_la_plata_region_states = {
 	owns_entire_state_region = STATE_LA_RIOJA
 	owns_entire_state_region = STATE_SAN_JUAN
 	owns_entire_state_region = STATE_SALTA
-	owns_entire_state_region = STATE_LA_PAMPA_ARG
+	owns_entire_state_region = STATE_LA_PAMPA
 	owns_entire_state_region = STATE_SAN_LUIS
 	owns_entire_state_region = STATE_ENTRE_RIOS
 	owns_entire_state_region = STATE_MISIONES

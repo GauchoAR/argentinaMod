@@ -22,7 +22,7 @@
 	}
 }
 ideology_autonomist = {
-	icon = "gfx/interface/icons/ideology_icons/stratocratic.dds"
+	icon = "gfx/interface/icons/ideology_icons/authoritarian.dds"
 	
 	lawgroup_army_model = {
 		law_peasant_levies = disapprove

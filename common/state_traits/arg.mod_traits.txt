@@ -1,4 +1,4 @@
-﻿state_trait_pampas = {
+﻿REPLACE:state_trait_pampas = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_grazing.dds"
 	
 	modifier = {
@@ -20,7 +20,7 @@ state_trait_buenos_aires_harbor = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.1
+		building_shipyard_throughput_add = 0.1
 		##state_building_port_max_level_add = 2
 		state_building_naval_base_max_level_add = 10
 	}
@@ -30,19 +30,19 @@ state_trait_montevideo_harbor = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.1
+		building_shipyard_throughput_add = 0.1
 		##state_building_port_max_level_add = 2
 		state_building_naval_base_max_level_add = 10
 	}
 }
 
-state_trait_andes = {
+REPLACE:state_trait_andes = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
 		state_construction_mult = -0.1
 		state_infrastructure_mult = -0.1
-		building_vineyard_plantation_throughput_add = 0.10
+		building_vineyard_throughput_add = 0.10
 	}
 }
 

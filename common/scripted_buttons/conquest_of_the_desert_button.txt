@@ -13,7 +13,7 @@ patagonia_button = {
 		}
 		any_scope_state = {
 		OR = {
-				state_region = s:STATE_ARAUCANIA
+				state_region = s:STATE_MAGALLANES
 				state_region = s:STATE_RIO_NEGRO
 				state_region = s:STATE_CHUBUT
 				state_region = s:STATE_SANTA_CRUZ_ARG

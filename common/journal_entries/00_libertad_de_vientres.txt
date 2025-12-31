@@ -6,7 +6,9 @@
 
 	possible = {
         AND = {
-            country_is_in_south_america = yes
+			any_country = {
+				is_in_geographic_region = geographic_region_south_america
+			}
             has_modifier = libertad_de_vientres
             NOT = { 
                 has_law = law_type:law_slavery_banned 

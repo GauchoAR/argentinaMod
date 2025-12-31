@@ -1,5 +1,5 @@
 ﻿
-ARG = {
+REPLACE:ARG = {
 # Argentina
 
 	flag_definition = {
@@ -85,7 +85,7 @@ ARG = {
 		}
 	}
 }
-PLT = {
+REPLACE:PLT = {
 # united provinces
 
 	flag_definition = {

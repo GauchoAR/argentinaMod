@@ -22,9 +22,9 @@ region_la_plata = {
 }
 region_south_andes = {
 	graphical_culture = "latin"
-	capital_province = x317080
+	capital_province = x73C0F8
 	map_color = { 0.5 0.5 0.5 }
-	states = {STATE_TARAPACA STATE_ANTOFAGASTA STATE_LOS_RIOS STATE_LOS_LAGOS STATE_AYSEN STATE_MAGALLANES STATE_SANTIAGO   }
+	states = {STATE_TARAPACA STATE_ANTOFAGASTA STATE_LOS_RIOS STATE_LOS_LAGOS STATE_AYSEN STATE_MAGALLANES STATE_SANTIAGO}
 }
 
 

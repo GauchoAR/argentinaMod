@@ -953,10 +953,7 @@ french_pretenders_pulse.5 = {
 		}
 
 		scope:monarch_of_france = {
-			add_modifier = {
-				name = restitutor_orbis
-				months = normal_modifier_time
-			}		
+			add_trait = special_character_restitutor_orbis
 		}
 	}
 

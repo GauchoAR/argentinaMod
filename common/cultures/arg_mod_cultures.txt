@@ -1,5 +1,5 @@
 ﻿
-argentine={
+REPLACE:argentine={
 	color=rgb{ 179 208 221 }
 	religion = catholic
 	heritage = heritage_latin_american_settler
@@ -69,7 +69,7 @@ argentine={
 	graphics = european
 }
 
-uruguayan={
+REPLACE:uruguayan={
 	color=rgb{ 213 210 187 }
 	religion = catholic
 	heritage = heritage_latin_american_settler
@@ -135,7 +135,7 @@ uruguayan={
 }
 
 
-paraguayan={
+REPLACE:paraguayan={
 	color=rgb{ 140 192 63 }
 	religion = catholic
 	heritage = heritage_latin_american_settler
@@ -207,7 +207,7 @@ paraguayan={
 }
 
 
-guarani={
+REPLACE:guarani={
 	color= rgb{ 194 109 46 }
 	religion = animist
 	heritage = heritage_guarani
@@ -307,7 +307,7 @@ guarani={
 }
 
 
-sulista = {
+REPLACE:sulista = {
 	color= hsv{ 0.50 0.40 0.53 }
 	religion = catholic
 	heritage = heritage_latin_american_settler
@@ -369,7 +369,7 @@ sulista = {
 }
 
 
-afro_caribeno={
+REPLACE:afro_caribeno={
 	color= hsv{ 0.33 0.45 0.32 }
 	religion = catholic
 	heritage = heritage_african_diaspora
@@ -1441,7 +1441,7 @@ selknam = {
 	}
 	graphics = decentralised_americas
 }
- ranquel = {
+ranquel = {
 	color=rgb{ 202 72 2 }
 	religion = animist
 	heritage = heritage_pampas

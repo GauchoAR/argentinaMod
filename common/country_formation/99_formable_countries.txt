@@ -1,4 +1,4 @@
-﻿PLT = {
+﻿REPLACE:PLT = {
 	states = {
 		STATE_BUENOS_AIRES
 		STATE_CHACO
