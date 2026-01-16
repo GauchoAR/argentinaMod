@@ -1,7 +1,5 @@
 ﻿l_english:
 
-
-
 malvinas.2.t:0 "An offer for the Falklands"
 malvinas.2.d:0 "Buenos Aires has made us an offer for the purchase of  The Falklands."
 malvinas.2.f:0 ""Argentina offers to pay at the treasury in Buenos Aires, to the diplomatic representative or other agent of [ROOT.GetCountry.GetRuler.GetHerHis] Majesty the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] , A considerable sum of Pesos Fuertes in gold to get the islands back to the argentinian sovereignty.""

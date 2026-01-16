@@ -5,7 +5,7 @@
 
 	tier = hegemony
 	
-	cultures = { argentine platinean }
+	cultures = { argentine }
 	capital = STATE_BUENOS_AIRES
 }
 REPLACE:PLT = {

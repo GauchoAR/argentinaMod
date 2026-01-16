@@ -122,22 +122,33 @@ STATES = {
 		}
 
 	s:STATE_CHACO = {
-			create_state = {
-				country = c:GNI
-				owned_provinces = {
-					xFDFEA2 x677EEB x2A9B2C xB0C011 x60F33C x64D769 x52353A xEA944C xA080F0 x4E5F59 xBB6154 x3F7BB5 x9D1DC2 x1BAD65 x455239 x06C8A5 x9E3116 x840395 x4D4F5E  xC75C36
-				}
+		create_state = {
+			country = c:GNI
+			owned_provinces = { 
+			   xFDFEA2 x677EEB x2A9B2C xB0C011 x60F33C x64D769 x52353A xEA944C xA080F0 x4E5F59 xBB6154 x3F7BB5 x9D1DC2 x1BAD65 x455239 x06C8A5 x9E3116 x840395 x4D4F5E  xC75C36
 			}
-			create_state = {
-				country = c:ARG
-				owned_provinces = {
-					 x42AED6 x9A3B4F x476F91 x76C8E9 xE0C49E x98A799 x26CE16 x0E777E
-				}
-				state_type = unincorporated
-			}
-			add_homeland = cu:platinean
-			add_homeland = cu:guarani
 		}
+		add_homeland = cu:guarani
+        add_homeland = cu:toba		
+	}
+		s:STATE_SANTIAGO_DEL_ESTERO = {
+		create_state = {
+			country = c:GNI
+			owned_provinces = { 
+				xB00050 x4A2296 xC37562 xECF85F x517902 x5AB63C x07D26B xEE670B xC1E078 xD84595 xBB1FAD xF4329F xB2711B
+			}
+		}
+		create_state = {
+			country = c:ARG
+			owned_provinces = { xC7FF96 x42AED6 x9A3B4F x476F91 x76C8E9 xE0C49E  x98A799 x26CE16 x0E777E x5040D0 xD041D0 x1DFDAC xBFE416 x8B722D xB315A7
+			#state_type = unincorporated
+			}
+		}
+        add_homeland = cu:platinean
+		add_homeland = cu:toba
+		add_homeland = cu:guarani
+	}
+
 
 	s:STATE_JUJUY = {
 			create_state = {
@@ -308,24 +319,6 @@ STATES = {
 			add_homeland = cu:platinean
 			add_homeland = cu:comechingon
 			add_homeland = cu:patagonian		
-		}
-
-	s:STATE_SANTIAGO_DEL_ESTERO = {
-			create_state = {
-				country = c:GNI
-				owned_provinces = { 
-					xB00050 x4A2296 xC37562 xECF85F x517902 x5AB63C x07D26B xEE670B xC1E078 xD84595 xBB1FAD xF4329F xB2711B
-				}
-			}
-			create_state = {
-				country = c:ARG
-				owned_provinces = { xC7FF96 x5040D0 xD041D0 x1DFDAC xBFE416 x8B722D xB315A7 
-				#state_type = unincorporated
-				}
-			}
-	        add_homeland = cu:platinean
-			add_homeland = cu:toba
-			add_homeland = cu:guarani
 		}
 
 	s:STATE_SALTA = {

@@ -1,5 +1,5 @@
 ﻿l_spanish:
- 
+
 malvinas.2.t:0 "Una oferta por las Malvinas"
 malvinas.2.d:0 "Buenos Aires nos ha hecho una oferta para comprar las Malvinas."
 malvinas.2.f:0 "Argentina ofrece pagar en el tesoro de Buenos Aires, al representante diplomático o agente de [ROOT.GetCountry.GetRuler.GetHerHis] Majestad el [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle], una suma considerable de Pesos Fuertes en oro para recuperar las islas bajo soberanía argentina."
@@ -35,6 +35,10 @@ the_tarija_question.1.f: "“La guerra es simplemente la continuación de la pol
 the_tarija_question.1.a: "Es hora de aprovechar al máximo la región"
 the_tarija_question.1.b: "La gente de la provincia de Tarija se sienten mas como bolivianos, devolveremos esta provincia a Bolivia."
 
+mapuche_malon.1.t: " Malón"
+mapuche_malon.1.d: "mapuche_malon.1.d: "Llegan informes desde la frontera: guerreros mapuche se han reunido en un malón..."
+mapuche_malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malón!"
+
 chaco.1.t: "La Conquista del Chaco"
 chaco.1.d: "Finalmente, luego de siglos de fallar, conquistamos y poblamos en el Chaco impenetrable"
 chaco.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
@@ -69,6 +73,15 @@ malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos c
 malon.1.a: "¡Manden ya las tropas a nuestra frontera!"
 malon.1.b: "Debemos enviar ayuda a los afiligidos"
 
+mapuche_malon.1.a: "¡Envíen tropas a la frontera!"
+mapuche_malon.1.b: "Fortifiquen los puestos fronterizos."
+mapuche_malon.1.c: "Movilizen una columna completa y aplasten el malón."
+
+mapuche_malon_raid_success_tt: "El malón atraviesa nuestras defensas y devasta la provincia fronteriza."
+mapuche_malon_raid_failed_tt: "El malón es rechazado, y la experiencia fortalece nuestros esfuerzos de colonización."
+
+mapuche_raid_devastation: "Devastación por malones"
+mapuche_raid_devastation_desc: "Recientes incursiones de mapuches han dejado esta frontera en estado de desolación..."
 
 
 

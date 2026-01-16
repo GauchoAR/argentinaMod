@@ -48,8 +48,5 @@ guerra_grande_status_colorados_ahead_ury: "Los Colorados ganan influencia entre 
 guerra_grande_status_blancos_ahead_ury: "Los Blancos se fortalecen entre los caudillos rurales y los terratenientes conservadores."
 guerra_grande_status_uruguay_divided_ury: "Uruguay sigue profundamente dividido entre Colorados y Blancos."
 
-guerra_grande_colorados_progress_bar_desc: "Representa el ascenso de la influencia colorada en la lucha política."
-guerra_grande_blancos_progress_bar_desc: "Representa el ascenso de la influencia blanca en la lucha política."
-
 je_guerra_grande_uruguay_completion_tt: "Una de las facciones alcanza la dominancia en la lucha política."
 guerra_grande_faction_dominance: "Una de las facciones alcanza la dominancia en la lucha política."

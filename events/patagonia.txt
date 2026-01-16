@@ -31,7 +31,7 @@ patagonia.1 = {
 
 
 
-    s:STATE_LA_PAMPAs = {
+    s:STATE_LA_PAMPA = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
@@ -57,7 +57,7 @@ patagonia.1 = {
         }
     }
 
-    s:STATE_RIO_NEGROs = {
+    s:STATE_RIO_NEGRO = {
         add_homeland = cu:platinean
         random_scope_state = {
           limit = {
