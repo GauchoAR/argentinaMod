@@ -1,7 +1,5 @@
-﻿
-
-yerba_mate = {
-	texture = "gfx/interface/icons/arg.goods_icons/yerba_mate.dds"
+﻿yerba_mate = {
+	texture = "gfx/interface/icons/arg.goods_icons/Yerba_Mate.dds"
 	cost = 50
 	category = luxury
 	

@@ -71,6 +71,7 @@ company_amanda = {
 	OR = {
 		c:ARG ?= this
 		c:PLT ?= this
+		c:Great_ARG ?= this
 		}
 	}
 	possible_prestige_goods = {
@@ -113,6 +114,7 @@ company_textil_alpargatas = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -153,6 +155,7 @@ company_giesso = {
 	OR = {
 		c:ARG ?= this
 		c:PLT ?= this
+		c:Great_ARG ?= this
 		}
 	}
 	possible_prestige_goods = {
@@ -196,6 +199,7 @@ company_azucarera_ledesma = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 		possible = {
@@ -242,6 +246,7 @@ company_las_higueritas = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -281,6 +286,7 @@ flavored_company = yes
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible_prestige_goods = {
@@ -325,6 +331,7 @@ flavored_company = yes
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -363,6 +370,7 @@ company_astilleros_argentinos = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -400,6 +408,7 @@ flavored_company = yes
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -436,6 +445,7 @@ flavored_company = yes
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -473,6 +483,7 @@ company_nacion = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 
@@ -513,6 +524,7 @@ company_editorial = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -554,7 +566,8 @@ company_jaunet_hermanos = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
-		}
+			c:Great_ARG ?= this
+			}
 	}
 	possible_prestige_goods = {
 		prestige_good_quebracho
@@ -598,6 +611,7 @@ company_talleres_metal = {
 		OR = {
 			c:ARG ?= this
 			c:PLT ?= this
+			c:Great_ARG ?= this
 		}
 	}
 	possible = { 
@@ -641,6 +655,7 @@ company_ypf = {
 		OR = {
 		c:ARG ?= this
 		c:PLT ?= this
+		c:Great_ARG ?= this
 		}
 	}
 	possible = { 
