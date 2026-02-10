@@ -37,8 +37,8 @@
     on_monthly_pulse = {
          
             random_events = {
-                90 = 0
-                10 = mapuche_malon.1
+                95 = 0
+                5 = mapuche_malon.1
             }
         }
     

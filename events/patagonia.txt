@@ -39,7 +39,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = long_modifier_time
+           days = long_modifier_time
           }
         }
     }
@@ -52,7 +52,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = long_modifier_time
+            days = long_modifier_time
           }
         }
     }
@@ -65,7 +65,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = long_modifier_time
+            days = long_modifier_time
           }
         }
     }
@@ -78,7 +78,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = long_modifier_time
+            days = long_modifier_time
           }
         }
     }
@@ -91,7 +91,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = long_modifier_time
+            days = long_modifier_time
           }
         }
     }
@@ -104,7 +104,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = long_modifier_time
+           days = long_modifier_time
           }
         }
       }
@@ -122,7 +122,7 @@ patagonia.2 = {
 	flavor = patagonia.2.f
 
 	duration = 3
-	cooldown = { months = long_modifier_time }
+	cooldown = { days = medium_modifier_time }
 
 	event_image = {
 		video = "europenorthamerica_native_american"
@@ -195,7 +195,7 @@ patagonia.2 = {
 		scope:patagonia_state = {
 			add_modifier = {
 				name = patagonia_slow_down
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		change_tension = {
@@ -207,7 +207,7 @@ patagonia.2 = {
 		name = patagonia.2.b
 		add_modifier = {
 				name = campana_desierto
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		change_relations = {
 			country = scope:rival_country

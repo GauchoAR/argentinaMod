@@ -29,6 +29,17 @@ REPLACE:URU = {
 	capital = STATE_MONTEVIDEO
 	is_named_from_capital = yes
 }
+UBL = {
+	color = { 57 101 173 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { platinean }
+	capital = STATE_PAYSANDU
+	is_named_from_capital = yes
+}
 REPLACE:PAT = {
 	color = { 196 25 10 }
 	

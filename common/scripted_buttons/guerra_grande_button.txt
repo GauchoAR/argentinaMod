@@ -1,0 +1,147 @@
+# =================================================
+# GUERRA GRANDE — Scripted Buttons
+# (Converted from Carlist War buttons)
+# =================================================
+
+je_guerra_grande_foreign_influence_button = {
+	name = "je_guerra_grande_foreign_influence_button"
+	desc = "je_guerra_grande_foreign_influence_button_desc"
+
+	visible = {
+		c:UBL ?= this
+	}
+
+	possible = {
+		c:UBL ?= THIS
+		hidden_trigger = {
+			NOT = { has_global_variable = guerra_grande_expedition }
+		}
+		OR = {
+			custom_tooltip = {
+				text = "GUERRA_GRANDE_FOREIGN_INTERVENTION_MINIMUM_SCORE"
+				global_var:ubl_guerra_grande_score >= guerra_grande_foreign_intervention_min_score
+			}
+			year >= 1839.1.1
+		}
+	}
+
+	selected = {
+		has_global_variable = guerra_grande_expedition
+	}
+
+	effect = {
+		je:je_guerra_grande ?= {
+			remove_modifier = guerra_grande_guerilla_warfare
+		}
+		set_global_variable = guerra_grande_expedition
+		remove_global_variable = guerra_grande_skirmish_phase
+
+		# Fire escalation event for both sides (same behavior as Carlist)
+		trigger_event = { id = guerra_grande.1 popup = yes }
+		hidden_effect = { c:URU ?= { trigger_event = { id = guerra_grande.1 popup = yes } } }
+
+		# Apply momentum modifiers based on guerilla score
+		add_modifier = {
+			name = blanco_last_stand
+			multiplier = {
+				value = global_var:ubl_guerra_grande_score
+				min = 1
+			}
+			years = 1
+			is_decaying = yes
+		}
+		c:URU ?= {
+			add_modifier = {
+				name = colorado_galvanized_forces
+				multiplier = {
+					value = global_var:uru_guerra_grande_score
+					min = 1
+				}
+				years = 2
+				is_decaying = yes
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 0
+
+		if = { limit = { global_var:ubl_guerra_grande_score >= 10 } add = 10 }
+		if = { limit = { global_var:ubl_guerra_grande_score >= 15 } add = 10 }
+		if = { limit = { global_var:ubl_guerra_grande_score >= 20 } add = 10 }
+		if = { limit = { global_var:uru_guerra_grande_score >= 25 } add = 10 }
+		if = { limit = { game_date > 1839.1.1 } add = 10000 }
+	}
+}
+
+je_guerra_grande_flush_them_out_button = {
+	name = "je_guerra_grande_flush_them_out_button"
+	desc = "je_guerra_grande_flush_them_out_button_desc"
+
+	visible = {
+		c:URU ?= this
+	}
+
+	possible = {
+		c:URU ?= THIS
+		hidden_trigger = {
+			NOT = { has_global_variable = guerra_grande_expedition }
+		}
+		OR = {
+			custom_tooltip = {
+				text = "GUERRA_GRANDE_FOREIGN_INTERVENTION_MINIMUM_SCORE"
+				global_var:uru_guerra_grande_score >= guerra_grande_foreign_intervention_min_score
+			}
+			year >= 1839.1.1
+		}
+	}
+
+	selected = {
+		has_global_variable = guerra_grande_expedition
+	}
+
+	effect = {
+		je:je_guerra_grande ?= {
+			remove_modifier = guerra_grande_guerilla_warfare
+		}
+		set_global_variable = guerra_grande_expedition
+		remove_global_variable = guerra_grande_skirmish_phase
+
+		# Fire escalation event for both sides
+		hidden_effect = { c:UBL ?= { trigger_event = { id = guerra_grande.1 popup = yes } } }
+		trigger_event = { id = guerra_grande.1 popup = yes }
+
+		# Apply momentum modifiers based on guerilla score
+		c:UBL ?= {
+			add_modifier = {
+				name = blanco_last_stand
+				multiplier = {
+					value = global_var:ubl_guerra_grande_score
+					min = 1
+				}
+				years = 1
+				is_decaying = yes
+			}
+		}
+		add_modifier = {
+			name = colorado_galvanized_forces
+			multiplier = {
+				value = global_var:uru_guerra_grande_score
+				min = 1
+			}
+			years = 2
+			is_decaying = yes
+		}
+	}
+
+	ai_chance = {
+		value = 100 # Always push it if we're beating the Blancos
+
+		if = {
+			limit = {
+				c:UBL ?= { is_player = yes }
+			}
+			multiply = 0
+		}
+	}
+}

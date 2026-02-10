@@ -1,76 +1,174 @@
-﻿je_guerra_grande_uruguay = {
-    icon = "gfx/interface/icons/event_icons/event_scales.dds"
-    group = je_group_historical_content
+﻿je_guerra_grande = {
+	group = je_group_global_international_situations
+	icon = "gfx/interface/icons/event_icons/event_carlist_beret.dds"
 
-    is_shown_when_inactive = {
-        c:URU ?= this
-        year >= 1836
-    }
+	is_shown_in_lobby = {
+		# Don't even show it before 1839
+		date >= 1839.1.1
 
-    possible = {
-        c:URU ?= this
-        is_subject = no
-        year >= 1836
-    }
+		# Only Uruguay side (UBL may not exist yet)
+		c:URU ?= this
+	}
 
-    immediate = {
-        # Initialize progress to 0 for both factions
-        set_variable = { name = guerra_grande_colorados_progress_var value = 0 }
-        set_variable = { name = guerra_grande_blancos_progress_var value = 0 }
-    }
+	modifiers_while_active = {
+		guerra_grande_guerilla_warfare
+	}
 
-    # Two bars displayed in the JE UI (make sure these exist in common/scripted_progress_bars)
-    scripted_progress_bar = guerra_grande_colorados_progress_bar
-    scripted_progress_bar = guerra_grande_blancos_progress_bar
+	# Keep these names if you plan to convert the progress bar + buttons too.
+	# If you don't have them yet, comment these three lines out for now.
+	scripted_progress_bar = je_guerra_grande_score_bar
+	scripted_button = je_guerra_grande_foreign_influence_button
+	scripted_button = je_guerra_grande_flush_them_out_button
 
-    # ✅ Properly wrapped completion condition with a visible objective text
-    complete = {
-        custom_tooltip = {
-            text = je_guerra_grande_uruguay_completion_tt
+	should_be_involved = {
+		# HARD START DATE
+		date >= 1839.1.1
 
-            guerra_grande_faction_dominance = yes
-        }
-    }
+		# Uruguay only (keeps it from “global” involvement)
+		c:URU ?= this
+	}
 
-    on_complete = {
-        trigger_event = { id = guerra_grande.110 }
+	should_show_when_not_involved = {
+		always = no
+	}
 
-        # Clean up variables
-        if = { limit = { has_variable = guerra_grande_colorados_progress_var } remove_variable = guerra_grande_colorados_progress_var }
-        if = { limit = { has_variable = guerra_grande_blancos_progress_var } remove_variable = guerra_grande_blancos_progress_var }
-    }
+	immediate = {
+		# Initialize score globals (mirror Carlist structure)
+		if = {
+			limit = { NOT = { has_global_variable = uru_guerra_grande_score } }
+			set_global_variable = { name = uru_guerra_grande_score value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_global_variable = ubl_guerra_grande_score } }
+			set_global_variable = { name = ubl_guerra_grande_score value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_global_variable = guerra_grande_skirmish_phase } }
+			set_global_variable = guerra_grande_skirmish_phase
+		}
+	}
 
-    status_desc = {
-        first_valid = {
-            triggered_desc = {
-                desc = guerra_grande_status_colorados_ahead_ury
-                trigger = {
-                    var:guerra_grande_colorados_progress_var >
-                    var:guerra_grande_blancos_progress_var
-                }
-            }
-            triggered_desc = {
-                desc = guerra_grande_status_blancos_ahead_ury
-                trigger = {
-                    var:guerra_grande_blancos_progress_var >
-                    var:guerra_grande_colorados_progress_var
-                }
-            }
-            triggered_desc = {
-                desc = guerra_grande_status_uruguay_divided_ury
-                trigger = { always = yes }
-            }
-        }
-    }
+	immediate_all_involved = {
+		set_variable = coup_immunity
+	}
 
-    # ~10% monthly chance of the struggle event
-    on_monthly_pulse = {
-        random_events = {
-            90 = 0
-            10 = guerra_grande.100
-        }
-    }
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_guerra_grande_status_skirmish
+				trigger = { has_global_variable = guerra_grande_skirmish_phase }
+			}
+			triggered_desc = {
+				desc = je_guerra_grande_status_foreign_influence
+				trigger = { always = yes }
+			}
+		}
+	}
 
-    weight = 100
-    should_be_pinned_by_default = yes
+	on_monthly_pulse = {
+		effect = {
+			# Only if the Blanco side exists (so we don't crash before you create UBL)
+			c:UBL ?= {
+				random_list = {
+					9 = {}
+					1 = { trigger_event = guerra_grande.5 } # Siege of Montevideo
+					1 = { trigger_event = guerra_grande.6 } # Rural raids
+				}
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_guerra_grande_complete
+			NAND = {
+				exists = c:UBL
+				exists = c:URU
+			}
+		}
+	}
+
+	on_complete_all_involved = {
+		# If UBL wins and you want them to “become URU”, keep this.
+		# If you prefer “civil war ends, government stays URU”, tell me and we’ll alter it.
+		if = {
+			limit = { c:UBL ?= this }
+			change_tag = URU
+			set_capital = STATE_MONTEVIDEO
+			set_market_capital = STATE_MONTEVIDEO
+
+			set_variable = uruguay_blanco_victory
+			set_variable = is_blanco_uruguay
+
+			add_modifier = {
+				name = guerra_grande_blanco_reward
+				years = 20
+				is_decaying = yes
+			}
+
+			hidden_effect = {
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MONTEVIDEO
+							state_region = s:STATE_PAYSANDU
+							state_region = s:STATE_BANDA_ORIENTAL
+						}
+					}
+					set_state_type = incorporated
+				}
+			}
+		}
+		else_if = {
+			limit = { c:URU ?= this }
+			add_modifier = {
+				name = guerra_grande_colorado_reward
+				years = 20
+				is_decaying = yes
+			}
+		}
+
+		trigger_event = guerra_grande.2
+
+		hidden_effect = {
+			remove_global_variable = uru_guerra_grande_score
+			remove_global_variable = ubl_guerra_grande_score
+
+			# Remove common conflict modifiers (adjust to what you actually define)
+			remove_modifier = blanco_last_stand
+			remove_modifier = colorado_galvanized_forces
+			remove_modifier = siege_of_montevideo
+			remove_modifier = blanco_raiding_expenses
+			remove_modifier = blanco_raids
+
+			set_immune_to_revolutions = no
+			remove_variable = coup_immunity
+
+			# Clear state modifiers safely
+			if = {
+				limit = { any_scope_state = { has_modifier = siege_of_montevideo } }
+				every_scope_state = {
+					limit = { has_modifier = siege_of_montevideo }
+					remove_modifier = siege_of_montevideo
+				}
+			}
+			if = {
+				limit = { any_scope_state = { has_modifier = blanco_raids } }
+				every_scope_state = {
+					limit = { has_modifier = blanco_raids }
+					remove_modifier = blanco_raids
+				}
+			}
+			if = {
+				limit = { any_scope_state = { has_modifier = blanco_interior_autonomy } }
+				every_scope_state = {
+					limit = { has_modifier = blanco_interior_autonomy }
+					remove_modifier = blanco_interior_autonomy
+				}
+			}
+		}
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
 }

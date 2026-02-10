@@ -1,0 +1,64 @@
+# Triggered by on_battle_won
+#
+# Root = attacker or defender country
+# scope:enemy_country = enemy of root
+# scope:battle = battle
+# scope:attacker = attacking commander
+# scope:defender = defending commander
+# scope:state = location state
+guerra_grande_battle_score = {
+	trigger = {
+		is_involved_in_journal_entry = je_guerra_grande
+		has_global_variable = guerra_grande_skirmish_phase
+		scope:enemy_country ?= {
+			is_involved_in_journal_entry = je_guerra_grande
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				c:UBL ?= this
+			}
+			change_global_variable = {
+				name = ubl_guerra_grande_score
+				add = 1
+			}
+			je:je_guerra_grande ?= {
+				add_progress = { value = -1 name = je_guerra_grande_score_bar }
+			}
+		}
+		else_if = {
+			limit = {
+				c:URU ?= this
+			}
+			change_global_variable = {
+				name = uru_guerra_grande_score
+				add = 1
+			}
+			je:je_guerra_grande ?= {
+				add_progress = { value = 1 name = je_guerra_grande_score_bar }
+			}
+		}
+	}
+}
+
+
+on_battle_won = {
+	events = {
+		texan_war_of_independence.3
+	}
+	on_actions = {
+		guerra_grande_battle_score
+	}
+	random_events = {
+		chance_to_happen = 20
+		20 = culture_brazil.1
+	}
+}
+
+on_empty_battle_won = {
+	on_actions = {
+		guerra_grande_battle_score
+	}
+}

@@ -518,7 +518,7 @@ POPS = {
 		region_state:URU = {
 			create_pop = {
 				culture = platinean
-				size = 45192
+				size = 31192
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -544,6 +544,12 @@ POPS = {
 			create_pop = {
 				culture = south_german
 				size = 500
+			}
+		}
+		region_state:UBL = {
+			create_pop = {
+				culture = platinean
+				size = 17192
 			}
 		}
 	}

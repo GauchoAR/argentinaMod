@@ -61,9 +61,8 @@ REPLACE:owned_la_plata_region_states = {
 	
 }
 
-guerra_grande_faction_dominance = {
-    OR = {
-        var:guerra_grande_colorados_progress_var >= 100
-        var:guerra_grande_blancos_progress_var >= 100
-    }
+# This = Country
+is_in_guerra_grande = {
+	is_involved_in_journal_entry = je_guerra_grande
+	has_global_variable = guerra_grande_skirmish_phase
 }
