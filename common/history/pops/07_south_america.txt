@@ -1617,6 +1617,12 @@ s:STATE_NEUQUEN = {
 		}
 	}
 	s:STATE_PARANA = { # Parana, 1830. 36566 total.
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 580
+			}
+		}
 		region_state:BRZ = {
 			create_pop = {
 				culture = paulista
@@ -1638,6 +1644,14 @@ s:STATE_NEUQUEN = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
+	
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 582
+			}
+		}
+		
 		region_state:BRZ = {
 			create_pop = {
 				culture = sulista

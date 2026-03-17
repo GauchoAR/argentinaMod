@@ -2913,6 +2913,35 @@ s:STATE_TUCUMAN={
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
+			
+		}
+		region_state:ARG={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:ARG"
+						levels=1
+						region="STATE_PARANA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					building={
+						type="building_maize_farm"
+						country="c:ARG"
+						levels=1
+						region="STATE_SANTA_CATARINA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
 		}
 	}
 	s:STATE_SANTA_CATARINA={
@@ -2929,6 +2958,34 @@ s:STATE_TUCUMAN={
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					building={
+						type="building_maize_farm"
+						country="c:BRZ"
+						levels=1
+						region="STATE_SANTA_CATARINA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+		}
+		region_state:ARG={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:ARG"
+						levels=1
+						region="STATE_SANTA_CATARINA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 			create_building={
 				building="building_maize_farm"
