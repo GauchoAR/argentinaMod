@@ -1,8 +1,8 @@
 {
   "name" : "la Argentina",
   "id" : "",
-  "version" : "7.0 beta",
-  "supported_game_version" : "1.9.7",
+  "version" : "8.0 beta",
+  "supported_game_version" : "1.12.5",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],
