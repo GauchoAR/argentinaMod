@@ -34,19 +34,8 @@ je_welsh_colony_reason: "A estos colonos debemos recibirlos con los brazos abier
 
 
 #Malon
-  je_mapuche_malones: "Malon"
-  je_mapuche_malones_reason: "Mientras los mapuches permanezcan independientes en nuestra frontera, lanzarán malones contra nuestros asentamientos. Debemos someterlos a nuestra autoridad o acabar con su confederación una vez por todos."
+je_mapuche_malones: "Malon"
+je_mapuche_malones_reason: "Mientras los mapuches permanezcan independientes en nuestra frontera, lanzarán malones contra nuestros asentamientos. Debemos someterlos a nuestra autoridad o acabar con su confederación una vez por todos."
 
-  je_mapuche_malones_tt_destroyed: "La Confederación Mapuche ya no existe como país independiente"
-  je_mapuche_malones_tt_subject: "Mapuche es súbdita de nuestro país"
-
-je_guerra_grande_uruguay: "La Guerra Grande"
-je_guerra_grande_uruguay_reason: "Uruguay se encuentra dividido entre Colorados y Blancos. Clubes políticos, caudillos y simpatizantes extranjeros intentan inclinar la balanza del poder."
-
-#Uruguay
-guerra_grande_status_colorados_ahead_ury: "Los Colorados ganan influencia entre las élites urbanas y los reformistas."
-guerra_grande_status_blancos_ahead_ury: "Los Blancos se fortalecen entre los caudillos rurales y los terratenientes conservadores."
-guerra_grande_status_uruguay_divided_ury: "Uruguay sigue profundamente dividido entre Colorados y Blancos."
-
-je_guerra_grande_uruguay_completion_tt: "Una de las facciones alcanza la dominancia en la lucha política."
-guerra_grande_faction_dominance: "Una de las facciones alcanza la dominancia en la lucha política."
+je_mapuche_malones_tt_destroyed: "La Confederación Mapuche ya no existe como país independiente"
+je_mapuche_malones_tt_subject: "Mapuche es súbdita de nuestro país"

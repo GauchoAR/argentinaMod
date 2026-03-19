@@ -546,12 +546,6 @@ POPS = {
 				size = 500
 			}
 		}
-		region_state:UBL = {
-			create_pop = {
-				culture = platinean
-				size = 17192
-			}
-		}
 	}
 	s:STATE_BANDA_ORIENTAL = {
 		region_state:URU = {

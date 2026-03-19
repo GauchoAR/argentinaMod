@@ -38,16 +38,3 @@ je_mapuche_malones_reason: "As long as the Mapuche remain independent on our fro
 
 je_mapuche_malones_tt_subject: "Mapuche is a Subject of [SCOPE.sCountry('argentina_scope').GetName]"
 je_mapuche_malones_tt_destroyed: "The Mapuche Confederation no longer exists"
-
-#Guerra Grande
-je_guerra_grande_uruguay: "Guerra Grande"
-je_guerra_grande_uruguay_reason: "Uruguay is divided between Colorados and Blancos. Political clubs, caudillos, and foreign sympathizers all try to tilt the balance of power."
-
-guerra_grande_status_colorados_ahead_ury: "The Colorados are gaining influence among the urban elites and reformists."
-guerra_grande_status_blancos_ahead_ury: "The Blancos grow stronger among rural caudillos and conservative landowners."
-guerra_grande_status_uruguay_divided_ury: "Uruguay remains deeply divided between Colorados and Blancos."
-
-
-
-je_guerra_grande_uruguay_completion_tt: "One faction reaches dominance in the political struggle."
-guerra_grande_faction_dominance: "One faction reaches dominance in the political struggle."
