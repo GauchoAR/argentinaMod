@@ -60,9 +60,3 @@ REPLACE:owned_la_plata_region_states = {
 	owns_entire_state_region = STATE_CORDOBA
 	
 }
-
-# This = Country
-is_in_guerra_grande = {
-	is_involved_in_journal_entry = je_guerra_grande
-	has_global_variable = guerra_grande_skirmish_phase
-}
