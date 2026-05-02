@@ -20,7 +20,7 @@ french_pretenders_pulse.1 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		any_interest_group = {
@@ -113,8 +113,8 @@ french_pretenders_pulse.1 = {
 		name = french_pretenders_pulse.1.b
 		trigger = {
 			OR = {
-				has_law = law_type:law_outlawed_dissent
-				has_law = law_type:law_censorship
+				has_law_or_variant = law_type:law_outlawed_dissent
+				has_law_or_variant = law_type:law_censorship
 			}
 		}
 		custom_tooltip = {
@@ -130,12 +130,12 @@ french_pretenders_pulse.1 = {
 		scope:french_royalist_writer = {
 			add_modifier = {
 				name = popular_royalist_writer
-				months = short_modifier_time
-			}		
+				days = short_modifier_time
+			}
 		}
 		add_modifier = {
 			name = popular_royalist_book
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 		custom_tooltip = {
 			text = french_pretenders_pulse_advance_by_five_percent_tt
@@ -165,7 +165,7 @@ french_pretenders_pulse.2 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	icon = "gfx/interface/icons/event_icons/event_election.dds"
 
@@ -179,7 +179,7 @@ french_pretenders_pulse.2 = {
 				any_interest_group = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_orleanist
@@ -192,7 +192,7 @@ french_pretenders_pulse.2 = {
 				any_interest_group = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_bonapartist
@@ -205,9 +205,9 @@ french_pretenders_pulse.2 = {
 				any_interest_group = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
-							has_ideology = ideology:ideology_orleanist 
+							has_ideology = ideology:ideology_orleanist
 							has_ideology = ideology:ideology_bonapartist
 						}
 					}
@@ -223,7 +223,7 @@ french_pretenders_pulse.2 = {
 				any_interest_group = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_orleanist
@@ -235,7 +235,7 @@ french_pretenders_pulse.2 = {
 				limit = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_orleanist
@@ -251,7 +251,7 @@ french_pretenders_pulse.2 = {
 				any_interest_group = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_bonapartist
@@ -263,7 +263,7 @@ french_pretenders_pulse.2 = {
 				limit = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_bonapartist
@@ -279,9 +279,9 @@ french_pretenders_pulse.2 = {
 				any_interest_group = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
-							has_ideology = ideology:ideology_orleanist 
+							has_ideology = ideology:ideology_orleanist
 							has_ideology = ideology:ideology_bonapartist
 						}
 					}
@@ -291,9 +291,9 @@ french_pretenders_pulse.2 = {
 				limit = {
 					is_in_government = yes
 					NOT = { has_modifier = upset_royalist_hardliners }
-					leader = { 
+					leader = {
 						OR = {
-							has_ideology = ideology:ideology_orleanist 
+							has_ideology = ideology:ideology_orleanist
 							has_ideology = ideology:ideology_bonapartist
 						}
 					}
@@ -358,7 +358,7 @@ french_pretenders_pulse.2 = {
 		scope:royalist_hardliners = {
 			add_modifier = {
 				name = upset_royalist_hardliners
-				months = normal_modifier_time				
+				days = normal_modifier_time
 			}
 		}
 		if = {
@@ -409,7 +409,7 @@ french_pretenders_pulse.3 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	icon = "gfx/interface/icons/event_icons/event_election.dds"
 
@@ -422,7 +422,7 @@ french_pretenders_pulse.3 = {
 			AND = {
 				any_interest_group = {
 					leader = { has_ideology = ideology:ideology_orleanist }
-					is_marginal = no
+					ig_counts_as_marginal = no
 					is_in_government = no
 					NOR = {
 						has_modifier = solidarity_in_opposition
@@ -436,7 +436,7 @@ french_pretenders_pulse.3 = {
 			AND = {
 				any_interest_group = {
 					leader = { has_ideology = ideology:ideology_legitimist }
-					is_marginal = no
+					ig_counts_as_marginal = no
 					is_in_government = no
 					NOR = {
 						has_modifier = solidarity_in_opposition
@@ -450,7 +450,7 @@ french_pretenders_pulse.3 = {
 			AND = {
 				any_interest_group = {
 					leader = { has_ideology = ideology:ideology_bonapartist }
-					is_marginal = no
+					ig_counts_as_marginal = no
 					is_in_government = no
 					NOR = {
 						has_modifier = solidarity_in_opposition
@@ -464,7 +464,7 @@ french_pretenders_pulse.3 = {
 		}
 		any_interest_group = {
 			is_in_government = no
-			is_marginal = no
+			ig_counts_as_marginal = no
 			AND = {
 				law_stance = {
 					law = law_type:law_presidential_republic
@@ -489,7 +489,7 @@ french_pretenders_pulse.3 = {
 					AND = {
 						leader = { has_ideology = ideology:ideology_orleanist }
 						is_in_government = no
-						is_marginal = no
+						ig_counts_as_marginal = no
 						NOT = {
 							owner = {
 								ruler_is_orleanist = yes
@@ -499,7 +499,7 @@ french_pretenders_pulse.3 = {
 					AND = {
 						leader = { has_ideology = ideology:ideology_legitimist }
 						is_in_government = no
-						is_marginal = no
+						ig_counts_as_marginal = no
 						NOT = {
 							owner = {
 								ruler_is_legitimist = yes
@@ -509,7 +509,7 @@ french_pretenders_pulse.3 = {
 					AND = {
 						leader = { has_ideology = ideology:ideology_bonapartist }
 						is_in_government = no
-						is_marginal = no
+						ig_counts_as_marginal = no
 						NOT = {
 							owner = {
 								ruler_is_bonapartist = yes
@@ -523,7 +523,7 @@ french_pretenders_pulse.3 = {
 		random_interest_group = {
 			limit = {
 				is_in_government = no
-				is_marginal = no
+				ig_counts_as_marginal = no
 				AND = {
 					law_stance = {
 						law = law_type:law_presidential_republic
@@ -589,7 +589,7 @@ french_pretenders_pulse.3 = {
 		scope:monarchists_in_opposition = {
 			add_modifier = {
 				name = solidarity_in_opposition
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 			leader = {
 				set_variable = monarchist_working_with_republicans
@@ -598,7 +598,7 @@ french_pretenders_pulse.3 = {
 		scope:republicans_in_opposition = {
 			add_modifier = {
 				name = solidarity_in_opposition
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 			leader = {
 				set_variable = republican_working_with_monarchists
@@ -613,13 +613,13 @@ french_pretenders_pulse.3 = {
 		scope:monarchists_in_opposition = {
 			add_modifier = {
 				name = alone_with_principles
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		scope:republicans_in_opposition = {
 			add_modifier = {
 				name = alone_with_principles
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -668,13 +668,13 @@ french_pretenders_pulse.3 = {
 		scope:monarchists_in_opposition = {
 			add_modifier = {
 				name = collaboration_collapsed
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		scope:republicans_in_opposition = {
 			add_modifier = {
 				name = collaboration_collapsed
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -698,7 +698,7 @@ french_pretenders_pulse.4 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
@@ -741,7 +741,7 @@ french_pretenders_pulse.4 = {
 				has_variable = republican_working_with_monarchists
 				is_busy = no
 				is_immortal = no
-			}	
+			}
 			AND = {
 				law_stance = {
 					law = law_type:law_presidential_republic
@@ -760,7 +760,7 @@ french_pretenders_pulse.4 = {
 				is_interest_group_type = ig_armed_forces
 				is_interest_group_type = ig_petty_bourgeoisie
 				is_interest_group_type = ig_industrialists
-			}	
+			}
 		}
 	}
 
@@ -809,7 +809,7 @@ french_pretenders_pulse.4 = {
 					has_variable = republican_working_with_monarchists
 					is_busy = no
 					is_immortal = no
-				}	
+				}
 				AND = {
 					law_stance = {
 						law = law_type:law_presidential_republic
@@ -828,13 +828,11 @@ french_pretenders_pulse.4 = {
 					is_interest_group_type = ig_armed_forces
 					is_interest_group_type = ig_petty_bourgeoisie
 					is_interest_group_type = ig_industrialists
-				}	
+				}
 			}
 			save_scope_as = republican_french_ig
-			save_scope_as = memento_mori_ig # to reuse the retirement notification
 			leader = {
 				save_scope_as = republican_french_ig_leader
-				save_scope_as = memento_mori_leader # to reuse the retirement notification
 			}
 		}
 	}
@@ -888,21 +886,18 @@ french_pretenders_pulse.4 = {
 	option = {
 		name = french_pretenders_pulse.4.b
 
-		post_notification = ig_leader_memento_mori
 		custom_tooltip = {
 			text = french_pretenders_pulse.4.b.tt
 			hidden_effect = {
 				scope:republican_french_ig_leader = {
-					kill_character = {
-						hidden = yes
-					}
+					retire_character = yes
 				}
 			}
 		}
 		scope:republican_french_ig = {
 			add_modifier = {
 				name = cryptomonarchists_in_our_ranks
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 
@@ -982,7 +977,7 @@ french_pretenders_pulse.5 = {
 			}
 			add_modifier = {
 				name = stalwarts_of_the_restoration
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -1006,7 +1001,7 @@ french_pretenders_pulse.10 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = short_modifier_time }
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
@@ -1045,7 +1040,7 @@ french_pretenders_pulse.10 = {
 		ruler = {
 			add_modifier = {
 				name = modifier_popular_french_monarch
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		custom_tooltip = {
@@ -1059,10 +1054,10 @@ french_pretenders_pulse.10 = {
 	option = {
 		name = french_pretenders_pulse.10.b
 		default_option = yes
-		ig:ig_armed_forces = {
+		ig:ig_armed_forces ?= {
 			add_modifier = {
 				name = modifier_bonapartist_armed_forces_modifier
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		custom_tooltip = {
@@ -1102,7 +1097,7 @@ french_pretenders_pulse.11 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = short_modifier_time }
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
@@ -1110,10 +1105,14 @@ french_pretenders_pulse.11 = {
 		NOT = {
 			has_variable = fra_divided_monarchists_freeze
 		}
+
 		any_scope_character = {
 			has_ideology = ideology:ideology_orleanist
 		}
-		
+		any_scope_state = {
+			is_world_market_hub = yes
+			num_world_market_hub_trade_center_levels >= 20
+		}
 	}
 
 	immediate = {
@@ -1133,7 +1132,7 @@ french_pretenders_pulse.11 = {
 		ruler = {
 			add_modifier = {
 				name = modifier_popular_french_monarch
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		custom_tooltip = {
@@ -1147,10 +1146,10 @@ french_pretenders_pulse.11 = {
 	option = {
 		name = french_pretenders_pulse.11.b
 		default_option = yes
-		ig:ig_industrialists = {
+		ig:ig_industrialists ?= {
 			add_modifier = {
 				name = modifier_orleanist_industrialist_modifier
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		custom_tooltip = {
@@ -1190,7 +1189,7 @@ french_pretenders_pulse.12 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = short_modifier_time }
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
@@ -1201,7 +1200,7 @@ french_pretenders_pulse.12 = {
 		any_scope_character = {
 			has_ideology = ideology:ideology_legitimist
 		}
-		ig:ig_devout = {
+		ig:ig_devout ?= {
 			ig_clout >= 0.15
 		}
 	}
@@ -1213,7 +1212,7 @@ french_pretenders_pulse.12 = {
 			}
 			save_scope_as = legitimist_character
 		}
-		ig:ig_devout = {
+		ig:ig_devout ?= {
 			save_scope_as = devout_ig
 		}
 	}
@@ -1226,7 +1225,7 @@ french_pretenders_pulse.12 = {
 		ruler = {
 			add_modifier = {
 				name = modifier_popular_french_monarch
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		custom_tooltip = {
@@ -1240,10 +1239,10 @@ french_pretenders_pulse.12 = {
 	option = {
 		name = french_pretenders_pulse.12.b
 		default_option = yes
-		ig:ig_devout = {
+		ig:ig_devout ?= {
 			add_modifier = {
 				name = modifier_legitimist_devout_modifier
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		custom_tooltip = {
@@ -1253,7 +1252,7 @@ french_pretenders_pulse.12 = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = french_pretenders_pulse.12.c
 		custom_tooltip = {
@@ -1285,28 +1284,15 @@ french_pretenders_pulse.13 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		NOT = {
 			has_variable = fra_divided_monarchists_freeze
 		}
 		any_interest_group = {
-			is_marginal = no
-			leader = {
-				OR = {
-					has_ideology = ideology:ideology_bonapartist
-					has_ideology = ideology:ideology_orleanist
-					has_ideology = ideology:ideology_legitimist
-				}
-			}
-		}
-	}
-
-	immediate = {
-		random_interest_group = {
-			limit = {
-				is_marginal = no
+			AND = {
+				ig_counts_as_marginal = no
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_bonapartist
@@ -1315,12 +1301,51 @@ french_pretenders_pulse.13 = {
 					}
 				}
 			}
+		}
+	}
+
+	immediate = {
+		random_interest_group = {
+			limit = {
+				AND = {
+					ig_counts_as_marginal = no
+					leader = {
+						OR = {
+							has_ideology = ideology:ideology_bonapartist
+							has_ideology = ideology:ideology_orleanist
+							has_ideology = ideology:ideology_legitimist
+						}
+					}
+				}
+			}
+			save_scope_as = relevant_interest_group
 			leader = {
+				if = { # this is to ensure a character won't die during the event but an already immortal character doesn't lose immortality at the end of the event
+					limit = {
+						is_immortal = no # checks if the character isn't already immortal
+					}
+					set_character_immortal = yes # makes character immortal only until the end of this event
+					set_variable = temp_immortality_pretenders_13
+				}
 				save_scope_as = partisan_character
 			}
 		}
 		capital = {
 			save_scope_as = capital_scope
+		}
+	}
+
+	cancellation_trigger = {
+		OR = {
+			NOT = {
+				exists = scope:partisan_character
+			}
+			scope:partisan_character = {
+				is_character_alive = no
+			}
+			NOT = {
+				exists = scope:relevant_interest_group
+			}
 		}
 	}
 
@@ -1369,7 +1394,20 @@ french_pretenders_pulse.13 = {
 		scope:partisan_character = {
 			add_modifier = {
 				name = modifier_reasonable_monarchist_partisan
-				months = normal_modifier_time
+				days = normal_modifier_time
+			}
+		}
+		if = {
+			limit = {
+				any_scope_character = {
+					has_variable = temp_immortality_pretenders_13
+				}
+			}
+			scope:partisan_character = {
+				hidden_effect = {
+					set_character_immortal = no # sets character back to not immortal
+					remove_variable = temp_immortality_pretenders_13
+				}
 			}
 		}
 	}
@@ -1427,6 +1465,19 @@ french_pretenders_pulse.13 = {
 				change_variable = { name = legitimist_progress_from_effects add = -1 }
 			}
 		}
+		if = {
+			limit = {
+				any_scope_character = {
+					has_variable = temp_immortality_pretenders_13
+				}
+			}
+			scope:partisan_character = {
+				hidden_effect = {
+					set_character_immortal = no # sets character back to not immortal
+					remove_variable = temp_immortality_pretenders_13
+				}
+			}
+		}
 	}
 }
 
@@ -1450,7 +1501,7 @@ french_pretenders_pulse.14 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	cancellation_trigger = {
 		OR = {
@@ -1469,8 +1520,8 @@ french_pretenders_pulse.14 = {
 		}
 		any_scope_character = {
 			OR = {
-				has_role = admiral
-				has_role = general
+				has_role_of_type = admiral
+				has_role_of_type = general
 			}
 			OR = {
 				has_ideology = ideology:ideology_bonapartist
@@ -1484,8 +1535,8 @@ french_pretenders_pulse.14 = {
 		random_scope_character = {
 			limit = {
 				OR = {
-					has_role = admiral
-					has_role = general
+					has_role_of_type = admiral
+					has_role_of_type = general
 				}
 				OR = {
 					has_ideology = ideology:ideology_bonapartist
@@ -1577,7 +1628,7 @@ french_pretenders_pulse.14 = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = french_pretenders_pulse.14.c
 		trigger = {
@@ -1649,13 +1700,13 @@ french_pretenders_pulse.14 = {
 		scope:partisan_character = {
 			if = {
 				limit = {
-					has_role = general
+					has_role_of_type = general
 				}
 				remove_character_role = general
 			}
 			if = {
 				limit = {
-					has_role = admiral
+					has_role_of_type = admiral
 				}
 				remove_character_role = admiral
 			}
@@ -1683,14 +1734,14 @@ french_pretenders_pulse.15 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = short_modifier_time }
 
 	trigger = {
 		NOT = {
 			has_variable = fra_divided_monarchists_freeze
 		}
 		any_scope_character = {
-			has_role = agitator
+			has_role_of_type = agitator
 			OR = {
 				has_ideology = ideology:ideology_bonapartist
 				has_ideology = ideology:ideology_orleanist
@@ -1702,7 +1753,7 @@ french_pretenders_pulse.15 = {
 	immediate = {
 		random_scope_character = {
 			limit = {
-				has_role = agitator
+				has_role_of_type = agitator
 				OR = {
 					has_ideology = ideology:ideology_bonapartist
 					has_ideology = ideology:ideology_orleanist
@@ -1765,7 +1816,7 @@ french_pretenders_pulse.15 = {
 		scope:partisan_character = {
 			add_modifier = {
 				name = modifier_monarchist_partisan_popularity
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 		if = {
@@ -1789,7 +1840,7 @@ french_pretenders_pulse.15 = {
 				}
 				add_modifier = {
 					name = modifier_monarchist_partisan_popularity
-					months = short_modifier_time
+					days = short_modifier_time
 				}
 			}
 		}
@@ -1814,7 +1865,7 @@ french_pretenders_pulse.15 = {
 				}
 				add_modifier = {
 					name = modifier_monarchist_partisan_popularity
-					months = short_modifier_time
+					days = short_modifier_time
 				}
 			}
 		}
@@ -1839,7 +1890,7 @@ french_pretenders_pulse.15 = {
 				}
 				add_modifier = {
 					name = modifier_monarchist_partisan_popularity
-					months = short_modifier_time
+					days = short_modifier_time
 				}
 			}
 		}
@@ -1866,7 +1917,7 @@ french_pretenders_pulse.16 = {
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = short_modifier_time }
 
 	trigger = {
 		NOT = {
@@ -1874,13 +1925,13 @@ french_pretenders_pulse.16 = {
 		}
 		OR = {
 			AND = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 				any_interest_group = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_orleanist
@@ -1889,13 +1940,13 @@ french_pretenders_pulse.16 = {
 				}
 			}
 			AND = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
 				}
 				any_interest_group = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_bonapartist
@@ -1904,15 +1955,15 @@ french_pretenders_pulse.16 = {
 				}
 			}
 			AND = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 				any_interest_group = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
-							has_ideology = ideology:ideology_orleanist 
+							has_ideology = ideology:ideology_orleanist
 							has_ideology = ideology:ideology_bonapartist
 						}
 					}
@@ -1924,13 +1975,13 @@ french_pretenders_pulse.16 = {
 	immediate = {
 		if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 				any_interest_group = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_orleanist
@@ -1947,7 +1998,7 @@ french_pretenders_pulse.16 = {
 			random_interest_group = {
 				limit = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_orleanist
@@ -1959,13 +2010,13 @@ french_pretenders_pulse.16 = {
 		}
 		else_if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
 				}
 				any_interest_group = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_bonapartist
@@ -1982,7 +2033,7 @@ french_pretenders_pulse.16 = {
 			random_interest_group = {
 				limit = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
 							has_ideology = ideology:ideology_legitimist
 							has_ideology = ideology:ideology_bonapartist
@@ -1994,15 +2045,15 @@ french_pretenders_pulse.16 = {
 		}
 		else_if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 				any_interest_group = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
-							has_ideology = ideology:ideology_orleanist 
+							has_ideology = ideology:ideology_orleanist
 							has_ideology = ideology:ideology_bonapartist
 						}
 					}
@@ -2017,9 +2068,9 @@ french_pretenders_pulse.16 = {
 			random_interest_group = {
 				limit = {
 					is_in_government = yes
-					leader = { 
+					leader = {
 						OR = {
-							has_ideology = ideology:ideology_orleanist 
+							has_ideology = ideology:ideology_orleanist
 							has_ideology = ideology:ideology_bonapartist
 						}
 					}
@@ -2034,9 +2085,9 @@ french_pretenders_pulse.16 = {
 		default_option = yes
 		if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 			}
 			custom_tooltip = {
@@ -2048,9 +2099,9 @@ french_pretenders_pulse.16 = {
 		}
 		else_if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
 				}
 			}
 			custom_tooltip = {
@@ -2062,9 +2113,9 @@ french_pretenders_pulse.16 = {
 		}
 		else_if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 			}
 			custom_tooltip = {
@@ -2080,9 +2131,9 @@ french_pretenders_pulse.16 = {
 		name = french_pretenders_pulse.16.b
 		if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 			}
 			custom_tooltip = {
@@ -2094,9 +2145,9 @@ french_pretenders_pulse.16 = {
 		}
 		else_if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_legitimist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
 				}
 			}
 			custom_tooltip = {
@@ -2108,9 +2159,9 @@ french_pretenders_pulse.16 = {
 		}
 		else_if = {
 			limit = {
-				je:je_divided_monarchists = { 
+				je:je_divided_monarchists = {
 					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_bonapartist_progress_bar)"
-					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)" 
+					"scripted_bar_progress(divided_monarchists_legitimist_progress_bar)" > "scripted_bar_progress(divided_monarchists_orleanist_progress_bar)"
 				}
 			}
 			custom_tooltip = {
@@ -2124,7 +2175,7 @@ french_pretenders_pulse.16 = {
 			leader = {
 				add_modifier = {
 					name = modifier_political_smears_monarchism
-					months = short_modifier_time
+					days = short_modifier_time
 				}
 			}
 		}
@@ -2136,7 +2187,7 @@ french_pretenders_pulse.17 = {
 	type = country_event
 	placement = ROOT
 	title = french_pretenders_pulse.17.t
-	
+
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -2170,7 +2221,7 @@ french_pretenders_pulse.17 = {
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = short_modifier_time }
 
 	trigger = {
 		NOT = {
@@ -2278,7 +2329,7 @@ french_pretenders_pulse.17 = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = french_pretenders_pulse.17.a1
 		default_option = yes
@@ -2319,7 +2370,7 @@ french_pretenders_pulse.17 = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = french_pretenders_pulse.17.b1
 		trigger = {
@@ -2373,7 +2424,7 @@ french_pretenders_pulse.17 = {
 french_pretenders_pulse.18 = {
 	type = country_event
 	placement = ROOT
-	
+
 	title = french_pretenders_pulse.18.t
 	desc = french_pretenders_pulse.18.d
 	flavor = french_pretenders_pulse.18.f
@@ -2398,12 +2449,11 @@ french_pretenders_pulse.18 = {
 	}
 
 	immediate = {
-		random_state = {
-			limit = {
-				state_region = s:STATE_SLOVENIA
-			}
-			owner = {
-				save_scope_as = slovenia_owner_scope
+		s:STATE_SLOVENIA ?= {
+			random_scope_state = {
+				owner = {
+					save_scope_as = slovenia_owner_scope
+				}
 			}
 		}
 	}
@@ -2444,7 +2494,7 @@ french_pretenders_pulse.18 = {
 french_pretenders_pulse.19 = {
 	type = country_event
 	placement = ROOT
-	
+
 	title = french_pretenders_pulse.19.t
 	desc = french_pretenders_pulse.19.d
 	flavor = french_pretenders_pulse.19.f
@@ -2461,7 +2511,7 @@ french_pretenders_pulse.19 = {
 
 	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
 
-	cooldown = { months = long_modifier_time }
+	cooldown = { days = long_modifier_time }
 
 	trigger = {
 		#Triggered by Decision
@@ -2486,7 +2536,7 @@ french_pretenders_pulse.19 = {
 		default_option = yes
 		add_modifier = {
 			name = modifier_return_of_napoleons_body
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 		custom_tooltip = {
 			text = bonapartist_progress_increase_15_tt
@@ -2506,7 +2556,7 @@ french_pretenders_pulse.19 = {
 			}
 			add_modifier = {
 				name = modifier_return_of_napoleons_body_ig
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 		custom_tooltip = {
