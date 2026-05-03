@@ -24,7 +24,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_PERNAMBUCO
 				count = 1
 			}
@@ -48,7 +48,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_PERNAMBUCO
 				count = 1
 			}
@@ -72,7 +72,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_PARAIBA
 				count = 1
 			}
@@ -107,7 +107,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_SANTIAGO
 				count = 2
 			}
@@ -138,29 +138,6 @@
 	}
 
 	c:ARG ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_la_plata
-			name = Ejrcito_Argentino # No organized army really existed in 1836, but an ad-hoc 'Northern Army' was formed in 1837
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BUENOS_AIRES
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_TUCUMAN
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_BUENOS_AIRES
-				count = 1
-			}
-		}
 
 		create_military_formation = {
 			type = fleet
@@ -225,7 +202,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_RIO_GRANDE_DO_SUL
 				count = 1
 			}
@@ -263,7 +240,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_ECUADOR
 				count = 1
 			}
@@ -301,7 +278,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_CAUCA
 				count = 2
 			}
@@ -339,7 +316,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_ZULIA
 				count = 2
 			}
@@ -359,7 +336,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_MONTEVIDEO
 				count = 1
 			}
@@ -375,7 +352,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BAJO_PARAGUAY
-				count = 5
+				count = 3
 			}
 		}
 	}

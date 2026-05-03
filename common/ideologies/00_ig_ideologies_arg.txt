@@ -36,7 +36,7 @@ ideology_autonomist = {
 		law_serfdom = disapprove
 		law_tenant_farmers = strongly_approve
 		law_commercialized_agriculture = neutral
-		law_homesteading = strongly_disapprove
+		law_peasant_proprietorship = strongly_disapprove
 		law_collectivized_agriculture = strongly_disapprove
 	}
 	

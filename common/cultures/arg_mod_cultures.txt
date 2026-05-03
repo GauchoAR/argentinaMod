@@ -63,7 +63,102 @@ REPLACE:argentine={
 	}
 
 	ethnicities = {
-		2 = south_american
+		1 = south_american
+		1 = caucasian
+	}
+	graphics = european
+}
+
+REPLACE:platinean= {
+	color=rgb{ 88 99 133 }
+	religion = catholic
+	heritage = heritage_latin_american_settler
+	language = language_hispanophone
+
+	obsessions = {
+		meat
+	}
+
+	traditions = { }
+	male_common_first_names = {
+		Agustin Antonio Atanasio
+		Baltasar Bartolome Bernardino Bernardo
+		Carlos Cecilio Cirilo Claudio Clemente Candido_2
+		Domingo
+		Emiliano Esteban Eugenio_2 Evaristo
+		Facundo Faustino Feliciano Francisco Fructuoso Felix
+		Gabriel Gaspar Guillermo
+		Hipolito
+		Ignacio
+		JosE_ Juan_Jose Juan_Manuel Juan_Ramon Julio Justo
+		Lorenzo Luis
+		Manuel Marcial
+		Miguel Maximo
+		Nicolas_2
+		Patricio Pedro Prudencio
+		Ramon Roberto Roque
+		Salvador Santiago
+		Torcuato
+		Venancio
+	}
+	female_common_first_names = {
+		Agustina Ana
+		Bernardina
+		Catalina Constancia Carmen
+		Dolores
+		Encarnacion Eva
+		Isidora Isabel
+		Juana
+		Manuela Maria Martina Magdalena
+		Petrona
+		Robustiana Ramona
+		Sara
+		Tomasa
+	}
+	noble_last_names = {
+		de_Alvear de_A_lzaga de_AzcuE_naga
+		de_Basavilbaso
+		Cordero de_Castro_de_Herrero CorvalA_n
+		Esquivel
+		Ferrerari_de_OlazA_bal
+		de_Goyeneche
+		de_Ibarrola
+		de_Lamadrid de_Lezica de_LagraN_a
+		Molina_de_Balaguer
+		de_OtA_lora de_Orma
+		de_Pueyrredon de_la_Plaza Prats_de_Huisi
+		de_la_Quintana de_la_Quintanilla
+		Rodriguez_de_Francia de_Rosas Rivadavia del_Ribero
+		de_Santa_Coloma
+		de_la_Torre
+		de_Urquiza
+		de_Vedoya
+		Warnes
+	}
+	common_last_names = {
+		Aguirre Avellaneda Albizuri
+		Balcarce Bareiro Berro Brown Baez Bramajo
+		Caballero CorvalA_n Cruz Condarco Cordero
+		Derqui Diaz_2
+		Ellauri Escobar Esquivel
+		Flores
+		Gonzalez Gomez
+		Jovellanos Justo Juarez Jonte
+		Latorre Lopez
+		Machain Maza Meza Mitre Monteagudo Matorras Medrano
+		Paz Pedernera Pellegrini Pereira Pinedo Prats
+		Quintana
+		Rivarola Rivera Roca Rodriguez Rojas Rondeau
+		Santos Sarmineto Solano Saenz
+		Tajes
+		Uriburu
+		Viamonte Vidal Villarino Vedoya
+		Warnes
+		Yrigoyen
+		Zapiola
+	}
+	ethnicities = {
+		1 = south_american
 		1 = caucasian
 	}
 	graphics = european
@@ -128,7 +223,7 @@ REPLACE:uruguayan={
 	}
 
 	ethnicities = {
-		2 = south_american
+		1 = south_american
 		1 = caucasian
 	}
 	graphics = european

@@ -122,7 +122,7 @@ patagonia.2 = {
 	flavor = patagonia.2.f
 
 	duration = 3
-	cooldown = { days = medium_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	event_image = {
 		video = "europenorthamerica_native_american"
