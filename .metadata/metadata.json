@@ -1,8 +1,8 @@
 {
-  "name" : "la Argentina(test)",
+  "name" : "La Argentina 1.13.X",
   "id" : "",
-  "version" : "8.0.4 beta",
-  "supported_game_version" : "1.13.3",
+  "version" : "8.1",
+  "supported_game_version" : "1.13.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

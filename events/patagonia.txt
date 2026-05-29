@@ -39,7 +39,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-           days = long_modifier_time
+           months = very_short_modifier_time
           }
         }
     }
@@ -52,7 +52,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            days = long_modifier_time
+            months = very_short_modifier_time
           }
         }
     }
@@ -65,7 +65,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            days = long_modifier_time
+            months = very_short_modifier_time
           }
         }
     }
@@ -78,7 +78,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            days = long_modifier_time
+            months = very_short_modifier_time
           }
         }
     }
@@ -91,7 +91,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            days = long_modifier_time
+            months = very_short_modifier_time
           }
         }
     }
@@ -104,7 +104,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-           days = long_modifier_time
+           months = very_short_modifier_time
           }
         }
       }
