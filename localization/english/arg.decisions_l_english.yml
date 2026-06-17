@@ -4,10 +4,6 @@
 arg_purchase_malvinas:0 "The Malvinas Question"
 arg_purchase_malvinas_desc:0 "We are in the position to make an offer to get back the Malvinas"
 
-PLT:  "United Provinces Of River Plate"
-plt_mon_name: "Rioplatense Empire"
-plt_dem_name: "United Provinces"
-
 Great_ARG_mon_name: "Austral Empire Of Argentina"
 Great_ARG_dem_name: "Imperial Republic Of Argentina"
 Great_ARG: "Greater Argentina"

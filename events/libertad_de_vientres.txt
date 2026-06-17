@@ -46,12 +46,12 @@ vientres.2 = { #completition effect
 	duration = 1
 
 	event_image = {
-		video = "southamerica_aristocrats"
+		video = "unspecific_world_fair"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	option = {
 		name = vientres.2.a

@@ -1,33 +1,44 @@
 ﻿l_spanish:
 
-##ban-slavery
-je_vientres: "Libertad de vientres"
-je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
-
-##expansionism
-je_chaco: "La conquista del Chaco"
-je_chaco_reason: ""El impenetrable Chaco" pronto caera, y colonizaremos estas tierras que son nuestras por derecho."
-
-je_malvinas: "La reconquista de Malvinas"
-je_malvinas_status: "Poseer todo el estado de Malvinas y Georgia.."
-je_malvinas_reason: "Las negociaciones sobre las Malvinas han fracasado, por lo que nos vemos obligados a buscar la diplomacia por otros medios."
-je_islas_malvinas: "Islas Malvinas"
-je_islas_malvinas_reason: "Si es con diplomacia o con guerra, las islas volveran a ser nuestras"
+ #ban-slavery
+ je_vientres: "Libertad de vientres"
+ je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
 
 
-je_the_tarija_question: "La cuestión de Tarija"
-je_the_tarija_question_reason: "Tarija es territorio argentino por derecho, nuestra voluntad debe ser impuesta en la región."
 
-je_alto_paraguay: "La conquista del Alto Paraguay"
-je_alto_paraguay_reason: "No podemos dejar que nuestros vecinos conquisten las tierras del Alto Paraguay"
+ #expansionism
+
+ je_chaco: "La conquista del Chaco"
+ je_chaco_reason: ""El impenetrable Chaco" pronto caera, y colonizaremos estas tierras que son nuestras por derecho."
+
+ je_malvinas: "La reconquista de Malvinas"
+ je_malvinas_status: "Poseer todo el estado de Malvinas y Georgia.."
+ je_malvinas_reason: "Las negociaciones sobre las Malvinas han fracasado, por lo que nos vemos obligados a buscar la diplomacia por otros medios."
+ je_islas_malvinas: "La cuestión de Islas Malvinas"
+ je_islas_malvinas_reason: "Las fuerzas navales del Imperio Británico ocuparonlas Islas Malvinas, expulsando a nuestras autoridades legítimas.\n\nComo herederos legales del Virreinato del Río de la Plata, no podemos tolerar esta usurpación de nuestro territorio soberano.\n\nDebemos fortalecer nuestra posición y encontrar el momento oportuno, ya sea mediante la diplomacia, las alianzas o las armas, para recuperar lo que por derecho nos pertenece."
+
+ je_the_tarija_question: "La cuestión de Tarija"
+ je_the_tarija_question_reason: "En 1816, los diputados de Tarija se sentaron junto a los nuestros para declarar la independencia, pero el caos de la guerra y la ambición de nuestros vecinos del norte nos arrebataron esos fértiles valles. La reintegración de esta provincia no es un simple capricho territorial; es un mandato legal, una deuda histórica y una cuestión de honor nacional que debemos saldar."
+
+ je_alto_paraguay: "La conquista del Alto Paraguay"
+ je_alto_paraguay_reason: "No podemos dejar que nuestros vecinos conquisten las tierras del Alto Paraguay"
+
+ je_hacia_el_sur: "Hacia el sur!"
+ je_hacia_el_sur_reason: "Tenemos a Alto Paraguay, pero ahora deberiamos tomar a Formosa tambien"
+
+ je_hacia_el_norte: "Hacia el norte!"
+ je_hacia_el_norte_reason: "Tenemos al Chaco y a Formosa, pero ahora deberiamos tomar Alto Paraguay tambien"
+
+ #migracion
+
+ je_welsh_colony: "Se acerca un barco galés"
+ je_welsh_colony_reason: "A estos colonos debemos recibirlos con los brazos abiertos, la provincia de Chubut está escasamente poblada."
 
 
-je_hacia_el_sur: "Hacia el sur!"
-je_hacia_el_sur_reason: "Tenemos a Alto Paraguay, pero ahora deberiamos tomar a Formosa tambien"
+ #Malon
 
-je_hacia_el_norte: "Hacia el norte!"
-je_hacia_el_norte_reason: "Tenemos al Chaco y a Formosa, pero ahora deberiamos tomar Alto Paraguay tambien"
+ je_mapuche_malones: "Las incursiones Malón"
+ je_mapuche_malones_reason: "Mientras los mapuches permanezcan independientes en nuestra frontera, lanzarán malones contra nuestros asentamientos. Debemos someterlos a nuestra autoridad o acabar con su confederación una vez por todos."
+ je_mapuche_malones_tt_destroyed: "La Confederación Mapuche ya no existe como país independiente"
+ je_mapuche_malones_tt_subject: "Mapuche es súbdita de nuestro país"
 
-#migracion 
-je_welsh_colony: "Se acerca un barco galés"
-je_welsh_colony_reason: "A estos colonos debemos recibirlos con los brazos abiertos, la provincia de Chubut está escasamente poblada."

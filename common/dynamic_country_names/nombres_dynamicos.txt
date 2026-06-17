@@ -1,4 +1,4 @@
-﻿PLT = {
+﻿REPLACE:PLT = {
 
 	dynamic_country_name = {
 		name = plt_dem_name

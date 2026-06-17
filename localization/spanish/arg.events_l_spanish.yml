@@ -1,5 +1,5 @@
 ﻿l_spanish:
- 
+
 malvinas.2.t:0 "Una oferta por las Malvinas"
 malvinas.2.d:0 "Buenos Aires nos ha hecho una oferta para comprar las Malvinas."
 malvinas.2.f:0 "Argentina ofrece pagar en el tesoro de Buenos Aires, al representante diplomático o agente de [ROOT.GetCountry.GetRuler.GetHerHis] Majestad el [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle], una suma considerable de Pesos Fuertes en oro para recuperar las islas bajo soberanía argentina."
@@ -7,9 +7,9 @@ malvinas.2.a:0 "Las islas no valen nada, que las tengan los argentinos."
 malvinas.2.b:0 "Nunca venderíamos una posesión valiosa en el Atlántico."
 
 malvinas.3.t:0 "La cuestión Malvinas resuelta"
-malvinas.3.d:0 "Han aceptado nuestros términos. Las islas volverán al control argentino."
-malvinas.3.f:0 "Desde 1833, las Islas Malvinas y las Georgias del Sur han estado bajo control británico, pero ahora finalmente podemos reclamar lo que fue nuestro desde los virreinatos españoles."
-malvinas.3.a:0 "El gaucho Rivero puede descansar en paz."
+malvinas.3.d:0 "El estandarte británico desciende por última vez de los mástiles australes. Ahora, mecida por los vientos helados, es nuestra enseña celeste y blanca la que reclama el horizonte."
+malvinas.3.f:0 "Desde la aciaga usurpación de 1833, las Islas Malvinas y las Georgias del Sur han sido una herida abierta en nuestro orgullo nacional.\n\nHoy, gracias a una diplomacia audaz, restauramos nuestra integridad territorial y reclamamos definitivamente la herencia inalienable que nos legó el Virreinato del Río de la Plata."
+malvinas.3.a:0 "El gaucho Rivero al fin podrá descansar en paz."
 
 malvinas.4.t:0 "Fracasaron las negociaciones por la compra de las Malvinas"
 malvinas.4.d:0 "Las negociaciones con los británicos por la compra de las Malvinas han fracasado."
@@ -17,27 +17,31 @@ malvinas.4.f:0 "Vemos, por lo tanto, que la guerra no es solo un acto político,
 malvinas.4.a:0 "Continuaremos la diplomacia por otros medios."
 
 malvinas.1.t:1 "Una oferta por las Malvinas"
-malvinas.1.d:1 "Nuestro país atraviesa serias dificultades económicas y probablemente consideraría una oferta por la compra de las islas."
-malvinas.1.f:0 "Argentina ofrece pagar en el tesoro de Buenos Aires, al representante diplomático o agente de [ROOT.GetCountry.GetRuler.GetHerHis] Majestad el [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle], una suma considerable de Pesos Fuertes en oro para recuperar las islas bajo soberanía argentina."
+malvinas.1.d:1 "A cambio de esta ayuda financiera, el Reino Unido podría arriar su bandera, retirar a sus administradores y reconocer la soberanía absoluta de nuestro país sobre el archipiélago."
+malvinas.1.f:0 "Los despachos confidenciales que llegan desde Londres revelan una verdad innegable: el Imperio Británico se ahoga en sus propias tribulaciones financieras.\n\nEn los oscuros pasillos de Whitehall, el costo de mantener una guarnición en rocas lejanas y azotadas por el viento comienza a ser cuestionado por el Parlamento.\n\nEs la oportunidad perfecta para que nuestra diplomacia actúe y corrija la usurpación a través del poder del oro."
 malvinas.1.a:1 "Realicen los arreglos necesarios."
 malvinas.1.c:1 "No podemos afrontar un gasto así en este momento."
 malvinas.1.tt1:1 "Ofreceremos el pago por las islas a lo largo de 1 año."
 
 libertad_de_vientres: "Libertad de Vientres"
 vientres.2.t: "Esclavitud Prohibida"
-vientres.2.d: "Finalmente hemos terminado con el ultimo yugo opresor"
-vientres.2.f: "Durante mucho tiempo hemos luchado por la libertad en esta tierra, finalmente podemos dar por resuelta esta lucha, nos enorgullece anunciar que el último vestigio de nuestro antiguo tirano ha desaparecido, cada hombre en esta tierra es y sera nacido libre e igual uno al otro."
+vientres.2.d: "La institución de la esclavitud es ahora una reliquia del pasado."
+vientres.2.f: "En los pasillos del poder y en las viejas estancias, los lamentos de los terratenientes tradicionales por la pérdida de su "mano de obra garantizada" no se han hecho esperar, hubo amenazas, exigencias de compensación y oscuras predicciones de ruina económica.\n\nSin embargo, la ley es inexorable, los registros de compra y venta de seres humanos han sido arrojados al fuego de la historia.\n\nAunque los viejos patrones miren con resentimiento el nuevo orden social, el mazo ha caído: nunca más un hombre será encadenado bajo nuestra bandera."
 vientres.2.a: "En Unión y Libertad!"
 	    
-the_tarija_question.1.t: "Un Asunto Resuelto"
-the_tarija_question.1.d: "Tarija está ahora bajo incuestionable autoridad argentina"
-the_tarija_question.1.f: "“La guerra es simplemente la continuación de la política por otros medios.” - Clausewitz"
+the_tarija_question.1.t: "Tarija: Un Asunto Resuelto"
+the_tarija_question.1.d: "Las fronteras del norte han quedado selladas por la fuerza de las armas y el coraje de nuestros hombres."
+the_tarija_question.1.f: "—Una excelente noticia, sin duda, aunque el verdadero triunfo reside en los informes geológicos que acabo de recibir —intervino el magnate, encendiendo un cigarro—. Dicen que las montañas están preñadas de minerales, solo aguardando las herramientas y las vías de nuestros trenes para despertar.\n\n—Así es como se teje verdaderamente una nación, señores —concluyó el Ministro, alzando su copa de cristal hacia la luz—. El ejército traza las líneas en la superficie, pero es la industria la que clava las raíces en la piedra. Que los taladros y los picos comiencen a sonar.."
 the_tarija_question.1.a: "Es hora de aprovechar al máximo la región"
 the_tarija_question.1.b: "La gente de la provincia de Tarija se sienten mas como bolivianos, devolveremos esta provincia a Bolivia."
 
+mapuche_malon.1.t: "La incursion Malón"
+mapuche_malon.1.d: "Llegan informes desde la frontera: guerreros mapuche se han reunido en un malón."
+mapuche_malon.1.f: "El viejo estanciero sostenía un rifle descargado, rodeado por el silencio sepulcral que siguió al ataque. En cuestión de minutos, el trabajo de toda una vida había desaparecido hacia el desierto.\n\n—Aquí en la frontera, la civilización es un lujo, somos apenas el escudo de carne que protege las inversiones."
+
 chaco.1.t: "La Conquista del Chaco"
-chaco.1.d: "Finalmente, luego de siglos de fallar, conquistamos y poblamos en el Chaco impenetrable"
-chaco.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+chaco.1.d: "Las densas selvas del Gran Chaco devoraron las ambiciones de imperios enteros, donde los conquistadores de antaño encontraron solo flechas, nuestras tropas y valientes colonos han llevado la antorcha de la civilización."
+chaco.1.f: "— A veces siento una punzada de lástima por ellos, vivían en su ignorancia salvaje hasta que llegamos nosotros — suspiró el caballero, mirando pensativo hacia el horizonte.\n\n— Es el precio de la modernidad, mi amigo, ahora debemos enseñarles a trabajar la tierra, a vestirse decentemente, a respetar la propiedad privada...\n\n — ...y a pagar impuestos sobre ella, por supuesto — añadió el ministro con una sonrisa astuta, alzando su vaso de cristal."
 chaco.1.a: "Por fin podemos caminar libremente por estas interminables planicies y bosques"
 
 islas_malvinas.1.t: "Malvinas Argentinas"
@@ -55,12 +59,12 @@ hacia_el_sur.1.a: "Por fin podemos caminar libremente por estas interminables pl
 hacia_el_norte.1.t: "Hacia el Norte!"
 hacia_el_norte.1.d: "Finalmente logramos conquistar el Gran Chaco y Alto Paraguay, por fin podremos empezar a poblar estas zonas"
 hacia_el_norte.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
-hacia_el_norte.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+hacia_el_norte.1.a:  "Que los aserraderos y los colonos comiencen su labor."
 
 alto_paraguay.1.t: "Conquista del Alto Paraguay"
-alto_paraguay.1.d: "Finalmente logramos conquistar Alto Paraguay, por fin podremos empezar a poblar estas zona"
-alto_paraguay.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
-alto_paraguay.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+alto_paraguay.1.d: "La indomable frontera del Alto Paraguay ha sido finalmente sometida a nuestra autoridad."
+alto_paraguay.1.f: "Desde los tiempos de los virreinatos, el dominio sobre el Alto Paraguay ha sido una pieza clave en el tablero continental. Quien controla estas llanuras inundables y sus afluentes, controla el flujo del comercio y la seguridad de las fronteras septentrionales.\n\nCon esta campaña concluida, hemos cerrado definitivamente la puerta a las ambiciones territoriales de nuestros vecinos. Nuestras guarniciones se asientan ahora a lo largo de las riberas, garantizando que esta vital arteria estratégica permanezca firmemente en nuestras manos para las generaciones venideras."
+alto_paraguay.1.a: "Las aguas y la selva ahora responden a nuestra ley."
 
 
 malon.1.t: "Malon"
@@ -69,13 +73,27 @@ malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos c
 malon.1.a: "¡Manden ya las tropas a nuestra frontera!"
 malon.1.b: "Debemos enviar ayuda a los afiligidos"
 
+mapuche_malon.1.a: "¡Envíen tropas a la frontera!"
+mapuche_malon.1.b: "Fortifiquen los puestos fronterizos."
+mapuche_malon.1.c: "Movilizen una columna completa y aplasten el malón."
+
+mapuche_malon_raid_success_tt: "El malón atraviesa nuestras defensas y devasta la provincia fronteriza."
+mapuche_malon_raid_failed_tt: "El malón es rechazado, y la experiencia fortalece nuestros esfuerzos de colonización."
+
+mapuche_raid_devastation: "Devastación por malones"
+mapuche_raid_devastation_desc: "Recientes incursiones de mapuches han dejado esta frontera en estado de desolación..."
 
 
 
 welsh_colony.1.t: "Llega un barco galés"
-welsh_colony.1.d: "Colonos galesas llegan a Chubut"
-welsh_colony.1.f: "En 1865, 153 galeses arribaron en el barco Mimosa, a la provincia de Chubut. Ellos continuarían fundando la ciudad de Y Wladfa."
-welsh_colony.1.a: "Bienvenidos a la Argentina"
+welsh_colony.1.d: "Buscando preservar su idioma y cultura lejos de la asimilación británica, un grupo de colonos galeses ha desembarcado en las costas de Patagonia."
+welsh_colony.1.f: "Mientras otros inmigrantes europeos se aglomeraban en los conventillos de la metrópoli, estos galeses habían pedido expresamente tierras donde nadie más quería ir.\n\nHuían de las opresivas minas de carbón y de las leyes inglesas, buscando un aislamiento que solo la vasta y silenciosa Patagonia podía ofrecerles.\n\nCon las manos vacías pero el espíritu intacto, vienen dispuestos a transformar el árido y gélido desierto patagónico en su nuevo hogar."
+welsh_colony.1.a: "Bienvenidos a la Argentina."
 
 
 campana_desierto: "escaramuzas en el desierto"
+
+mapuche_after.1.t: "Los mapuches ya no serán una amenaza"
+mapuche_after.1.d: "La Confederación Mapuche, antes un pueblo orgulloso y desafiante en nuestra frontera austral, ha llegado a su fin."
+mapuche_after.1.f: "En las estancias más alejadas, las familias por fin pueden dormir sin mantener el rifle cargado junto a la ventana. La noticia de la victoria militar ha recorrido el país, llevando un suspiro de alivio colectivo a quienes habitan los confines de la civilización.\n\nLa amenaza del malón, que durante tantas generaciones fue el mayor terror de nuestras noches, se convertirá ahora en una simple leyenda que los viejos colonos contarán a sus nietos junto al fuego."
+mapuche_after.1.a: "Comienza una nueva era."

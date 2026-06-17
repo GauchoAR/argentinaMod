@@ -1,8 +1,0 @@
-﻿URU = {
-	states = {
-		STATE_PAYSANDU
-		STATE_MONTEVIDEO
-		STATE_BANDA_ORIENTAL
-	}
-	ai_will_do = { always = no }
-}
