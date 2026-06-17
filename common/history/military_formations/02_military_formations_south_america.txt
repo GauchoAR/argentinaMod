@@ -121,7 +121,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_SANTIAGO
-				count = 1
+				count = 3
 			}
 		}
 
@@ -138,6 +138,25 @@
 	}
 
 	c:ARG ?= {
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+			name = Ejrcito_Argentino
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BUENOS_AIRES
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_BUENOS_AIRES
+				count = 4
+			}
+
+		}
 
 		create_military_formation = {
 			type = fleet

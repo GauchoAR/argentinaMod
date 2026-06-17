@@ -201,7 +201,7 @@ malvinas.4 = {
 # Malvinas conquest
 namespace = islas_malvinas
 
-islas_malvinas.1 {
+islas_malvinas.1 = {
     type = country_event
 	placement = ROOT
 

@@ -9,7 +9,7 @@ mapuche_malon.1 = {
     flavor = mapuche_malon.1.f
 
     duration = 3
-    cooldown = { months = 3 }   # minimum 3 months between this event
+    cooldown = { years = 9 }   # minimum 3 months between this event
 
     event_image = {
         video = "southamerica_war_civilians"
@@ -161,11 +161,11 @@ mapuche_after.1 = {
 	duration = 3
 
     event_image = {
-        video = "southamerica_aristocrats"
+        video = "ip4_colonial_exploitation_going_well"
     }
 
     on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-    icon = "gfx/interface/icons/event_icons/event_military.dds"
+    icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
     trigger = {
     }

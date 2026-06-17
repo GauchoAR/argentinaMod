@@ -9,19 +9,16 @@
 		add_technology_researched = mass_communication
 		add_technology_researched = empiricism
 		add_technology_researched = psychiatry
-		add_technology_researched = pharmaceuticals
-		add_technology_researched = central_archives
-		add_technology_researched = stock_exchange
 		add_technology_researched = lathe
-		
+
 		effect_starting_politics_conservative = yes
 		
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_cultural_exclusion
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_legacy_slavery
@@ -33,6 +30,7 @@
 		activate_law = law_type:law_religious_schools
 		
 		add_taxed_goods = g:tobacco
+
 		
 		set_tax_level = medium
 		
@@ -47,9 +45,7 @@
 			add_ruling_interest_group = yes
 		}
 
-		add_modifier = {
-			name = age_of_caudillos_modifier
-			}
+
 		add_modifier = {
 			name = libertad_de_vientres
 			months = -1

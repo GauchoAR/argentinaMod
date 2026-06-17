@@ -12,7 +12,7 @@ patagonia.1 = {
   duration = 3
 
   event_image = {
-    video = "southamerica_aristocrats"
+    video = "unspecific_military_parade"
   }
 
   on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -39,7 +39,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-           months = very_short_modifier_time
+           days = very_short_modifier_time
           }
         }
     }
@@ -52,7 +52,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = very_short_modifier_time
+            days = very_short_modifier_time
           }
         }
     }
@@ -65,7 +65,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = very_short_modifier_time
+            days = very_short_modifier_time
           }
         }
     }
@@ -78,7 +78,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = very_short_modifier_time
+            days = very_short_modifier_time
           }
         }
     }
@@ -91,7 +91,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-            months = very_short_modifier_time
+            days = very_short_modifier_time
           }
         }
     }
@@ -104,7 +104,7 @@ patagonia.1 = {
           }
           add_modifier = {
             name = patagonian_settlement
-           months = very_short_modifier_time
+           days = very_short_modifier_time
           }
         }
       }

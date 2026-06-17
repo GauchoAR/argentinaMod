@@ -1,9 +1,8 @@
 ﻿l_english:
 
 ##journal_ban_slavery
-je_vientres: "Libertad de Vientres"
-je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
-
+ je_vientres: "Freedom of Wombs"
+ je_vientres_reason: "Partus sequitur ventrum, that which is born follows the womb. We have separated ourselves from the old slave regime by declaring every child of a slave free."
 
 #journal_expansionism
 je_chaco: "The Conquest of The Chaco"
@@ -16,25 +15,26 @@ je_islas_malvinas: "Islas Malvinas"
 je_islas_malvinas_reason: "Either through diplomacy or war, the islands will be returned to us"
 
 
-je_the_tarija_question: "The Tarija Question"
-je_the_tarija_question_reason: "Tarija is rightful argentine land, our will must be imposed in the region."
+ je_the_tarija_question: "The Tarija Question"
+ je_the_tarija_question_reason: "In 1816, the deputies of Tarija sat alongside ours to declare independence, but the chaos of war and the ambition of our northern neighbors snatched those fertile valleys from us.\n\nThe reintegration of this province is not a simple territorial whim; it is a legal mandate, a historical debt, and a matter of national honor that we must settle."
 
-je_alto_paraguay: "the Conquest of Alto Paraguay"
-je_alto_paraguay_reason: "We cannot let our neighbours claim the lands of Alto Paraguay"
+ je_alto_paraguay: "The conquest of Alto Paraguay"
+ je_alto_paraguay_reason: "We cannot let our neighbors conquer the lands of Alto Paraguay"
 
-je_hacia_el_sur: "Push South!"
-je_hacia_el_sur_reason: "We now own Alto paraguay, but we should take Formosa aswell"
+ je_hacia_el_sur: "To the south!"
+ je_hacia_el_sur_reason: "We have Alto Paraguay, but now we should take Formosa as well"
 
-je_hacia_el_norte: "Push North!"
-je_hacia_el_norte_reason: "We now own Formosa, but we should take Alto Paraguay aswell"
+ je_hacia_el_norte: "To the north!"
+ je_hacia_el_norte_reason: "We have the Chaco and Formosa, but now we should take Alto Paraguay as well"
 
-##Migration
-je_welsh_colony: "A Welsh ship arrives"
-je_welsh_colony_reason: "We should welcome these settlers with open arms, the Chubut province is scarecely populated."
+ #migracion
 
-#Malon
-je_mapuche_malones: "Malon"
-je_mapuche_malones_reason: "As long as the Mapuche remain independent on our frontier, they will raid our settlements with their Malones. We must either bring them under our rule or wipe out their confederation once and for all."
+ je_welsh_colony: "A Welsh ship approaches"
+ je_welsh_colony_reason: "We must welcome these colonists with open arms, the Chubut province is sparsely populated."
 
-je_mapuche_malones_tt_subject: "Mapuche is a Subject of [SCOPE.sCountry('argentina_scope').GetName]"
-je_mapuche_malones_tt_destroyed: "The Mapuche Confederation no longer exists"
+ #Malon
+
+ je_mapuche_malones: "The Malón incursions"
+ je_mapuche_malones_reason: "As long as the Mapuches remain independent on our border, they will launch malones against our settlements. We must subject them to our authority or wipe out their confederation once and for all."
+ je_mapuche_malones_tt_destroyed: "The Mapuche Confederation no longer exists as an independent country"
+ je_mapuche_malones_tt_subject: "Mapuche is a subject of our country"
