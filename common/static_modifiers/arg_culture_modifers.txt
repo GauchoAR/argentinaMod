@@ -1,4 +1,12 @@
-﻿
+﻿slave_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_slave_standard_of_living_add = 1
+}
+
+slave_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_slave_standard_of_living_add = 1
+}
 
 mapuche_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -91,15 +99,6 @@ selknam_standard_of_living_modifier_negative = {
 }
 ranquel_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_Ranquel_standard_of_living_add = 1
-}
-
-ranquel_standard_of_living_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_Ranquel_standard_of_living_add = 1
-}
-ranquel_standard_of_living_modifier_positive = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_ranquel_standard_of_living_add = 1
 }
 
@@ -107,7 +106,6 @@ ranquel_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_ranquel_standard_of_living_add = 1
 }
-
 comechingon_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	state_comechingon_standard_of_living_add = 1
@@ -177,4 +175,3 @@ afro_platense_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_toba_standard_of_living_add = 1
 }
-

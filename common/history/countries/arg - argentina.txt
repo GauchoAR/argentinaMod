@@ -55,10 +55,7 @@
 			months = -1
 		}
 		add_journal_entry = { type = je_vientres }
-		add_journal_entry = { type = je_patagonia }
-		add_journal_entry = { type = je_chaco }
-		add_journal_entry = { type = je_islas_malvinas }
-		add_journal_entry = { type = je_the_tarija_question }
+		add_journal_entry = { type = je_malvinas }
 	}
 }
 

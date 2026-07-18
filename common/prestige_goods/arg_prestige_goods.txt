@@ -9,13 +9,13 @@ prestige_good_quebracho = {
 prestige_good_yerba_lujo = {
 	base_good = yerba_mate
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/arg.goods_icons/yerba_mate.dds"
+	texture = "gfx/interface/icons/arg_goods_icons/yerba_mate.dds"
 }
 
 prestige_good_yerba_terere = {
 	base_good = yerba_mate
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/arg.goods_icons/yerba_mate.dds"
+	texture = "gfx/interface/icons/arg_goods_icons/yerba_mate.dds"
 }
 
 prestige_good_quilmes= {

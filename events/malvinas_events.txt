@@ -146,10 +146,7 @@ malvinas.3 = {
 			name = malvinas_arg_big_money
 			months = 12
 		}
-		s:STATE_ISLAS_MALVINAS.region_state:GBR = {
-			set_state_owner = ROOT
-		}
-		s:STATE_ISLAS_GEORGIAS.region_state:GBR = {
+		s:STATE_SOUTH_ATLANTIC_ISLANDS.region_state:GBR = {
 			set_state_owner = ROOT
 		}
 		change_relations = {
@@ -222,13 +219,8 @@ islas_malvinas.1 {
 
     option = {
 		name = islas_malvinas.1.a
-		
-		
-		s:STATE_ISLAS_MALVINAS = {
-					add_homeland = cu:platinean
-				}
-				s:STATE_ISLAS_GEORGIAS = {
-					add_homeland = cu:platinean
-				}
+		s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+			add_homeland = cu:platinean
+		}
 	}
 }

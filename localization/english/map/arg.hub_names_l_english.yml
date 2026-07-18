@@ -2,20 +2,6 @@
 # STATES
 
  #Arentina
-  #La Pampa
-   HUB_NAME_STATE_LA_PAMPA_ARG_city: "Santa Rosa"
-   HUB_NAME_STATE_LA_PAMPA_ARG_farm: "Chacharramendi"
-   HUB_NAME_STATE_LA_PAMPA_ARG_wood: "Santa Isabel"
-   HUB_NAME_STATE_LA_PAMPA_ARG_mine: "Catriel"
-   
-   
-  #Rio Negro
-   HUB_NAME_STATE_RIO_NEGRO_ARG_city: "Viedma"
-   HUB_NAME_STATE_RIO_NEGRO_ARG_farm: "Río Colorado"
-   HUB_NAME_STATE_RIO_NEGRO_ARG_wood: "San Carlos de Bariloche"
-   HUB_NAME_STATE_RIO_NEGRO_ARG_mine: "General Roca"
-   HUB_NAME_STATE_RIO_NEGRO_ARG_port: "Las Grutas"
-
   # Formosa
    HUB_NAME_STATE_FORMOSA_ARG_city: "Formosa"
    HUB_NAME_STATE_FORMOSA_ARG_farm: "Palo Santo"

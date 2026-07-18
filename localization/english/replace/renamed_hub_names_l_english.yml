@@ -21,6 +21,19 @@
   HUB_NAME_STATE_SANTA_FE_farm: "Rosario"
   HUB_NAME_STATE_SANTA_FE_wood: "Rafaela"
   HUB_NAME_STATE_SANTA_FE_mine: "San Cristóbal"
+  
+   #La Pampa
+   HUB_NAME_STATE_LA_PAMPA_city: "Santa Rosa"
+   HUB_NAME_STATE_LA_PAMPA_farm: "Chacharramendi"
+   HUB_NAME_STATE_LA_PAMPA_wood: "Santa Isabel"
+   HUB_NAME_STATE_LA_PAMPA_mine: "Catriel"
+   
+    #Rio Negro
+   HUB_NAME_STATE_RIO_NEGRO_city: "Viedma"
+   HUB_NAME_STATE_RIO_NEGRO_farm: "Río Colorado"
+   HUB_NAME_STATE_RIO_NEGRO_wood: "San Carlos de Bariloche"
+   HUB_NAME_STATE_RIO_NEGRO_mine: "General Roca"
+   HUB_NAME_STATE_RIO_NEGRO_port: "Las Grutas"
 
  #Uruguay
   HUB_NAME_STATE_MONTEVIDEO_farm: "Mercedes"
