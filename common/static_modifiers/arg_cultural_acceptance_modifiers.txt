@@ -24,13 +24,13 @@ puelches_cultural_acceptance_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	country_puelches_cultural_acceptance_add = 1
 }
-huarpe_cultural_acceptance_modifier_positive = {
+huarpes_cultural_acceptance_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	country_huarpe_cultural_acceptance_add = 1
+	country_huarpes_cultural_acceptance_add = 1
 }
-huarpe_cultural_acceptance_modifier_negative = {
+huarpes_cultural_acceptance_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_huarpe_cultural_acceptance_add = 1
+	country_huarpes_cultural_acceptance_add = 1
 }
 toba_cultural_acceptance_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -146,6 +146,4 @@ diaguita_cultural_acceptance_modifier_positive = {
 	country_diaguita_cultural_acceptance_add = 1
 }
 diaguita_cultural_acceptance_modifier_negative = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_diaguita_cultural_acceptance_add = 1
-}
+	icon =

@@ -518,7 +518,7 @@ POPS = {
 		region_state:URU = {
 			create_pop = {
 				culture = platinean
-				size = 31192
+				size = 45192
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -829,17 +829,37 @@ s:STATE_ALTO_PARAGUAY = {
 			}
 		}
 	}
-	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+	s:STATE_ISLAS_MALVINAS = {
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 14540
+				size = 30
+			}
+			create_pop = {
+				culture = platinean
+				size = 10
+			}
+			create_pop = {
+				culture = scottish
+				size = 20
+			}
+		}
+	}
+	s:STATE_ISLAS_GEORGIAS = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 20
+			}
+			create_pop = {
+				culture = scottish
+				size = 10
 			}
 		}
 	}
 	
 	
-	s:STATE_RIO_NEGRO = {
+	s:STATE_RIO_NEGRO_ARG = {
 		
 		region_state:PAT = {
 			create_pop = {
@@ -910,7 +930,7 @@ s:STATE_NEUQUEN = {
 					
 		}
 	}
-		s:STATE_LA_PAMPA = {
+		s:STATE_LA_PAMPA_ARG = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
@@ -1268,7 +1288,6 @@ s:STATE_NEUQUEN = {
 				culture = toba #
 				size = 3400
 			}
-
 			create_pop = {
 				culture = north_german
 				size = 500
@@ -1327,11 +1346,7 @@ s:STATE_NEUQUEN = {
 			}
 			create_pop = {
 				culture = patagonian
-				size = 2000
-			}
-			create_pop = {
-				culture = picunches
-				size = 18000
+				size = 5000
 			}
 			create_pop = {
 				culture = south_german
@@ -1591,12 +1606,6 @@ s:STATE_NEUQUEN = {
 		}
 	}
 	s:STATE_PARANA = { # Parana, 1830. 36566 total.
-		region_state:ARG = {
-			create_pop = {
-				culture = platinean
-				size = 580
-			}
-		}
 		region_state:BRZ = {
 			create_pop = {
 				culture = paulista
@@ -1618,14 +1627,6 @@ s:STATE_NEUQUEN = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
-	
-		region_state:ARG = {
-			create_pop = {
-				culture = platinean
-				size = 582
-			}
-		}
-		
 		region_state:BRZ = {
 			create_pop = {
 				culture = sulista

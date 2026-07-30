@@ -4,7 +4,8 @@ group = je_group_historical_content
 	complete = {
 		exists = c:ARG
 		c:ARG = {
-			owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+			owns_entire_state_region = STATE_ISLAS_MALVINAS
+			owns_entire_state_region = STATE_ISLAS_GEORGIAS
 		}
 	}
 
@@ -32,7 +33,8 @@ group = je_group_historical_content
 	}
 
 	complete = {
-		owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+		owns_entire_state_region = STATE_ISLAS_MALVINAS
+		owns_entire_state_region = STATE_ISLAS_GEORGIAS
 	}
 
 	on_complete = {

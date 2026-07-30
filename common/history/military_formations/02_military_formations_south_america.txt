@@ -24,7 +24,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_PERNAMBUCO
 				count = 1
 			}
@@ -48,7 +48,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_PERNAMBUCO
 				count = 1
 			}
@@ -72,7 +72,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_PARAIBA
 				count = 1
 			}
@@ -82,14 +82,23 @@
 			type = fleet
 			hq_region = sr:region_brazil
 			name = Armada_Nacional
-
-			ship = {
-				type = ship_type:ship_type_ship_of_the_line
+		
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_RIO_DE_JANEIRO
 				count = 1
 			}
-			ship = {
-				type = ship_type:ship_type_frigate
-				count = 8
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BAHIA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_RIO_DE_JANEIRO
+				count = 6
 			}
 		}
 	}
@@ -97,7 +106,7 @@
 	c:CHL ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_south_andes
+			hq_region = sr:region_la_plata
 			name = Ejrcito_de_Chile
 
 			combat_unit = {
@@ -107,7 +116,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_SANTIAGO
 				count = 2
 			}
@@ -127,25 +136,50 @@
 
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_south_andes
+			hq_region = sr:region_la_plata
 			name = Armada_de_Chile
 
-			ship = { # Nothing the size of a frigate
-				type = ship_type:ship_type_frigate
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_SANTIAGO
 				count = 1
 			}
 		}
 	}
 
 	c:ARG ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_la_plata
+			name = Ejrcito_Argentino # No organized army really existed in 1836, but an ad-hoc 'Northern Army' was formed in 1837
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BUENOS_AIRES
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TUCUMAN
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_BUENOS_AIRES
+				count = 1
+			}
+		}
 
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_la_plata
 			name = Armada_Argentina
 
-			ship = { # Nothing the size of a frigate
-				type = ship_type:ship_type_frigate
+			combat_unit = { # Nothing the size of a frigate
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_BUENOS_AIRES
 				count = 1
 			}
 		}
@@ -202,7 +236,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_RIO_GRANDE_DO_SUL
 				count = 1
 			}
@@ -240,7 +274,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ECUADOR
 				count = 1
 			}
@@ -278,7 +312,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CAUCA
 				count = 2
 			}
@@ -316,7 +350,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ZULIA
 				count = 2
 			}
@@ -336,7 +370,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_MONTEVIDEO
 				count = 1
 			}
@@ -352,7 +386,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BAJO_PARAGUAY
-				count = 3
+				count = 5
 			}
 		}
 	}

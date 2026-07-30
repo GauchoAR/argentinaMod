@@ -3,7 +3,8 @@
   # Argentina
 STATE_FORMOSA_ARG: "Formosa"
 STATE_TIERRA_DEL_FUEGO: "Tierra Del Fuego"
-STATE_SOUTH_ATLANTIC_ISLANDS: "Islas Malvinas y archipielagos del atlantico sur"
+STATE_ISLAS_MALVINAS: "Islas Malvinas"
+STATE_ISLAS_GEORGIAS: "Islas Georgias"
 STATE_ENTRE_RIOS: "Entre Rios"
 STATE_MISIONES: "Misiones"
 STATE_SALTA: "Salta"

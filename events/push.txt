@@ -41,7 +41,7 @@ option = {
 				s:STATE_FORMOSA_ARG.region_state:PRG = {
 				add_modifier = {
 					name = formosa_settlement
-					months = very_short_modifier_time
+					months = long_modifier_time
 					}
 				}
 			
@@ -88,7 +88,7 @@ hacia_el_norte.1 = {
 				}
 				add_modifier = {
 					name = alto_paraguay_settlement
-					months = very_short_modifier_time
+					months = long_modifier_time
 				}
 			}
 		}
