@@ -583,39 +583,34 @@ POPS = {
 	s:STATE_JUJUY = {
 		region_state:BOL = {
 			create_pop = {
-				culture = kolla
-				size = 6000
-			}
-			create_pop = {
-				culture = quechua
+				culture = south_andean
 				size = 4000
 			}
 			create_pop = {
+				culture = quechua
+				size = 28000
+			}
+			create_pop = {
 				culture = platinean
-				size = 500
+				size = 3000
+			}
+			create_pop = {
+				culture = kolla
+				size = 10100
 			}
 		}
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 18000
-			}
-			create_pop = {
-				culture = kolla
-				size = 3100
+				size = 29304
 			}
 			create_pop = {
 				culture = quechua
-				size = 1100
+				size = 3100
 			}
 			create_pop = {
-				culture = afro_platense
-				size = 1300
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_platense
-				size = 200
+				culture = kolla
+				size = 7100
 			}
 		}
 	}
@@ -632,58 +627,48 @@ POPS = {
 		}
 	}
 		s:STATE_SALTA = {
-			region_state:BOL = {
-				create_pop = {
-					culture = kolla
-					size = 15000
-				}
-				create_pop = {
-					culture = quechua
-					size = 12000
-				}
-				create_pop = {
-					culture = wichi
-					size = 8100
-				}
-				create_pop = {
-					culture = platinean
-					size = 2000
-				}
-				create_pop = {
-					culture = afro_platense
-					size = 400
-				}
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				size = 2000
 			}
-
+			create_pop = {
+				culture = quechua
+				size = 20000
+			}
+			create_pop = {
+				culture = platinean
+				size = 500
+			}
+			create_pop = {
+				culture = wichi
+				size = 8100
+			}
+			create_pop = {
+				culture = kolla
+				size = 7100
+			}
+		}
 			region_state:ARG = {
-				create_pop = {
-					culture = platinean
-					size = 35000
-				}
-				create_pop = {
-					culture = afro_platense
-					size = 5000
-				}
-				create_pop = {
-					pop_type = slaves
-					culture = afro_platense
-					size = 500
-				}
-				create_pop = {
-					culture = wichi
-					size = 4100
-				}
-				create_pop = {
-					culture = kolla
-					size = 2100
-				}
-				create_pop = {
-					culture = quechua
-					size = 1200
-				}
+			create_pop = {
+				culture = platinean
+				size = 22000
+			}
+			create_pop = {
+				culture = quechua
+				size = 1100
+			}
+			create_pop = {
+				culture = kolla
+				size = 2100
+			}
+			create_pop = {
+				culture = wichi
+				size = 4100
+			}
+		
 		}
 	}
-
 s:STATE_ALTO_PARAGUAY = {
 		region_state:GNI = {
 			create_pop = {
@@ -738,7 +723,7 @@ s:STATE_ALTO_PARAGUAY = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 250000
+				size = 256600
 			}
 			create_pop = {
 				culture = mapuche
@@ -792,27 +777,13 @@ s:STATE_ALTO_PARAGUAY = {
 				size = 1800
 			}
 			create_pop = {
-				pop_type = shopkeepers
 				culture = british
 				size = 5000
 			}
-
 			create_pop = {
-				pop_type = aristocrats
-				culture = platinean
-				size = 3500
+				culture = irish
+				size = 6500
 			}
-			create_pop = {
-				pop_type = bureaucrats
-				culture = platinean
-				size = 2500
-			}
-			create_pop = {
-				pop_type = capitalists
-				culture = british
-				size = 1500
-			}
-
 			create_pop = {
 				culture = scottish
 				size = 5500
@@ -858,31 +829,11 @@ s:STATE_ALTO_PARAGUAY = {
 			}
 		}
 	}
-	s:STATE_ISLAS_MALVINAS = {
+	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 30
-			}
-			create_pop = {
-				culture = platinean
-				size = 10
-			}
-			create_pop = {
-				culture = scottish
-				size = 20
-			}
-		}
-	}
-	s:STATE_ISLAS_GEORGIAS = {
-		region_state:GBR = {
-			create_pop = {
-				culture = british
-				size = 20
-			}
-			create_pop = {
-				culture = scottish
-				size = 10
+				size = 14540
 			}
 		}
 	}
@@ -902,30 +853,24 @@ s:STATE_ALTO_PARAGUAY = {
 			
 		}
 	}
-	s:STATE_MENDOZA = {
+		s:STATE_MENDOZA = {
 		region_state:ARG = {
 			create_pop = {
-				culture = platinean
-				size = 44500
-			}
-			create_pop = {
 				culture = huarpe
-				size = 7500
+				size = 5880
 			}
 			create_pop = {
-				culture = afro_platense
-				size = 7000
+				culture = platinean
+				size = 40378
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 100
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platense
-				size = 800
-			}
-
-			create_pop = {
-				pop_type = shopkeepers
-				culture = platinean
-				size = 1500
+				culture = afro_caribeno
+				size = 20
 			}
 		}
 	}
@@ -996,43 +941,32 @@ s:STATE_NEUQUEN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 111500
+				size = 80740
 			}
 			create_pop = {
 				culture = afro_platense
-				size = 15000
+				size = 200
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_platense
-				size = 2000
+				size = 60
 			}
 			create_pop = {
 				culture = comechingon
-				size = 11000
+				size = 10000
 			}
 			create_pop = {
 				culture = spanish
-				size = 300
+				size = 1000
 			}
 			create_pop = {
 				culture = british
-				size = 100
+				size = 700
 			}
 			create_pop = {
 				culture = south_italian
-				size = 100
-			}
-
-			create_pop = {
-				pop_type = clergymen
-				culture = platinean
-				size = 1500
-			}
-			create_pop = {
-				pop_type = academics
-				culture = platinean
-				size = 500
+				size = 1000
 			}
 		}
 	}
@@ -1040,98 +974,88 @@ s:STATE_NEUQUEN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 25000
+				size = 16048
 			}
 			create_pop = {
 				culture = afro_platense
-				size = 2800
+				size = 110
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_platense
-				size = 400
+				size = 240
 			}
 			create_pop = {
 				culture = comechingon
-				size = 4500
+				size = 3752
 			}
 			create_pop = {
 				culture = mapuche
-				size = 1500
+				size = 700
 			}
 		}
 	}
-
 	s:STATE_SANTA_FE = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 14500
+				size = 46000
 			}
 			create_pop = {
 				culture = afro_platense
-				size = 2000
+				size = 400
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_platense
-				size = 200
+				size = 250
+			}
+			create_pop = {
+				culture = south_german
+				size = 1000
 			}
 			create_pop = {
 				culture = toba
-				size = 1500
-			}
-
-			create_pop = {
-				pop_type = clerks
-				culture = platinean
-				size = 800
+				size = 4000
 			}
 		}
 		region_state:GNI = {
 			create_pop = {
-				culture = toba
-				size = 11000
+				culture = guarani
+				size = 6000
 			}
 			create_pop = {
-				culture = guarani
-				size = 5000
-			}
+				culture = toba
+				size = 12000
+			}					
 		}
 	}
-
 	s:STATE_ENTRE_RIOS = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 42500
+				size = 44658
 			}
 			create_pop = {
 				culture = afro_platense
-				size = 4500
+				size = 500
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_platense
-				size = 700
+				size = 250
 			}
 		    create_pop = {
 				culture = guarani
-				size = 3500
-			}
-
-			create_pop = {
-				pop_type = soldiers
-				culture = platinean
-				size = 1700
-			}
+				size = 4000
+			}		
 		}
 	}
 	s:STATE_CORRIENTES = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 43500
+				size = 51462
 			}
 			create_pop = {
 				culture = sulista
@@ -1139,22 +1063,16 @@ s:STATE_NEUQUEN = {
 			}
 			create_pop = {
 				culture = guarani
-				size = 14000
+				size = 13996
 			}
 			create_pop = {
 				culture = afro_platense
-				size = 6000
+				size = 700
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_platense
-				size = 800
-			}
-
-			create_pop = {
-				pop_type = soldiers
-				culture = platinean
-				size = 1700
+				size = 330
 			}
 		}
 	}
@@ -1162,31 +1080,20 @@ s:STATE_NEUQUEN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 37100
+				size = 76078
 			}
 			create_pop = {
-				culture = afro_platense
-				size = 4000
+				culture = afro_caribeno
+				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platense
-				size = 400
+				culture = afro_caribeno
+				size = 80
 			}
 			create_pop = {
 				culture = quechua
-				size = 3500
-			}
-
-			create_pop = {
-				pop_type = machinists
-				culture = platinean
-				size = 1200
-			}
-			create_pop = {
-				pop_type = shopkeepers
-				culture = platinean
-				size = 800
+				size = 2600
 			}
 		}
 	}
@@ -1194,104 +1101,135 @@ s:STATE_NEUQUEN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 4000
+				size = 30462
 			}
-
+			create_pop = {
+				culture = sulista
+				size = 8004
+			}
 			create_pop = {
 				culture = guarani
-				size = 12500
+				size = 22996
 			}
 			create_pop = {
 				culture = afro_platense
-				size = 450
+				size = 2400
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_platense
-				size = 50
+				size = 300
 			}
-
+			create_pop = {
+				culture = south_german
+				size = 2000
+			}
+			create_pop = {
+				culture = north_german
+				size = 1500
+			}
 		}
 	}
-
-
+	s:STATE_TUCUMAN = {
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 76078
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 250
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 80
+			}
+			create_pop = {
+				culture = quechua
+				size = 2600
+			}
+			create_pop = {
+				culture = diaguita
+				size = 12000
+			}
+		}
+	}
 	s:STATE_LA_RIOJA = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 18500
+				size = 18000
 			}
 			create_pop = {
-				culture = afro_platense
-				size = 4000
+				culture = afro_caribeno
+				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platense
-				size = 600
-			}
-			create_pop = {
-				culture = diaguita
-				size = 6000
+				culture = afro_caribeno
+				size = 80
 			}
 			create_pop = {
 				culture = quechua
-				size = 1600
+				size = 2600
+			}
+			create_pop = {
+				culture = diaguita
+				size = 4600
 			}
 		}
 	}
-	s:STATE_CATAMARCA = {
+		s:STATE_CATAMARCA = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 32000
+				size = 20000
 			}
 			create_pop = {
-				culture = afro_platense
-				size = 6500
+				culture = afro_caribeno
+				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platense
-				size = 700
-			}
-			create_pop = {
-				culture = diaguita
-				size = 9000
+				culture = afro_caribeno
+				size = 80
 			}
 			create_pop = {
 				culture = quechua
-				size = 3000
+				size = 2000
+			}
+			create_pop = {
+				culture = diaguita
+				size = 4600
 			}
 		}
 	}
-
 	s:STATE_SAN_JUAN = {
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
-				size = 24000
+				size = 20000
 			}
 			create_pop = {
-				culture = afro_platense
-				size = 3500
+				culture = afro_caribeno
+				size = 250
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_platense
-				size = 500
-			}
-			create_pop = {
-				culture = huarpe
-				size = 8000
+				culture = afro_caribeno
+				size = 80
 			}
 			create_pop = {
 				culture = quechua
-				size = 1600
+				size = 2600
+			}
+			create_pop = {
+				culture = huarpe
+				size = 7600
 			}
 		}
 	}
-
 	s:STATE_CHACO = {
 		region_state:GNI = {
 			create_pop = {
@@ -1313,63 +1251,70 @@ s:STATE_NEUQUEN = {
 		}
 	}
 		s:STATE_SANTIAGO_DEL_ESTERO = {
-			region_state:ARG = {
-				create_pop = {
-					culture = platinean
-					size = 45000
-				}
-				create_pop = {
-					culture = quechua
-					size = 20000
-				}
-				create_pop = {
-					culture = afro_platense
-					size = 7000
-				}
-				create_pop = {
-					pop_type = slaves
-					culture = afro_platense
-					size = 600
-				}
-				create_pop = {
-					culture = toba
-					size = 3400
-				}
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 38804
+			}
+			create_pop = {
+				culture = guarani
+				size = 1500
+			}
+			create_pop = {
+				culture = quechua # Santiagueño Quechua
+				size = 1500
+			}
+			create_pop = {
+				culture = toba #
+				size = 3400
 			}
 
-			region_state:GNI = {
-				create_pop = {
-					culture = toba
-					size = 5000
-				}
-				create_pop = {
-					culture = guarani
-					size = 3700
-				}
-				create_pop = {
-					culture = platinean
-					size = 700
-				}
+			create_pop = {
+				culture = north_german
+				size = 500
+			}
+			create_pop = {
+				culture = south_german
+				size = 500
+			}
+			
+		}
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 4500
+			}
+			create_pop = {
+				culture = toba # 
+				size = 3500
+			}
+			create_pop = {
+				culture = platinean
+				size = 700
+			}
+			
+			
 	    }
 	}
 	s:STATE_TARIJA = {
 		region_state:BOL = {
 			create_pop = {
+				culture = south_andean
+				size = 5000
+			}
+			create_pop = {
 				culture = quechua
-				size = 24000
+				size = 27000
 			}
 			create_pop = {
 				culture = platinean
-				size = 7500
+				size = 1500
 			}
-			create_pop = {
-				culture = kolla
-				size = 2000
-			}
-		}
 		}
 			
-
+			
+		
+	}
 	s:STATE_SANTIAGO = {
 		region_state:CHL = {
 			create_pop = {

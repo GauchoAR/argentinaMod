@@ -64,7 +64,7 @@ REPLACE:argentine={
 
 	ethnicities = {
 		1 = south_american
-		4 = caucasian
+		1 = caucasian
 	}
 	graphics = european
 }
@@ -159,7 +159,7 @@ REPLACE:platinean= {
 	}
 	ethnicities = {
 		1 = south_american
-		3 = caucasian_dark_hair
+		1 = caucasian
 	}
 	graphics = european
 }
@@ -224,7 +224,7 @@ REPLACE:uruguayan={
 
 	ethnicities = {
 		1 = south_american
-		4 = caucasian
+		1 = caucasian
 	}
 	graphics = european
 }
@@ -297,7 +297,6 @@ REPLACE:paraguayan={
 	ethnicities = {
 		1 = native_american
 		1 = south_american
-		1 = caucasian
 	}
 	graphics = european
 }
@@ -459,7 +458,7 @@ REPLACE:sulista = {
 
 	ethnicities = {
 		1 = south_american
-		4 = caucasian
+		1 = caucasian
 	}
 	graphics = european
 }

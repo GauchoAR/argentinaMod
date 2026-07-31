@@ -46,7 +46,7 @@ chaco.1 = {
 					}
 					add_modifier = {
 						name = chaco_settlement
-						days = very_short_modifier_time
+						months = very_short_modifier_time
 					}
 				}
 			}
@@ -58,7 +58,7 @@ chaco.1 = {
 					}
 					add_modifier = {
 						name = formosa_settlement
-						days = very_short_modifier_time
+						months = very_short_modifier_time
 					}
 				}
 			}

@@ -2,7 +2,7 @@
   "name" : "La Argentina 1.13.X",
   "id" : "",
   "version" : "8.1",
-  "supported_game_version" : "1.13.8",
+  "supported_game_version" : "1.13.9",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],
@@ -10,13 +10,7 @@
      	 "map_data",
      	 "map_data/state_regions",
 	 "common/history/buildings",
-	 "common/history/diplomacy",
-	 "common/history/diplomatic_plays",
-	 "common/history/governments",
-	 "common/history/interests",
 	 "common/history/pops",
-	 "common/history/population",
-	 "common/history/trade_routes",
 	 "common/history/states"
      ],
   "game_custom_data" : {

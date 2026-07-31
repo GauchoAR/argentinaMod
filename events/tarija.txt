@@ -9,7 +9,7 @@ the_tarija_question.1 = {
   flavor = the_tarija_question.1.f
 
   event_image = {
-    video = "southamerica_factory_opening"
+    video = "southamerica_aristocrats"
   }
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -31,7 +31,7 @@ the_tarija_question.1 = {
 				}
 				add_modifier = {
 					name = settle_the_north
-					days = very_short_modifier_time
+					months = very_short_modifier_time
 				}
 			}
 		}
@@ -43,7 +43,7 @@ the_tarija_question.1 = {
 				}
 				add_modifier = {
 					name = settle_the_north
-					days = very_short_modifier_time
+					months = very_short_modifier_time
 				}
 			}
 		}
@@ -55,7 +55,7 @@ the_tarija_question.1 = {
 				}
 				add_modifier = {
 					name = settle_the_north
-					days = very_short_modifier_time
+					months = very_short_modifier_time
 				}
 			}
 		}
@@ -89,7 +89,7 @@ the_tarija_question.1 = {
 				}
 				add_modifier = {
 					name = settle_the_north
-					days = very_short_modifier_time
+					months = very_short_modifier_time
 				}
 			}
 		}
@@ -101,7 +101,7 @@ the_tarija_question.1 = {
 				}
 				add_modifier = {
 					name = settle_the_north
-					days = very_short_modifier_time
+					months = very_short_modifier_time
 				}
 			}
 		}
