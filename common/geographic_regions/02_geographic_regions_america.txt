@@ -16,8 +16,8 @@ geographic_region_south_america = {
 		sr:region_brazil
 		sr:region_la_plata
 		sr:region_andes
-		sr:region_south_andes
 		sr:region_gran_colombia
+
 	}
 }
 
@@ -64,10 +64,9 @@ geographic_region_bolivia = {
 		STATE_JUJUY
 		STATE_ACRE
 		STATE_ANTOFAGASTA
+		STATE_TARIJA
 	}
 }
-
-
 
 # Spanish New World Georegions
 
@@ -131,6 +130,9 @@ geographic_region_colonial_peru = {
 		# Chile
 		STATE_SANTIAGO
 		STATE_LOS_RIOS
+	    STATE_LOS_LAGOS
+        STATE_AYSEN
+        STATE_MAGALLANES
 	}
 }
 
@@ -139,6 +141,132 @@ geographic_region_colonial_la_plata = {
 
 	state_regions = {
 		# La Plata Region
+		STATE_BUENOS_AIRES
+		STATE_CHACO
+		STATE_FORMOSA_ARG
+		STATE_CHUBUT
+		STATE_SANTA_CRUZ_ARG
+		STATE_TIERRA_DEL_FUEGO
+		STATE_SANTA_FE
+		STATE_BAJO_PARAGUAY
+		STATE_ALTO_PARAGUAY
+		STATE_RIO_NEGRO
+		STATE_CORDOBA
+		STATE_NEUQUEN
+		STATE_LA_RIOJA
+		STATE_MENDOZA
+		STATE_NEUQUEN
+		STATE_SANTIAGO_DEL_ESTERO
+		STATE_CATAMARCA
+		STATE_ENTRE_RIOS
+		STATE_MISIONES
+		STATE_SAN_JUAN
+		STATE_SALTA
+		STATE_SAN_LUIS
+		STATE_CHUBUT
+		STATE_LA_PAMPA
+		STATE_TUCUMAN
+		STATE_JUJUY
+		STATE_CORRIENTES
+		# Brazil Region
+		STATE_MONTEVIDEO
+		STATE_BANDA_ORIENTAL
+		STATE_PAYSANDU
+		STATE_RIO_GRANDE_DO_SUL
+	}
+ }
+
+geographic_region_andean_federation = {
+	short_key = "andean_federation"
+
+	strategic_regions = {
+		sr:region_andes
+		sr:region_gran_colombia
+		sr:region_la_plata
+	}
+}
+
+geographic_region_amazon = {
+	short_key = "amazon"
+
+	state_regions = {
+		STATE_GUAYANA
+		STATE_GUAVIARE
+		STATE_PASTAZA
+		STATE_SANTA_CRUZ
+		STATE_PARA
+		STATE_MARANHAO
+		STATE_AMAZONAS
+		STATE_ACRE
+		STATE_GOIAS
+		STATE_MATO_GROSSO
+	}
+}
+
+geographic_region_northern_mexico = {
+	short_key = "northern_mexico"
+
+	state_regions = {
+		STATE_TEXAS
+		STATE_ARIZONA
+		STATE_NEW_MEXICO
+		STATE_COLORADO
+		STATE_UTAH
+		STATE_CALIFORNIA
+		STATE_NEVADA
+	}
+}
+
+geographic_region_latin_america = {
+	short_key = "latin_america"
+
+	strategic_regions = {
+		sr:region_brazil
+		sr:region_la_plata
+		sr:region_andes
+		sr:region_gran_colombia
+		sr:region_central_america
+	}
+}
+
+geographic_region_greater_canada = {
+	short_key = "greater_canada"
+
+	strategic_regions = {
+		sr:region_canada
+	}
+
+	state_regions = {
+		STATE_BRITISH_COLUMBIA
+		STATE_ALBERTA
+		STATE_SASKATCHEWAN
+		STATE_YUKON_TERRITORY
+		STATE_NEW_BRUNSWICK
+		STATE_WASHINGTON
+		STATE_IDAHO
+		STATE_OREGON
+	}
+}
+
+geographic_region_north_andes = { # North Andean homelands
+	short_key = "north_andes"
+
+	state_regions = {
+		STATE_ECUADOR
+		STATE_ZULIA
+		STATE_MIRANDA
+		STATE_BOLIVAR
+		STATE_ANTIOQUIA
+		STATE_GUAVIARE
+		STATE_CUNDINAMARCA
+		STATE_CAUCA
+	}
+}
+
+geographic_region_southern_cone = {
+	short_key = "southern_cone"
+
+	state_regions = {
 		STATE_BUENOS_AIRES
 		STATE_CHACO
 		STATE_FORMOSA_ARG
@@ -182,77 +310,3 @@ geographic_region_colonial_la_plata = {
 		STATE_RIO_GRANDE_DO_SUL
 	}
 }
-geographic_region_andean_federation = {
-	short_key = "andean_federation"
-
-	strategic_regions = {
-		sr:region_andes
-		sr:region_south_andes
-		sr:region_gran_colombia
-		sr:region_la_plata
-	}
-}
-
-geographic_region_amazon = {
-	short_key = "amazon"
-
-	state_regions = {
-		STATE_GUAYANA
-		STATE_GUAVIARE
-		STATE_PASTAZA
-		STATE_SANTA_CRUZ
-		STATE_PARA
-		STATE_MARANHAO
-		STATE_AMAZONAS
-		STATE_ACRE
-		STATE_GOIAS
-		STATE_MATO_GROSSO
-	}
-}
-
-geographic_region_northern_mexico = {
-	short_key = "northern_mexico"
-
-	state_regions = {
-		STATE_TEXAS
-		STATE_ARIZONA
-		STATE_NEW_MEXICO
-		STATE_COLORADO
-		STATE_UTAH
-		STATE_CALIFORNIA
-		STATE_NEVADA
-	}
-}
-
-geographic_region_latin_america = {
-	short_key = "latin_america"
-
-	strategic_regions = {
-		sr:region_brazil
-		sr:region_la_plata
-		sr:region_south_andes
-		sr:region_andes
-		sr:region_gran_colombia
-		sr:region_central_america
-	}
-}
-
-geographic_region_greater_canada = {
-	short_key = "greater_canada"
-
-	strategic_regions = {
-		sr:region_canada
-	}
-
-	state_regions = {
-		STATE_BRITISH_COLUMBIA
-		STATE_ALBERTA
-		STATE_SASKATCHEWAN
-		STATE_YUKON_TERRITORY
-		STATE_NEW_BRUNSWICK
-		STATE_WASHINGTON
-		STATE_IDAHO
-		STATE_OREGON
-	}
-}
-

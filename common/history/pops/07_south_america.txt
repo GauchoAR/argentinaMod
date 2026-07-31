@@ -1499,12 +1499,6 @@ s:STATE_NEUQUEN = {
 				size = 280
 			}
 		}
-		region_state:CHL = {
-		create_pop = {
-				culture = south_andean
-				size = 30
-			}
-		}
 		region_state:SLK = {
 			create_pop = {
 				culture = selknam
