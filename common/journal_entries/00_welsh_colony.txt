@@ -12,7 +12,7 @@
 
 	complete = {
 		AND = {
-			owns_entire_state_region = STATE_CHUBUT
+			owns_entire_state_region = STATE_PATAGONIA
 			OR = {
 				c:Great_ARG ?= this
 				c:ARG ?= this

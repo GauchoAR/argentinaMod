@@ -34,7 +34,6 @@ chaco.1 = {
 			limit = {
 				AND = {
 					owns_entire_state_region = STATE_CHACO
-					owns_entire_state_region = STATE_FORMOSA_ARG
 					}
 				}
 			
@@ -46,19 +45,7 @@ chaco.1 = {
 					}
 					add_modifier = {
 						name = chaco_settlement
-						days = very_short_modifier_time
-					}
-				}
-			}
-			s:STATE_FORMOSA_ARG = {
-				add_homeland = cu:platinean
-				random_scope_state = {
-					limit = {
-						owner = ROOT
-					}
-					add_modifier = {
-						name = formosa_settlement
-						days = very_short_modifier_time
+						months = very_short_modifier_time
 					}
 				}
 			}

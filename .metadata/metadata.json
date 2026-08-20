@@ -1,23 +1,12 @@
 {
-  "name" : "la Argentina",
+  "name" : "la Argentina (LITE)",
   "id" : "",
-  "version" : "8.0 beta",
-  "supported_game_version" : "1.12.5",
+  "version" : "1.0 beta",
+  "supported_game_version" : "1.13.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],
    "replace_paths" : [
-     	 "map_data",
-     	 "map_data/state_regions",
-	 "common/history/buildings",
-	 "common/history/diplomacy",
-	 "common/history/diplomatic_plays",
-	 "common/history/governments",
-	 "common/history/interests",
-	 "common/history/pops",
-	 "common/history/population",
-	 "common/history/trade_routes",
-	 "common/history/states"
      ],
   "game_custom_data" : {
     "multiplayer_synchronized" : true

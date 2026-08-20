@@ -11,8 +11,7 @@
 			has_variable = malvinas_purchase_var
 		}
 		c:GBR = {
-			owns_entire_state_region = STATE_ISLAS_MALVINAS
-			owns_entire_state_region = STATE_ISLAS_GEORGIAS
+			owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
 			is_subject = no
 		}
 	}
