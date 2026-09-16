@@ -45,6 +45,9 @@
 			add_ruling_interest_group = yes
 		}
 
+		# Age of Caudillos is handled through IG effects (vanilla 1.13)
+		initialise_caciquismo_effect = yes
+
 
 		add_modifier = {
 			name = libertad_de_vientres
