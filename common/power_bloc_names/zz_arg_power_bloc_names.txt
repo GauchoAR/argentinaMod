@@ -1,0 +1,46 @@
+﻿# Vanilla power bloc names that check state regions this mod deletes.
+# Verbatim copies of the 1.13.11 entries with only these changes:
+# STATE_ARAUCANIA -> STATE_LOS_LAGOS and STATE_URUGUAY -> STATE_MONTEVIDEO.
+
+REPLACE:pacific_league = {
+	trigger = {
+	    any_scope_state = {
+	    	OR = {
+				region = sr:region_pacific_coast
+				region = sr:region_andes
+				state_region = s:STATE_LOS_RIOS
+				state_region = s:STATE_SANTIAGO
+				state_region = s:STATE_LOS_LAGOS
+				state_region = s:STATE_CAUCA
+				state_region = s:STATE_SAN_SALVADOR
+			}
+			is_capital = yes
+	    }
+	}
+}
+
+REPLACE:pacific_ring = {
+	trigger = {
+	    any_scope_state = {
+	    	OR = {
+				region = sr:region_pacific_coast
+				region = sr:region_andes
+				state_region = s:STATE_LOS_RIOS
+				state_region = s:STATE_SANTIAGO
+				state_region = s:STATE_LOS_LAGOS
+				state_region = s:STATE_CAUCA
+				state_region = s:STATE_SAN_SALVADOR
+			}
+			is_capital = yes
+	    }
+	}
+}
+
+REPLACE:congress_of_montevideo = {
+	trigger = {
+		any_scope_state = {
+			state_region = s:STATE_MONTEVIDEO
+			is_incorporated = yes
+		}
+	}
+}
