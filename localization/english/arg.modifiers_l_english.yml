@@ -11,7 +11,7 @@ formosa_settlement_desc: "The Impenetrable Chaco is ours to settle"
 alto_paraguay_settlement: "Alto Paraguay Settlement"
 alto_paraguay_settlement_desc: "The Impenetrable Chaco is ours to settle"
 
-tarija_question_settled: "The Tarija Question"
+tarija_question_settled: "The North Border Question"
 tarija_question_settled_desc: "We have beaten back the migthy Bolivia, now the world knows our strenght"
 
 tarija_question_settled2: "The Tarija Question"
@@ -47,16 +47,4 @@ goods_output_licor_mult_desc: "A bonus or penalty for the production of $licor$.
 building_throughput_cloth_mult_mult: "$fabric$ goods multiplier"
 goods_output_luxury_clothes_mult: "$luxury_clothes$ Goods Output"
 goods_output_luxury_clothes_mult_desc: "A bonus or penalty for the production of "$luxury_clothes$"
-
-
-##Yerba Mate
-building_yerba_mate_plantation_throughput_add: "$yerba_mate$ Goods Output"
-building_yerba_mate_plantation_throughput_add_desc:  "$yerba_mate$ Goods Output"
-building_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
-building_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
-
-goods_output_yerba_mate_add: "$yerba_mate$ Goods Output"
-goods_output_yerba_mate_add_desc: "A bonus or penalty for the production of $yerba_mate$."
-goods_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
-goods_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
 

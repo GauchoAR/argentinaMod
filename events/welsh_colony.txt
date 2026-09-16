@@ -34,10 +34,10 @@ welsh_colony.1 = {
 		default_option = yes
 		if = {
 			limit = {
-			owns_entire_state_region = STATE_CHUBUT
+			owns_entire_state_region = STATE_PATAGONIA
 		}
 
-			s:STATE_CHUBUT = {
+			s:STATE_PATAGONIA = {
 				add_homeland = cu:welsh
 				random_scope_state = {
 					limit = {
