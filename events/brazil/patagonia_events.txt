@@ -26,7 +26,13 @@ bp1_patagonia.1 = {
 		 any_neighbouring_state = {
 		 	owner = {
 		 		is_country_type = decentralized
-		 		country_has_primary_culture = cu:mapuche
+		 		# PAT is mapuche and THL is tehuelche in nuevos_paises.txt, so naming a single
+		 		# culture here leaves the other one out. The patagonian heritage covers every
+		 		# people this event is about, and it is the only heritage vanilla's patagonian
+		 		# culture has, so no one else in the world is let in.
+		 		any_primary_culture = {
+		 			has_discrimination_trait = heritage_patagonian
+		 		}
 		 	}
 		 }
 	}
@@ -37,7 +43,9 @@ bp1_patagonia.1 = {
 			limit = {
 				owner = {
 			 		is_country_type = decentralized
-			 		country_has_primary_culture = cu:mapuche
+			 		any_primary_culture = {
+			 			has_discrimination_trait = heritage_patagonian
+			 		}
 			 	}
 			}
 			owner = {

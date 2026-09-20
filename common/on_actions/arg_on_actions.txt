@@ -1,0 +1,54 @@
+﻿# The mod defines ideology_autonomist and ideology_pampas_expansionism in
+# 00_ig_ideologies_arg.txt, but nothing ever gives them to an interest group.
+# Hooked through on_actions lists so other mods' effects on the same
+# on_actions still run.
+
+# Pampas expansionism (frontier colonization, open migration) goes to the
+# Argentine armed forces from the start: Rosas's Desert Campaign was in
+# 1833-1834.
+on_game_started = {
+	on_actions = {
+		arg_assign_pampas_expansionism
+	}
+}
+
+arg_assign_pampas_expansionism = {
+	effect = {
+		c:ARG ?= {
+			ig:ig_armed_forces ?= {
+				if = {
+					limit = { NOT = { has_ideology = ideology:ideology_pampas_expansionism } }
+					add_ideology = ideology_pampas_expansionism
+				}
+			}
+		}
+	}
+}
+
+# Autonomism is the Buenos Aires autonomist movement: Adolfo Alsina's
+# Partido Autonomista, founded in 1862 and merged into the PAN in 1874.
+# It is not available in 1836, so the landowners of Argentina (or the
+# United Provinces, if formed) receive it from 1862 on, checked yearly.
+on_yearly_pulse_country = {
+	on_actions = {
+		arg_assign_autonomism
+	}
+}
+
+arg_assign_autonomism = {
+	trigger = {
+		game_date >= 1862.1.1
+		OR = {
+			c:ARG ?= THIS
+			c:PLT ?= THIS
+		}
+		ig:ig_landowners ?= {
+			NOT = { has_ideology = ideology:ideology_autonomist }
+		}
+	}
+	effect = {
+		ig:ig_landowners = {
+			add_ideology = ideology_autonomist
+		}
+	}
+}

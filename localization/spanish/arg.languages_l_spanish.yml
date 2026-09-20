@@ -13,7 +13,10 @@ language_mataco: "Mataco"
 language_kakan: "Kakán"
 language_millcayac: "Millcayac"
 language_qom: "Qom"
-languages_selknam: "Selk´Nam
+language_selknam: "Selk´nam"
+language_gununa: "Gününa"
+language_chono: "Chono"
+language_kawesqar: "Kawésqar"
 
 
 # Language groups
@@ -22,8 +25,8 @@ language_group_mapudungun: "Mapudungun"
 language_group_kakan: "Kakán"
 language_group_yagan: "Yagán"
 language_group_kawesqar: "Kawesqar"
-language_group_comechingon: "Comechingona"
-language_group_mataco_maka: "Mataco-Maká
+language_group_comechingona: "Comechingona"
+language_group_mataco_maka: "Mataco-Maká"
 language_group_millcayac: "Millcayac"
 language_group_toba_qom: "Toba Qom"
 language_group_gununa: "Gününa"
