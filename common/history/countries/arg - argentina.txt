@@ -45,6 +45,12 @@
 			add_ruling_interest_group = yes
 		}
 
+		# Vanilla's own ARG history calls this (line 64) and this file replaces that one,
+		# so without it Argentina starts with no caciquismo: the effect sets caciquismo_var
+		# and, under a voting law, has the landowners sponsor the electoral clientelism
+		# amendment.
+		initialise_caciquismo_effect = yes
+
 
 		add_modifier = {
 			name = libertad_de_vientres
