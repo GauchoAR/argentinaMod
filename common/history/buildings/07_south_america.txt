@@ -1894,10 +1894,9 @@ s:STATE_BUENOS_AIRES={
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
-					building={
+					country={
 						country="c:ARG"
 						levels=1
-						region="STATE_MENDOZA"
 					}
 				}
 				reserves=1
