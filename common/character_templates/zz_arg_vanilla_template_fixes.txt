@@ -995,3 +995,18 @@ REPLACE:CHL_gregorio_urrutia_venegas = { # Gregorio Urrutia Venegas
 	}
 	trait_generation = { }
 }
+
+### From vanilla country_arg.txt
+
+# Orelie-Antoine de Tounens, the king bp1_patagonia.1 crowns. STATE_PATAGONIA is
+# split into Rio Negro, Neuquen, Chubut and Santa Cruz; Rio Negro is where he
+# actually proclaimed the kingdom, and it is PAT's capital in this mod.
+REPLACE:PAT_orelie_antoine_de_tounens = {
+	first_name = "Orelie_Antoine"
+	last_name = "de_Tounens"
+	historical = yes
+	ruler = yes
+	culture = cu:french
+	birth_date = 1825.1.1
+	home_region = STATE_RIO_NEGRO
+}
