@@ -1247,6 +1247,6 @@ PAT_orelie_antoine_de_tounens = {
 	ruler = yes
 	culture = cu:french
 	birth_date = 1825.1.1
-	home_region = STATE_PATAGONIA
+	home_region = STATE_RIO_NEGRO
 	
 }
